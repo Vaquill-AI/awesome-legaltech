@@ -13,9 +13,9 @@ Thank you for your interest in contributing to **Awesome Legaltech**! This docum
 
 ### Quality Over Quantity
 We curate for quality. Only add entries that you would personally recommend. An entry must be:
-- **Actively maintained** — Last meaningful update within the past 18 months (for open-source projects).
-- **Well-documented** — Has a clear README or website describing what it does.
-- **Relevant** — Directly related to the practice, research, or infrastructure of legal technology.
+- **Actively maintained** - Last meaningful update within the past 18 months (for open-source projects).
+- **Well-documented** - Has a clear README or website describing what it does.
+- **Relevant** - Directly related to the practice, research, or infrastructure of legal technology.
 
 ### Accepted Entries
 - Open-source projects with clear legal technology applications
@@ -38,7 +38,7 @@ Please match the existing formatting style:
 
 ### For a simple list entry:
 ```markdown
-- [Tool Name](https://tool-url.com) — One-sentence description of what it does and why it's notable.
+- [Tool Name](https://tool-url.com) - One-sentence description of what it does and why it's notable.
 ```
 
 ### For a table entry:
@@ -47,9 +47,9 @@ Please match the existing formatting style:
 ```
 
 ### Rules:
-- Descriptions should be **neutral and factual** — not promotional.
+- Descriptions should be **neutral and factual** - not promotional.
 - Keep descriptions **concise** (one sentence preferred, two max).
-- Use the **em dash** (`—`) as a separator in list entries.
+- Use the **em dash** (`-`) as a separator in list entries.
 - Add the country/region for companies where relevant.
 - For open-source projects, link to the GitHub repo when possible.
 
