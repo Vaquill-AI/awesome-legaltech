@@ -87,11 +87,17 @@ Large text corpora and jurisdiction-wide raw data dumps for pretraining or fine-
 | [MultiLegalPile](https://huggingface.co/datasets/joelito/Multi_Legal_Pile) | 🌍 24 langs | 689 GB | Multilingual legal pretraining corpus from 17 jurisdictions |
 | [LeXFiles](https://huggingface.co/datasets/lexlms/lex_files) | 🌍 6 sys | 19B tokens | Massive English legal corpus (EU, CoE, Canada, US, UK, India) |
 | [Indian Kanoon Dataset](https://indiankanoon.org) | 🇮🇳 EN | Large | Indian court judgments and statutes; widely used for Indian legal NLP |
+| [JRC-Acquis](https://joint-research-centre.ec.europa.eu/language-technology-resources/jrc-acquis_en) | 🇪🇺 22 langs | Large | Massive parallel corpus of total EU law used heavily in multilingual machine translation |
 | [EUR-Lex](https://eur-lex.europa.eu) | 🇪🇺 24 langs | Large | Official EU legislation and case law in all EU official languages |
 | [Open Australian Legal Corpus](https://huggingface.co/datasets/umarbutler/open-australian-legal-corpus) | 🇦🇺 EN | Large | Multijurisdictional corpus of Australian legislative and judicial documents |
+| [S2ORC (Legal Subset)](https://github.com/allenai/s2orc) | 🌍 EN | 136M+ | AllenAI's massive academic paper corpus containing deep legal reasoning/law review articles |
 | [CourtListener Bulk Data](https://www.courtlistener.com/help/api/bulk-data/) | 🇺🇸 EN | 9M+ | US court opinions, judge data, and oral argument metadata dumps |
 | [RECAP Archive](https://free.law/recap/) | 🇺🇸 EN | Huge | Largest open collection of US federal PACER documents and dockets |
 | [Caselaw Access Project (CAP)](https://case.law) | 🇺🇸 EN | 6.9M | US court decisions from Harvard Law School, 1600s-2020 |
+| [Oyez Project Audio](https://www.oyez.org/) | 🇺🇸 EN | Large | Premier archive of US Supreme Court multimodal audio and aligned text transcripts |
+| [WIPO Lex](https://www.wipo.int/wipolex/) | 🌍 Multi | Large | Global database of IP laws/treaties and WIPO Lex-Judgments for selected IP case law. |
+| [SSRN (Legal Scholarship Network)](https://www.ssrn.com/) | 🌍 Multi | Large | Open repository of legal scholarship, preprints, and academic law papers. |
+| [OpenAlex](https://openalex.org/) | 🌍 Multi | Huge | Scholarly metadata and abstracts with a robust API; useful for legal literature mining. |
 
 ### Legal Judgment Prediction (LJP)
 
@@ -116,7 +122,7 @@ Datasets for predicting case outcomes, charges, or penalties from court document
 | [MultiEURLEX](https://huggingface.co/datasets/multi_eurlex) | 🇪🇺 EU | 23 langs | 65K EU laws with 4.5K labels; multilingual classification |
 | [LEDGAR](https://huggingface.co/datasets/coastalcph/ledgar) | 🇺🇸 US | EN | 60K+ contract provisions with 12.6K labels |
 | [CUAD](https://www.atticusprojectai.org/cuad) | 🇺🇸 US | EN | 510 annotated contracts, 41 clause types, 13K+ expert labels |
-| [AsyLex](https://huggingface.co/datasets/joelito/AsyLex) | 🇨🇭 Swiss | FR/DE | 59K documents; 19K human-annotated entities for Refugee Law |
+| [AsyLex](https://huggingface.co/datasets/joelito/AsyLex) | 🇨🇭 Swiss | FR/DE | 59K documents; 19K human-anotated entities for Refugee Law |
 
 ### Legal Question Answering
 
@@ -141,7 +147,9 @@ Datasets for predicting case outcomes, charges, or penalties from court document
 | Dataset | Jurisdiction | Lang | Notes |
 |---|---|---|---|
 | [opinions-synthetic-query-512](https://huggingface.co/datasets/Free-Law-Project/opinions-synthetic-query-512) | 🇺🇸 US | EN | High-quality Free Law Project synthetic queries for finetuning legal semantic search |
+| [LexTREC](https://trec.nist.gov/data/legal.html) | 🇺🇸 US | EN | Foundational NIST benchmark dataset for legal e-discovery containing real corporate data with expert judgments |
 | [CLERC](https://github.com/neelguha/legal-ml-datasets) | 🇺🇸 US | EN | Case Law Evaluation and Retrieval Corpus for dense retrieval |
+| [Massive Legal Embedding Benchmark (MLEB)](https://isaacus.com/mleb) | 🌍 Multi | Open | A multidomain open-source benchmark for legal information retrieval. |
 | [german_legal_sentences](https://huggingface.co/datasets/lavis-nlp/german_legal_sentences) | 🇩🇪 Germany | DE | Semantic sentence matching and citation recommendation |
 
 ### Contract Analysis
@@ -150,6 +158,7 @@ Datasets for predicting case outcomes, charges, or penalties from court document
 |---|---|---|---|
 | [CUAD](https://www.atticusprojectai.org/cuad) | 🇺🇸 US | EN | See Classification section. Gold standard for contract clause extraction. |
 | [MAUD](https://github.com/TheAtticusProject/maud) | 🇺🇸 US | EN | M&A contract understanding; 39K questions on merger agreements |
+| [ToS;DR](https://tosdr.org/) | 🌍 Multi | EN | Phenomenal dataset mapping thousands of internet Terms of Service into machine-readable JSON grades and bullets |
 | [ContractNLI](https://stanfordnlp.github.io/contract-nli/) | 🌍 | EN | Natural language inference over non-disclosure agreements |
 
 ---
@@ -238,7 +247,8 @@ Browser-based platforms and search engines for case law, statutes, and dockets.
 - [CourtListener](https://www.courtlistener.com) - Free open case law search with API access. 9M+ opinions.
 - [PACER](https://pacer.uscourts.gov) - Official US federal court docket and document system.
 - [Caselaw Access Project](https://case.law) - 6.9M US court decisions, 1600s-2020. Free bulk API.
-- [GovInfo](https://www.govinfo.gov) - US federal legislation, regulations, and congressional records.
+- [GovInfo](https://www.govinfo.gov) - US federal legislation, regulations, and congressional records. Bulk data/API available.
+- [eCFR](https://www.ecfr.gov) - Up-to-date Code of Federal Regulations with a full bulk API.
 - [OpenStates](https://openstates.org) - Open-source platform tracking US state legislation in real time.
 - [Google Scholar Case Law](https://scholar.google.com) - Free US federal and state court opinions.
 
@@ -248,7 +258,11 @@ Browser-based platforms and search engines for case law, statutes, and dockets.
 - [legislation.gov.uk](https://www.legislation.gov.uk) - Full text of UK Acts of Parliament, statutory instruments.
 
 #### European Union
-- [EUR-Lex](https://eur-lex.europa.eu) - Official EU law portal. All legislation, case law, and treaties (24 languages).
+- [EUR-Lex](https://eur-lex.europa.eu) - Official EU law portal. All legislation, case law, and treaties (24 languages). API available.
+- [CURIA (CJEU)](https://curia.europa.eu/) - Official Court of Justice and General Court case law.
+- [HUDOC (ECHR)](https://hudoc.echr.coe.int/) - European Court of Human Rights judgments, decisions, and summaries.
+- [N-Lex](https://n-lex.europa.eu/) - One-stop portal to official national law databases for all EU member states.
+- [OP (Publications Office)](https://data.europa.eu/en) - EU Open Data Portal including legal metadata and bulk APIs.
 - [ECLI Search](https://e-justice.europa.eu/316/EN/european_case_law_identifier__ecli) - Standardized search for courts across EU member states.
 
 #### Germany
@@ -263,12 +277,16 @@ Browser-based platforms and search engines for case law, statutes, and dockets.
 #### India
 - [Vaquill AI](https://vaquill.ai) - Free access to 20M+ Indian judgments with semantic search and citation verification. *(Sponsor)*
 - [Indian Kanoon](https://indiankanoon.org) - Free access to Indian court judgments, statutes, and legal documents.
+- [India Code](https://www.indiacode.nic.in/) - Central repository of all Central and State Acts and subordinate legislation.
 - [Supreme Court of India](https://sci.gov.in) - Official portal with judgments from the Supreme Court of India.
 - [eCourts Services](https://services.ecourts.gov.in) - Unified portal for Indian district and High Court case status.
+- [OpenNyAI Datasets](https://opennyai.org/datasets) - Indian legal NLP datasets for summarization, QA, and translation.
 
 #### China
 - [China Judgments Online (Wenshu)](https://wenshu.court.gov.cn) - Official Chinese court judgment database. 140M+ decisions.
+- [National Laws & Regulations Database](https://flk.npc.gov.cn/) - Official centralized repository of PRC laws and regulations.
 - [PKU LawInfo (Peking University)](https://law.pku.edu.cn/lawen/) - Comprehensive Chinese laws and regulations database.
+- [e-Gov Law Search (Japan)](https://elaws.e-gov.go.jp/) - Official Japanese laws and regulations portal with a full XML API.
 
 #### Brazil
 - [LexML Brasil](https://www.lexml.gov.br) - Federated search over Brazilian legislation and legal documents.
