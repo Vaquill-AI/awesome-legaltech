@@ -28,6 +28,16 @@ jobs:
             --exclude 'pacer.uscourts.gov'
             --exclude 'indiankanoon.org'
             --exclude 'scdb.wustl.edu'
+            --exclude 'legalweek.com'
+            --exclude 'law.com'
+            --exclude 'pro.bloomberglaw.com'
+            --exclude 'capterra.com'
+            --exclude 'g2.com'
+            --exclude 'softwareadvice.com'
+            --exclude 'getapp.com'
+            --exclude 'lexisnexis.com'
+            --exclude 'westlaw.com'
+            --exclude 'store.law.com'
             --timeout 30
             --max-retries 3
             README.md

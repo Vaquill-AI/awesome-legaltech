@@ -354,7 +354,7 @@ Resources for evaluating AI and NLP systems on legal tasks.
 - [LEDGAR](https://metatext.io/datasets/ledgar) - Large-scale benchmark for legal contract provision classification.
 - [ECtHR Task](https://github.com/coastalcph/ecthr_cases) - Legal judgment prediction benchmark using ECHR cases.
 - [maastrichtlawtech/awesome-legal-nlp](https://github.com/maastrichtlawtech/awesome-legal-nlp) - Curated list of Legal NLP resources, models, datasets, and papers.
-- [JUST-NLP 2025 Legal MT](https://aclanthology.org/2025.just-nlp-1.0/) - English-to-Hindi legal machine translation shared task; part of IJCNLP-AACL 2025 workshop.
+- [JUST-NLP 2025 Legal MT](https://codabench.org/competitions/3682/) - English-to-Hindi legal machine translation shared task benchmark; workshop at IJCNLP-AACL 2025.
 
 ---
 
@@ -367,9 +367,8 @@ Open standards and specifications relevant to legal technology and AI integratio
 - [LEDES (Legal Electronic Data Exchange Standard)](https://ledes.org) - Standard formats for legal billing (e-billing).
 - [EU AI Act](https://artificialintelligenceact.eu) - World's first comprehensive AI regulation law. In force Aug 2024; full applicability Aug 2026. Directly impacts legal AI tools.
 - [LegalXML / OASIS LegalDocML](https://docs.oasis-open.org/legaldocml/) - XML schema standard for legal documents (bills, statutes, regulations). Used by parliaments globally.
-- [Akoma Ntoso (AKN)](https://www.akomantoso.org) - XML vocabulary for parliamentary, legislative, and judicial documents. Used by UN, EU, national parliaments.
+- [Akoma Ntoso (AKN)](https://www.un.org/dgacm/en/content/akoma-ntoso) - XML vocabulary for parliamentary, legislative, and judicial documents. Used by UN, EU, and national parliaments.
 - [EDRM (Electronic Discovery Reference Model)](https://edrm.net) - Industry standard framework for e-discovery workflows, data models, and specifications.
-- [Open Source Legal (OSL)](https://opensourcelegal.org) - Repository for open legal standards and applications.
 
 ---
 
@@ -385,11 +384,10 @@ Stay current with the legaltech ecosystem.
 - [CLOC (Corporate Legal Operations Consortium)](https://cloc.org) - 3,000+ member community for in-house legal operations professionals.
 
 ### Conferences
-- [Legalweek](https://www.legalweek.com) - Leading annual legaltech conference in New York.
+- [Legalweek](https://www.legalweek.com) - Annual legaltech conference in New York.
 - [ILTACON](https://www.iltanet.org/events/iltacon) - International Legal Technology Association annual conference.
 - [CLOC Global Institute](https://cloc.org) - Annual conference for corporate legal operations.
 - [LegalGeek](https://www.legalgeek.co) - UK-based innovation conference for the legal industry.
-- [Future Law](https://www.futurelaw.io) - Technology and innovation in law conferences globally.
 
 ### Newsletters & Media
 - [Artificial Lawyer](https://www.artificiallawyer.com) - Deep-coverage publication on AI and legal tech. Free daily news.
