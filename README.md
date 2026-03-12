@@ -297,19 +297,25 @@ Legacy leaders and growth-stage companies that have added AI capabilities.
 
 | Company | Focus | Notable | HQ |
 |---|---|---|---|
-| [Thomson Reuters](https://thomsonreuters.com) | Research + AI | CoCounsel, Westlaw, Practical Law | Toronto, Canada |
+| [Thomson Reuters](https://thomsonreuters.com) | Research + AI | CoCounsel, Westlaw, Practical Law, Lex Machina | Toronto, Canada |
 | [LexisNexis](https://lexisnexis.com) | Research + AI | Lexis+ AI, Protégé, Shepard's citations | New York, USA |
-| [Relativity](https://relativity.com) | E-discovery | RelativityOne cloud, aiR AI features | Chicago, USA |
+| [Relativity](https://relativity.com) | E-discovery | RelativityOne cloud, aiR for Review/Privilege | Chicago, USA |
 | [Everlaw](https://everlaw.com) | E-discovery | Cloud-native, AI clustering, trial prep | Oakland, USA |
 | [Ironclad](https://ironcladapp.com) | CLM | Jurist AI, AI clause detection | San Francisco, USA |
 | [Icertis](https://icertis.com) | CLM | OmniModel™, Icertis Vera | Bellevue, USA |
 | [DocuSign](https://docusign.com) | Agreements + CLM | IAM, AI-Assisted Review, DocuSign Analyzer | San Francisco, USA |
 | [Clio](https://clio.com) | Practice management | Clio Duo AI, $3B valuation | Vancouver, Canada |
 | [Filevine](https://filevine.com) | Legal operations | AI-enhanced case lifecycle management | Salt Lake City, USA |
+| [Mitratech](https://mitratech.com) | Legal ops + CLM | Enterprise-scale matter management, TeamConnect, TAP Workflow Automation | Austin, USA |
 | [vLex](https://vlex.com) | Legal research | Vincent AI, 1B+ docs, global coverage | Barcelona, Spain |
-| [Kira Systems](https://kirasystems.com) | Due diligence | ML contract review, acquired by Litera | Toronto, Canada |
+| [Litera](https://litera.com) | Doc tools + due diligence | Acquired Kira Systems; document drafting, proofreading, and deal management suite | Chicago, USA |
+| [NetDocuments](https://netdocuments.com) | Cloud DMS | Leading cloud document management system for law firms; AI-powered search and organization | Lehi, USA |
+| [HighQ (Thomson Reuters)](https://legal.thomsonreuters.com/en/products/highq) | Legal collaboration | Secure client portals, matter management, and workflow automation for law firms | London, UK |
 | [Nuix](https://nuix.com) | Investigations + eDiscovery | Cognitive AI (CogAI), 500+ Nuix Neo models | Sydney, Australia |
 | [ContractPodAi](https://contractpodai.com) | CLM | Leah AI, Leah Marketplace, Microsoft Azure partner | London, UK |
+| [Lexion](https://lexion.ai) | AI CLM | AI-powered contract management backed by Google Ventures; 90% faster contract review | Seattle, USA |
+| [Juro](https://juro.com) | Contract management | All-in-one contract platform popular in UK/EU; native browser editor with AI assistance | London, UK |
+| [Avvoka](https://avvoka.com) | Contract automation | UK-based document automation and negotiation platform used by top-tier law firms | London, UK |
 
 ### Non-Profit & NGO
 

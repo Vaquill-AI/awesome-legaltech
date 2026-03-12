@@ -11,26 +11,38 @@ Thank you for your interest in contributing to **Awesome Legaltech**! This docum
 
 ## What We Look For
 
-### Quality Over Quantity
-We curate for quality. Only add entries that you would personally recommend. An entry must be:
-- **Actively maintained** - Last meaningful update within the past 18 months (for open-source projects).
-- **Well-documented** - Has a clear README or website describing what it does.
-- **Relevant** - Directly related to the practice, research, or infrastructure of legal technology.
+### The core principle
 
-### Accepted Entries
-- Open-source projects with clear legal technology applications
-- AI/ML models explicitly trained or fine-tuned on legal data
-- Established companies or platforms with a verifiable legaltech product
-- High-quality datasets of legal texts licensed for research/use
-- Non-profit organizations with a technology-driven legal access mission
-- Conferences, newsletters, and communities specifically for legaltech
+This is a **curated list**, not a comprehensive directory. There are thousands of legaltech companies doing meaningful work. Platforms like [Legaltech Hub](https://legaltechnologyhub.com) and [LawNext](https://www.lawnext.com/legal-tech-directory) are better suited for exhaustive listings. Our goal is to surface the most notable, distinctive, and educationally valuable entries within each category.
 
-### Not Accepted
-- Generic tools without a legal-specific application (e.g., general-purpose databases, generic office suites)
-- Abandoned projects with no activity in 2+ years
-- Pure marketing landing pages with no substantive product
-- Duplicate entries covering the same tool/resource already listed
-- Personal blog posts or non-authoritative opinion pieces
+### Inclusion criteria
+
+An entry should meet **at least one** of the following:
+
+| Criterion | What it means |
+|---|---|
+| **Category-defining** | First-mover or widely credited with inventing/popularizing a category (e.g., Ironclad for CLM, Harvey for legal AI agents) |
+| **Open source** | Has a public repo with meaningful code that the community can build on |
+| **Significant scale** | $100M+ funding, or widely adopted at major law firms / courts / institutions |
+| **Unique technical approach** | Does something meaningfully different from other listed tools in the same category |
+| **Regional representation** | Best or most prominent tool for a geography or language not yet covered |
+| **Academic / research value** | Peer-reviewed dataset, model, or benchmark that enables further research |
+
+### Minimum bar for all entries
+
+Regardless of the above, every entry must be:
+- **Actively maintained** - open-source projects: meaningful activity in the past 18 months; commercial products: active and publicly accessible.
+- **Factually verifiable** - must have a real website, repo, or publication. No vaporware.
+- **Described neutrally** - no promotional language, no superlatives, no vendor marketing copy.
+- **Distinct** - not already covered by an existing entry.
+
+### Not accepted
+
+- Generic tools with no legal-specific application (e.g., general-purpose cloud storage, office suites)
+- Abandoned open-source projects (no activity in 2+ years)
+- Landing pages with no verifiable product behind them
+- Companies that are simply resellers or white-labels of already-listed platforms
+- Personal projects, blog posts, or opinion pieces
 
 ## Formatting Guidelines
 
