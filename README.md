@@ -90,6 +90,7 @@ Curated datasets of legal texts, case law, statutes, and contracts available for
 
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers that connect AI assistants to legal data sources and workflows.
 
+- [Vaquill AI MCP](https://vaquill.ai) ⭐ — MCP server providing AI agents with access to 20M+ Indian Supreme Court, High Court, and Tribunal judgments with semantic search and citation verification. *(Sponsor)*
 - [agentic-ops/legal-mcp](https://github.com/agentic-ops/legal-mcp) — Comprehensive MCP server for legal workflows. Integrates AI assistants with legal databases and case management systems (Clio, etc.).
 - [uk-case-law-mcp-server](https://github.com/nationalarchives/uk-case-law-mcp-server) — MCP server that enables LLMs to search, retrieve, and cite UK legal judgments via The National Archives API.
 - [LegalContext MCP](https://mcp.so/server/legalcontext) — Open-source MCP server bridging law firm document management systems with AI assistants.
