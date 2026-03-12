@@ -553,8 +553,6 @@ Stay current with the legaltech ecosystem.
 
 Platforms that index, curate, review, or list legal technology products — useful for discovery, vendor evaluation, and market research.
 
-### Global Directories
-
 | Platform | Description | Type |
 |---|---|---|
 | [Legaltech Hub](https://legaltechnologyhub.com) | Global directory of legaltech solutions with filters by category, use case, jurisdiction, and language. Vendors can submit products for listing. | Global |
@@ -566,25 +564,10 @@ Platforms that index, curate, review, or list legal technology products — usef
 | [Capterra - Legal Software](https://www.capterra.com/legal-software/) | Software comparison platform ranking legal tools by user ratings and popularity. | Global |
 | [GetApp - Legal Software](https://www.getapp.com/legal-compliance-software/) | Software marketplace with verified reviews, comparisons, and feature filters for legal tools. | Global |
 | [Software Advice - Legal](https://www.softwareadvice.com/legal/) | Platform helping law firms choose software through comparisons and analyst recommendations. | Global |
-
-### India-Specific
-
-| Platform | Description | Type |
-|---|---|---|
-| [ISAIL (Indian Society of AI and Law)](https://isail.in) | Indian not-for-profit focused on AI policy, standards, and governance. Administers the AiStandard.io Alliance; runs the AiStandard.io Summit. Relevant for tracking Indian AI-law policy. | Policy + Standards |
+| [ISAIL (Indian Society of AI and Law)](https://isail.in) | Indian not-for-profit focused on AI policy, standards, and governance. Administers the AiStandard.io Alliance. | Policy + Standards |
 | [Bar and Bench](https://www.barandbench.com) | Indian legal news publication with coverage of court tech, legaltech, and legal AI developments. | Media |
-
-### UK & Europe
-
-| Platform | Description | Type |
-|---|---|---|
 | [LawTech UK](https://lawtech.uk) | UK government-backed initiative with an ecosystem map and resources for the UK lawtech sector. | Directory + Community |
 | [LegalGeek](https://www.legalgeek.co) | UK legaltech conference and community with vendor showcases and market coverage. | Community + Events |
-
-### Academic & Research
-
-| Platform | Description | Type |
-|---|---|---|
 | [Stanford CodeX](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/) | Stanford Center for Legal Informatics. Hosts the FutureLaw conference and computational law research. | Academic |
 | [Legal Design Lab (Stanford)](https://law.stanford.edu/organizations/pages/legal-design-lab/) | Stanford lab focused on technology and design for access to justice. | Academic |
 | [Harvard Law - Innovation Programs](https://hls.harvard.edu/the-hls-innovation-program/) | Harvard Law School programs tracking legal tech and legal innovation initiatives. | Academic |
