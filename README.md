@@ -276,9 +276,12 @@ Companies founded primarily to bring AI capabilities to the legal sector. **Agen
 
 | Company | Focus | Agentic | Notable Feature | HQ |
 |---|---|---|---|---|
-| [Harvey AI](https://harvey.ai) | Full-stack legal AI | Yes | 30+ autonomous workflow solutions | San Francisco, USA |
+| [Harvey AI](https://harvey.ai) | Full-stack legal AI | Yes | 30+ autonomous workflow solutions; $8B valuation, $818M raised 2025 | San Francisco, USA |
+| [Legora](https://legora.com) | Collaborative legal AI | Yes | YC-backed; collaborative AI workspace for legal research, drafting, and review; $816M total raised, $5.55B valuation (2026) | Stockholm, Sweden |
 | [EvenUp](https://evenuplaw.com) | Personal injury | Yes | Agentic demand letter generation; $1B+ valuation | San Francisco, USA |
 | [Leya](https://leya.law) | Research & memos | Yes | Agentic research and memo generation; $25M Series A | Stockholm, Sweden |
+| [Eudia](https://eudia.com) | In-house corporate legal | Yes | AI agents for Fortune 500 legal teams; $105M Series A (General Catalyst, 2025) | USA |
+| [Blue J](https://bluej.com) | Tax research AI | No | AI-powered answers to complex US/Canada/UK tax questions; $122M Series D (2025) | Toronto, Canada |
 | [Spellbook](https://spellbook.legal) | Contract drafting | No | Real-time AI drafting in Microsoft Word | Toronto, Canada |
 | [Robin AI](https://robinai.com) | Contract review | No | AI negotiation and redlining; $71.7M raised | London, UK |
 | [Luminance](https://luminance.com) | Document intelligence | No | Transactions, litigation, compliance review | London, UK |
