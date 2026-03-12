@@ -1,5 +1,14 @@
 # Awesome Legaltech [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<div align="center">
+  <sup>Sponsored by</sup><br>
+  <a href="https://vaquill.ai"><strong>Vaquill AI</strong></a>
+  <br>
+  <sub>AI-powered legal research platform with 20M+ cases, 4-layer citation verification, contract analysis, and multilingual support — built for Indian legal professionals.</sub>
+</div>
+
+---
+
 > A curated list of awesome legal technology resources — open source platforms, AI models, MCP servers, companies, datasets, and tools for the global legal ecosystem.
 
 Legal technology (legaltech) is the use of technology and software to provide legal services, automate legal work, and make law more accessible. This list covers open-source tools, commercial platforms, AI/ML models built for law, and organizations (both for-profit and non-profit) working at the intersection of law and technology.
