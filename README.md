@@ -19,9 +19,16 @@ Legal technology (legaltech) is the use of technology and software to provide le
 
 ## Contents
 
-- [Open Source Legal Data Platforms](#open-source-legal-data-platforms)
-- [Open Legal Datasets](#open-legal-datasets)
-- [Legal Data by Jurisdiction](#legal-data-by-jurisdiction)
+- [Open Source Tools & Platforms](#open-source-tools--platforms)
+- [Legal Data & Datasets](#legal-data--datasets)
+  - [Pretraining Corpora](#pretraining-corpora)
+  - [Legal Judgment Prediction (LJP)](#legal-judgment-prediction-ljp)
+  - [Legal Text Classification](#legal-text-classification)
+  - [Legal Question Answering](#legal-question-answering)
+  - [Legal Summarization](#legal-summarization)
+  - [Contract Analysis](#contract-analysis)
+  - [Open Datasets by Jurisdiction](#open-datasets-by-jurisdiction)
+  - [Legal Data Portals by Jurisdiction](#legal-data-portals-by-jurisdiction)
 - [MCP Servers for Legal](#mcp-servers-for-legal)
 - [Legal AI Models & Embeddings](#legal-ai-models--embeddings)
   - [Large Language Models (LLMs)](#large-language-models-llms)
@@ -47,9 +54,9 @@ Legal technology (legaltech) is the use of technology and software to provide le
 
 ---
 
-## Open Source Legal Data Platforms
+## Open Source Tools & Platforms
 
-Platforms and frameworks for building, hosting, or processing legal data - self-hostable and open source.
+Open-source and self-hostable platforms for building, processing, and automating legal workflows.
 
 - [Docassemble](https://docassemble.org) - Open-source expert system for guided interviews and document assembly. Widely used in legal aid and courts. Built with Python + YAML. ![GitHub Stars](https://img.shields.io/github/stars/jhpyle/docassemble?style=flat-square)
 - [CourtListener](https://www.courtlistener.com) - Free, open-source legal research platform by the Free Law Project. Indexes 9M+ US court opinions across 2,000+ courts.
@@ -71,7 +78,7 @@ Platforms and frameworks for building, hosting, or processing legal data - self-
 
 ---
 
-## Open Legal Datasets
+## Legal Data & Datasets
 
 Curated datasets of legal texts, case law, statutes, and contracts - organized by task. Most are openly available for research.
 
@@ -134,7 +141,7 @@ Datasets for predicting case outcomes, charges, or penalties from court document
 
 ### Open Datasets by Jurisdiction
 
-See also [Legal Data by Jurisdiction](#legal-data-by-jurisdiction) for country-specific portals.
+See also [Legal Data Portals by Jurisdiction](#legal-data-portals-by-jurisdiction) for country-specific portals.
 
 - [CourtListener Dataset](https://www.courtlistener.com/help/api/bulk-data/) - 🇺🇸 9M+ US court opinions, judge data, oral argument recordings. [See also: Legal Research Platforms]
 - [RECAP Archive](https://free.law/recap/) - 🇺🇸 Largest open collection of US federal PACER documents and dockets.
@@ -145,7 +152,7 @@ See also [Legal Data by Jurisdiction](#legal-data-by-jurisdiction) for country-s
 
 ---
 
-## Legal Data by Jurisdiction
+### Legal Data Portals by Jurisdiction
 
 Country-specific legal databases, portals, and open data sources.
 
