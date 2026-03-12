@@ -145,7 +145,7 @@ Domain-specific encoder models for legal text similarity, classification, and re
 | [VakilAI](https://vakilai.in) | India | EN, HI | Court-ready petition and appeal drafting |
 | [BharatLAW](https://github.com/BharatLAW) | India | EN | IPC-based legal chatbot using FAISS + Streamlit |
 | [Legalon Technologies](https://legalon.jp) | Japan | JA | AI contract management platform for Japanese law |
-| Manupatra AI | India | EN | Predictive analytics + contract risk for Indian law |
+
 | [LegalBERT (Greek)](https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1) | Greece | EL | Greek legal domain BERT |
 
 ---
@@ -191,6 +191,7 @@ Tools for automating the creation of legal documents, templates, and guided inte
 - [Relativity / RelativityOne](https://www.relativity.com) - Enterprise legal and compliance platform. AI review (aiR), e-discovery.
 - [Paxton AI](https://www.paxton.ai) - AI legal research assistant with jurisdiction-aware answers.
 - [Clio Duo](https://www.clio.com) - AI layer in Clio's practice management for research, drafting, and insights.
+- [Manupatra](https://www.manupatra.com) - Proprietary Indian legal database covering Supreme Court, High Courts, and Tribunals. Includes analytics, case tracking, and contract tools built on its curated corpus.
 
 ---
 
