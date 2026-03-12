@@ -90,6 +90,7 @@ Large text corpora for pretraining or fine-tuning legal language models.
 |---|---|---|---|
 | [Pile of Law](https://huggingface.co/datasets/pile-of-law/pile-of-law) | 🇺🇸 EN | ~256 GB | US legal and administrative text; used to train CaseLawBERT |
 | [MultiLegalPile](https://huggingface.co/datasets/joelito/Multi_Legal_Pile) | 🌍 24 langs | 689 GB | Multilingual legal pretraining corpus from 17 jurisdictions |
+| [LeXFiles](https://huggingface.co/datasets/lexlms/lex_files) | 🌍 6 sys | 19B tokens | Massive English legal corpus (EU, CoE, Canada, US, UK, India) |
 | [Indian Kanoon Dataset](https://indiankanoon.org) | 🇮🇳 EN | Large | Indian court judgments and statutes; widely used for Indian legal NLP |
 | [EUR-Lex](https://eur-lex.europa.eu) | 🇪🇺 24 langs | Large | Official EU legislation and case law in all EU official languages |
 
@@ -101,6 +102,8 @@ Datasets for predicting case outcomes, charges, or penalties from court document
 |---|---|---|---|---|
 | [CAIL2018](https://github.com/china-ai-law-challenge/CAIL2018) | 🇨🇳 China | ZH | 2.6M cases | Charge, penalty, article prediction |
 | [ECtHR Dataset](https://huggingface.co/datasets/coastalcph/ecthr_cases) | 🇪🇺 ECHR | EN | 11K cases | Article violation prediction |
+| [ILDC (Indian Legal Documents Corpus)](https://github.com/Exploration-Lab/CJPE) | 🇮🇳 India | EN | 34K cases | Court judgment prediction and explanation |
+| [NyayaAnumana](https://huggingface.co/datasets/Dnyanesh1/NyayaAnumana) | 🇮🇳 India | EN | 700K+ cases | Largest corpus of Indian legal cases for LJP |
 | [FSCS - Swiss Judgment Prediction](https://huggingface.co/datasets/swiss_judgment_prediction) | 🇨🇭 Switzerland | DE/FR/IT | 85K cases | Binary outcome prediction across 3 languages |
 | [CaseSumm](https://huggingface.co/datasets/ChicagoHAI/CaseSumm) | 🇺🇸 US SCOTUS | EN | 25.6K opinions | Paired opinions + official syllabuses |
 | [IndianBailJudgments-1200](https://huggingface.co/datasets/SnehaDeshmukh/IndianBailJudgments-1200) | 🇮🇳 India | EN | 1.2K judgments | Bail decisions with 20+ structured attributes |
@@ -114,6 +117,7 @@ Datasets for predicting case outcomes, charges, or penalties from court document
 | [MultiEURLEX](https://huggingface.co/datasets/multi_eurlex) | 🇪🇺 EU | 23 langs | 65K EU laws with 4.5K labels; multilingual classification |
 | [LEDGAR](https://huggingface.co/datasets/coastalcph/ledgar) | 🇺🇸 US | EN | 60K+ contract provisions with 12.6K labels |
 | [CUAD](https://www.atticusprojectai.org/cuad) | 🇺🇸 US | EN | 510 annotated contracts, 41 clause types, 13K+ expert labels |
+| [AsyLex](https://huggingface.co/datasets/joelito/AsyLex) | 🇨🇭 Swiss | FR/DE | 59K documents; 19K human-annotated entities for Refugee Law |
 
 ### Legal Question Answering
 
@@ -130,6 +134,16 @@ Datasets for predicting case outcomes, charges, or penalties from court document
 | [BillSum](https://github.com/FiscalNote/BillSum) | 🇺🇸 US | EN | 22K US Congressional and California bill summaries |
 | [EUR-Lex Sum](https://huggingface.co/datasets/dennlinger/eur-lex-sum) | 🇪🇺 EU | 24 langs | Abstractive summarization of EU legislation; 1.5K+ docs |
 | [Multi-LexSum](https://github.com/multilexsum/dataset) | 🇺🇸 US | EN | Multi-document summarization of US civil rights court cases |
+| [mteb/legal_summarization](https://huggingface.co/datasets/mteb/legal_summarization) | 🇺🇸 US | EN | 439 pairs of legal contracts and plain-English summaries (from TOSDR) |
+| [IN-Abs / UK-Abs](https://github.com/Law-AI/summarization) | 🇮🇳 🇬🇧 | EN | Abstractive and extractive summarization datasets for Indian and UK case judgments |
+
+### Legal Semantic Search & Information Retrieval
+
+| Dataset | Jurisdiction | Lang | Notes |
+|---|---|---|---|
+| [opinions-synthetic-query-512](https://huggingface.co/datasets/Free-Law-Project/opinions-synthetic-query-512) | 🇺🇸 US | EN | High-quality Free Law Project synthetic queries for finetuning legal semantic search |
+| [CLERC](https://github.com/neelguha/legal-ml-datasets) | 🇺🇸 US | EN | Case Law Evaluation and Retrieval Corpus for dense retrieval |
+| [german_legal_sentences](https://huggingface.co/datasets/lavis-nlp/german_legal_sentences) | 🇩🇪 Germany | DE | Semantic sentence matching and citation recommendation |
 
 ### Contract Analysis
 
@@ -216,7 +230,7 @@ Country-specific legal databases, portals, and open data sources.
 
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers that connect AI assistants to legal data sources and workflows.
 
-- [Vaquill AI MCP](https://vaquill.ai) - MCP server providing AI agents with access to 20M+ Indian Supreme Court, High Court, and Tribunal judgments with semantic search and citation verification. *(Sponsor)*
+- [Vaquill AI MCP](https://github.com/vaquill-AI/vaquill-mcp) - MCP server providing AI agents with access to 20M+ Indian Supreme Court, High Court, and Tribunal judgments with semantic search and citation verification. *(Sponsor)*
 - [agentic-ops/legal-mcp](https://github.com/agentic-ops/legal-mcp) - Comprehensive MCP server for legal workflows. Integrates AI assistants with legal databases and case management systems (Clio, etc.).
 - [uk-case-law-mcp-server](https://github.com/nationalarchives/uk-case-law-mcp-server) - MCP server that enables LLMs to search, retrieve, and cite UK legal judgments via The National Archives API.
 - [LegalContext MCP](https://mcp.so/server/legalcontext) - Open-source MCP server bridging law firm document management systems with AI assistants.
