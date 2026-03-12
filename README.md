@@ -268,8 +268,10 @@ Fine-tuned or domain-pretrained LLMs specifically for legal tasks.
 
 Domain-specific encoder models for legal text similarity, classification, and retrieval.
 
-| Model | HuggingFace | Notes |
+| Model | HuggingFace / Provider | Notes |
 |---|---|---|
+| [voyage-law-2](https://docs.voyageai.com/docs/embeddings) | Voyage AI (API) | State-of-the-art closed-source embedding model specifically trained for legal text retrieval |
+| [voyage-4](https://docs.voyageai.com/docs/embeddings) | Voyage AI (API) | Highly optimized general embedding model with excellent performance across professional domains including law |
 | [Legal-BERT](https://huggingface.co/nlpaueb/legal-bert-base-uncased) | `nlpaueb/legal-bert-base-uncased` | Pretrained on EU/US legislation + court cases |
 | [CaseLawBERT](https://huggingface.co/pile-of-law/legalbert-large-1.7M-2) | `pile-of-law/legalbert-large-1.7M-2` | Trained on Pile of Law corpus |
 | [LegalBert (JHU)](https://huggingface.co/jhu-clsp/LegalBert) | `jhu-clsp/LegalBert` | JHU CLSP legal domain adaptation |
