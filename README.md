@@ -19,31 +19,31 @@ Legal technology (legaltech) is the use of technology and software to provide le
 
 ## Contents
 
-- [Open Source Tools & Platforms](#open-source-tools--platforms)
+- [APIs for Legal Data](#apis-for-legal-data)
 - [Machine Learning Datasets & Corpora](#machine-learning-datasets--corpora)
-  - [Pretraining Corpora](#pretraining-corpora)
+  - [Pretraining Corpora & Bulk Data](#pretraining-corpora--bulk-data)
   - [Legal Judgment Prediction (LJP)](#legal-judgment-prediction-ljp)
   - [Legal Text Classification](#legal-text-classification)
   - [Legal Question Answering](#legal-question-answering)
   - [Legal Summarization](#legal-summarization)
   - [Contract Analysis](#contract-analysis)
-- [APIs for Legal Data](#apis-for-legal-data)
-- [MCP Servers for Legal](#mcp-servers-for-legal)
 - [Legal AI Models & Embeddings](#legal-ai-models--embeddings)
   - [Large Language Models (LLMs)](#large-language-models-llms)
   - [Embedding & BERT-style Models](#embedding--bert-style-models)
   - [Multilingual & Regional Legal Models](#multilingual--regional-legal-models)
+- [MCP Servers for Legal](#mcp-servers-for-legal)
+- [Open Source Tools & Platforms](#open-source-tools--platforms)
 - [Full-Stack Legal Platforms & Suites](#full-stack-legal-platforms--suites)
-- [Document Automation & Drafting](#document-automation--drafting)
 - [Legal Research Platforms](#legal-research-platforms)
+- [Document Automation & Drafting](#document-automation--drafting)
 - [Contract Lifecycle Management (CLM)](#contract-lifecycle-management-clm)
 - [E-Discovery & Document Review](#e-discovery--document-review)
 - [Practice Management & Legal Ops](#practice-management--legal-ops)
 - [Compliance & RegTech](#compliance--regtech)
 - [Access to Justice & Public Interest Tech](#access-to-justice--public-interest-tech)
 - [Foundational Research](#foundational-research)
-- [Legal Ontologies & Knowledge Graphs](#legal-ontologies--knowledge-graphs)
 - [Benchmarks & Evaluation](#benchmarks--evaluation)
+- [Legal Ontologies & Knowledge Graphs](#legal-ontologies--knowledge-graphs)
 - [Standards & Protocols](#standards--protocols)
 - [Legaltech Directories & Product Listing Platforms](#legaltech-directories--product-listing-platforms)
 - [Communities, Conferences & Media](#communities-conferences--media)
@@ -51,27 +51,11 @@ Legal technology (legaltech) is the use of technology and software to provide le
 
 ---
 
-## Open Source Tools & Platforms
+## APIs for Legal Data
 
-Open-source and self-hostable platforms for building, processing, and automating legal workflows.
+Commercial and open APIs specifically designed for retrieving case law, statutes, and legal documents into applications.
 
-- [Docassemble](https://docassemble.org) - Open-source expert system for guided interviews and document assembly. Widely used in legal aid and courts. Built with Python + YAML. ![GitHub Stars](https://img.shields.io/github/stars/jhpyle/docassemble?style=flat-square)
-- [CourtListener](https://www.courtlistener.com) - Free, open-source legal research platform by the Free Law Project. Indexes 9M+ US court opinions across 2,000+ courts.
-- [Suffolk LIT Lab Document Assembly Line](https://github.com/SuffolkLITLab/docassemble-AssemblyLine) - Open toolkit from Suffolk Law for creating mobile-friendly guided interviews and court e-filing.
-- [ArkCase](https://www.arkcase.com) - Open-source adaptive case management platform with document management, task tracking, and DoD 5015.2 compliance.
-- [ClinicCases](https://github.com/judsonmitchell/ClinicCases) - Free, open-source web-based case management for law school clinics. MIT licensed.
-- [Worklenz](https://github.com/worklenz/worklenz) - Self-hosted open-source task and project management tool adaptable for legal case management.
-- [Wraft](https://github.com/wraft/wraft) - Open-source Document Lifecycle Management (DLM) platform for structured document creation and workflows.
-- [FreeEed](https://freeeed.org) - Open-source, AI-enabled cross-platform e-discovery platform with text extraction, metadata processing, and OCR.
-- [J-Lawyer](https://www.j-lawyer.org) - Open-source law practice management software (German-originated, usable in English). Active on GitHub.
-- [Dolibarr](https://www.dolibarr.org) - Modular open-source ERP/CRM with legal case management capabilities.
-- [open-agreements](https://github.com/CommonAccord/Cmacc-Org) - CommonAccord: open-source framework for creating and sharing legal documents as structured data.
-- [Blackstone](https://github.com/ICLRandD/Blackstone) - 🇬🇧 spaCy NLP pipeline and model for unstructured UK legal text. Covers named entity recognition, sentence segmentation, and citation detection.
-- [LegalCrawler](https://github.com/iliaschalkidis/LegalCrawler) - Scripts to crawl and build English legal corpora from public court and legislative websites.
-- [Juriscraper](https://github.com/freelawproject/juriscraper) - 🇺🇸 Python library for scraping US court websites. Covers 400+ courts for opinions, oral arguments, and PACER data.
-- [French Legal Case Anonymization](https://github.com/ELS-RD/anonymisation) - Open-source NER-based pseudo-anonymization of French court decisions (as required by French law).
-- [Eyecite](https://github.com/freelawproject/eyecite) - Open-source legal citation extraction and analysis tool by Free Law Project.
-- [RECAP](https://free.law/recap/) - Browser extension + archive making PACER federal court documents freely available. Open-source by Free Law Project.
+- [Vaquill AI API](https://vaquill.ai) - Developer API providing programmatic access to 20M+ Indian Supreme Court, High Court, and Tribunal judgments with semantic search and citation verification. *(Sponsor)*
 
 ---
 
@@ -154,36 +138,6 @@ Datasets for predicting case outcomes, charges, or penalties from court document
 | [MAUD](https://github.com/TheAtticusProject/maud) | 🇺🇸 US | EN | M&A contract understanding; 39K questions on merger agreements |
 | [ContractNLI](https://stanfordnlp.github.io/contract-nli/) | 🌍 | EN | Natural language inference over non-disclosure agreements |
 
-
-
----
-
-## APIs for Legal Data
-
-Commercial and open APIs specifically designed for retrieving case law, statutes, and legal documents into applications.
-
-- [Vaquill AI API](https://vaquill.ai) - Developer API providing programmatic access to 20M+ Indian Supreme Court, High Court, and Tribunal judgments with semantic search and citation verification. *(Sponsor)*
-
----
-
-## MCP Servers for Legal
-
-[Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers that connect AI assistants to legal data sources and workflows.
-
-- [Vaquill AI MCP](https://github.com/vaquill-AI/vaquill-mcp) - MCP server providing AI agents with access to 20M+ Indian Supreme Court, High Court, and Tribunal judgments with semantic search and citation verification. *(Sponsor)*
-- [CourtListener MCP (DefendTheDisabled)](https://github.com/DefendTheDisabled/courtlistener-mcp) - Connects AI agents to CourtListener with semantic search, hybrid search, and citation verification to mitigate hallucination.
-- [CourtListener MCP (Travis-Prall)](https://github.com/Travis-Prall/court-listener-mcp) - MCP Server for accessing CourtListener case data, court opinions, and eCFR federal regulations.
-- [CourtListener MCP (khizar-anjum)](https://github.com/khizar-anjum/courtlistener-mcp) - MCP server built for searching cases by natural language legal problems across 3,352 U.S. courts.
-- [CanLII MCP Server](https://github.com/Alhwyn/canlii-mcp-server) - Connects AI assistants to the Canadian Legal Information Institute (CanLII) to retrieve Canadian legislation and case law.
-- [uk-case-law-mcp-server](https://github.com/nationalarchives/uk-case-law-mcp-server) - MCP server that enables LLMs to search, retrieve, and cite UK legal judgments via The National Archives API.
-- [US Legal MCP Server](https://github.com/a10y/us-legal-mcp) - Provides access to US Congress bills, Federal Register documents, and court opinions.
-- [Open Legal Compliance MCP](https://github.com/qpd-v/open-legal-compliance-mcp) - Facilitates legal compliance analysis using free government APIs for US and EU law.
-- [agentic-ops/legal-mcp](https://github.com/agentic-ops/legal-mcp) - Comprehensive MCP server for legal workflows. Integrates AI assistants with legal databases and case management systems (Clio, etc.).
-- [LegalContext MCP](https://mcp.so/server/legalcontext) - Open-source MCP server bridging law firm document management systems with AI assistants.
-- [adeu (Agentic DOCX Redlining Engine)](https://github.com/dealfluence/adeu) - MCP Server enabling LLMs to inject native Track Changes and Comments into Word documents.
-
-> **Note:** MCP for legal is an emerging ecosystem. Many servers are early-stage community projects. Always verify data accuracy and jurisdiction coverage before use in legal practice.
-
 ---
 
 ## Legal AI Models & Embeddings
@@ -229,6 +183,50 @@ Domain-specific encoder models for legal text similarity, classification, and re
 | [LawBench Models](https://github.com/open-compass/LawBench) | China | ZH | Models evaluated on 20 Chinese legal tasks |
 | [VakilAI](https://vakilai.in) | India | EN, HI | Court-ready petition and appeal drafting |
 | [BharatLAW](https://github.com/BharatLAW) | India | EN | IPC-based legal chatbot using FAISS + Streamlit |
+## MCP Servers for Legal
+
+[Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers that connect AI assistants to legal data sources and workflows.
+
+- [Vaquill AI MCP](https://github.com/vaquill-AI/vaquill-mcp) - MCP server providing AI agents with access to 20M+ Indian Supreme Court, High Court, and Tribunal judgments with semantic search and citation verification. *(Sponsor)*
+- [CourtListener MCP (DefendTheDisabled)](https://github.com/DefendTheDisabled/courtlistener-mcp) - Connects AI agents to CourtListener with semantic search, hybrid search, and citation verification to mitigate hallucination.
+- [CourtListener MCP (Travis-Prall)](https://github.com/Travis-Prall/court-listener-mcp) - MCP Server for accessing CourtListener case data, court opinions, and eCFR federal regulations.
+- [CourtListener MCP (khizar-anjum)](https://github.com/khizar-anjum/courtlistener-mcp) - MCP server built for searching cases by natural language legal problems across 3,352 U.S. courts.
+- [CanLII MCP Server](https://github.com/Alhwyn/canlii-mcp-server) - Connects AI assistants to the Canadian Legal Information Institute (CanLII) to retrieve Canadian legislation and case law.
+- [uk-case-law-mcp-server](https://github.com/nationalarchives/uk-case-law-mcp-server) - MCP server that enables LLMs to search, retrieve, and cite UK legal judgments via The National Archives API.
+- [US Legal MCP Server](https://github.com/a10y/us-legal-mcp) - Provides access to US Congress bills, Federal Register documents, and court opinions.
+- [Open Legal Compliance MCP](https://github.com/qpd-v/open-legal-compliance-mcp) - Facilitates legal compliance analysis using free government APIs for US and EU law.
+- [agentic-ops/legal-mcp](https://github.com/agentic-ops/legal-mcp) - Comprehensive MCP server for legal workflows. Integrates AI assistants with legal databases and case management systems (Clio, etc.).
+- [LegalContext MCP](https://mcp.so/server/legalcontext) - Open-source MCP server bridging law firm document management systems with AI assistants.
+- [adeu (Agentic DOCX Redlining Engine)](https://github.com/dealfluence/adeu) - MCP Server enabling LLMs to inject native Track Changes and Comments into Word documents.
+
+> **Note:** MCP for legal is an emerging ecosystem. Many servers are early-stage community projects. Always verify data accuracy and jurisdiction coverage before use in legal practice.
+
+---
+
+## Open Source Tools & Platforms
+
+Open-source and self-hostable platforms for building, processing, and automating legal workflows.
+
+- [Docassemble](https://docassemble.org) - Open-source expert system for guided interviews and document assembly. Widely used in legal aid and courts. Built with Python + YAML. ![GitHub Stars](https://img.shields.io/github/stars/jhpyle/docassemble?style=flat-square)
+- [CourtListener](https://www.courtlistener.com) - Free, open-source legal research platform by the Free Law Project. Indexes 9M+ US court opinions across 2,000+ courts.
+- [Suffolk LIT Lab Document Assembly Line](https://github.com/SuffolkLITLab/docassemble-AssemblyLine) - Open toolkit from Suffolk Law for creating mobile-friendly guided interviews and court e-filing.
+- [ArkCase](https://www.arkcase.com) - Open-source adaptive case management platform with document management, task tracking, and DoD 5015.2 compliance.
+- [ClinicCases](https://github.com/judsonmitchell/ClinicCases) - Free, open-source web-based case management for law school clinics. MIT licensed.
+- [Worklenz](https://github.com/worklenz/worklenz) - Self-hosted open-source task and project management tool adaptable for legal case management.
+- [Wraft](https://github.com/wraft/wraft) - Open-source Document Lifecycle Management (DLM) platform for structured document creation and workflows.
+- [FreeEed](https://freeeed.org) - Open-source, AI-enabled cross-platform e-discovery platform with text extraction, metadata processing, and OCR.
+- [J-Lawyer](https://www.j-lawyer.org) - Open-source law practice management software (German-originated, usable in English). Active on GitHub.
+- [Dolibarr](https://www.dolibarr.org) - Modular open-source ERP/CRM with legal case management capabilities.
+- [open-agreements](https://github.com/CommonAccord/Cmacc-Org) - CommonAccord: open-source framework for creating and sharing legal documents as structured data.
+- [Blackstone](https://github.com/ICLRandD/Blackstone) - 🇬🇧 spaCy NLP pipeline and model for unstructured UK legal text. Covers named entity recognition, sentence segmentation, and citation detection.
+- [LegalCrawler](https://github.com/iliaschalkidis/LegalCrawler) - Scripts to crawl and build English legal corpora from public court and legislative websites.
+- [Juriscraper](https://github.com/freelawproject/juriscraper) - 🇺🇸 Python library for scraping US court websites. Covers 400+ courts for opinions, oral arguments, and PACER data.
+- [French Legal Case Anonymization](https://github.com/ELS-RD/anonymisation) - Open-source NER-based pseudo-anonymization of French court decisions (as required by French law).
+- [Eyecite](https://github.com/freelawproject/eyecite) - Open-source legal citation extraction and analysis tool by Free Law Project.
+- [RECAP](https://free.law/recap/) - Browser extension + archive making PACER federal court documents freely available. Open-source by Free Law Project.
+
+---
+
 ## Full-Stack Legal Platforms & Suites
 
 Comprehensive platforms that handle multiple functions across the legal workflow (research, drafting, review, and matter management). 
@@ -239,25 +237,6 @@ Comprehensive platforms that handle multiple functions across the legal workflow
 - [Legora](https://legora.com) - **[AI-Native]** YC-backed collaborative AI workspace spanning research, drafting, and review.
 - [Eudia](https://eudia.com) - **[AI-Native]** AI agents specifically designed for Fortune 500 in-house corporate legal teams.
 - [DeepJudge](https://deepjudge.ai) - **[AI-Native]** Custom AI workflows applied directly to internal law firm knowledge bases.
-
----
-
-## Document Automation & Drafting
-
-Software for generating, assembling, and reviewing legal documents.
-
-### Open Source
-- [Docassemble](https://docassemble.org) - The gold standard for open-source guided legal interviews and document assembly.
-- [Suffolk LIT Lab Assembly Line](https://github.com/SuffolkLITLab/docassemble-AssemblyLine) - Toolkit for Massachusetts court forms; reusable pattern for any jurisdiction.
-- [open-agreements](https://github.com/CommonAccord/Cmacc-Org) - CommonAccord: legal documents as structured, linkable data.
-- [adeu](https://github.com/dealfluence/adeu) - Agentic DOCX Redlining Engine for LLM-powered Word document Track Changes.
-
-### Commercial / SaaS
-- [Spellbook](https://spellbook.legal) - **[AI-Native]** AI contract drafting and review assistant operating natively in Microsoft Word.
-- [Clearbrief](https://clearbrief.com) - **[AI-Native]** AI-powered factual verification and drafting assistance in briefs.
-- [HotDocs](https://www.hotdocs.com) - **[Established]** Long-established document assembly software for law firms.
-- [ContractExpress](https://www.thomsonreuters.com) - **[Established]** Thomson Reuters' document automation platform.
-- [Litera](https://litera.com) - **[Established]** Document drafting, proofreading, and deal management suite.
 
 ---
 
@@ -326,6 +305,25 @@ Browser-based platforms and search engines for case law, statutes, and dockets.
 - [Docket Alarm](https://www.docketalarm.com) - **[Established]** Federal and state docket monitoring with real-time alerts.
 - [VIDUR AI](https://vidur.in) - **[AI-Native]** AI research platform for Indian corporate, tax, and regulatory law.
 - [Manupatra](https://www.manupatra.com) - **[Established]** Proprietary Indian legal database covering SC, HCs, and Tribunals.
+
+---
+
+## Document Automation & Drafting
+
+Software for generating, assembling, and reviewing legal documents.
+
+### Open Source
+- [Docassemble](https://docassemble.org) - The gold standard for open-source guided legal interviews and document assembly.
+- [Suffolk LIT Lab Assembly Line](https://github.com/SuffolkLITLab/docassemble-AssemblyLine) - Toolkit for Massachusetts court forms; reusable pattern for any jurisdiction.
+- [open-agreements](https://github.com/CommonAccord/Cmacc-Org) - CommonAccord: legal documents as structured, linkable data.
+- [adeu](https://github.com/dealfluence/adeu) - Agentic DOCX Redlining Engine for LLM-powered Word document Track Changes.
+
+### Commercial / SaaS
+- [Spellbook](https://spellbook.legal) - **[AI-Native]** AI contract drafting and review assistant operating natively in Microsoft Word.
+- [Clearbrief](https://clearbrief.com) - **[AI-Native]** AI-powered factual verification and drafting assistance in briefs.
+- [HotDocs](https://www.hotdocs.com) - **[Established]** Long-established document assembly software for law firms.
+- [ContractExpress](https://www.thomsonreuters.com) - **[Established]** Thomson Reuters' document automation platform.
+- [Litera](https://litera.com) - **[Established]** Document drafting, proofreading, and deal management suite.
 
 ---
 
@@ -438,22 +436,7 @@ Seminal papers that shaped the field of legal AI and NLP. Essential reading for 
 
 ---
 
-## Legal Ontologies & Knowledge Graphs
-
-Structured vocabularies, ontologies, and knowledge graphs for representing legal concepts, relationships, and document structure.
-
-- [EuroVoc](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc) - EU's multilingual thesaurus covering subjects of EU legislation. 7,000+ concepts in 24 languages. Used for tagging EUR-Lex documents.
-- [LKIF-Core](https://github.com/RinkeHoekstra/lkif-core) - Legal Knowledge Interchange Format; OWL ontology for basic legal concepts (norms, agents, documents, time). Foundation for many legal knowledge systems.
-- [SALI LMSS (Legal Matter Standard Specification)](https://www.sali.org) - Structured ontology for legal matter types, service types, and industry codes. Open standard for legal operations data.
-- [LegalDocML / Akoma Ntoso](https://www.un.org/dgacm/en/content/akoma-ntoso) - XML + ontology for legislative and judicial document structure. Adopted by the UN, EU Parliament, national parliaments.
-- [JurWordNet](https://github.com/fcroce/JurWordNet) - Legal extension of WordNet with Italian legal terminology; one of the few legal lexical ontologies in a non-English language.
-- [Wikidata Legal Entities](https://www.wikidata.org/wiki/Wikidata:WikiProject_Law) - WikiProject Law: structured data on courts, cases, legislation, and legal concepts in Wikidata. Machine-readable and freely licensed.
-- [PROLEG (Japanese Legal Ontology)](https://arxiv.org/abs/1404.0370) - Formal representation of Japanese civil law rules for logic-based legal reasoning. Developed at NII Tokyo.
-
----
-
 ## Benchmarks & Evaluation
-
 
 Resources for evaluating AI and NLP systems on legal tasks.
 
@@ -468,6 +451,20 @@ Resources for evaluating AI and NLP systems on legal tasks.
 
 ---
 
+## Legal Ontologies & Knowledge Graphs
+
+Structured vocabularies, ontologies, and knowledge graphs for representing legal concepts, relationships, and document structure.
+
+- [EuroVoc](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc) - EU's multilingual thesaurus covering subjects of EU legislation. 7,000+ concepts in 24 languages. Used for tagging EUR-Lex documents.
+- [LKIF-Core](https://github.com/RinkeHoekstra/lkif-core) - Legal Knowledge Interchange Format; OWL ontology for basic legal concepts (norms, agents, documents, time). Foundation for many legal knowledge systems.
+- [SALI LMSS (Legal Matter Standard Specification)](https://www.sali.org) - Structured ontology for legal matter types, service types, and industry codes. Open standard for legal operations data.
+- [LegalDocML / Akoma Ntoso](https://www.un.org/dgacm/en/content/akoma-ntoso) - XML + ontology for legislative and judicial document structure. Adopted by the UN, EU Parliament, national parliaments.
+- [JurWordNet](https://github.com/fcroce/JurWordNet) - Legal extension of WordNet with Italian legal terminology; one of the few legal lexical ontologies in a non-English language.
+- [Wikidata Legal Entities](https://www.wikidata.org/wiki/Wikidata:WikiProject_Law) - WikiProject Law: structured data on courts, cases, legislation, and legal concepts in Wikidata. Machine-readable and freely licensed.
+- [PROLEG (Japanese Legal Ontology)](https://arxiv.org/abs/1404.0370) - Formal representation of Japanese civil law rules for logic-based legal reasoning. Developed at NII Tokyo.
+
+---
+
 ## Standards & Protocols
 
 Open standards and specifications relevant to legal technology and AI integration.
@@ -479,6 +476,31 @@ Open standards and specifications relevant to legal technology and AI integratio
 - [LegalXML / OASIS LegalDocML](https://docs.oasis-open.org/legaldocml/) - XML schema standard for legal documents (bills, statutes, regulations). Used by parliaments globally.
 - [Akoma Ntoso (AKN)](https://www.un.org/dgacm/en/content/akoma-ntoso) - XML vocabulary for parliamentary, legislative, and judicial documents. Used by UN, EU, and national parliaments.
 - [EDRM (Electronic Discovery Reference Model)](https://edrm.net) - Industry standard framework for e-discovery workflows, data models, and specifications.
+
+---
+
+## Legaltech Directories & Product Listing Platforms
+
+Platforms that index, curate, review, or list legal technology products — useful for discovery, vendor evaluation, and market research.
+
+| Platform | Description | Type |
+|---|---|---|
+| [Legaltech Hub](https://legaltechnologyhub.com) | Global directory of legaltech solutions with filters by category, use case, jurisdiction, and language. Vendors can submit products for listing. | Global |
+| [LawNext Legal Tech Directory](https://www.lawnext.com) | Bob Ambrogi's legal tech news site with a searchable product directory covering company details, reviews, press coverage, and pricing. | Global |
+| [Above the Law](https://abovethelaw.com) | Legal news publication with legaltech coverage and a buyer's guide for law firm software. | Global |
+| [Legal IT Professionals Directory](https://www.legaltechnology.com) | Vendor database and software directory primarily for larger law firms and enterprise legal IT. | Global |
+| [Theorem LTS](https://theoremlegal.com) | Legal tech marketplace with comparison tools, pricing, media, and vendor demo connections. | Global |
+| [G2 - Legal Software](https://www.g2.com/categories/legal) | Peer review platform with verified user ratings for legal software across 33+ subcategories. | Global |
+| [Capterra - Legal Software](https://www.capterra.com/legal-software/) | Software comparison platform ranking legal tools by user ratings and popularity. | Global |
+| [GetApp - Legal Software](https://www.getapp.com/legal-compliance-software/) | Software marketplace with verified reviews, comparisons, and feature filters for legal tools. | Global |
+| [Software Advice - Legal](https://www.softwareadvice.com/legal/) | Platform helping law firms choose software through comparisons and analyst recommendations. | Global |
+| [ISAIL (Indian Society of AI and Law)](https://isail.in) | Indian not-for-profit focused on AI policy, standards, and governance. Administers the AiStandard.io Alliance. | Policy + Standards |
+| [Bar and Bench](https://www.barandbench.com) | Indian legal news publication with coverage of court tech, legaltech, and legal AI developments. | Media |
+| [LawTech UK](https://lawtech.uk) | UK government-backed initiative with an ecosystem map and resources for the UK lawtech sector. | Directory + Community |
+| [LegalGeek](https://www.legalgeek.co) | UK legaltech conference and community with vendor showcases and market coverage. | Community + Events |
+| [Stanford CodeX](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/) | Stanford Center for Legal Informatics. Hosts the FutureLaw conference and computational law research. | Academic |
+| [Legal Design Lab (Stanford)](https://law.stanford.edu/organizations/pages/legal-design-lab/) | Stanford lab focused on technology and design for access to justice. | Academic |
+| [Harvard Law - Innovation Programs](https://hls.harvard.edu/the-hls-innovation-program/) | Harvard Law School programs tracking legal tech and legal innovation initiatives. | Academic |
 
 ---
 
@@ -510,31 +532,6 @@ Stay current with the legaltech ecosystem.
 - [Legal Tech Talk](https://legaltech-talk.com) - News and analysis on legal technology trends.
 - [The Legal Innovators](https://legal-innovators.com) - Newsletter covering the business of law and legaltech.
 
-## Legaltech Directories & Product Listing Platforms
-
-Platforms that index, curate, review, or list legal technology products — useful for discovery, vendor evaluation, and market research.
-
-| Platform | Description | Type |
-|---|---|---|
-| [Legaltech Hub](https://legaltechnologyhub.com) | Global directory of legaltech solutions with filters by category, use case, jurisdiction, and language. Vendors can submit products for listing. | Global |
-| [LawNext Legal Tech Directory](https://www.lawnext.com) | Bob Ambrogi's legal tech news site with a searchable product directory covering company details, reviews, press coverage, and pricing. | Global |
-| [Above the Law](https://abovethelaw.com) | Legal news publication with legaltech coverage and a buyer's guide for law firm software. | Global |
-| [Legal IT Professionals Directory](https://www.legaltechnology.com) | Vendor database and software directory primarily for larger law firms and enterprise legal IT. | Global |
-| [Theorem LTS](https://theoremlegal.com) | Legal tech marketplace with comparison tools, pricing, media, and vendor demo connections. | Global |
-| [G2 - Legal Software](https://www.g2.com/categories/legal) | Peer review platform with verified user ratings for legal software across 33+ subcategories. | Global |
-| [Capterra - Legal Software](https://www.capterra.com/legal-software/) | Software comparison platform ranking legal tools by user ratings and popularity. | Global |
-| [GetApp - Legal Software](https://www.getapp.com/legal-compliance-software/) | Software marketplace with verified reviews, comparisons, and feature filters for legal tools. | Global |
-| [Software Advice - Legal](https://www.softwareadvice.com/legal/) | Platform helping law firms choose software through comparisons and analyst recommendations. | Global |
-| [ISAIL (Indian Society of AI and Law)](https://isail.in) | Indian not-for-profit focused on AI policy, standards, and governance. Administers the AiStandard.io Alliance. | Policy + Standards |
-| [Bar and Bench](https://www.barandbench.com) | Indian legal news publication with coverage of court tech, legaltech, and legal AI developments. | Media |
-| [LawTech UK](https://lawtech.uk) | UK government-backed initiative with an ecosystem map and resources for the UK lawtech sector. | Directory + Community |
-| [LegalGeek](https://www.legalgeek.co) | UK legaltech conference and community with vendor showcases and market coverage. | Community + Events |
-| [Stanford CodeX](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/) | Stanford Center for Legal Informatics. Hosts the FutureLaw conference and computational law research. | Academic |
-| [Legal Design Lab (Stanford)](https://law.stanford.edu/organizations/pages/legal-design-lab/) | Stanford lab focused on technology and design for access to justice. | Academic |
-| [Harvard Law - Innovation Programs](https://hls.harvard.edu/the-hls-innovation-program/) | Harvard Law School programs tracking legal tech and legal innovation initiatives. | Academic |
-
----
-
 ## Related Awesome Lists
 
 - [maastrichtlawtech/awesome-legal-nlp](https://github.com/maastrichtlawtech/awesome-legal-nlp) - Legal NLP papers, models, and datasets.
@@ -553,3 +550,4 @@ Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTIN
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work.
+
