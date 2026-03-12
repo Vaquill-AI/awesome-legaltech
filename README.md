@@ -213,6 +213,511 @@ Browser-based platforms and search engines for case law, statutes, and dockets.
 
 ### Open / Free Access (By Jurisdiction)
 
+### National & Regional Portals (Global)
+
+<details>
+<summary>🌍 Africa</summary>
+
+
+**Angola**
+- [Global Legal Information Network (Angola)](http://www.worldlii.org/int/other/GLIN/ao/)
+
+**Botswana**
+- [High Court of Botswana](http://www.saflii.org/bw/cases/BWHC/)
+
+**Burkina Faso**
+- [Conseil Constitutionnel](http://www.juriburkina.org/doc/html/bf/jug/cc/fr/)
+
+**Cape Verde**
+- [Global Legal Information Network (Cape Verde)](http://www.worldlii.org/int/other/GLIN/cv/)
+
+**Ghana**
+- [Ghana Land Law Decisions](http://www.commonlii.org/gh/cases/GHLL/)
+
+**Kenya**
+- [Constitution of Kenya Review Commission](http://www.commonlii.org/ke/other/KECKRC/)
+
+**Lesotho**
+- [Lesotho Legislation](http://www.saflii.org/ls/legis/num_act/)
+
+**Malawi**
+- [High Court of Malawi](http://www.saflii.org/mw/cases/MWHC/)
+
+**Mauritania**
+- [Global Legal Information Network (Mauritania)](http://www.worldlii.org/int/other/GLIN/mr/)
+
+**Mauritius**
+- [Mauritius Legislation](http://www.saflii.org/mu/legis/num_act/)
+
+**Mozambique**
+- [Global Legal Information Network (Mozambique)](http://www.worldlii.org/int/other/GLIN/mz/)
+
+**Namibia**
+- [High Court of Namibia](http://www.saflii.org/na/cases/NAHC/)
+- [Namibia Legislation](http://www.saflii.org/na/legis/num_act/)
+- [Supreme Court of Namibia](http://www.saflii.org/na/cases/NASC/)
+
+**Nigeria**
+- [Nigerian Legislation](http://www.commonlii.org/ng/legis/num_act/)
+- [Supreme Court of Nigeria](http://www.commonlii.org/ng/cases/NGSC/)
+
+**Seychelles**
+- [Seychelles Legislation](http://www.commonlii.org/sc/legis/consol_act/)
+
+**South Africa**
+- [Constitutional Court of South Africa](http://www.saflii.org/za/cases/ZACC)
+- [Eastern Cape Division of the High Court of South Africa](http://www.saflii.org/za/cases/ZAECHC)
+- [High Court of South Africa - Free State Division](http://www.saflii.org/za/cases/ZAFSHC/)
+- [High Court of South Africa - Gauteng Division](http://www.saflii.org/za/cases/ZAGPHC/)
+- [High Court of South Africa - Kwazulu Natal Division](http://www.saflii.org/za/cases/ZAKZHC/)
+- [High Court of South Africa - North-West Division](http://www.saflii.org/za/cases/ZANWHC/)
+- [High Court of South Africa - Northern Cape Division](http://www.saflii.org/za/cases/ZANCHC/)
+- [High Court of South Africa - Western Cape Division](http://www.saflii.org/za/cases/ZAWCHC/)
+- [South African Numbered Legislation](http://www.saflii.org/za/legis/num_act/)
+- [Supreme Court of Appeal of South Africa](http://www.saflii.org/za/cases/ZASCA)
+
+**Swaziland**
+- [High Court of Swaziland](http://www.saflii.org/sz/cases/SZHC/)
+
+**Tanzania**
+- [Law Reform Commission of Tanzania](http://www.commonlii.org/tz/other/TZLRC/)
+
+**Tunisia**
+- [Global Legal Information Network (Tunisia)](http://www.worldlii.org/int/other/GLIN/tn/)
+
+**Uganda**
+- [Constitutional Court of Uganda](http://www.saflii.org/ug/cases/UGCC/)
+- [High Court of Uganda](http://www.saflii.org/ug/cases/UGHC/)
+- [Supreme Court of Uganda](http://www.saflii.org/ug/cases/UGSC/)
+
+</details>
+
+<details>
+<summary>🌍 Asia</summary>
+
+
+***   [Asian Development Bank Law and Policy Resources 1999-](http://www.asianlii.org/asia/other/ADBLPRes/) (AsianLII)**
+- [Asian Development Bank Law and Policy Resources](http://www.asianlii.org/asia/other/ADBLPRes/)
+
+**Afghanistan**
+- [Constitution of Afghanistan 2004](http://www.asianlii.org/af/legis/const/)
+
+**Asia-Pacific Economic Cooperation (APEC)**
+- [APEC Agreements and Declarations](http://www.asianlii.org/apec/other/agrmt/)
+
+**Association of Southeast Asian Nations (ASEAN)**
+- [ASEAN Agreements and Declarations](http://www.asianlii.org/asean/other/agrmt/)
+
+**Bangladesh**
+- [Bangladesh Law Commission Publications](http://www.commonlii.org/bd/other/BDLC/)
+
+**Bhutan**
+- [Constitution of the Kingdom of Bhutan 2005](http://www.asianlii.org/bt/legis/const/)
+
+**Brunei**
+- [Brunei Legislation](http://www.commonlii.org/bn/legis/)
+- [High Court of Brunei Decisions](http://www.commonlii.org/bn/cases/BNHC/)
+
+**China**
+- [Constitution of the People's Republic of China 2004](http://www.asianlii.org/cn/legis/const/)
+
+**Cocos (Keeling) Islands**
+- [Cocos (Keeling) Islands Domain Name Decisions](http://www.worldlii.org/cc/cases/CCDND/)
+
+**Hong Kong**
+- [Court of Appeal of Hong Kong Judgments](http://www.hklii.org/hk/jud/en/hkca/)
+
+**India**
+- [Indian Legislation](http://www.commonlii.org/in/legis/num_act/)
+- [Supreme Court of India](http://www.commonlii.org/in/cases/INSC/)
+- [Andhra Pradesh High Court](http://www.commonlii.org/in/cases/INHCAP/)
+- [Gauhati High Court](http://www.commonlii.org/in/cases/INHCG/)
+- [High Court of Punjab and Haryana, Chandigarh](http://www.commonlii.org/in/cases/INPHHC/)
+- [Chattisgarh High Court](http://www.commonlii.org/in/cases/INHCC/)
+- [Delhi High Court](http://www.commonlii.org/in/cases/INHCD/)
+- [High Court of Bombay at Goa](http://www.commonlii.org/in/cases/INGAHC/)
+- [High Court of Jammu and Kashmir](http://www.commonlii.org/in/cases/INJKHC/)
+- [High Court of Kerala](http://www.commonlii.org/in/cases/INKLHC/)
+- [Bombay High Court](http://www.commonlii.org/in/cases/INHCB/)
+- [Orissa High Court](http://www.commonlii.org/in/cases/INHCO/)
+- [Madras High Court](http://www.commonlii.org/in/cases/INHCM/)
+- [Allahabad High Court](http://www.commonlii.org/in/cases/INHCA/)
+- [Allahabad High Court - Lucknow Bench](http://www.commonlii.org/in/cases/INHCAL/)
+
+**Indonesia**
+- [Constitutional Court of Indonesia](http://www.asianlii.org/id/cases/IDCC/)
+- [Indonesian Legislation (Undang-Undang Republik Indonesia)](http://www.worldlii.org/id/legis/uu/)
+- [Supreme Court of Indonesia (Mahkamah Agung)](http://www.asianlii.org/id/cases/IDSC/)
+
+**Japan**
+- [Supreme Court of Japan](http://www.asianlii.org/jp/cases/JPSC/)
+
+**Korea (North)**
+- [Constitution of the Democratic People's Republic of Korea 1998](http://www.asianlii.org/kp/legis/const/)
+
+**Korea (South)**
+- [Constitutional Court of Korea](http://www.asianlii.org/kr/cases/KRCC/)
+- [Supreme Court of Korea](http://www.asianlii.org/kr/cases/KRSC/)
+
+**Lao PDR**
+- [Constitution of the Lao People's Democratic Republic 1991](http://www.asianlii.org/la/legis/const/)
+
+**Macau, China**
+- [Laws of Macau](http://www.asianlii.org/mo/legis/laws/)
+
+**Malaysia**
+- [High Court of Malaya](http://www.commonlii.org/my/cases/MYMHC/)
+- [High Court of Sabah and Sarawak](http://www.commonlii.org/my/cases/MYSSHC/)
+
+**Maldives**
+- [Constitution of the Republic of Maldives 1998](http://www.asianlii.org/mv/legis/const/)
+
+**Mongolia**
+- [Constitution of the People's Republic of Mongolia 1992](http://www.asianlii.org/mn/legis/const/)
+
+**Nepal**
+- [Constitution of the Kingdom of Nepal 1990](http://www.asianlii.org/np/legis/const/)
+
+**Pakistan**
+- [Pakistan (Punjab) Legislation](http://www.commonlii.org/pk/legis/pj/consol_act/)
+
+**Papua New Guinea**
+- [Papua New Guinea Consolidated Legislation](http://www.paclii.org/pg/legis/consol_act/)
+- [Supreme Court of Papua New Guinea](http://www.paclii.org/pg/cases/PGSC/)
+
+**Philippines**
+- [Acts of the Philippines](http://www.asianlii.org/ph/legis/num_act/)
+- [Commonwealth Acts of the Philippines](http://www.asianlii.org/ph/legis/cth_act/)
+- [Republic Acts of the Philippines](http://www.asianlii.org/ph/legis/republic_act/)
+- [Supreme Court of the Philippines](http://www.asianlii.org/ph/cases/PHSC/)
+- [Supreme Court of the Philippines Resolutions](http://www.asianlii.org/ph/cases/PHSCR/)
+
+**Singapore**
+- [Singapore Subordinate Legislation](http://www.commonlii.org/sg/legis/num_reg/)
+- [Singaporean Legislation](http://www.asianlii.org/sg/legis/consol_act/)
+- [Supreme Court of Singapore - Court of Appeal](http://www.commonlii.org/sg/cases/SGCA/)
+- [Supreme Court of Singapore - High Court](http://www.commonlii.org/sg/cases/SGHC/)
+
+**South Korea**
+- [Global Legal Information Network (South Korea)](http://www.worldlii.org/int/other/GLIN/kr/)
+
+**Sri Lanka**
+- [Sri Lanka Legislation](http://www.commonlii.org/lk/legis/consol_act/)
+- [Sri Lankan Supreme Court](http://www.commonlii.org/lk/cases/LKSC/)
+
+**Taiwan**
+- [Constitutional Court of the Republic of China](http://www.asianlii.org/tw/cases/TWCC/)
+
+**Thailand**
+- [Constitutional Court of the Kingdom of Thailand](http://www.asianlii.org/th/cases/THCC/)
+- [Supreme Court of the Kingdom of Thailand](http://www.asianlii.org/th/cases/THSC/)
+- [Thai Legislation](http://www.asianlii.org/th/legis/consol_act/)
+
+**Timor-Leste**
+- [Decree-Laws of the Democratic Republic of Timor-Leste](http://www.worldlii.org/tp/legis/decree_law/)
+
+**Viet Nam**
+- [Constitution of the Socialist Republic of Vietnam 1992](http://www.asianlii.org/vn/legis/const/)
+
+</details>
+
+<details>
+<summary>🌍 Australasia</summary>
+
+
+**Australia**
+- [High Court Review](http://www.austlii.edu.au/au/journals/HCRev/)
+- [Supreme Court of the Australian Capital Territory - Court of Appeal Decisions](http://www.austlii.edu.au/au/cases/act/ACTCA/)
+- [Supreme Court of the Australian Capital Territory Decisions](http://www.austlii.edu.au/au/cases/act/ACTSC/)
+- [High Court of Australia Bulletins](http://www.austlii.edu.au/au/other/hca/bulletin/)
+- [High Court of Australia Decisions](http://www.austlii.edu.au/au/cases/cth/HCA/)
+- [High Court of Australia Transcripts](http://www.austlii.edu.au/au/other/hca/transcripts/)
+- [Supreme Court of New South Wales - Court of Appeal Decisions](http://www.austlii.edu.au/au/cases/nsw/NSWCA/)
+- [Supreme Court of New South Wales - Court of Criminal Appeal Decisions](http://www.austlii.edu.au/au/cases/nsw/NSWCCA/)
+- [Supreme Court of New South Wales Decisions](http://www.austlii.edu.au/au/cases/nsw/supreme_ct/)
+- [Supreme Court of Norfolk Island Decisions](http://www.austlii.edu.au/au/cases/nf/NFSC/)
+- [Supreme Court of the Northern Territory - Court of Appeal Decisions](http://www.austlii.edu.au/au/cases/nt/NTCA/)
+- [Supreme Court of the Northern Territory - Court of Criminal Appeal Decisions](http://www.austlii.edu.au/au/cases/nt/NTCCA/)
+- [Supreme Court of the Northern Territory Decisions](http://www.austlii.edu.au/au/cases/nt/NTSC/)
+- [Supreme Court of Queensland](http://www.austlii.edu.au/au/cases/qld/QSC/)
+- [Supreme Court of Queensland - Court of Appeal](http://www.austlii.edu.au/au/cases/qld/QCA/)
+- [Supreme Court of South Australia](http://www.austlii.edu.au/au/cases/sa/SASC/)
+- [Supreme Court of Tasmania Decisions](http://www.austlii.edu.au/au/cases/tas/supreme_ct/)
+- [Supreme Court of Victoria](http://www.austlii.edu.au/au/cases/vic/VSC/)
+- [Supreme Court of Victoria - Court of Appeal](http://www.austlii.edu.au/au/cases/vic/VSCA/)
+- [Supreme Court of Victoria - Court of Appeal Decisions](http://www.austlii.edu.au/au/cases/vic/VICSC/)
+- [Supreme Court of Western Australia](http://www.austlii.edu.au/au/cases/wa/WASC/)
+- [Supreme Court of Western Australia - Court of Appeal](http://www.austlii.edu.au/au/cases/wa/WASCA/)
+
+**New Zealand**
+- [High Court of New Zealand Decisions](http://www.nzlii.org/nz/cases/NZHC/)
+- [Supreme Court of New Zealand Decisions](http://www.nzlii.org/nz/cases/NZSC/)
+- [Eastern Caribbean Supreme Court](http://www.commonlii.org/int/cases/ECarSC/)
+
+**Barbados**
+- [Supreme Court of Barbados Decisions](http://www.commonlii.org/bb/cases/BBSC/)
+
+**Bermuda**
+- [Bermuda Consolidated Legislation](http://www.commonlii.org/bm/legis/consol_act/)
+- [Eastern Caribbean Supreme Court](http://www.commonlii.org/int/cases/ECarSC/)
+
+**Cuba**
+- [Global Legal Information Network (Cuba)](http://www.worldlii.org/int/other/GLIN/cu/)
+
+**Dominican Republic**
+- [Global Legal Information Network (Dominican Republic)](http://www.worldlii.org/int/other/GLIN/do/)
+
+**Haiti**
+- [Global Legal Information Network (Haiti)](http://www.worldlii.org/int/other/GLIN/ht/)
+
+**Jamaica**
+- [Supreme Court of Jamaica](http://www.commonlii.org/jm/cases/JMSC/)
+
+**Trinidad and Tobago**
+- [High Court of Trinidad and Tobago](http://www.commonlii.org/tt/cases/TTHC/)
+- [Trinidad and Tobago Legislation](http://www.commonlii.org/tt/legis/num_act/)
+
+</details>
+
+<details>
+<summary>🌍 Central America</summary>
+
+
+***   [Central American Court of Justice 2003-](http://www.worldlii.org/int/cases/CACJ/) (WorldLII)**
+- [Central American Court of Justice](http://www.worldlii.org/int/cases/CACJ/)
+
+**Belize**
+- [Belize Legislation](http://www.commonlii.org/bz/legis/consol_act/)
+
+**Costa Rica**
+- [Global Legal Information Network (Costa Rica)](http://www.worldlii.org/int/other/GLIN/cr/)
+
+**El Salvador**
+- [Global Legal Information Network (El Salvador)](http://www.worldlii.org/int/other/GLIN/sv/)
+
+**Guatemala**
+- [Global Legal Information Network (Guatemala)](http://www.worldlii.org/int/other/GLIN/gt/)
+
+**Honduras**
+- [Global Legal Information Network (Honduras)](http://www.worldlii.org/int/other/GLIN/hn/)
+
+**Nicaragua**
+- [Global Legal Information Network (Nicaragua)](http://www.worldlii.org/int/other/GLIN/ni/)
+
+**Panama**
+- [Global Legal Information Network (Panama)](http://www.worldlii.org/int/other/GLIN/pa/)
+
+</details>
+
+<details>
+<summary>🌍 Europe</summary>
+
+
+***   [Commission of the European Communities 1985-](http://www.worldlii.org/eu/cases/ECComm/) (WorldLII)**
+- [Commission of the European Communities](http://www.worldlii.org/eu/cases/ECComm/)
+
+**England and Wales**
+- [England and Wales High Court (Administrative Court) Decisions](http://www.bailii.org/ew/cases/EWHC/Admin/)
+- [England and Wales High Court (Admiralty Division) Decisions](http://www.bailii.org/ew/cases/EWHC/Admlty/)
+- [England and Wales High Court (Chancery Division) Decisions](http://www.bailii.org/ew/cases/EWHC/Ch/)
+- [England and Wales High Court (Commercial Court) Decisions](http://www.bailii.org/ew/cases/EWHC/Comm/)
+- [England and Wales High Court (Exchequer Court) Decisions](http://www.bailii.org/ew/cases/EWHC/Exch/)
+- [England and Wales High Court (Family Division) Decisions](http://www.bailii.org/ew/cases/EWHC/Fam/)
+- [England and Wales High Court (King's Bench Division) Decisions](http://www.bailii.org/ew/cases/EWHC/KB/)
+- [England and Wales High Court (Patents Court) Decisions](http://www.bailii.org/ew/cases/EWHC/Patents)
+- [England and Wales High Court (Queen's Bench Division) Decisions](http://www.bailii.org/ew/cases/EWHC/QB/)
+- [England and Wales High Court (Supreme Court Cost Office) Decisions](http://www.bailii.org/ew/cases/EWHC/Costs/)
+- [England and Wales High Court (Technology and Construction Court) Decisions](http://www.bailii.org/ew/cases/EWHC/TCC/)
+
+**Ireland**
+- [High Court of Ireland Decisions](http://www.bailii.org/ie/cases/IEHC/)
+- [Irish Legislation](http://www.bailii.org/ie/legis/num_act/)
+- [Supreme Court of Ireland Decisions](http://www.bailii.org/ie/cases/IESC/)
+
+**Malta**
+- [Malta Legislation](http://www.commonlii.org/mt/legis/consol_act/)
+
+**Northern Ireland**
+- [High Court of Justice in Northern Ireland Chancery Division Decisions](http://www.bailii.org/nie/cases/NIHC/Ch/)
+- [High Court of Justice in Northern Ireland Family Division Decisions](http://www.bailii.org/nie/cases/NIHC/Fam/)
+- [High Court of Justice in Northern Ireland Queen's Bench Division Decisions](http://www.bailii.org/nie/cases/NIHC/QB/)
+
+**Portugal**
+- [Global Legal Information Network (Portugal)](http://www.worldlii.org/int/other/GLIN/pt/)
+
+**Romania**
+- [Global Legal Information Network (Romania)](http://www.worldlii.org/int/other/GLIN/ro/)
+
+**Russian Federation**
+- [Global Legal Information Network (Russia)](http://www.worldlii.org/int/other/GLIN/ru/)
+
+**Scotland**
+- [Acts of the Scottish Parliament](http://www.bailii.org/scot/legis/num_act/)
+- [Scottish High Court of Justiciary Decisions](http://www.bailii.org/scot/cases/ScotHC/)
+
+**Spain**
+- [Global Legal Information Network (Spain)](http://www.worldlii.org/int/other/GLIN/es/)
+
+**United Kingdom**
+- [United Kingdom Legislation](http://www.bailii.org/uk/legis/num_act/)
+
+</details>
+
+<details>
+<summary>🌍 International</summary>
+
+
+***   [EPIC Alert 1994-](http://www.worldlii.org/int/journals/EPICAlert/) (WorldLII)**
+- [EPIC Alert](http://www.worldlii.org/int/journals/EPICAlert/)
+
+**Commonwealth**
+- [Commonwealth Declarations and Agreements](http://www.commonlii.org/int/other/ComSecDecl/)
+
+**Kuwait**
+- [Global Legal Information Network (Kuwait)](http://www.worldlii.org/int/other/GLIN/kw/)
+
+**Saudi Arabia**
+- [Global Legal Information Network (Saudi Arabia)](http://www.worldlii.org/int/other/GLIN/sa/)
+
+</details>
+
+<details>
+<summary>🌍 North America</summary>
+
+
+***   [North American Free Trade Agreement (NAFTA) Decisions 1990-](http://www.worldlii.org/int/cases/NAFTA/) (WorldLII)**
+- [North American Free Trade Agreement (NAFTA) Decisions](http://www.worldlii.org/int/cases/NAFTA/)
+
+**Canada**
+- [Supreme Court of Canada](http://www.canlii.org/en/ca/scc/)
+- [Supreme Court of Canada - Applications for Leave](http://www.canlii.org/en/ca/scc-l/)
+- [Supreme Court of British Columbia](http://www.canlii.org/en/bc/bcsc/)
+- [Supreme Court of Newfoundland and Labrador, Court of Appeal](http://www.canlii.org/en/nl/nlca/)
+- [Supreme Court of Newfoundland and Labrador, Trial Division](http://www.canlii.org/en/nl/nlsctd/)
+- [Supreme Court of the Northwest Territories](http://www.canlii.org/en/nt/ntsc/)
+- [Supreme Court of Nova Scotia](http://www.canlii.org/en/ns/nssc/)
+- [Supreme Court of Nova Scotia (Family Division)](http://www.canlii.org/en/ns/nssf/)
+- [Supreme Court of Prince Edward Island - Appeal Division](http://www.canlii.org/en/pe/pescad/)
+- [Supreme Court of Prince Edward Island - Trial Division](http://www.canlii.org/en/pe/pesctd/)
+- [Supreme Court of the Yukon Territory](http://www.canlii.org/en/yk/yksc/)
+
+**Mexico**
+- [Global Legal Information Network (Mexico)](http://www.worldlii.org/int/other/GLIN/mx/)
+
+**United States of America**
+- [United States Supreme Court Decisions](http://supct.law.cornell.edu/supct/)
+
+</details>
+
+<details>
+<summary>🌍 Pacific Islands</summary>
+
+
+***   [Journal of South Pacific Law 1997-](http://www.paclii.org/vu/journals/JSPL/) (PacLII)**
+- [Journal of South Pacific Law](http://www.paclii.org/vu/journals/JSPL/)
+
+**American Samoa**
+- [High Court of American Samoa Decisions](http://www.paclii.org/as/cases/ASHC/)
+
+**Commonwealth of the Northern Mariana Islands**
+- [Supreme Court of Commonwealth of the Northern Mariana Islands](http://www.paclii.org/mp/cases/MPSC/)
+
+**Cook Islands**
+- [Cook Islands Legislation](http://www.paclii.org/ck/legis/num_act/)
+- [High Court of the Cook Islands Decisions](http://www.paclii.org/ck/cases/CKHC/)
+- [New Zealand Legislation for Cook Islands](http://www.paclii.org/ck/legis/ck-nz_act/)
+- [United Kingdom Legislation for Cook Islands](http://www.paclii.org/ck/legis/ck-uk_act/)
+
+**Federated States of Micronesia**
+- [Federated States of Micronesia Consolidated Legislation](http://www.paclii.org/fm/legis/consol_act/)
+- [Federated States of Micronesia Sessional Legislation](http://www.paclii.org/fm/legis/num_act/)
+- [Supreme Court of Federated States of Micronesia Decisions](http://www.paclii.org/fm/cases/FMSC/)
+
+**Fiji Islands**
+- [Fiji Islands Consolidated Legislation 1985](http://www.paclii.org/fj/legis/consol_act/)
+- [Fiji Islands Sessional Legislation](http://www.paclii.org/fj/legis/num_act/)
+- [High Court of Fiji Decisions](http://www.paclii.org/fj/cases/FJHC/)
+- [Supreme Court of Fiji Decisions](http://www.paclii.org/fj/cases/FJSC/)
+- [United Kingdom Legislation for Fiji](http://www.paclii.org/fj/legis/fj-uk_act/)
+
+**Guam**
+- [Guam Consolidated Legislation](http://www.paclii.org/gu/legis/consol_act/)
+- [Supreme Court of Guam](http://www.paclii.org/gu/cases/GUSC/)
+
+**Kiribati**
+- [High Court of Kiribati Decisions](http://www.paclii.org/ki/cases/KIHC/)
+- [High Court of the Gilbert Islands Decisions](http://www.paclii.org/ki/cases/KIGIHC/)
+- [Kiribati Consolidated Legislation](http://www.paclii.org/ki/legis/consol_act/)
+- [Kiribati Sessional Legislation](http://www.paclii.org/ki/legis/num_act/)
+- [United Kingdom Legislation for Kiribati](http://www.paclii.org/depth/ki/legis/ki-uk_act/)
+
+**Marshall Islands**
+- [High Court of the Marshall Islands Decisions](http://www.paclii.org/mh/cases/MHHC/)
+- [Marshall Islands Consolidated Legislation 2004](http://www.paclii.org/mh/legis/consol_act/)
+- [Supreme Court of the Marshall Islands Decisions](http://www.paclii.org/mh/cases/MHSC/)
+
+**Nauru**
+- [Nauru Sessional Legislation](http://www.paclii.org/nr/legis/num_act/)
+- [New Zealand Legislation for Niue](http://www.paclii.org/nu/legis/nu-nz_act/)
+- [Supreme Court of Nauru Decisions](http://www.paclii.org/nr/cases/NRSC/)
+- [United Kingdom Legislation for Nauru](http://www.paclii.org/nr/legis/nr-uk_act/)
+- [United Kingdom Legislation for Niue](http://www.paclii.org/nu/legis/nu-uk_act/)
+
+**Niue**
+- [High Court of Niue Decisions](http://www.paclii.org/nu/cases/NUHC/)
+- [Niue Sessional Legislation](http://www.paclii.org/nu/legis/num_act/)
+
+**Palau**
+- [Consolidated Legislation](http://www.paclii.org/pw/legis/consol_act/)
+- [Supreme Court of Palau](http://www.paclii.org/pw/cases/PWSC/)
+
+**Papua New Guinea**
+- [Papua New Guinea-High Court of Australia](http://www.paclii.org/pg/cases/PGHCA/)
+
+**Pitcairn Islands**
+- [Supreme Court of Pitcairn Islands](http://www.paclii.org/pn/cases/PNSC/)
+
+**Samoa**
+- [High Court of Samoa Decisions](http://www.paclii.org/ws/cases/WSHC/)
+- [New Zealand Legislation for Samoa](http://www.paclii.org/ws/legis/ws-nz_act/)
+- [Samoa Consolidated Legislation](http://www.paclii.org/ws/legis/consol_act/)
+- [Samoa Sessional Legislation](http://www.paclii.org/ws/legis/num_act/)
+- [Samoa-Supreme Court of New Zealand 1991](http://www.paclii.org/ws/cases/WSNZSC/)
+- [Samoa-Supreme Court of New Zealand 1961](http://www.paclii.org/ws/cases/WSNZCA/)
+- [Supreme Court of Samoa Decisions](http://www.paclii.org/ws/cases/WSSC/)
+
+**Solomon Islands**
+- [Solomon Islands Consolidated Legislation](http://www.paclii.org/sb/legis/consol_act/)
+- [Solomon Islands Sessional Legislation](http://www.paclii.org/sb/legis/num_act/)
+- [United Kingdom Legislation for Solomon Islands](http://www.paclii.org/sb/legis/sb-uk_act/)
+
+**Tokelau**
+- [New Zealand Legislation in Tokelau](http://www.paclii.org/tk/legis/tk-nz_act/)
+- [Tokelau Sessional Legislation](http://www.paclii.org/tk/legis/num_act/)
+- [United Kingdom Legislation in Tokelau](http://www.paclii.org/tk/legis/tk-uk_act/)
+
+**Tonga**
+- [Supreme Court of Tonga Decisions](http://www.paclii.org/to/cases/TOSC/)
+- [Tonga Consolidated Legislation](http://www.paclii.org/to/legis/consol_act/)
+- [Tonga Sessional Legislation](http://www.paclii.org/to/legis/num_act/)
+- [United Kingdom Legislation for Tonga](http://www.paclii.org/to/legis/to-uk_act/)
+
+**Tuvalu**
+- [High Court of Tuvalu Decisions](http://www.paclii.org/tv/cases/TVHC/)
+- [Tuvalu Consolidated Legislation](http://www.paclii.org/tv/legis/consol_act/)
+- [Tuvalu Sessional Legislation](http://www.paclii.org/tv/indices/legis/Tuvalu_legis_1991-2000.htm)
+- [United Kingdom Legislation for Tuvalu](http://www.paclii.org/tv/legis/tv-uk_act/)
+
+**Vanuatu**
+- [Supreme Court of New Hebrides Decisions](http://www.paclii.org/vu/cases/VUNHSC/)
+- [Supreme Court of Vanuatu Decisions](http://www.paclii.org/vu/cases/VUSC/)
+- [United Kingdom Legislation for Vanuatu](http://www.paclii.org/vu/legis/vu-uk_act/)
+- [Vanuatu Consolidated Legislation](http://www.paclii.org/vu/legis/consol_act/)
+- [Vanuatu Sessional Legislation](http://www.paclii.org/vu/legis/num_act/)
+- [Vanuatu Sessional Legislation (French)](http://www.paclii.org/vu/legis/num_act_fr/)
+
+</details>
+
 #### Global & Multi-Jurisdictional
 - [WorldLII](https://www.worldlii.org/databases.html) - Federated gateway to 2,000+ legal databases across 200+ jurisdictions via national LIIs.
 - [CommonLII](http://www.commonlii.org) - Searchable legal databases from 60+ Commonwealth and common law jurisdictions.
