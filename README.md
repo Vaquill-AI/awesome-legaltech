@@ -181,8 +181,6 @@ Domain-specific encoder models for legal text similarity, classification, and re
 |---|---|---|---|
 | [OpenGPT-X / Teuken-7B](https://opengpt-x.de) | Europe | All 24 EU langs | German-funded initiative; produced Teuken-7B LLM covering all official EU languages |
 | [LawBench Models](https://github.com/open-compass/LawBench) | China | ZH | Models evaluated on 20 Chinese legal tasks |
-| [VakilAI](https://vakilai.in) | India | EN, HI | Court-ready petition and appeal drafting |
-| [BharatLAW](https://github.com/BharatLAW) | India | EN | IPC-based legal chatbot using FAISS + Streamlit |
 ## MCP Servers for Legal
 
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers that connect AI assistants to legal data sources and workflows.
@@ -303,7 +301,6 @@ Browser-based platforms and search engines for case law, statutes, and dockets.
 - [Casetext / CoCounsel Core](https://casetext.com) - **[Established]** GPT-4 powered research memo generation and CARA AI brief analysis.
 - [Lex Machina](https://lexmachina.com) - **[Established]** Litigation analytics predicting outcomes and benchmarking opposing counsel.
 - [Docket Alarm](https://www.docketalarm.com) - **[Established]** Federal and state docket monitoring with real-time alerts.
-- [VIDUR AI](https://vidur.in) - **[AI-Native]** AI research platform for Indian corporate, tax, and regulatory law.
 - [Manupatra](https://www.manupatra.com) - **[Established]** Proprietary Indian legal database covering SC, HCs, and Tribunals.
 
 ---
