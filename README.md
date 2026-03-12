@@ -32,7 +32,6 @@ Legal technology (legaltech) is the use of technology and software to provide le
   - [Embedding & BERT-style Models](#embedding--bert-style-models)
   - [Multilingual & Regional Legal Models](#multilingual--regional-legal-models)
 - [MCP Servers for Legal](#mcp-servers-for-legal)
-- [Open Source Tools & Platforms](#open-source-tools--platforms)
 - [Full-Stack Legal Platforms & Suites](#full-stack-legal-platforms--suites)
 - [Legal Research Platforms](#legal-research-platforms)
 - [Document Automation & Drafting](#document-automation--drafting)
@@ -62,6 +61,16 @@ Commercial and open APIs specifically designed for retrieving case law, statutes
 ## Machine Learning Datasets & Corpora
 
 Curated datasets of legal texts, case law, statutes, and contracts - organized by task. Most are openly available for research.
+
+### Data Extraction & Processing Tools
+
+Libraries and scripts for scraping, parsing, and processing legal text to build datasets.
+
+- [Juriscraper](https://github.com/freelawproject/juriscraper) - **[Open Source]** Python library for scraping US court websites (400+ courts, PACER).
+- [Eyecite](https://github.com/freelawproject/eyecite) - **[Open Source]** Legal citation extraction and analysis tool by Free Law Project.
+- [LegalCrawler](https://github.com/iliaschalkidis/LegalCrawler) - **[Open Source]** Scripts to crawl and build English legal corpora from public court websites.
+- [Blackstone](https://github.com/ICLRandD/Blackstone) - **[Open Source]** 🇬🇧 spaCy NLP pipeline and model for unstructured UK legal text (NER, citations).
+- [French Legal Case Anonymization](https://github.com/ELS-RD/anonymisation) - **[Open Source]** NER-based pseudo-anonymization of French court decisions.
 
 ### Pretraining Corpora & Bulk Data
 
@@ -201,30 +210,6 @@ Domain-specific encoder models for legal text similarity, classification, and re
 
 ---
 
-## Open Source Tools & Platforms
-
-Open-source and self-hostable platforms for building, processing, and automating legal workflows.
-
-- [Docassemble](https://docassemble.org) - Open-source expert system for guided interviews and document assembly. Widely used in legal aid and courts. Built with Python + YAML. ![GitHub Stars](https://img.shields.io/github/stars/jhpyle/docassemble?style=flat-square)
-- [CourtListener](https://www.courtlistener.com) - Free, open-source legal research platform by the Free Law Project. Indexes 9M+ US court opinions across 2,000+ courts.
-- [Suffolk LIT Lab Document Assembly Line](https://github.com/SuffolkLITLab/docassemble-AssemblyLine) - Open toolkit from Suffolk Law for creating mobile-friendly guided interviews and court e-filing.
-- [ArkCase](https://www.arkcase.com) - Open-source adaptive case management platform with document management, task tracking, and DoD 5015.2 compliance.
-- [ClinicCases](https://github.com/judsonmitchell/ClinicCases) - Free, open-source web-based case management for law school clinics. MIT licensed.
-- [Worklenz](https://github.com/worklenz/worklenz) - Self-hosted open-source task and project management tool adaptable for legal case management.
-- [Wraft](https://github.com/wraft/wraft) - Open-source Document Lifecycle Management (DLM) platform for structured document creation and workflows.
-- [FreeEed](https://freeeed.org) - Open-source, AI-enabled cross-platform e-discovery platform with text extraction, metadata processing, and OCR.
-- [J-Lawyer](https://www.j-lawyer.org) - Open-source law practice management software (German-originated, usable in English). Active on GitHub.
-- [Dolibarr](https://www.dolibarr.org) - Modular open-source ERP/CRM with legal case management capabilities.
-- [open-agreements](https://github.com/CommonAccord/Cmacc-Org) - CommonAccord: open-source framework for creating and sharing legal documents as structured data.
-- [Blackstone](https://github.com/ICLRandD/Blackstone) - 🇬🇧 spaCy NLP pipeline and model for unstructured UK legal text. Covers named entity recognition, sentence segmentation, and citation detection.
-- [LegalCrawler](https://github.com/iliaschalkidis/LegalCrawler) - Scripts to crawl and build English legal corpora from public court and legislative websites.
-- [Juriscraper](https://github.com/freelawproject/juriscraper) - 🇺🇸 Python library for scraping US court websites. Covers 400+ courts for opinions, oral arguments, and PACER data.
-- [French Legal Case Anonymization](https://github.com/ELS-RD/anonymisation) - Open-source NER-based pseudo-anonymization of French court decisions (as required by French law).
-- [Eyecite](https://github.com/freelawproject/eyecite) - Open-source legal citation extraction and analysis tool by Free Law Project.
-- [RECAP](https://free.law/recap/) - Browser extension + archive making PACER federal court documents freely available. Open-source by Free Law Project.
-
----
-
 ## Full-Stack Legal Platforms & Suites
 
 Comprehensive platforms that handle multiple functions across the legal workflow (research, drafting, review, and matter management). 
@@ -360,6 +345,7 @@ Platforms for collecting, processing, reviewing, and producing electronically st
 - [Logikcull](https://www.logikcull.com) - **[Established]** Self-service cloud e-discovery for small and mid-size firms.
 - [IPRO](https://ipro.com) - **[Established]** E-discovery software for large-scale review and production.
 - [FreeEed](https://freeeed.org) - **[Open Source]** AI-enabled e-discovery with OCR and metadata extraction.
+- [FreeEed](https://freeeed.org) - **[Open Source]** AI-enabled cross-platform e-discovery platform with text extraction, metadata processing, and OCR.
 
 ---
 
