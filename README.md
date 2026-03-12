@@ -32,7 +32,6 @@ Legal technology (legaltech) is the use of technology and software to provide le
 - [E-Discovery & Document Review](#e-discovery--document-review)
 - [Practice Management](#practice-management)
 - [Compliance & RegTech](#compliance--regtech)
-- [Agentic Legal AI](#agentic-legal-ai)
 - [Companies](#companies)
   - [For-Profit - AI-First](#for-profit--ai-first)
   - [For-Profit - Established Legaltech](#for-profit--established-legaltech)
@@ -69,21 +68,21 @@ Platforms and frameworks for building, hosting, or processing legal data - self-
 
 Curated datasets of legal texts, case law, statutes, and contracts available for research and training.
 
-- [CourtListener Dataset](https://www.courtlistener.com/help/api/bulk-data/) - Bulk access to 9M+ US court opinions, judge data, and oral argument recordings.
+- [CourtListener Dataset](https://www.courtlistener.com/help/api/bulk-data/) - Bulk access to 9M+ US court opinions, judge data, and oral argument recordings. [See also: Legal Research Platforms]
 - [RECAP Archive](https://free.law/recap/) - Largest open collection of federal court PACER documents and dockets on the internet.
-- [Caselaw Access Project (CAP)](https://case.law) - 6.9M US court decisions from Harvard Law School, spanning 1600s–2020.
+- [Caselaw Access Project (CAP)](https://case.law) - 6.9M US court decisions from Harvard Law School, spanning 1600s-2020.
 - [The Supreme Court Database](http://scdb.wustl.edu) - Comprehensive dataset on all US Supreme Court cases since 1791.
 - [CUAD (Contract Understanding Atticus Dataset)](https://www.atticusprojectai.org/cuad) - 510 annotated commercial legal contracts with 13,000+ expert labels for 41 clause types.
 - [MultiLegalPile](https://huggingface.co/datasets/joelito/Multi_Legal_Pile) - Multilingual legal pretraining corpus spanning 24 languages and 17 jurisdictions.
-- [LegalBench](https://github.com/HazyResearch/legalbench) - 162 tasks for evaluating legal reasoning of LLMs, collaboratively built by legal professionals.
-- [LawBench](https://github.com/open-compass/LawBench) - 20 tasks for evaluating LLMs on Chinese legal reasoning, covering three cognitive levels.
 - [LEDGAR](https://metatext.io/datasets/ledgar) - Large-scale labeled dataset for legal contract provision classification.
 - [EUR-Lex](https://eur-lex.europa.eu) - Official EU law database with full text of EU legislation and case law in all EU languages.
 - [Indian Kanoon Dataset](https://indiankanoon.org) - Indian court judgments and legal documents; widely used for Indian legal NLP research.
 - [ECtHR Dataset](https://github.com/coastalcph/ecthr_cases) - European Court of Human Rights cases dataset for legal judgment prediction research.
-- [AustLII](https://www.austlii.edu.au) - Free access to Australian and Pacific legal materials including case law, legislation, and treaties.
+- [AustLII](https://www.austlii.edu.au) - Free access to Australian and Pacific legal materials including case law, legislation, and treaties. [See also: Legal Research Platforms]
 - [OpenLegalData (Germany)](https://openlegaldata.io) - Open German legal data including court decisions, laws, and regulations.
 - [Harvard Law School Caselaw Access Project API](https://api.case.law) - RESTful API for bulk and search access to the CAP dataset.
+- [LegalBench](https://github.com/HazyResearch/legalbench) - 162 tasks for benchmarking LLM legal reasoning. [See also: Benchmarks & Evaluation]
+- [LawBench](https://github.com/open-compass/LawBench) - 20 tasks for benchmarking LLMs on Chinese legal reasoning. [See also: Benchmarks & Evaluation]
 
 ---
 
@@ -91,13 +90,13 @@ Curated datasets of legal texts, case law, statutes, and contracts available for
 
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers that connect AI assistants to legal data sources and workflows.
 
-- [Vaquill AI MCP](https://vaquill.ai) ⭐ - MCP server providing AI agents with access to 20M+ Indian Supreme Court, High Court, and Tribunal judgments with semantic search and citation verification. *(Sponsor)*
+- [Vaquill AI MCP](https://vaquill.ai) - MCP server providing AI agents with access to 20M+ Indian Supreme Court, High Court, and Tribunal judgments with semantic search and citation verification. *(Sponsor)*
 - [agentic-ops/legal-mcp](https://github.com/agentic-ops/legal-mcp) - Comprehensive MCP server for legal workflows. Integrates AI assistants with legal databases and case management systems (Clio, etc.).
 - [uk-case-law-mcp-server](https://github.com/nationalarchives/uk-case-law-mcp-server) - MCP server that enables LLMs to search, retrieve, and cite UK legal judgments via The National Archives API.
 - [LegalContext MCP](https://mcp.so/server/legalcontext) - Open-source MCP server bridging law firm document management systems with AI assistants.
 - [uspto-fpd-mcp](https://github.com/USPTO/uspto_fpd_mcp) - MCP server for USPTO Final Patent Decisions to improve patent analysis with LLMs.
 - [CourtListener MCP](https://free.law) - Access CourtListener's legal opinion database directly from AI agents via MCP *(community integration)*.
-- [adeu (Agentic DOCX Redlining Engine)](https://github.com/dealfluence/adeu) - MCP Server implementation enabling LLMs to inject native Track Changes and Comments into Word documents.
+- [adeu (Agentic DOCX Redlining Engine)](https://github.com/dealfluence/adeu) - MCP Server enabling LLMs to inject native Track Changes and Comments into Word documents.
 
 > **Note:** MCP for legal is an emerging ecosystem. Many servers are early-stage. Always verify data accuracy and jurisdiction coverage before use in legal practice.
 
@@ -118,6 +117,8 @@ Fine-tuned or domain-pretrained LLMs specifically for legal tasks.
 | [InLegalBERT](https://huggingface.co/law-ai/InLegalBERT) | BERT | EN (Indian) | - | Trained on 5.4M Indian legal documents |
 | [Pasal.id](https://github.com/ilhamfp/pasal) | Claude + RAG | ID | Open | RAG-powered access to 40,000+ Indonesian regulations via Claude AI |
 | [NyayaSahayak](https://github.com/SoulNoob/Nyaysahayak) | - | EN/HI | Open | AI legal assistant covering Indian Constitution, BNS 2023, IT Act |
+| [ChatLaw](https://github.com/PKU-YuanGroup/ChatLaw) | LLaMA/Ziya | ZH | CC BY-NC | Chinese legal LLM from Peking University; trained on 30K+ Chinese legal datasets |
+| [DISC-LawLLM](https://github.com/FudanDISC/DISC-LawLLM) | Baichuan 13B | ZH | Apache 2.0 | Chinese legal assistant from Fudan; legal retrieval + reasoning |
 
 ### Embedding & BERT-style Models
 
@@ -171,7 +172,9 @@ Tools for automating the creation of legal documents, templates, and guided inte
 ## Legal Research Platforms
 
 ### Open / Free Access
-- [CourtListener](https://www.courtlistener.com) - Free open case law search with API access. 9M+ opinions.
+- [CourtListener](https://www.courtlistener.com) - Free open case law search with API access. 9M+ opinions. [Bulk data API](https://www.courtlistener.com/help/api/bulk-data/) available.
+- [Juriscraper](https://github.com/freelawproject/juriscraper) - Open-source Python library for scraping American court websites for opinions, oral arguments, and PACER data.
+- [PACER](https://pacer.uscourts.gov) - Official US federal court docket and document system. Source of all federal case filings.
 - [Fastcase](https://www.fastcase.com) - Often provided free through bar associations. Integrates Vincent AI.
 - [Google Scholar Case Law](https://scholar.google.com) - Free US federal and state court opinions.
 - [AustLII](https://www.austlii.edu.au) - Free Australasian legal information.
@@ -180,17 +183,17 @@ Tools for automating the creation of legal documents, templates, and guided inte
 - [OpenStates](https://openstates.org) - Open-source platform tracking US state legislation in real time.
 
 ### Commercial AI Research Platforms
-- [Vaquill AI](https://vaquill.ai) ⭐ - AI-native Indian legal research platform with agentic research workflows, persistent memory, MCP server, proprietary database of 20M+ original SC/HC/Tribunal judgments and dockets, contract analysis, and multilingual support. *(Sponsor)*
+- [Vaquill AI](https://vaquill.ai) - AI-native Indian legal research platform with agentic research workflows, persistent memory, MCP server, proprietary database of 20M+ original SC/HC/Tribunal judgments and dockets, contract analysis, and multilingual support. *(Sponsor)*
 - [Westlaw + CoCounsel](https://legal.thomsonreuters.com/en/products/westlaw) - Thomson Reuters flagship with GPT-4 powered AI assistant. 50-state surveys, deposition prep, brief analysis.
+- [Bloomberg Law](https://pro.bloomberglaw.com) - Major US legal research platform with AI-powered brief analysis, docket tracking, real-time legislative monitoring, and transactional tools.
 - [LexisNexis / Lexis+ AI](https://www.lexisnexis.com) - Multi-model AI (Claude 3, GPT-4o, Mistral 7B). Drafting guidance, statute summaries, Shepard's citations.
 - [vLex / Vincent AI](https://vlex.com) - Global coverage (1B+ documents, 17 countries). AI jurisdictional comparison, contract redlining.
 - [Casetext / CoCounsel Core](https://casetext.com) - GPT-4 powered research memo generation, document Q&A, CARA AI brief analysis.
-- [Everlaw](https://www.everlaw.com) - Cloud-native litigation intelligence. AI clustering up to 25M documents.
-- [Relativity / RelativityOne](https://www.relativity.com) - Enterprise legal and compliance platform. AI review (aiR), e-discovery.
+- [Lex Machina](https://lexmachina.com) - Thomson Reuters litigation analytics platform. Predicts outcomes and benchmarks opposing counsel using federal court data.
+- [Docket Alarm](https://www.docketalarm.com) - Federal and state docket monitoring + analytics platform. Real-time alerts on new filings.
 - [Paxton AI](https://www.paxton.ai) - AI legal research assistant with jurisdiction-aware answers.
-- [Clio Duo](https://www.clio.com) - AI layer in Clio's practice management for research, drafting, and insights.
 - [VIDUR AI](https://vidur.in) - AI research platform for Indian corporate, tax, and regulatory law. Integrates knowledge from 250+ specialists and major publishers.
-- [Manupatra](https://www.manupatra.com) - Proprietary Indian legal database covering Supreme Court, High Courts, and Tribunals. Includes analytics, case tracking, and contract tools built on its curated corpus.
+- [Manupatra](https://www.manupatra.com) - Proprietary Indian legal database covering Supreme Court, High Courts, and Tribunals. Includes analytics, case tracking, and contract tools.
 
 ---
 
@@ -207,6 +210,7 @@ Platforms for managing contracts from creation through execution, obligations, a
 - [Robin AI](https://robinai.com) - AI contract negotiation and review. $71.7M total funding.
 - [Luminance](https://www.luminance.com) - AI for transactional, compliance, and litigation document review.
 - [LexCheck](https://www.lexcheck.com) - AI for contract redlining and playbook enforcement.
+- [LawGeex](https://www.lawgeex.com) - AI contract review platform; pre-screens contracts against company policies before legal review.
 - [Legartis](https://legartis.ai) - AI contract review and risk analysis (German/European market focus).
 
 ### Open Source / Self-Hosted
@@ -262,43 +266,30 @@ Tools for regulatory compliance, policy management, financial crime detection, a
 
 ---
 
-## Agentic Legal AI
-
-Platforms where AI autonomously plans, executes, and iterates on multi-step legal tasks.
-
-- [Harvey AI](https://www.harvey.ai) - Agentic AI for complex legal research, drafting, and multi-step analytical workflows. 30+ ready-made workflow solutions. $1.5B+ valuation, $1.2B raised in 2025.
-- [Westlaw CoCounsel](https://legal.thomsonreuters.com) - Agentic workflows for autonomous, multi-step task execution in tax, legal research, and contract review.
-- [LexisNexis Protégé](https://www.lexisnexis.com) - Agentic AI assistant with self-review, autonomous task completion, and personalized voice assistance.
-- [DeepJudge](https://www.deepjudge.ai) - Enable law firms to design bespoke AI workflows leveraging internal knowledge.
-- [Leya](https://www.leya.law) - AI-native legal platform with agentic research and memo generation. $25M Series A (2024).
-- [EvenUp](https://www.evenuplaw.com) - Agentic platform for personal injury attorneys automating demand letter generation. $135M Series D (2024), $1B+ valuation.
-- [Elint AI / Justice Accelerator](https://elint.in) - Legal case management platform with AI and blockchain-backed document automation, serving courts and ADR centres in India and the Middle East.
-- [Legalyze.ai](https://legalyze.ai) - Extracts data, generates chronologies, drafts documents from case files.
-- [Darrow](https://www.darrow.ai) - AI platform that identifies class-action opportunities from public data.
-
 ---
 
 ## Companies
 
 ### For-Profit - AI-First
 
-Companies founded primarily to bring AI capabilities to the legal sector.
+Companies founded primarily to bring AI capabilities to the legal sector. **Agentic** = platform supports autonomous multi-step AI task execution.
 
-| Company | Focus | Notable Feature | HQ |
-|---|---|---|---|
-| [Harvey AI](https://harvey.ai) | Full-stack legal AI | Agentic workflows, 30+ legal automations | San Francisco, USA |
-| [EvenUp](https://evenuplaw.com) | Personal injury | Agentic demand letter generation | San Francisco, USA |
-| [Leya](https://leya.law) | Research & memos | AI-native legal research platform | Stockholm, Sweden |
-| [Spellbook](https://spellbook.legal) | Contract drafting | Real-time AI in Microsoft Word | Toronto, Canada |
-| [Robin AI](https://robinai.com) | Contract review | AI negotiation and redlining | London, UK |
-| [Luminance](https://luminance.com) | Document intelligence | Legal AI for transactions, litigation, compliance | London, UK |
-| [Lexlegis.AI](https://lexlegis.ai) | Indian legal research | LLM on 10M+ Indian legal documents | Mumbai, India |
-| [Paxton AI](https://paxton.ai) | Legal research | Jurisdiction-aware AI answers | USA |
-| [Darrow](https://darrow.ai) | Litigation intelligence | Identifies meritorious lawsuits from public data | Tel Aviv, Israel |
-| [Legalyze.ai](https://legalyze.ai) | Litigation support | AI extraction + chronology + drafting | USA |
-| [Clearbrief](https://clearbrief.com) | Legal writing | AI-powered document management and writing | USA |
-| [DeepJudge](https://deepjudge.ai) | Knowledge workflows | Bespoke AI workflows on internal law firm data | Zurich, Switzerland |
-| [Legartis](https://legartis.ai) | Contract review | AI for German/European legal contracts | Zurich, Switzerland |
+| Company | Focus | Agentic | Notable Feature | HQ |
+|---|---|---|---|---|
+| [Harvey AI](https://harvey.ai) | Full-stack legal AI | Yes | 30+ autonomous workflow solutions | San Francisco, USA |
+| [EvenUp](https://evenuplaw.com) | Personal injury | Yes | Agentic demand letter generation; $1B+ valuation | San Francisco, USA |
+| [Leya](https://leya.law) | Research & memos | Yes | Agentic research and memo generation; $25M Series A | Stockholm, Sweden |
+| [Spellbook](https://spellbook.legal) | Contract drafting | No | Real-time AI drafting in Microsoft Word | Toronto, Canada |
+| [Robin AI](https://robinai.com) | Contract review | No | AI negotiation and redlining; $71.7M raised | London, UK |
+| [Luminance](https://luminance.com) | Document intelligence | No | Transactions, litigation, compliance review | London, UK |
+| [Lexlegis.AI](https://lexlegis.ai) | Indian legal research | No | LLM on 10M+ Indian legal documents | Mumbai, India |
+| [Paxton AI](https://paxton.ai) | Legal research | No | Jurisdiction-aware AI answers | USA |
+| [Darrow](https://darrow.ai) | Litigation intelligence | Yes | Identifies meritorious lawsuits from public data | Tel Aviv, Israel |
+| [Legalyze.ai](https://legalyze.ai) | Litigation support | Yes | AI extraction + chronology + drafting | USA |
+| [Clearbrief](https://clearbrief.com) | Legal writing | No | AI-powered factual verification in briefs | USA |
+| [DeepJudge](https://deepjudge.ai) | Knowledge workflows | Yes | Bespoke AI workflows on internal law firm data | Zurich, Switzerland |
+| [Legartis](https://legartis.ai) | Contract review | No | AI for German/European legal contracts | Zurich, Switzerland |
+| [Elint AI / Justice Accelerator](https://elint.in) | Court tech | No | AI + blockchain case management for courts/ADR | India/UAE |
 
 ### For-Profit - Established Legaltech
 

@@ -1,0 +1,36 @@
+name: Link Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    # Run every Monday at 09:00 UTC
+    - cron: '0 9 * * 1'
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >
+            --verbose
+            --no-progress
+            --accept 200,206,429
+            --exclude-loopback
+            --exclude 'mailto:'
+            --exclude 'localhost'
+            --exclude 'pacer.uscourts.gov'
+            --exclude 'indiankanoon.org'
+            --exclude 'scdb.wustl.edu'
+            --timeout 30
+            --max-retries 3
+            README.md
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
