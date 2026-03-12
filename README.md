@@ -96,7 +96,7 @@ Curated datasets of legal texts, case law, statutes, and contracts available for
 - [LegalContext MCP](https://mcp.so/server/legalcontext) - Open-source MCP server bridging law firm document management systems with AI assistants.
 - [uspto-fpd-mcp](https://github.com/USPTO/uspto_fpd_mcp) - MCP server for USPTO Final Patent Decisions to improve patent analysis with LLMs.
 - [CourtListener MCP](https://free.law) - Access CourtListener's legal opinion database directly from AI agents via MCP *(community integration)*.
-- [adeu (Agentic DOCX Redlining Engine)](https://github.com/adeu-ai/adeu) - MCP Server implementation enabling LLMs to inject native Track Changes and Comments into Word documents.
+- [adeu (Agentic DOCX Redlining Engine)](https://github.com/dealfluence/adeu) - MCP Server implementation enabling LLMs to inject native Track Changes and Comments into Word documents.
 
 > **Note:** MCP for legal is an emerging ecosystem. Many servers are early-stage. Always verify data accuracy and jurisdiction coverage before use in legal practice.
 
@@ -116,8 +116,8 @@ Fine-tuned or domain-pretrained LLMs specifically for legal tasks.
 | [Lawma-70B](https://huggingface.co/ricdomolm/lawma-70b) | Llama 3 | EN | - | Larger legal classification model |
 | [InLegalBERT](https://huggingface.co/law-ai/InLegalBERT) | BERT | EN (Indian) | - | Trained on 5.4M Indian legal documents |
 | [Lexlegis.AI LLM](https://lexlegis.ai) | Proprietary | EN | Proprietary | Trained on 10M+ Indian legal documents (Aug 2024) |
-| [Pasal.id](https://github.com/pasal-id) | Claude-based | ID | Open | AI-native Indonesian legal platform |
-| [NyayaSahayak](https://github.com/NyayaSahayak) | - | EN/HI | Open | AI legal assistant for Indian law |
+| [Pasal.id](https://github.com/ilhamfp/pasal) | Claude + RAG | ID | Open | RAG-powered access to 40,000+ Indonesian regulations via Claude AI |
+| [NyayaSahayak](https://github.com/SoulNoob/Nyaysahayak) | - | EN/HI | Open | AI legal assistant covering Indian Constitution, BNS 2023, IT Act |
 
 ### Embedding & BERT-style Models
 
@@ -128,10 +128,9 @@ Domain-specific encoder models for legal text similarity, classification, and re
 | [Legal-BERT](https://huggingface.co/nlpaueb/legal-bert-base-uncased) | `nlpaueb/legal-bert-base-uncased` | Pretrained on EU/US legislation + court cases |
 | [CaseLawBERT](https://huggingface.co/pile-of-law/legalbert-large-1.7M-2) | `pile-of-law/legalbert-large-1.7M-2` | Trained on Pile of Law corpus |
 | [LegalBert (JHU)](https://huggingface.co/jhu-clsp/LegalBert) | `jhu-clsp/LegalBert` | JHU CLSP legal domain adaptation |
-| [EmuBERT](https://huggingface.co/uwestali/EmuBERT) | `uwestali/EmuBERT` | Masked LM for Australian law |
+| [EmuBERT](https://huggingface.co/isaacus/EmuBERT) | `isaacus/EmuBERT` | RoBERTa-based model for Australian law; 1.4B tokens across 6 jurisdictions |
 | [Lawformer](https://huggingface.co/joelito/longformer-base-4096-legal) | - | Long-context legal document model |
-| [Kanon 2 Embedder](https://huggingface.co/kanonjax) | - | Top performer on MLEB (Massive Legal Embedding Benchmark) |
-| [InLegalBERT](https://huggingface.co/law-ai/InLegalBERT) | `law-ai/InLegalBERT` | Named Entity Recognition for Indian legal texts |
+| [Kanon 2 Embedder](https://huggingface.co/isaacus/kanon-2) | `isaacus/kanon-2` | #1 on MLEB benchmark; legal semantic search + RAG; 16K token context |
 
 **Benchmark:** [MLEB (Massive Legal Embedding Benchmark)](https://huggingface.co/datasets/Kanon/MLEB) - Comprehensive evaluation for legal text embedding models (Oct 2025).
 
@@ -139,13 +138,11 @@ Domain-specific encoder models for legal text similarity, classification, and re
 
 | Model / Platform | Region | Language(s) | Notes |
 |---|---|---|---|
-| [OpenGPTX](https://opengpt-x.de) | Europe | DE, FR, ES + | EU-initiative LLM with higher non-English data ratio |
+| [OpenGPT-X / Teuken-7B](https://opengpt-x.de) | Europe | All 24 EU langs | German-funded initiative; produced Teuken-7B LLM covering all official EU languages |
 | [LawBench Models](https://github.com/open-compass/LawBench) | China | ZH | Models evaluated on 20 Chinese legal tasks |
-| [VIDUR AI](https://vidur.in) | India | EN, HI | Expert-verified Indian legal answers + drafting |
 | [VakilAI](https://vakilai.in) | India | EN, HI | Court-ready petition and appeal drafting |
 | [BharatLAW](https://github.com/BharatLAW) | India | EN | IPC-based legal chatbot using FAISS + Streamlit |
 | [Legalon Technologies](https://legalon.jp) | Japan | JA | AI contract management platform for Japanese law |
-
 | [LegalBERT (Greek)](https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1) | Greece | EL | Greek legal domain BERT |
 
 ---
@@ -159,7 +156,7 @@ Tools for automating the creation of legal documents, templates, and guided inte
 - [Suffolk LIT Lab Assembly Line](https://github.com/SuffolkLITLab/docassemble-AssemblyLine) - Toolkit for Massachusetts court forms; reusable pattern for any jurisdiction.
 - [A2J Author](https://a2j-author.org) - CALI's tool for creating guided interviews helping self-represented litigants generate legal documents.
 - [open-agreements](https://github.com/CommonAccord/Cmacc-Org) - CommonAccord: legal documents as structured, linkable data.
-- [adeu](https://github.com/adeu-ai/adeu) - Agentic DOCX Redlining Engine for LLM-powered Word document Track Changes.
+- [adeu](https://github.com/dealfluence/adeu) - Agentic DOCX Redlining Engine for LLM-powered Word document Track Changes.
 - [Wraft](https://github.com/wraft/wraft) - Open-source document lifecycle management.
 
 ### Commercial / SaaS
@@ -191,6 +188,7 @@ Tools for automating the creation of legal documents, templates, and guided inte
 - [Relativity / RelativityOne](https://www.relativity.com) - Enterprise legal and compliance platform. AI review (aiR), e-discovery.
 - [Paxton AI](https://www.paxton.ai) - AI legal research assistant with jurisdiction-aware answers.
 - [Clio Duo](https://www.clio.com) - AI layer in Clio's practice management for research, drafting, and insights.
+- [VIDUR AI](https://vidur.in) - AI research platform for Indian corporate, tax, and regulatory law. Integrates knowledge from 250+ specialists and major publishers.
 - [Manupatra](https://www.manupatra.com) - Proprietary Indian legal database covering Supreme Court, High Courts, and Tribunals. Includes analytics, case tracking, and contract tools built on its curated corpus.
 
 ---
@@ -245,7 +243,6 @@ Software for running a law practice - case management, billing, calendaring, and
 - [ClinicCases](https://github.com/judsonmitchell/ClinicCases) - For law school clinics. MIT licensed.
 - [ArkCase](https://www.arkcase.com) - Open-source adaptive case management for legal and government.
 - [J-Lawyer](https://www.j-lawyer.org) - German open-source law practice management.
-- [MyLegalNet](https://github.com/MyLegalNet) - Open-source file/matter/invoice management with court system API.
 
 ---
 
@@ -274,7 +271,7 @@ Platforms where AI autonomously plans, executes, and iterates on multi-step lega
 - [DeepJudge](https://www.deepjudge.ai) - Enable law firms to design bespoke AI workflows leveraging internal knowledge.
 - [Leya](https://www.leya.law) - AI-native legal platform with agentic research and memo generation. $25M Series A (2024).
 - [EvenUp](https://www.evenuplaw.com) - Agentic platform for personal injury attorneys automating demand letter generation. $135M Series D (2024), $1B+ valuation.
-- [Elint AI / Justice Accelerator](https://elintai.com) - Agentic legal case management and document automation.
+- [Elint AI / Justice Accelerator](https://elint.in) - Legal case management platform with AI and blockchain-backed document automation, serving courts and ADR centres in India and the Middle East.
 - [Legalyze.ai](https://legalyze.ai) - Extracts data, generates chronologies, drafts documents from case files.
 - [Darrow](https://www.darrow.ai) - AI platform that identifies class-action opportunities from public data.
 
@@ -320,7 +317,6 @@ Legacy leaders and growth-stage companies that have added AI capabilities.
 | [vLex](https://vlex.com) | Legal research | Vincent AI, 1B+ docs, global coverage | Barcelona, Spain |
 | [Kira Systems](https://kirasystems.com) | Due diligence | ML contract review, acquired by Litera | Toronto, Canada |
 | [Nuix](https://nuix.com) | Investigations + eDiscovery | Cognitive AI (CogAI), 500+ Nuix Neo models | Sydney, Australia |
-| [IntelliCheck](https://intellicheck.com) | Identity verification | Legal identity verification platform | USA |
 | [ContractPodAi](https://contractpodai.com) | CLM | Leah AI, Leah Marketplace, Microsoft Azure partner | London, UK |
 
 ### Non-Profit & NGO
@@ -342,7 +338,7 @@ Organizations using technology to advance access to justice and open legal infra
 | [LSNTAP](https://www.lsntap.org) | Legal aid tech | Technology resources for legal services community | Nonprofit |
 | [A2J Author / CALI](https://a2j-author.org) | Self-help tools | Guided interview software for self-represented litigants | Nonprofit |
 | [TrustLaw (Thomson Reuters Foundation)](https://www.trust.org/trustlaw/) | Global pro bono | Connects NGOs with free legal support | Foundation |
-| [OpenLaw](https://openlaw.io) | Smart contracts | Legal agreements on blockchain | Startup/Open |
+| [OpenLaw / Tribute Labs](https://openlaw.io) | Smart contracts | Blockchain-based legal agreements on Ethereum; rebranded as Tribute Labs (DAO incubator) in 2021 | Startup/Open |
 
 ---
 
@@ -357,7 +353,7 @@ Resources for evaluating AI and NLP systems on legal tasks.
 - [LEDGAR](https://metatext.io/datasets/ledgar) - Large-scale benchmark for legal contract provision classification.
 - [ECtHR Task](https://github.com/coastalcph/ecthr_cases) - Legal judgment prediction benchmark using ECHR cases.
 - [maastrichtlawtech/awesome-legal-nlp](https://github.com/maastrichtlawtech/awesome-legal-nlp) - Curated list of Legal NLP resources, models, datasets, and papers.
-- [JUST-NLP Legal MT](https://arxiv.org/abs/2503.12345) - Legal machine translation shared task benchmark (2025).
+- [JUST-NLP 2025 Legal MT](https://aclanthology.org/2025.just-nlp-1.0/) - English-to-Hindi legal machine translation shared task; part of IJCNLP-AACL 2025 workshop.
 
 ---
 
