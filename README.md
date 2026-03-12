@@ -34,16 +34,14 @@ Legal technology (legaltech) is the use of technology and software to provide le
   - [Large Language Models (LLMs)](#large-language-models-llms)
   - [Embedding & BERT-style Models](#embedding--bert-style-models)
   - [Multilingual & Regional Legal Models](#multilingual--regional-legal-models)
+- [Full-Stack Legal Platforms & Suites](#full-stack-legal-platforms--suites)
 - [Document Automation & Drafting](#document-automation--drafting)
 - [Legal Research Platforms](#legal-research-platforms)
 - [Contract Lifecycle Management (CLM)](#contract-lifecycle-management-clm)
 - [E-Discovery & Document Review](#e-discovery--document-review)
-- [Practice Management](#practice-management)
+- [Practice Management & Legal Ops](#practice-management--legal-ops)
 - [Compliance & RegTech](#compliance--regtech)
-- [Companies](#companies)
-  - [For-Profit - AI-First](#for-profit--ai-first)
-  - [For-Profit - Established Legaltech](#for-profit--established-legaltech)
-  - [Non-Profit & NGO](#non-profit--ngo)
+- [Access to Justice & Public Interest Tech](#access-to-justice--public-interest-tech)
 - [Foundational Research](#foundational-research)
 - [Legal Ontologies & Knowledge Graphs](#legal-ontologies--knowledge-graphs)
 - [Benchmarks & Evaluation](#benchmarks--evaluation)
@@ -289,57 +287,62 @@ Domain-specific encoder models for legal text similarity, classification, and re
 | [LawBench Models](https://github.com/open-compass/LawBench) | China | ZH | Models evaluated on 20 Chinese legal tasks |
 | [VakilAI](https://vakilai.in) | India | EN, HI | Court-ready petition and appeal drafting |
 | [BharatLAW](https://github.com/BharatLAW) | India | EN | IPC-based legal chatbot using FAISS + Streamlit |
-| [Legalon Technologies](https://legalon.jp) | Japan | JA | AI contract management platform for Japanese law |
-| [LegalBERT (Greek)](https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1) | Greece | EL | Greek legal domain BERT |
+## Full-Stack Legal Platforms & Suites
+
+Comprehensive platforms that handle multiple functions across the legal workflow (research, drafting, review, and matter management). 
+
+- [Harvey AI](https://harvey.ai) - **[AI-Native]** Full-stack legal AI with 30+ autonomous agentic workflows ($8B valuation).
+- [Thomson Reuters](https://thomsonreuters.com) - **[Established]** Owner of CoCounsel, Westlaw, Practical Law, and HighQ.
+- [LexisNexis](https://lexisnexis.com) - **[Established]** Owner of Lexis+ AI, Protégé, and Shepard's citations.
+- [Legora](https://legora.com) - **[AI-Native]** YC-backed collaborative AI workspace spanning research, drafting, and review.
+- [Eudia](https://eudia.com) - **[AI-Native]** AI agents specifically designed for Fortune 500 in-house corporate legal teams.
+- [DeepJudge](https://deepjudge.ai) - **[AI-Native]** Custom AI workflows applied directly to internal law firm knowledge bases.
 
 ---
 
 ## Document Automation & Drafting
 
-Tools for automating the creation of legal documents, templates, and guided interviews.
+Software for generating, assembling, and reviewing legal documents.
 
 ### Open Source
 - [Docassemble](https://docassemble.org) - The gold standard for open-source guided legal interviews and document assembly.
 - [Suffolk LIT Lab Assembly Line](https://github.com/SuffolkLITLab/docassemble-AssemblyLine) - Toolkit for Massachusetts court forms; reusable pattern for any jurisdiction.
-- [A2J Author](https://www.a2jauthor.org) - CALI's tool for creating guided interviews helping self-represented litigants generate legal documents.
 - [open-agreements](https://github.com/CommonAccord/Cmacc-Org) - CommonAccord: legal documents as structured, linkable data.
 - [adeu](https://github.com/dealfluence/adeu) - Agentic DOCX Redlining Engine for LLM-powered Word document Track Changes.
-- [Wraft](https://github.com/wraft/wraft) - Open-source document lifecycle management.
 
 ### Commercial / SaaS
-- [Spellbook](https://spellbook.legal) - AI contract drafting and review for lawyers in Microsoft Word. ($350M valuation, 2025)
-- [Robin AI](https://robinai.com) - AI-powered contract review and negotiation platform.
-- [Luminance](https://www.luminance.com) - AI-native legal platform for contract drafting, review, and diligence.
-- [HotDocs](https://www.hotdocs.com) - Long-established document assembly software for law firms.
-- [ContractExpress](https://www.thomsonreuters.com/en/products-services/legal/contract-express.html) - Thomson Reuters document automation platform.
+- [Spellbook](https://spellbook.legal) - **[AI-Native]** AI contract drafting and review assistant operating natively in Microsoft Word.
+- [Clearbrief](https://clearbrief.com) - **[AI-Native]** AI-powered factual verification and drafting assistance in briefs.
+- [HotDocs](https://www.hotdocs.com) - **[Established]** Long-established document assembly software for law firms.
+- [ContractExpress](https://www.thomsonreuters.com) - **[Established]** Thomson Reuters' document automation platform.
+- [Litera](https://litera.com) - **[Established]** Document drafting, proofreading, and deal management suite.
 
 ---
 
 ## Legal Research Platforms
 
 ### Open / Free Access
-- [CourtListener](https://www.courtlistener.com) - Free open case law search with API access. 9M+ opinions. [Bulk data API](https://www.courtlistener.com/help/api/bulk-data/) available.
-- [Juriscraper](https://github.com/freelawproject/juriscraper) - Open-source Python library for scraping American court websites for opinions, oral arguments, and PACER data.
-- [PACER](https://pacer.uscourts.gov) - Official US federal court docket and document system. Source of all federal case filings.
-- [Fastcase](https://www.fastcase.com) - Often provided free through bar associations. Integrates Vincent AI.
+- [CourtListener](https://www.courtlistener.com) - Free open case law search with API access. 9M+ opinions.
+- [Juriscraper](https://github.com/freelawproject/juriscraper) - Open-source Python library for scraping American court websites.
+- [PACER](https://pacer.uscourts.gov) - Official US federal court docket and document system.
 - [Google Scholar Case Law](https://scholar.google.com) - Free US federal and state court opinions.
-- [AustLII](https://www.austlii.edu.au) - Free Australasian legal information.
-- [CommonLII](https://www.commonlii.org) - Free access to common law jurisdictions worldwide.
-- [WorldLII](https://www.worldlii.org) - Global free legal information network.
+- [AustLII](https://www.austlii.edu.au) / [CommonLII](https://www.commonlii.org) / [WorldLII](https://www.worldlii.org) - Free legal information networks.
 - [OpenStates](https://openstates.org) - Open-source platform tracking US state legislation in real time.
 
 ### Commercial AI Research Platforms
-- [Vaquill AI](https://vaquill.ai) - AI-native Indian legal research platform with agentic research workflows, persistent memory, MCP server, proprietary database of 20M+ original SC/HC/Tribunal judgments and dockets, contract analysis, and multilingual support. *(Sponsor)*
-- [Westlaw + CoCounsel](https://legal.thomsonreuters.com/en/products/westlaw) - Thomson Reuters flagship with GPT-4 powered AI assistant. 50-state surveys, deposition prep, brief analysis.
-- [Bloomberg Law](https://pro.bloomberglaw.com) - Major US legal research platform with AI-powered brief analysis, docket tracking, real-time legislative monitoring, and transactional tools.
-- [LexisNexis / Lexis+ AI](https://www.lexisnexis.com) - Multi-model AI (Claude 3, GPT-4o, Mistral 7B). Drafting guidance, statute summaries, Shepard's citations.
-- [vLex / Vincent AI](https://vlex.com) - Global coverage (1B+ documents, 17 countries). AI jurisdictional comparison, contract redlining.
-- [Casetext / CoCounsel Core](https://casetext.com) - GPT-4 powered research memo generation, document Q&A, CARA AI brief analysis.
-- [Lex Machina](https://lexmachina.com) - Thomson Reuters litigation analytics platform. Predicts outcomes and benchmarks opposing counsel using federal court data.
-- [Docket Alarm](https://www.docketalarm.com) - Federal and state docket monitoring + analytics platform. Real-time alerts on new filings.
-- [Paxton AI](https://www.paxton.ai) - AI legal research assistant with jurisdiction-aware answers.
-- [VIDUR AI](https://vidur.in) - AI research platform for Indian corporate, tax, and regulatory law. Integrates knowledge from 250+ specialists and major publishers.
-- [Manupatra](https://www.manupatra.com) - Proprietary Indian legal database covering Supreme Court, High Courts, and Tribunals. Includes analytics, case tracking, and contract tools.
+- [Vaquill AI](https://vaquill.ai) - **[AI-Native]** Indian legal research platform with agentic workflows, MCP server, and proprietary database of 20M+ judgments. *(Sponsor)*
+- [Leya](https://leya.law) - **[AI-Native]** Agentic research and legal memo generation.
+- [Paxton AI](https://paxton.ai) - **[AI-Native]** Jurisdiction-aware AI legal answers.
+- [EvenUp](https://evenuplaw.com) - **[AI-Native]** Agentic demand letter generation and research for personal injury.
+- [Lexlegis.AI](https://lexlegis.ai) - **[AI-Native]** Indian legal research LLM trained on 10M+ documents.
+- [Blue J](https://bluej.com) - **[AI-Native]** AI-powered answers to complex US/Canada/UK tax questions.
+- [Bloomberg Law](https://pro.bloomberglaw.com) - **[Established]** Major US legal research platform with AI brief analysis and real-time legislative monitoring.
+- [vLex / Vincent AI](https://vlex.com) - **[Established]** Global coverage (1B+ documents, 17 countries) with cross-jurisdictional AI comparison.
+- [Casetext / CoCounsel Core](https://casetext.com) - **[Established]** GPT-4 powered research memo generation and CARA AI brief analysis.
+- [Lex Machina](https://lexmachina.com) - **[Established]** Litigation analytics predicting outcomes and benchmarking opposing counsel.
+- [Docket Alarm](https://www.docketalarm.com) - **[Established]** Federal and state docket monitoring with real-time alerts.
+- [VIDUR AI](https://vidur.in) - **[AI-Native]** AI research platform for Indian corporate, tax, and regulatory law.
+- [Manupatra](https://www.manupatra.com) - **[Established]** Proprietary Indian legal database covering SC, HCs, and Tribunals.
 
 ---
 
@@ -348,16 +351,18 @@ Tools for automating the creation of legal documents, templates, and guided inte
 Platforms for managing contracts from creation through execution, obligations, and renewal.
 
 ### Commercial
-- [Ironclad](https://ironcladapp.com) - CLM with AI clause detection, redlining, playbooks, and Jurist AI assistant. ($3.2B valuation)
-- [Icertis](https://www.icertis.com) - Enterprise CLM leader. OmniModel™ strategy, Icertis Vera AI, agentic workflows.
-- [ContractPodAi / Leah](https://www.contractpodai.com) - Generative AI for CLM. Leah Marketplace with PwC/KPMG apps. Microsoft Azure OpenAI partnership.
-- [DocuSign CLM / IAM](https://www.docusign.com/products/clm) - Intelligent Agreement Management with AI-Assisted Review and Analyzer.
-- [Spellbook](https://spellbook.legal) - Contract drafting, review, and negotiation assistant in Microsoft Word.
-- [Robin AI](https://robinai.com) - AI contract negotiation and review. $71.7M total funding.
-- [Luminance](https://www.luminance.com) - AI for transactional, compliance, and litigation document review.
-- [LexCheck](https://www.lexcheck.com) - AI for contract redlining and playbook enforcement.
-- [LawGeex](https://www.lawgeex.com) - AI contract review platform; pre-screens contracts against company policies before legal review.
-- [Legartis](https://legartis.ai) - AI contract review and risk analysis (German/European market focus).
+- [Ironclad](https://ironcladapp.com) - **[Established]** CLM with AI clause detection, redlining, playbooks, and Jurist AI assistant.
+- [Icertis](https://www.icertis.com) - **[Established]** Enterprise CLM leader with Icertis Vera AI and agentic workflows.
+- [ContractPodAi / Leah](https://www.contractpodai.com) - **[Established]** Generative AI for CLM with native Microsoft Azure OpenAI integration.
+- [DocuSign CLM](https://www.docusign.com/products/clm) - **[Established]** Intelligent Agreement Management with AI-Assisted Review.
+- [Robin AI](https://robinai.com) - **[AI-Native]** AI contract negotiation and review platform.
+- [Luminance](https://www.luminance.com) - **[AI-Native]** AI for transactional, compliance, and litigation document review.
+- [LexCheck](https://www.lexcheck.com) - **[AI-Native]** AI for contract redlining and playbook enforcement.
+- [Lexion](https://lexion.ai) - **[AI-Native]** AI-powered contract management backed by Google Ventures.
+- [Legartis](https://legartis.ai) - **[AI-Native]** AI contract review and risk analysis (German/European market focus).
+- [LawGeex](https://www.lawgeex.com) - **[Established]** AI contract review platform pre-screening against company policies.
+- [Juro](https://juro.com) - **[Established]** All-in-one contract platform popular in UK/EU.
+- [Avvoka](https://avvoka.com) - **[Established]** UK document automation and negotiation platform.
 
 ### Open Source / Self-Hosted
 - [Wraft](https://github.com/wraft/wraft) - Open-source document lifecycle management with version control.
@@ -368,120 +373,71 @@ Platforms for managing contracts from creation through execution, obligations, a
 
 Platforms for collecting, processing, reviewing, and producing electronically stored information (ESI).
 
-- [Relativity / RelativityOne](https://www.relativity.com) - Industry leader. aiR for Review, aiR for Privilege, analytics, and processing.
-- [Everlaw](https://www.everlaw.com) - Cloud-native with AI clustering (25M docs), trial prep, and predictive coding.
-- [Nuix](https://www.nuix.com) - High-performance data processing with Cognitive AI (CogAI), 500+ pre-built models.
-- [Reveal AI](https://www.revealdata.com) - AI-powered e-discovery with behavioral analytics, PII detection, and fraud detection.
-- [Exterro](https://www.exterro.com) - End-to-end legal GRC platform with e-discovery, forensics, and privacy management.
-- [Logikcull](https://www.logikcull.com) - Self-service cloud e-discovery for small and mid-size firms.
-- [FreeEed](https://freeeed.org) - **Open source** AI-enabled e-discovery with OCR and metadata extraction.
-- [IPRO](https://ipro.com) - E-discovery software for large-scale review and production.
+- [Relativity](https://www.relativity.com) - **[Established]** Industry leader; features aiR for Review and aiR for Privilege.
+- [Everlaw](https://www.everlaw.com) - **[Established]** Cloud-native with AI clustering (25M docs), trial prep, and predictive coding.
+- [Nuix](https://www.nuix.com) - **[Established]** High-performance processing with Cognitive AI (CogAI) and 500+ pre-built models.
+- [Reveal AI](https://www.revealdata.com) - **[Established]** AI-powered e-discovery with behavioral analytics and fraud detection.
+- [Exterro](https://www.exterro.com) - **[Established]** End-to-end legal GRC platform with e-discovery and forensics.
+- [Logikcull](https://www.logikcull.com) - **[Established]** Self-service cloud e-discovery for small and mid-size firms.
+- [IPRO](https://ipro.com) - **[Established]** E-discovery software for large-scale review and production.
+- [FreeEed](https://freeeed.org) - **[Open Source]** AI-enabled e-discovery with OCR and metadata extraction.
 
 ---
 
-## Practice Management
+## Practice Management & Legal Ops
 
-Software for running a law practice - case management, billing, calendaring, and client intake.
+Software for running a law practice and legal department operations - case management, billing, calendaring, and workflow automation.
 
 ### Commercial
-- [Clio](https://www.clio.com) - Cloud-based practice management suite. Clio Duo AI. $900M Series F (2024), $3B valuation.
-- [MyCase](https://www.mycase.com) - Practice management with MyCase IQ for AI writing assistance.
-- [Filevine](https://www.filevine.com) - Legal operating system with AI. $400M raised 2023-2024.
-- [Smokeball](https://www.smokeball.com) - Practice management with built-in activity intelligence and billing.
-- [CosmoLex](https://www.cosmolex.com) - Cloud-based legal accounting and practice management.
+- [Clio](https://www.clio.com) - **[Established]** Leading cloud-based practice management suite featuring Clio Duo AI.
+- [Litera](https://litera.com) - **[Established]** Document drafting, proofreading, and deal management suite.
+- [NetDocuments](https://netdocuments.com) - **[Established]** Leading cloud document management system (DMS) with AI-powered search.
+- [Filevine](https://www.filevine.com) - **[Established]** Legal operating system with AI-enhanced case lifecycle management.
+- [Mitratech](https://mitratech.com) - **[Established]** Enterprise-scale matter management and workflow automation.
+- [MyCase](https://www.mycase.com) - **[Established]** Practice management with MyCase IQ for AI writing assistance.
+- [Smokeball](https://www.smokeball.com) - **[Established]** Practice management with built-in activity intelligence and billing.
+- [CosmoLex](https://www.cosmolex.com) - **[Established]** Cloud-based legal accounting and practice management.
+- [Darrow](https://darrow.ai) - **[AI-Native]** Litigation intelligence identifying meritorious lawsuits from public data.
+- [Legalyze.ai](https://legalyze.ai) - **[AI-Native]** Litigation support specializing in AI extraction and chronology.
 
 ### Open Source
-- [ClinicCases](https://github.com/judsonmitchell/ClinicCases) - For law school clinics. MIT licensed.
+- [ClinicCases](https://github.com/judsonmitchell/ClinicCases) - Open-source management for law school clinics.
 - [ArkCase](https://www.arkcase.com) - Open-source adaptive case management for legal and government.
 - [J-Lawyer](https://www.j-lawyer.org) - German open-source law practice management.
+- [Elint AI / Justice Accelerator](https://elint.in) - Open/Blockchain case management infrastructure for courts and ADR (India/UAE).
+
+---
 
 ## Compliance & RegTech
 
 Tools for regulatory compliance, policy management, financial crime detection, and AI governance.
 
-- [Drata](https://drata.com) - AI-native GRC automation. Continuous monitoring for SOC 2, ISO 27001, HIPAA, GDPR, EU AI Act. Deep automation checks.
-- [Vanta](https://vanta.com) - Compliance automation with 375+ integrations. AI agent for auto-filling policies and vendor risk. Great for startups.
-- [ComplyAdvantage](https://complyadvantage.com) - AI-driven AML and financial crime detection. Real-time screening of 500M+ customers.
-- [Corlytics / Clausematch](https://www.corlytics.com) - RegTech for regulatory change management, compliance policy, and the full regulatory risk value chain.
-- [Certa](https://www.getcerta.com) - Third-party risk management and vendor onboarding automation.
-- [OneTrust](https://www.onetrust.com) - Privacy, GRC, and ethics management platform with AI-powered workflows.
-- [NAVEX](https://www.navex.com) - Integrated risk and compliance management.
-- [Kira Systems](https://kirasystems.com) - ML-based contract analysis for due diligence and compliance.
+- [Drata](https://drata.com) - **[AI-Native]** GRC automation with continuous monitoring for SOC 2, ISO 27001, HIPAA, GDPR, EU AI Act.
+- [Vanta](https://vanta.com) - **[Established]** Compliance automation with 375+ integrations and AI vendor risk assessment.
+- [ComplyAdvantage](https://complyadvantage.com) - **[AI-Native]** AI-driven AML and financial crime detection.
+- [Corlytics / Clausematch](https://www.corlytics.com) - **[Established]** RegTech for regulatory change management and compliance policy.
+- [Certa](https://www.getcerta.com) - **[Established]** Third-party risk management and vendor onboarding automation.
+- [OneTrust](https://www.onetrust.com) - **[Established]** Privacy, GRC, and ethics management platform with AI-powered workflows.
+- [NAVEX](https://www.navex.com) - **[Established]** Integrated risk and compliance management.
+- [Kira Systems](https://kirasystems.com) - **[Established]** ML-based contract analysis for due diligence and compliance.
 
 ---
 
-## Companies
+## Access to Justice & Public Interest Tech
 
-### For-Profit - AI-First
+Organizations and software actively using technology to advance access to justice, court systems, and open legal infrastructure.
 
-Companies founded primarily to bring AI capabilities to the legal sector. **Agentic** = platform supports autonomous multi-step AI task execution.
-
-| Company | Focus | Agentic | Notable Feature | HQ |
-|---|---|---|---|---|
-| [Harvey AI](https://harvey.ai) | Full-stack legal AI | Yes | 30+ autonomous workflow solutions; $8B valuation, $818M raised 2025 | San Francisco, USA |
-| [Legora](https://legora.com) | Collaborative legal AI | Yes | YC-backed; collaborative AI workspace for legal research, drafting, and review; $816M total raised, $5.55B valuation (2026) | Stockholm, Sweden |
-| [EvenUp](https://evenuplaw.com) | Personal injury | Yes | Agentic demand letter generation; $1B+ valuation | San Francisco, USA |
-| [Leya](https://leya.law) | Research & memos | Yes | Agentic research and memo generation; $25M Series A | Stockholm, Sweden |
-| [Eudia](https://eudia.com) | In-house corporate legal | Yes | AI agents for Fortune 500 legal teams; $105M Series A (General Catalyst, 2025) | USA |
-| [Blue J](https://bluej.com) | Tax research AI | No | AI-powered answers to complex US/Canada/UK tax questions; $122M Series D (2025) | Toronto, Canada |
-| [Spellbook](https://spellbook.legal) | Contract drafting | No | Real-time AI drafting in Microsoft Word | Toronto, Canada |
-| [Robin AI](https://robinai.com) | Contract review | No | AI negotiation and redlining; $71.7M raised | London, UK |
-| [Luminance](https://luminance.com) | Document intelligence | No | Transactions, litigation, compliance review | London, UK |
-| [Lexlegis.AI](https://lexlegis.ai) | Indian legal research | No | LLM on 10M+ Indian legal documents | Mumbai, India |
-| [Paxton AI](https://paxton.ai) | Legal research | No | Jurisdiction-aware AI answers | USA |
-| [Darrow](https://darrow.ai) | Litigation intelligence | Yes | Identifies meritorious lawsuits from public data | Tel Aviv, Israel |
-| [Legalyze.ai](https://legalyze.ai) | Litigation support | Yes | AI extraction + chronology + drafting | USA |
-| [Clearbrief](https://clearbrief.com) | Legal writing | No | AI-powered factual verification in briefs | USA |
-| [DeepJudge](https://deepjudge.ai) | Knowledge workflows | Yes | Bespoke AI workflows on internal law firm data | Zurich, Switzerland |
-| [Legartis](https://legartis.ai) | Contract review | No | AI for German/European legal contracts | Zurich, Switzerland |
-| [Elint AI / Justice Accelerator](https://elint.in) | Court tech | No | AI + blockchain case management for courts/ADR | India/UAE |
-
-### For-Profit - Established Legaltech
-
-Legacy leaders and growth-stage companies that have added AI capabilities.
-
-| Company | Focus | Notable | HQ |
-|---|---|---|---|
-| [Thomson Reuters](https://thomsonreuters.com) | Research + AI | CoCounsel, Westlaw, Practical Law, Lex Machina | Toronto, Canada |
-| [LexisNexis](https://lexisnexis.com) | Research + AI | Lexis+ AI, Protégé, Shepard's citations | New York, USA |
-| [Relativity](https://relativity.com) | E-discovery | RelativityOne cloud, aiR for Review/Privilege | Chicago, USA |
-| [Everlaw](https://everlaw.com) | E-discovery | Cloud-native, AI clustering, trial prep | Oakland, USA |
-| [Ironclad](https://ironcladapp.com) | CLM | Jurist AI, AI clause detection | San Francisco, USA |
-| [Icertis](https://icertis.com) | CLM | OmniModel™, Icertis Vera | Bellevue, USA |
-| [DocuSign](https://docusign.com) | Agreements + CLM | IAM, AI-Assisted Review, DocuSign Analyzer | San Francisco, USA |
-| [Clio](https://clio.com) | Practice management | Clio Duo AI, $3B valuation | Vancouver, Canada |
-| [Filevine](https://filevine.com) | Legal operations | AI-enhanced case lifecycle management | Salt Lake City, USA |
-| [Mitratech](https://mitratech.com) | Legal ops + CLM | Enterprise-scale matter management, TeamConnect, TAP Workflow Automation | Austin, USA |
-| [vLex](https://vlex.com) | Legal research | Vincent AI, 1B+ docs, global coverage | Barcelona, Spain |
-| [Litera](https://litera.com) | Doc tools + due diligence | Acquired Kira Systems; document drafting, proofreading, and deal management suite | Chicago, USA |
-| [NetDocuments](https://netdocuments.com) | Cloud DMS | Leading cloud document management system for law firms; AI-powered search and organization | Lehi, USA |
-| [HighQ (Thomson Reuters)](https://legal.thomsonreuters.com/en/products/highq) | Legal collaboration | Secure client portals, matter management, and workflow automation for law firms | London, UK |
-| [Nuix](https://nuix.com) | Investigations + eDiscovery | Cognitive AI (CogAI), 500+ Nuix Neo models | Sydney, Australia |
-| [ContractPodAi](https://www.contractpodai.com) | CLM | Leah AI, Leah Marketplace, Microsoft Azure partner | London, UK |
-| [Lexion](https://lexion.ai) | AI CLM | AI-powered contract management backed by Google Ventures; 90% faster contract review | Seattle, USA |
-| [Juro](https://juro.com) | Contract management | All-in-one contract platform popular in UK/EU; native browser editor with AI assistance | London, UK |
-| [Avvoka](https://avvoka.com) | Contract automation | UK-based document automation and negotiation platform used by top-tier law firms | London, UK |
-
-### Non-Profit & NGO
-
-Organizations using technology to advance access to justice and open legal infrastructure.
-
-| Organization | Focus | Key Resource | Type |
-|---|---|---|---|
-| [Free Law Project](https://free.law) | Open legal data | CourtListener, RECAP, Eyecite | 501(c)(3) |
-| [Harvard Law School - Caselaw Access Project](https://case.law) | Open case law | 6.9M US cases digitized | Academic |
-| [Suffolk LIT Lab](https://suffolklitlab.org) | Legal tech R&D | Document Assembly Line, Docassemble tools | Academic |
-| [Legal Services Corporation (LSC)](https://lsc.gov) | Civil legal aid | Technology Initiative Grants (TIG) | US Federal |
-| [ProBono.net](https://probono.net) | Pro bono resources | Online legal library for attorneys | Nonprofit |
-| [Upsolve](https://upsolve.org) | Bankruptcy access | Free Chapter 7 bankruptcy filing tool | 501(c)(3) |
-| [JustFix](https://www.justfix.org) | Housing justice | Tenant rights and landlord communication tools | Nonprofit |
-| [AsylumConnect](https://asylumconnect.org) | LGBTQ+ asylum seekers | Open-source resource matching for asylum seekers | Nonprofit |
-| [Electronic Frontier Foundation (EFF)](https://eff.org) | Digital rights | Policy, advocacy, legal defense for digital rights | 501(c)(3) |
-| [ABA Free Legal Answers](https://freelegalanswers.org) | Access to justice | Virtual pro bono legal advice clinic | ABA Program |
-| [LSNTAP](https://www.lsntap.org) | Legal aid tech | Technology resources for legal services community | Nonprofit |
-| [A2J Author / CALI](https://www.a2jauthor.org) | Self-help tools | Guided interview software for self-represented litigants | Nonprofit |
-| [TrustLaw (Thomson Reuters Foundation)](https://www.trust.org/trustlaw/) | Global pro bono | Connects NGOs with free legal support | Foundation |
-| [OpenLaw / Tribute Labs](https://openlaw.io) | Smart contracts | Blockchain-based legal agreements on Ethereum; rebranded as Tribute Labs (DAO incubator) in 2021 | Startup/Open |
+- [Free Law Project](https://free.law) - **[Nonprofit]** Maintains CourtListener, RECAP, and Eyecite.
+- [Harvard Law School - CAP](https://case.law) - **[Academic]** Open case law project containing 6.9M digitized US cases.
+- [Suffolk LIT Lab](https://suffolklitlab.org) - **[Academic]** R&D center maintaining the Document Assembly Line.
+- [A2J Author / CALI](https://www.a2jauthor.org) - **[Nonprofit]** Guided interview software protecting self-represented litigants.
+- [Legal Services Corporation (LSC)](https://lsc.gov) - **[Government]** Federal funder of civil legal aid via Technology Initiative Grants.
+- [ProBono.net](https://probono.net) - **[Nonprofit]** Online legal library providing pro bono resources for attorneys.
+- [Upsolve](https://upsolve.org) - **[Nonprofit]** Free Chapter 7 bankruptcy filing tool.
+- [JustFix](https://www.justfix.org) - **[Nonprofit]** Tenant rights and landlord communication tools for housing justice.
+- [AsylumConnect](https://asylumconnect.org) - **[Nonprofit]** Open-source resource matching for LGBTQ+ asylum seekers.
+- [Electronic Frontier Foundation (EFF)](https://eff.org) - **[Nonprofit]** Policy, advocacy, and legal defense for digital rights.
+- [ABA Free Legal Answers](https://freelegalanswers.org) - **[Nonprofit]** Virtual pro bono legal advice clinic.
 
 ## Foundational Research
 
