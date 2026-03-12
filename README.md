@@ -39,6 +39,7 @@ Legal technology (legaltech) is the use of technology and software to provide le
   - [Non-Profit & NGO](#non-profit--ngo)
 - [Benchmarks & Evaluation](#benchmarks--evaluation)
 - [Standards & Protocols](#standards--protocols)
+- [Legaltech Directories & Product Listing Platforms](#legaltech-directories--product-listing-platforms)
 - [Communities, Conferences & Media](#communities-conferences--media)
 - [Related Awesome Lists](#related-awesome-lists)
 
@@ -115,7 +116,6 @@ Fine-tuned or domain-pretrained LLMs specifically for legal tasks.
 | [Lawma-8B](https://huggingface.co/ricdomolm/lawma-8b) | Llama 3 | EN | - | Fine-tuned for legal classification tasks |
 | [Lawma-70B](https://huggingface.co/ricdomolm/lawma-70b) | Llama 3 | EN | - | Larger legal classification model |
 | [InLegalBERT](https://huggingface.co/law-ai/InLegalBERT) | BERT | EN (Indian) | - | Trained on 5.4M Indian legal documents |
-| [Lexlegis.AI LLM](https://lexlegis.ai) | Proprietary | EN | Proprietary | Trained on 10M+ Indian legal documents (Aug 2024) |
 | [Pasal.id](https://github.com/ilhamfp/pasal) | Claude + RAG | ID | Open | RAG-powered access to 40,000+ Indonesian regulations via Claude AI |
 | [NyayaSahayak](https://github.com/SoulNoob/Nyaysahayak) | - | EN/HI | Open | AI legal assistant covering Indian Constitution, BNS 2023, IT Act |
 
@@ -395,6 +395,48 @@ Stay current with the legaltech ecosystem.
 - [Lawnext](https://www.lawnext.com) - Podcast and news by Bob Ambrogi on legal technology innovation.
 - [Legal Tech Talk](https://legaltech-talk.com) - News and analysis on legal technology trends.
 - [The Legal Innovators](https://legal-innovators.com) - Newsletter covering the business of law and legaltech.
+
+## Legaltech Directories & Product Listing Platforms
+
+Platforms that index, curate, review, or list legal technology products — useful for discovery, vendor evaluation, and market research.
+
+### Global Directories
+
+| Platform | Description | Type |
+|---|---|---|
+| [Legaltech Hub](https://legaltechnologyhub.com) | Global directory of legaltech solutions with filters by category, use case, jurisdiction, and language. Lists 10,000+ products including 299+ agentic AI solutions. Vendors can submit for listing. | Global |
+| [LawNext Legal Tech Directory](https://www.lawnext.com/legal-tech-directory) | Comprehensive directory by Bob Ambrogi covering company details, product reviews, press coverage, and pricing. Categorized by practice area and firm size. | Global |
+| [Above the Law Legal Tech Directory](https://abovethelaw.com/legal-technology/) | Legal tech product listings from legal news site Above the Law. Covers firms of all sizes with a buyer's guide. | Global |
+| [Legal IT Professionals Directory](https://www.legaltechnology.com) | Vendor database and software directory primarily for larger law firms and enterprise legal IT. | Global |
+| [Theorem LTS Legal Tech Marketplace](https://theoremlegal.com) | Interactive marketplace with advanced comparison tools, pricing, media, and vendor demo connect. Part of the Theorem Ecosystem. | Global |
+| [G2 - Legal Software](https://www.g2.com/categories/legal) | Peer review platform with verified user ratings for legal software across 33+ subcategories. LDMS category launched April 2024. | Global |
+| [Capterra - Legal Software](https://www.capterra.com/legal-software/) | Software comparison platform with Shortlist methodology ranking legal tools by user ratings and popularity. | Global |
+| [GetApp - Legal Software](https://www.getapp.com/legal-compliance-software/) | Business software marketplace with verified reviews, comparisons, and feature filters for legal tools. | Global |
+| [Software Advice - Legal](https://www.softwareadvice.com/legal/) | Advisory platform helping law firms choose software through guided comparisons and expert recommendations. | Global |
+
+### India-Specific
+
+| Platform | Description | Type |
+|---|---|---|
+| [ISAIL (Indian Society of AI and Law)](https://isail.in) | India's premier AI and law forum. Connects AI startups, technologists, and legal professionals. Maintains the AiStandard.io Alliance for Indian legal AI entities. | Community + Directory |
+| [Bar and Bench](https://www.barandbench.com) | Leading Indian legal news platform covering legaltech startups, court tech, and legal AI developments in India. | Media + Listing |
+| [India Legal Tech](https://indialegal.tech) | Directory and news platform focused on legal technology innovation in the Indian market. | Directory |
+
+### UK & Europe
+
+| Platform | Description | Type |
+|---|---|---|
+| [LawTech UK](https://lawtech.uk) | UK government-backed initiative with a directory, ecosystem map, and resources for the UK lawtech sector. Tracks UK-based legaltech companies and initiatives. | Directory + Community |
+| [LegalGeek Marketplace](https://www.legalgeek.co/marketplace) | UK legaltech marketplace listing vendors, products, and innovations. Associated with the LegalGeek conference ecosystem. | Directory |
+| [Lex Futurus](https://lexfuturus.eu) | European legaltech directory and innovation platform tracking EU-region legal technology companies. | Directory |
+
+### Academic & Research
+
+| Platform | Description | Type |
+|---|---|---|
+| [Stanford CodeX](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/) | Stanford Center for Legal Informatics. Hosts research, FutureLaw conference, and tracks computational law + legal tech innovations. | Academic |
+| [Legal Design Lab (Stanford)](https://law.stanford.edu/organizations/pages/legal-design-lab/) | Stanford lab studying tech and design for access to justice. Maintains resources and tools for legal innovation. | Academic |
+| [Harvard Law School Innovation](https://hls.harvard.edu/academics/clinics/legal-innovation-and-technology/) | Harvard LIT (Legal Innovation and Technology) program tracking legal tech developments and student projects. | Academic |
 
 ---
 
