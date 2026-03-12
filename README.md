@@ -81,86 +81,65 @@ Libraries and scripts for scraping, parsing, and processing legal text to build 
 
 Large text corpora and jurisdiction-wide raw data dumps for pretraining or fine-tuning legal language models.
 
-| Dataset | Lang | Size | Notes |
-|---|---|---|---|
-| [Pile of Law](https://huggingface.co/datasets/pile-of-law/pile-of-law) | 🇺🇸 EN | ~256 GB | US legal and administrative text; used to train CaseLawBERT |
-| [MultiLegalPile](https://huggingface.co/datasets/joelito/Multi_Legal_Pile) | 🌍 24 langs | 689 GB | Multilingual legal pretraining corpus from 17 jurisdictions |
-| [LeXFiles](https://huggingface.co/datasets/lexlms/lex_files) | 🌍 6 sys | 19B tokens | Massive English legal corpus (EU, CoE, Canada, US, UK, India) |
-| [Indian Kanoon Dataset](https://indiankanoon.org) | 🇮🇳 EN | Large | Indian court judgments and statutes; widely used for Indian legal NLP |
-| [JRC-Acquis](https://joint-research-centre.ec.europa.eu/language-technology-resources/jrc-acquis_en) | 🇪🇺 22 langs | Large | Massive parallel corpus of total EU law used heavily in multilingual machine translation |
-| [EUR-Lex](https://eur-lex.europa.eu) | 🇪🇺 24 langs | Large | Official EU legislation and case law in all EU official languages |
-| [Open Australian Legal Corpus](https://huggingface.co/datasets/umarbutler/open-australian-legal-corpus) | 🇦🇺 EN | Large | Multijurisdictional corpus of Australian legislative and judicial documents |
-| [S2ORC (Legal Subset)](https://github.com/allenai/s2orc) | 🌍 EN | 136M+ | AllenAI's massive academic paper corpus containing deep legal reasoning/law review articles |
-| [CourtListener Bulk Data](https://www.courtlistener.com/help/api/bulk-data/) | 🇺🇸 EN | 9M+ | US court opinions, judge data, and oral argument metadata dumps |
-| [RECAP Archive](https://free.law/recap/) | 🇺🇸 EN | Huge | Largest open collection of US federal PACER documents and dockets |
-| [Caselaw Access Project (CAP)](https://case.law) | 🇺🇸 EN | 6.9M | US court decisions from Harvard Law School, 1600s-2020 |
-| [Oyez Project Audio](https://www.oyez.org/) | 🇺🇸 EN | Large | Premier archive of US Supreme Court multimodal audio and aligned text transcripts |
-| [WIPO Lex](https://www.wipo.int/wipolex/) | 🌍 Multi | Large | Global database of IP laws/treaties and WIPO Lex-Judgments for selected IP case law. |
-| [SSRN (Legal Scholarship Network)](https://www.ssrn.com/) | 🌍 Multi | Large | Open repository of legal scholarship, preprints, and academic law papers. |
-| [OpenAlex](https://openalex.org/) | 🌍 Multi | Huge | Scholarly metadata and abstracts with a robust API; useful for legal literature mining. |
-
+- [Pile of Law](https://huggingface.co/datasets/pile-of-law/pile-of-law) - **[🇺🇸 EN]** - **[~256 GB]** - US legal and administrative text; used to train CaseLawBERT
+- [MultiLegalPile](https://huggingface.co/datasets/joelito/Multi_Legal_Pile) - **[🌍 24 langs]** - **[689 GB]** - Multilingual legal pretraining corpus from 17 jurisdictions
+- [LeXFiles](https://huggingface.co/datasets/lexlms/lex_files) - **[🌍 6 sys]** - **[19B tokens]** - Massive English legal corpus (EU, CoE, Canada, US, UK, India)
+- [Indian Kanoon Dataset](https://indiankanoon.org) - **[🇮🇳 EN]** - **[Large]** - Indian court judgments and statutes; widely used for Indian legal NLP
+- [JRC-Acquis](https://joint-research-centre.ec.europa.eu/language-technology-resources/jrc-acquis_en) - **[🇪🇺 22 langs]** - **[Large]** - Massive parallel corpus of total EU law used heavily in multilingual machine translation
+- [EUR-Lex](https://eur-lex.europa.eu) - **[🇪🇺 24 langs]** - **[Large]** - Official EU legislation and case law in all EU official languages
+- [Open Australian Legal Corpus](https://huggingface.co/datasets/umarbutler/open-australian-legal-corpus) - **[🇦🇺 EN]** - **[Large]** - Multijurisdictional corpus of Australian legislative and judicial documents
+- [S2ORC (Legal Subset)](https://github.com/allenai/s2orc) - **[🌍 EN]** - **[136M+]** - AllenAI's massive academic paper corpus containing deep legal reasoning/law review articles
+- [CourtListener Bulk Data](https://www.courtlistener.com/help/api/bulk-data/) - **[🇺🇸 EN]** - **[9M+]** - US court opinions, judge data, and oral argument metadata dumps
+- [RECAP Archive](https://free.law/recap/) - **[🇺🇸 EN]** - **[Huge]** - Largest open collection of US federal PACER documents and dockets
+- [Caselaw Access Project (CAP)](https://case.law) - **[🇺🇸 EN]** - **[6.9M]** - US court decisions from Harvard Law School, 1600s-2020
+- [Oyez Project Audio](https://www.oyez.org/) - **[🇺🇸 EN]** - **[Large]** - Premier archive of US Supreme Court multimodal audio and aligned text transcripts
+- [WIPO Lex](https://www.wipo.int/wipolex/) - **[🌍 Multi]** - **[Large]** - Global database of IP laws/treaties and WIPO Lex-Judgments for selected IP case law.
+- [SSRN (Legal Scholarship Network)](https://www.ssrn.com/) - **[🌍 Multi]** - **[Large]** - Open repository of legal scholarship, preprints, and academic law papers.
+- [OpenAlex](https://openalex.org/) - **[🌍 Multi]** - **[Huge]** - Scholarly metadata and abstracts with a robust API; useful for legal literature mining.
 ### Legal Judgment Prediction (LJP)
 
 Datasets for predicting case outcomes, charges, or penalties from court documents.
 
-| Dataset | Jurisdiction | Lang | Size | Task |
-|---|---|---|---|---|
-| [CAIL2018](https://github.com/china-ai-law-challenge/CAIL2018) | 🇨🇳 China | ZH | 2.6M cases | Charge, penalty, article prediction |
-| [ECtHR Dataset](https://huggingface.co/datasets/coastalcph/ecthr_cases) | 🇪🇺 ECHR | EN | 11K cases | Article violation prediction |
-| [ILDC (Indian Legal Documents Corpus)](https://github.com/Exploration-Lab/CJPE) | 🇮🇳 India | EN | 34K cases | Court judgment prediction and explanation |
-| [NyayaAnumana](https://huggingface.co/datasets/Dnyanesh1/NyayaAnumana) | 🇮🇳 India | EN | 700K+ cases | Largest corpus of Indian legal cases for LJP |
-| [FSCS - Swiss Judgment Prediction](https://huggingface.co/datasets/swiss_judgment_prediction) | 🇨🇭 Switzerland | DE/FR/IT | 85K cases | Binary outcome prediction across 3 languages |
-| [CaseSumm](https://huggingface.co/datasets/ChicagoHAI/CaseSumm) | 🇺🇸 US SCOTUS | EN | 25.6K opinions | Paired opinions + official syllabuses |
-| [IndianBailJudgments-1200](https://huggingface.co/datasets/SnehaDeshmukh/IndianBailJudgments-1200) | 🇮🇳 India | EN | 1.2K judgments | Bail decisions with 20+ structured attributes |
-| [The Supreme Court Database](http://scdb.wustl.edu) | 🇺🇸 US | EN | All SCOTUS cases since 1791 | Votes, outcomes, justice ideology |
-
+- [CAIL2018](https://github.com/china-ai-law-challenge/CAIL2018) - **[🇨🇳 China]** - **[ZH]** - **[2.6M cases]** - Charge, penalty, article prediction
+- [ECtHR Dataset](https://huggingface.co/datasets/coastalcph/ecthr_cases) - **[🇪🇺 ECHR]** - **[EN]** - **[11K cases]** - Article violation prediction
+- [ILDC (Indian Legal Documents Corpus)](https://github.com/Exploration-Lab/CJPE) - **[🇮🇳 India]** - **[EN]** - **[34K cases]** - Court judgment prediction and explanation
+- [NyayaAnumana](https://huggingface.co/datasets/Dnyanesh1/NyayaAnumana) - **[🇮🇳 India]** - **[EN]** - **[700K+ cases]** - Largest corpus of Indian legal cases for LJP
+- [FSCS - Swiss Judgment Prediction](https://huggingface.co/datasets/swiss_judgment_prediction) - **[🇨🇭 Switzerland]** - **[DE/FR/IT]** - **[85K cases]** - Binary outcome prediction across 3 languages
+- [CaseSumm](https://huggingface.co/datasets/ChicagoHAI/CaseSumm) - **[🇺🇸 US SCOTUS]** - **[EN]** - **[25.6K opinions]** - Paired opinions + official syllabuses
+- [IndianBailJudgments-1200](https://huggingface.co/datasets/SnehaDeshmukh/IndianBailJudgments-1200) - **[🇮🇳 India]** - **[EN]** - **[1.2K judgments]** - Bail decisions with 20+ structured attributes
+- [The Supreme Court Database](http://scdb.wustl.edu) - **[🇺🇸 US]** - **[EN]** - **[All SCOTUS cases since 1791]** - Votes, outcomes, justice ideology
 ### Legal Text Classification
 
-| Dataset | Jurisdiction | Lang | Notes |
-|---|---|---|---|
-| [LexGLUE](https://github.com/coastalcph/lex-glue) | 🌍 Multi | EN | 7-task benchmark: EURLEX, ECHR, LEDGAR, SCOTUS, ContractNLI, CaseHOLD, ECtHR |
-| [MultiEURLEX](https://huggingface.co/datasets/multi_eurlex) | 🇪🇺 EU | 23 langs | 65K EU laws with 4.5K labels; multilingual classification |
-| [LEDGAR](https://huggingface.co/datasets/coastalcph/ledgar) | 🇺🇸 US | EN | 60K+ contract provisions with 12.6K labels |
-| [CUAD](https://www.atticusprojectai.org/cuad) | 🇺🇸 US | EN | 510 annotated contracts, 41 clause types, 13K+ expert labels |
-| [AsyLex](https://huggingface.co/datasets/joelito/AsyLex) | 🇨🇭 Swiss | FR/DE | 59K documents; 19K human-anotated entities for Refugee Law |
-
+- [LexGLUE](https://github.com/coastalcph/lex-glue) - **[🌍 Multi]** - **[EN]** - 7-task benchmark: EURLEX, ECHR, LEDGAR, SCOTUS, ContractNLI, CaseHOLD, ECtHR
+- [MultiEURLEX](https://huggingface.co/datasets/multi_eurlex) - **[🇪🇺 EU]** - **[23 langs]** - 65K EU laws with 4.5K labels; multilingual classification
+- [LEDGAR](https://huggingface.co/datasets/coastalcph/ledgar) - **[🇺🇸 US]** - **[EN]** - 60K+ contract provisions with 12.6K labels
+- [CUAD](https://www.atticusprojectai.org/cuad) - **[🇺🇸 US]** - **[EN]** - 510 annotated contracts, 41 clause types, 13K+ expert labels
+- [AsyLex](https://huggingface.co/datasets/joelito/AsyLex) - **[🇨🇭 Swiss]** - **[FR/DE]** - 59K documents; 19K human-anotated entities for Refugee Law
 ### Legal Question Answering
 
-| Dataset | Jurisdiction | Lang | Notes |
-|---|---|---|---|
-| [CaseHOLD](https://huggingface.co/datasets/casehold/casehold) | 🇺🇸 US | EN | 53K multiple-choice QA from US case law (holding identification) |
-| [COLIEE](https://coliee.org) | 🇨🇦 🇯🇵 EN/JA | EN | Annual competition: statute retrieval, entailment, QA (Canadian + Japanese law) |
-| [JEC-QA](https://jecqa.thunlp.org) | 🇨🇳 China | ZH | 26K Chinese bar exam questions for legal reasoning |
-
+- [CaseHOLD](https://huggingface.co/datasets/casehold/casehold) - **[🇺🇸 US]** - **[EN]** - 53K multiple-choice QA from US case law (holding identification)
+- [COLIEE](https://coliee.org) - **[🇨🇦 🇯🇵 EN/JA]** - **[EN]** - Annual competition: statute retrieval, entailment, QA (Canadian + Japanese law)
+- [JEC-QA](https://jecqa.thunlp.org) - **[🇨🇳 China]** - **[ZH]** - 26K Chinese bar exam questions for legal reasoning
 ### Legal Summarization
 
-| Dataset | Jurisdiction | Lang | Notes |
-|---|---|---|---|
-| [BillSum](https://github.com/FiscalNote/BillSum) | 🇺🇸 US | EN | 22K US Congressional and California bill summaries |
-| [EUR-Lex Sum](https://huggingface.co/datasets/dennlinger/eur-lex-sum) | 🇪🇺 EU | 24 langs | Abstractive summarization of EU legislation; 1.5K+ docs |
-| [Multi-LexSum](https://github.com/multilexsum/dataset) | 🇺🇸 US | EN | Multi-document summarization of US civil rights court cases |
-| [mteb/legal_summarization](https://huggingface.co/datasets/mteb/legal_summarization) | 🇺🇸 US | EN | 439 pairs of legal contracts and plain-English summaries (from TOSDR) |
-| [IN-Abs / UK-Abs](https://github.com/Law-AI/summarization) | 🇮🇳 🇬🇧 | EN | Abstractive and extractive summarization datasets for Indian and UK case judgments |
-
+- [BillSum](https://github.com/FiscalNote/BillSum) - **[🇺🇸 US]** - **[EN]** - 22K US Congressional and California bill summaries
+- [EUR-Lex Sum](https://huggingface.co/datasets/dennlinger/eur-lex-sum) - **[🇪🇺 EU]** - **[24 langs]** - Abstractive summarization of EU legislation; 1.5K+ docs
+- [Multi-LexSum](https://github.com/multilexsum/dataset) - **[🇺🇸 US]** - **[EN]** - Multi-document summarization of US civil rights court cases
+- [mteb/legal_summarization](https://huggingface.co/datasets/mteb/legal_summarization) - **[🇺🇸 US]** - **[EN]** - 439 pairs of legal contracts and plain-English summaries (from TOSDR)
+- [IN-Abs / UK-Abs](https://github.com/Law-AI/summarization) - **[🇮🇳 🇬🇧]** - **[EN]** - Abstractive and extractive summarization datasets for Indian and UK case judgments
 ### Legal Semantic Search & Information Retrieval
 
-| Dataset | Jurisdiction | Lang | Notes |
-|---|---|---|---|
-| [opinions-synthetic-query-512](https://huggingface.co/datasets/Free-Law-Project/opinions-synthetic-query-512) | 🇺🇸 US | EN | High-quality Free Law Project synthetic queries for finetuning legal semantic search |
-| [LexTREC](https://trec.nist.gov/data/legal.html) | 🇺🇸 US | EN | Foundational NIST benchmark dataset for legal e-discovery containing real corporate data with expert judgments |
-| [CLERC](https://github.com/neelguha/legal-ml-datasets) | 🇺🇸 US | EN | Case Law Evaluation and Retrieval Corpus for dense retrieval |
-| [Massive Legal Embedding Benchmark (MLEB)](https://isaacus.com/mleb) | 🌍 Multi | Open | A multidomain open-source benchmark for legal information retrieval. |
-| [german_legal_sentences](https://huggingface.co/datasets/lavis-nlp/german_legal_sentences) | 🇩🇪 Germany | DE | Semantic sentence matching and citation recommendation |
-
+- [opinions-synthetic-query-512](https://huggingface.co/datasets/Free-Law-Project/opinions-synthetic-query-512) - **[🇺🇸 US]** - **[EN]** - High-quality Free Law Project synthetic queries for finetuning legal semantic search
+- [LexTREC](https://trec.nist.gov/data/legal.html) - **[🇺🇸 US]** - **[EN]** - Foundational NIST benchmark dataset for legal e-discovery containing real corporate data with expert judgments
+- [CLERC](https://github.com/neelguha/legal-ml-datasets) - **[🇺🇸 US]** - **[EN]** - Case Law Evaluation and Retrieval Corpus for dense retrieval
+- [Massive Legal Embedding Benchmark (MLEB)](https://isaacus.com/mleb) - **[🌍 Multi]** - **[Open]** - A multidomain open-source benchmark for legal information retrieval.
+- [german_legal_sentences](https://huggingface.co/datasets/lavis-nlp/german_legal_sentences) - **[🇩🇪 Germany]** - **[DE]** - Semantic sentence matching and citation recommendation
 ### Contract Analysis
 
-| Dataset | Jurisdiction | Lang | Notes |
-|---|---|---|---|
-| [CUAD](https://www.atticusprojectai.org/cuad) | 🇺🇸 US | EN | See Classification section. Gold standard for contract clause extraction. |
-| [MAUD](https://github.com/TheAtticusProject/maud) | 🇺🇸 US | EN | M&A contract understanding; 39K questions on merger agreements |
-| [ToS;DR](https://tosdr.org/) | 🌍 Multi | EN | Phenomenal dataset mapping thousands of internet Terms of Service into machine-readable JSON grades and bullets |
-| [ContractNLI](https://stanfordnlp.github.io/contract-nli/) | 🌍 | EN | Natural language inference over non-disclosure agreements |
-
+- [CUAD](https://www.atticusprojectai.org/cuad) - **[🇺🇸 US]** - **[EN]** - See Classification section. Gold standard for contract clause extraction.
+- [MAUD](https://github.com/TheAtticusProject/maud) - **[🇺🇸 US]** - **[EN]** - M&A contract understanding; 39K questions on merger agreements
+- [ToS;DR](https://tosdr.org/) - **[🌍 Multi]** - **[EN]** - Phenomenal dataset mapping thousands of internet Terms of Service into machine-readable JSON grades and bullets
+- [ContractNLI](https://stanfordnlp.github.io/contract-nli/) - **[🌍]** - **[EN]** - Natural language inference over non-disclosure agreements
 ---
 
 ## Legal AI Models & Embeddings
@@ -169,42 +148,33 @@ Datasets for predicting case outcomes, charges, or penalties from court document
 
 Fine-tuned or domain-pretrained LLMs specifically for legal tasks.
 
-| Model | Base | Lang | License | Notes |
-|---|---|---|---|---|
-| [SaulLM-7B](https://huggingface.co/Equall/Saul-7B-Instruct-v1) | Mistral 7B | EN | MIT | Pretrained on 30B+ English legal tokens |
-| [SaulLM-54B / 141B](https://huggingface.co/Equall) | Mistral | EN | MIT | Larger variants released Nov 2024 |
-| [Lawma-8B](https://huggingface.co/ricdomolm/lawma-8b) | Llama 3 | EN | - | Fine-tuned for legal classification tasks |
-| [Lawma-70B](https://huggingface.co/ricdomolm/lawma-70b) | Llama 3 | EN | - | Larger legal classification model |
-| [InLegalBERT](https://huggingface.co/law-ai/InLegalBERT) | BERT | EN (Indian) | - | Trained on 5.4M Indian legal documents |
-| [Pasal.id](https://github.com/ilhamfp/pasal) | Claude + RAG | ID | Open | RAG-powered access to 40,000+ Indonesian regulations via Claude AI |
-| [NyayaSahayak](https://github.com/SoulNoob/Nyaysahayak) | - | EN/HI | Open | AI legal assistant covering Indian Constitution, BNS 2023, IT Act |
-| [ChatLaw](https://github.com/PKU-YuanGroup/ChatLaw) | LLaMA/Ziya | ZH | CC BY-NC | Chinese legal LLM from Peking University; trained on 30K+ Chinese legal datasets |
-| [DISC-LawLLM](https://github.com/FudanDISC/DISC-LawLLM) | Baichuan 13B | ZH | Apache 2.0 | Chinese legal assistant from Fudan; legal retrieval + reasoning |
-
+- [SaulLM-7B](https://huggingface.co/Equall/Saul-7B-Instruct-v1) - **[Mistral 7B]** - **[EN]** - **[MIT]** - Pretrained on 30B+ English legal tokens
+- [SaulLM-54B / 141B](https://huggingface.co/Equall) - **[Mistral]** - **[EN]** - **[MIT]** - Larger variants released Nov 2024
+- [Lawma-8B](https://huggingface.co/ricdomolm/lawma-8b) - **[Llama 3]** - **[EN]** - Fine-tuned for legal classification tasks
+- [Lawma-70B](https://huggingface.co/ricdomolm/lawma-70b) - **[Llama 3]** - **[EN]** - Larger legal classification model
+- [InLegalBERT](https://huggingface.co/law-ai/InLegalBERT) - **[BERT]** - **[EN (Indian)]** - Trained on 5.4M Indian legal documents
+- [Pasal.id](https://github.com/ilhamfp/pasal) - **[Claude + RAG]** - **[ID]** - **[Open]** - RAG-powered access to 40,000+ Indonesian regulations via Claude AI
+- [NyayaSahayak](https://github.com/SoulNoob/Nyaysahayak) - **[EN/HI]** - **[Open]** - AI legal assistant covering Indian Constitution, BNS 2023, IT Act
+- [ChatLaw](https://github.com/PKU-YuanGroup/ChatLaw) - **[LLaMA/Ziya]** - **[ZH]** - **[CC BY-NC]** - Chinese legal LLM from Peking University; trained on 30K+ Chinese legal datasets
+- [DISC-LawLLM](https://github.com/FudanDISC/DISC-LawLLM) - **[Baichuan 13B]** - **[ZH]** - **[Apache 2.0]** - Chinese legal assistant from Fudan; legal retrieval + reasoning
 ### Embedding & BERT-style Models
 
 Domain-specific encoder models for legal text similarity, classification, and retrieval.
 
-| Model | HuggingFace / Provider | Notes |
-|---|---|---|
-| [voyage-law-2](https://docs.voyageai.com/docs/embeddings) | Voyage AI (API) | State-of-the-art closed-source embedding model specifically trained for legal text retrieval |
-| [voyage-4](https://docs.voyageai.com/docs/embeddings) | Voyage AI (API) | Highly optimized general embedding model with excellent performance across professional domains including law |
-| [Legal-BERT](https://huggingface.co/nlpaueb/legal-bert-base-uncased) | `nlpaueb/legal-bert-base-uncased` | Pretrained on EU/US legislation + court cases |
-| [CaseLawBERT](https://huggingface.co/pile-of-law/legalbert-large-1.7M-2) | `pile-of-law/legalbert-large-1.7M-2` | Trained on Pile of Law corpus |
-| [LegalBert (JHU)](https://huggingface.co/jhu-clsp/LegalBert) | `jhu-clsp/LegalBert` | JHU CLSP legal domain adaptation |
-| [EmuBERT](https://huggingface.co/isaacus/EmuBERT) | `isaacus/EmuBERT` | RoBERTa-based model for Australian law; 1.4B tokens across 6 jurisdictions |
-| [Lawformer](https://huggingface.co/joelito/longformer-base-4096-legal) | - | Long-context legal document model |
-| Kanon 2 Embedder | `isaacus/kanon-2` | #1 on MLEB benchmark; legal semantic search + RAG; 16K token context |
-
+- [voyage-law-2](https://docs.voyageai.com/docs/embeddings) - **[Voyage AI (API)]** - State-of-the-art closed-source embedding model specifically trained for legal text retrieval
+- [voyage-4](https://docs.voyageai.com/docs/embeddings) - **[Voyage AI (API)]** - Highly optimized general embedding model with excellent performance across professional domains including law
+- [Legal-BERT](https://huggingface.co/nlpaueb/legal-bert-base-uncased) - **[`nlpaueb/legal-bert-base-uncased`]** - Pretrained on EU/US legislation + court cases
+- [CaseLawBERT](https://huggingface.co/pile-of-law/legalbert-large-1.7M-2) - **[`pile-of-law/legalbert-large-1.7M-2`]** - Trained on Pile of Law corpus
+- [LegalBert (JHU)](https://huggingface.co/jhu-clsp/LegalBert) - **[`jhu-clsp/LegalBert`]** - JHU CLSP legal domain adaptation
+- [EmuBERT](https://huggingface.co/isaacus/EmuBERT) - **[`isaacus/EmuBERT`]** - RoBERTa-based model for Australian law; 1.4B tokens across 6 jurisdictions
+- [Lawformer](https://huggingface.co/joelito/longformer-base-4096-legal) - Long-context legal document model
+- Kanon 2 Embedder - **[`isaacus/kanon-2`]** - #1 on MLEB benchmark; legal semantic search + RAG; 16K token context
 **Benchmark:** [MLEB (Massive Legal Embedding Benchmark)](https://huggingface.co/datasets/Kanon/MLEB) - Comprehensive evaluation for legal text embedding models (Oct 2025).
 
 ### Multilingual & Regional Legal Models
 
-| Model / Platform | Region | Language(s) | Notes |
-|---|---|---|---|
-| [OpenGPT-X / Teuken-7B](https://opengpt-x.de) | Europe | All 24 EU langs | German-funded initiative; produced Teuken-7B LLM covering all official EU languages |
-| [LawBench Models](https://github.com/open-compass/LawBench) | China | ZH | Models evaluated on 20 Chinese legal tasks |
-## MCP Servers for Legal
+- [OpenGPT-X / Teuken-7B](https://opengpt-x.de) - **[Europe]** - **[All 24 EU langs]** - German-funded initiative; produced Teuken-7B LLM covering all official EU languages
+- [LawBench Models](https://github.com/open-compass/LawBench) - **[China]** - **[ZH]** - Models evaluated on 20 Chinese legal tasks## MCP Servers for Legal
 
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers that connect AI assistants to legal data sources and workflows.
 
@@ -477,16 +447,13 @@ Organizations and software actively using technology to advance access to justic
 
 Seminal papers that shaped the field of legal AI and NLP. Essential reading for anyone building in this space.
 
-| Paper | Year | What it introduced |
-|---|---|---|
-| [LEGAL-BERT: The Muppets straight out of Law School](https://arxiv.org/abs/2010.02559) | 2020 | First large-scale BERT models pretrained on EU/US legal text; established the domain-adaptation benchmark for legal NLP |
-| [LexGLUE: A Benchmark Dataset for Legal Language Understanding](https://arxiv.org/abs/2110.00976) | 2022 | 7-task legal NLP benchmark; the "GLUE for law"; drove standardized evaluation |
-| [LegalBench: A Collaboratively Built Benchmark for Legal Reasoning](https://arxiv.org/abs/2308.11462) | 2023 | 162-task benchmark built with practicing lawyers; most comprehensive LLM legal evaluation to date |
-| [GPT-4 Passes the Bar Exam](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4389233) | 2023 | Bommarito & Katz; showed LLMs can pass professional licensing exams; catalyzed investor and legal community attention |
-| [SaulLM-7B: A pioneering Large Language Model for Law](https://arxiv.org/abs/2403.03883) | 2024 | First open-weight LLM continually pretrained on 30B+ legal tokens with instruction tuning |
-| [MultiLegalPile: A 689GB Multilingual Legal Corpus](https://aclanthology.org/2024.acl-long.805/) | 2024 | Largest open multilingual legal pretraining dataset; 24 languages, 17 jurisdictions |
-| [Artificial Intelligence and Legal Analytics](https://www.cambridge.org/core/books/artificial-intelligence-and-legal-analytics/E7D705EEF392501A1DB180645917E7E0) | 2017 | Kevin Ashley; foundational textbook on AI and law; covers case-based reasoning, argument mining, and legal knowledge representation |
-
+- [LEGAL-BERT: The Muppets straight out of Law School](https://arxiv.org/abs/2010.02559) - **[2020]** - First large-scale BERT models pretrained on EU/US legal text; established the domain-adaptation benchmark for legal NLP
+- [LexGLUE: A Benchmark Dataset for Legal Language Understanding](https://arxiv.org/abs/2110.00976) - **[2022]** - 7-task legal NLP benchmark; the "GLUE for law"; drove standardized evaluation
+- [LegalBench: A Collaboratively Built Benchmark for Legal Reasoning](https://arxiv.org/abs/2308.11462) - **[2023]** - 162-task benchmark built with practicing lawyers; most comprehensive LLM legal evaluation to date
+- [GPT-4 Passes the Bar Exam](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4389233) - **[2023]** - Bommarito & Katz; showed LLMs can pass professional licensing exams; catalyzed investor and legal community attention
+- [SaulLM-7B: A pioneering Large Language Model for Law](https://arxiv.org/abs/2403.03883) - **[2024]** - First open-weight LLM continually pretrained on 30B+ legal tokens with instruction tuning
+- [MultiLegalPile: A 689GB Multilingual Legal Corpus](https://aclanthology.org/2024.acl-long.805/) - **[2024]** - Largest open multilingual legal pretraining dataset; 24 languages, 17 jurisdictions
+- [Artificial Intelligence and Legal Analytics](https://www.cambridge.org/core/books/artificial-intelligence-and-legal-analytics/E7D705EEF392501A1DB180645917E7E0) - **[2017]** - Kevin Ashley; foundational textbook on AI and law; covers case-based reasoning, argument mining, and legal knowledge representation
 ---
 
 ## Benchmarks & Evaluation
@@ -536,25 +503,23 @@ Open standards and specifications relevant to legal technology and AI integratio
 
 Platforms that index, curate, review, or list legal technology products — useful for discovery, vendor evaluation, and market research.
 
-| Platform | Description | Type |
-|---|---|---|
-| [Legaltech Hub](https://legaltechnologyhub.com) | Global directory of legaltech solutions with filters by category, use case, jurisdiction, and language. Vendors can submit products for listing. | Global |
-| [LawNext Legal Tech Directory](https://www.lawnext.com) | Bob Ambrogi's legal tech news site with a searchable product directory covering company details, reviews, press coverage, and pricing. | Global |
-| [Above the Law](https://abovethelaw.com) | Legal news publication with legaltech coverage and a buyer's guide for law firm software. | Global |
-| [Legal IT Professionals Directory](https://www.legaltechnology.com) | Vendor database and software directory primarily for larger law firms and enterprise legal IT. | Global |
-| [Theorem LTS](https://theoremlegal.com) | Legal tech marketplace with comparison tools, pricing, media, and vendor demo connections. | Global |
-| [G2 - Legal Software](https://www.g2.com/categories/legal) | Peer review platform with verified user ratings for legal software across 33+ subcategories. | Global |
-| [Capterra - Legal Software](https://www.capterra.com/legal-software/) | Software comparison platform ranking legal tools by user ratings and popularity. | Global |
-| [GetApp - Legal Software](https://www.getapp.com/legal-compliance-software/) | Software marketplace with verified reviews, comparisons, and feature filters for legal tools. | Global |
-| [Software Advice - Legal](https://www.softwareadvice.com/legal/) | Platform helping law firms choose software through comparisons and analyst recommendations. | Global |
-| [ISAIL (Indian Society of AI and Law)](https://isail.in) | Indian not-for-profit focused on AI policy, standards, and governance. Administers the AiStandard.io Alliance. | Policy + Standards |
-| [Bar and Bench](https://www.barandbench.com) | Indian legal news publication with coverage of court tech, legaltech, and legal AI developments. | Media |
-| [LawTech UK](https://lawtech.uk) | UK government-backed initiative with an ecosystem map and resources for the UK lawtech sector. | Directory + Community |
-| [LegalGeek](https://www.legalgeek.co) | UK legaltech conference and community with vendor showcases and market coverage. | Community + Events |
-| [Stanford CodeX](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/) | Stanford Center for Legal Informatics. Hosts the FutureLaw conference and computational law research. | Academic |
-| [Legal Design Lab (Stanford)](https://law.stanford.edu/organizations/pages/legal-design-lab/) | Stanford lab focused on technology and design for access to justice. | Academic |
-| [Harvard Law - Innovation Programs](https://hls.harvard.edu/the-hls-innovation-program/) | Harvard Law School programs tracking legal tech and legal innovation initiatives. | Academic |
-
+- [Legaltech Hub](https://legaltechnologyhub.com) - **[Global]** - Global directory of legaltech solutions with filters by category, use case, jurisdiction, and language.
+- [LawNext Legal Tech Directory](https://www.lawnext.com) - **[Global]** - Bob Ambrogi's legal tech news site with a searchable product directory covering company details, reviews, press coverage, and pricing.
+- [Above the Law](https://abovethelaw.com) - **[Global]** - Legal news publication with legaltech coverage and a buyer's guide for law firm software.
+- [Legal IT Professionals Directory](https://www.legaltechnology.com) - **[Global]** - Vendor database and software directory primarily for larger law firms and enterprise legal IT.
+- [Theorem LTS](https://theoremlegal.com) - **[Global]** - Legal tech marketplace with comparison tools, pricing, media, and vendor demo connections.
+- [G2 - Legal Software](https://www.g2.com/categories/legal) - **[Global]** - Peer review platform with verified user ratings for legal software across 33+ subcategories.
+- [Capterra - Legal Software](https://www.capterra.com/legal-software/) - **[Global]** - Software comparison platform ranking legal tools by user ratings and popularity.
+- [GetApp - Legal Software](https://www.getapp.com/legal-compliance-software/) - **[Global]** - Software marketplace with verified reviews, comparisons, and feature filters for legal tools.
+- [Software Advice - Legal](https://www.softwareadvice.com/legal/) - **[Global]** - Platform helping law firms choose software through comparisons and analyst recommendations.
+- [ISAIL (Indian Society of AI and Law)](https://isail.in) - **[Policy + Standards]** - Indian not-for-profit focused on AI policy, standards, and governance. Administers the AiStandard.io Alliance.
+- [Bar and Bench](https://www.barandbench.com) - **[Media]** - Indian legal news publication with coverage of court tech, legaltech, and legal AI developments.
+- [LawTech UK](https://lawtech.uk) - **[Directory + Community]** - UK government-backed initiative with an ecosystem map and resources for the UK lawtech sector.
+- [LegalGeek](https://www.legalgeek.co) - **[Community + Events]** - UK legaltech conference and community with vendor showcases and market coverage.
+- [Stanford CodeX](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/) - **[Academic]** - Stanford Center for Legal Informatics. Hosts the FutureLaw conference and computational law research.
+- [Legal Design Lab (Stanford)](https://law.stanford.edu/organizations/pages/legal-design-lab/) - **[Academic]** - Stanford lab focused on technology and design for access to justice.
+- [Harvard Law - Innovation Programs](https://hls.harvard.edu/the-hls-innovation-program/) - **[Academic]** - Harvard Law School programs tracking legal tech and legal innovation initiatives.
+- [Harvard Law - Innovation Programs](https://hls.harvard.edu/the-hls-innovation-program/) - **[Harvard Law School programs tracking legal tech and legal innovation initiatives.]** - Academic
 ---
 
 ## Communities, Conferences & Media
