@@ -35,10 +35,15 @@ Legal technology (legaltech) is the use of technology and software to provide le
 - [Full-Stack Legal Platforms & Suites](#full-stack-legal-platforms--suites)
 - [Legal Research Platforms](#legal-research-platforms)
 - [Document Automation & Drafting](#document-automation--drafting)
+- [Intellectual Property & Patent Tech](#intellectual-property--patent-tech)
 - [Contract Lifecycle Management (CLM)](#contract-lifecycle-management-clm)
+- [Notarization & E-Signature](#notarization--e-signature)
 - [E-Discovery & Document Review](#e-discovery--document-review)
 - [Practice Management & Legal Ops](#practice-management--legal-ops)
+- [E-Billing & Legal Spend Management](#e-billing--legal-spend-management)
+- [Consumer Legal Services \(B2C\)](#consumer-legal-services-b2c)
 - [Compliance & RegTech](#compliance--regtech)
+- [Online Dispute Resolution (ODR)](#online-dispute-resolution-odr)
 - [Access to Justice & Public Interest Tech](#access-to-justice--public-interest-tech)
 - [Foundational Research](#foundational-research)
 - [Benchmarks & Evaluation](#benchmarks--evaluation)
@@ -308,6 +313,17 @@ Software for generating, assembling, and reviewing legal documents.
 
 ---
 
+## Intellectual Property & Patent Tech
+
+Platforms for patent searching, analytics, and intellectual property portfolio management.
+
+- [PatSnap](https://www.patsnap.com) - **[AI-Native]** Patent analytics and intelligence powered by AI.
+- [Anaqua](https://www.anaqua.com) - **[Established]** Comprehensive IP management system.
+- [AltLegal](https://www.altlegal.com) - **[Established]** Automated trademark docketing and protection.
+- [Trademarkia](https://www.trademarkia.com) - **[Established]** Global trademark search engine and registration platform.
+
+---
+
 ## Contract Lifecycle Management (CLM)
 
 Platforms for managing contracts from creation through execution, obligations, and renewal.
@@ -326,6 +342,16 @@ Platforms for managing contracts from creation through execution, obligations, a
 - [Avvoka](https://avvoka.com) - **[Established]** UK document automation and negotiation platform.
 
 - [Wraft](https://github.com/wraft/wraft) - **[Open Source]** Document lifecycle management with version control.
+
+---
+
+## Notarization & E-Signature
+
+Platforms handling digital execution of documents and Remote Online Notarization (RON).
+
+- [DocuSign](https://www.docusign.com) - **[Established]** The global standard for e-signatures and agreement clouds.
+- [Proof (formerly Notarize)](https://www.proof.com) - **[Established]** Pioneer of Remote Online Notarization (RON).
+- [DocVerify](https://www.docverify.com) - **[Established]** E-notary and secure electronic signature platform.
 
 ---
 
@@ -367,6 +393,27 @@ Software for running a law practice and legal department operations - case manag
 
 ---
 
+## E-Billing & Legal Spend Management
+
+Software designed for corporate legal departments to manage, audit, and analyze outside counsel spend.
+
+- [Brightflag](https://brightflag.com) - **[AI-Native]** AI-powered invoice review and legal spend management.
+- [SimpleLegal](https://www.simplelegal.com) - **[Established]** Modern corporate legal operations software.
+- [CounselLink](https://counsellink.com) - **[Established]** LexisNexis enterprise legal spend and matter management.
+
+---
+
+## Consumer Legal Services (B2C)
+
+Platforms delivering direct-to-consumer automated legal services, documents, and advice.
+
+- [LegalZoom](https://www.legalzoom.com) - **[Established]** Market leader in online business formation and estate planning.
+- [Rocket Lawyer](https://www.rocketlawyer.com) - **[Established]** Online legal documents and on-demand legal advice.
+- [HelloPrenup](https://helloprenup.com) - **[Established]** Digital prenuptial agreement platform.
+- [DoNotPay](https://donotpay.com) - **[AI-Native]** Consumer advocacy platform marketing itself as the "world's first robot lawyer".
+
+---
+
 ## Compliance & RegTech
 
 Tools for regulatory compliance, policy management, financial crime detection, and AI governance.
@@ -379,6 +426,16 @@ Tools for regulatory compliance, policy management, financial crime detection, a
 - [OneTrust](https://www.onetrust.com) - **[Established]** Privacy, GRC, and ethics management platform with AI-powered workflows.
 - [NAVEX](https://www.navex.com) - **[Established]** Integrated risk and compliance management.
 - [Kira Systems](https://kirasystems.com) - **[Established]** ML-based contract analysis for due diligence and compliance.
+
+---
+
+## Online Dispute Resolution (ODR)
+
+Platforms designed to resolve disputes entirely online via algorithmic, crowdsourced, or mediated mechanisms.
+
+- [TylerTech E-Filing](https://www.tylertech.com) - **[Established]** The underlying e-filing and case management infrastructure for US state e-Courts.
+- [Modria](https://www.modria.com) - **[Established]** Pioneer ODR platform (now owned by Tyler Technologies), originally built for eBay.
+- [Kleros](https://kleros.io) - **[AI-Native]** Decentralized, blockchain-based crowdsourced justice protocol.
 
 ---
 
