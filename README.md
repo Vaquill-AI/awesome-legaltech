@@ -271,6 +271,7 @@ Browser-based platforms and search engines for case law, statutes, and dockets.
 - [Judilibre (Cour de Cassation)](https://www.courdecassation.fr/acces-rapide/judiciaire-judilibre) - Open API for French Supreme Court decisions. GDPR-anonymized.
 
 #### India
+- [Vaquill AI](https://vaquill.ai) - Free access to 20M+ Indian judgments with semantic search and citation verification. *(Sponsor)*
 - [Indian Kanoon](https://indiankanoon.org) - Free access to Indian court judgments, statutes, and legal documents.
 - [Supreme Court of India](https://sci.gov.in) - Official portal with judgments from the Supreme Court of India.
 - [eCourts Services](https://services.ecourts.gov.in) - Unified portal for Indian district and High Court case status.
