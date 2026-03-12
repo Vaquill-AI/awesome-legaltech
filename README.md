@@ -231,13 +231,18 @@ Country-specific legal databases, portals, and open data sources.
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers that connect AI assistants to legal data sources and workflows.
 
 - [Vaquill AI MCP](https://github.com/vaquill-AI/vaquill-mcp) - MCP server providing AI agents with access to 20M+ Indian Supreme Court, High Court, and Tribunal judgments with semantic search and citation verification. *(Sponsor)*
-- [agentic-ops/legal-mcp](https://github.com/agentic-ops/legal-mcp) - Comprehensive MCP server for legal workflows. Integrates AI assistants with legal databases and case management systems (Clio, etc.).
+- [CourtListener MCP (DefendTheDisabled)](https://github.com/DefendTheDisabled/courtlistener-mcp) - Connects AI agents to CourtListener with semantic search, hybrid search, and citation verification to mitigate hallucination.
+- [CourtListener MCP (Travis-Prall)](https://github.com/Travis-Prall/court-listener-mcp) - MCP Server for accessing CourtListener case data, court opinions, and eCFR federal regulations.
+- [CourtListener MCP (khizar-anjum)](https://github.com/khizar-anjum/courtlistener-mcp) - MCP server built for searching cases by natural language legal problems across 3,352 U.S. courts.
+- [CanLII MCP Server](https://github.com/Alhwyn/canlii-mcp-server) - Connects AI assistants to the Canadian Legal Information Institute (CanLII) to retrieve Canadian legislation and case law.
 - [uk-case-law-mcp-server](https://github.com/nationalarchives/uk-case-law-mcp-server) - MCP server that enables LLMs to search, retrieve, and cite UK legal judgments via The National Archives API.
+- [US Legal MCP Server](https://github.com/a10y/us-legal-mcp) - Provides access to US Congress bills, Federal Register documents, and court opinions.
+- [Open Legal Compliance MCP](https://github.com/qpd-v/open-legal-compliance-mcp) - Facilitates legal compliance analysis using free government APIs for US and EU law.
+- [agentic-ops/legal-mcp](https://github.com/agentic-ops/legal-mcp) - Comprehensive MCP server for legal workflows. Integrates AI assistants with legal databases and case management systems (Clio, etc.).
 - [LegalContext MCP](https://mcp.so/server/legalcontext) - Open-source MCP server bridging law firm document management systems with AI assistants.
-- [CourtListener MCP](https://free.law) - Access CourtListener's legal opinion database directly from AI agents via MCP *(community integration)*.
 - [adeu (Agentic DOCX Redlining Engine)](https://github.com/dealfluence/adeu) - MCP Server enabling LLMs to inject native Track Changes and Comments into Word documents.
 
-> **Note:** MCP for legal is an emerging ecosystem. Many servers are early-stage. Always verify data accuracy and jurisdiction coverage before use in legal practice.
+> **Note:** MCP for legal is an emerging ecosystem. Many servers are early-stage community projects. Always verify data accuracy and jurisdiction coverage before use in legal practice.
 
 ---
 
