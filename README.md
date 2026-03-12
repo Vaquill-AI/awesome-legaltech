@@ -180,6 +180,7 @@ Tools for automating the creation of legal documents, templates, and guided inte
 - [OpenStates](https://openstates.org) - Open-source platform tracking US state legislation in real time.
 
 ### Commercial AI Research Platforms
+- [Vaquill AI](https://vaquill.ai) ⭐ - AI-native Indian legal research platform with agentic research workflows, persistent memory, MCP server, proprietary database of 20M+ original SC/HC/Tribunal judgments and dockets, contract analysis, and multilingual support. *(Sponsor)*
 - [Westlaw + CoCounsel](https://legal.thomsonreuters.com/en/products/westlaw) - Thomson Reuters flagship with GPT-4 powered AI assistant. 50-state surveys, deposition prep, brief analysis.
 - [LexisNexis / Lexis+ AI](https://www.lexisnexis.com) - Multi-model AI (Claude 3, GPT-4o, Mistral 7B). Drafting guidance, statute summaries, Shepard's citations.
 - [vLex / Vincent AI](https://vlex.com) - Global coverage (1B+ documents, 17 countries). AI jurisdictional comparison, contract redlining.
