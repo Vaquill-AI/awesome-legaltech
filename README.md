@@ -395,8 +395,6 @@ Software for running a law practice - case management, billing, calendaring, and
 - [ArkCase](https://www.arkcase.com) - Open-source adaptive case management for legal and government.
 - [J-Lawyer](https://www.j-lawyer.org) - German open-source law practice management.
 
----
-
 ## Compliance & RegTech
 
 Tools for regulatory compliance, policy management, financial crime detection, and AI governance.
@@ -409,8 +407,6 @@ Tools for regulatory compliance, policy management, financial crime detection, a
 - [OneTrust](https://www.onetrust.com) - Privacy, GRC, and ethics management platform with AI-powered workflows.
 - [NAVEX](https://www.navex.com) - Integrated risk and compliance management.
 - [Kira Systems](https://kirasystems.com) - ML-based contract analysis for due diligence and compliance.
-
----
 
 ---
 
@@ -553,10 +549,15 @@ Stay current with the legaltech ecosystem.
 
 ### Communities & Forums
 - [Legal Hackers](https://legalhackers.org) - Global community of lawyers, engineers, policy professionals. Local chapters worldwide.
-- [r/LegalTech](https://reddit.com/r/legaltech) - Reddit community for legaltech discussion.
 - [LawTech.UK](https://lawtech.uk) - UK-focused legal innovation community.
 - [HFforLegal (Hugging Face)](https://huggingface.co/HFforLegal) - Community for legal AI practitioners on Hugging Face.
 - [CLOC (Corporate Legal Operations Consortium)](https://cloc.org) - 3,000+ member community for in-house legal operations professionals.
+
+### Reddit Communities
+- [r/LegalTech](https://reddit.com/r/legaltech) - The primary subreddit strictly dedicated to legal technology discussion, software, and AI in law.
+- [r/LawFirm](https://reddit.com/r/lawfirm) - Focuses on the business of law. Highly active discussions on practice management software, marketing, and tech stacks.
+- [r/Lawyers](https://reddit.com/r/lawyers) - *Private community for verified lawyers only.* Frequently discusses the practical reality and adoption of legaltech tools.
+- [r/artificial](https://reddit.com/r/artificial) - Not law-specific, but frequently hosts high-level discussions on the intersection of AI, copyright, and legal compliance.
 
 ### Conferences
 - [Legalweek](https://www.legalweek.com) - Annual legaltech conference in New York.
