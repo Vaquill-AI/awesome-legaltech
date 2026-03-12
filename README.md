@@ -213,6 +213,11 @@ Browser-based platforms and search engines for case law, statutes, and dockets.
 
 ### Open / Free Access (By Jurisdiction)
 
+#### Global & Multi-Jurisdictional
+- [WorldLII](https://www.worldlii.org/databases.html) - Federated gateway to 2,000+ legal databases across 200+ jurisdictions via national LIIs.
+- [CommonLII](http://www.commonlii.org) - Searchable legal databases from 60+ Commonwealth and common law jurisdictions.
+- [GlobaLex (NYU)](https://www.nyulawglobal.org/globalex/) - Comprehensive research guides and database listings for international, comparative, and foreign law.
+
 #### United States
 - [CourtListener](https://www.courtlistener.com) - Free open case law search with API access. 9M+ opinions.
 - [PACER](https://pacer.uscourts.gov) - Official US federal court docket and document system.
