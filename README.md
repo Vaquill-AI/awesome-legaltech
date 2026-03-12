@@ -27,6 +27,7 @@ Legal technology (legaltech) is the use of technology and software to provide le
   - [Legal Question Answering](#legal-question-answering)
   - [Legal Summarization](#legal-summarization)
   - [Contract Analysis](#contract-analysis)
+- [APIs for Legal Data](#apis-for-legal-data)
 - [MCP Servers for Legal](#mcp-servers-for-legal)
 - [Legal AI Models & Embeddings](#legal-ai-models--embeddings)
   - [Large Language Models (LLMs)](#large-language-models-llms)
@@ -154,6 +155,14 @@ Datasets for predicting case outcomes, charges, or penalties from court document
 | [ContractNLI](https://stanfordnlp.github.io/contract-nli/) | 🌍 | EN | Natural language inference over non-disclosure agreements |
 
 
+
+---
+
+## APIs for Legal Data
+
+Commercial and open APIs specifically designed for retrieving case law, statutes, and legal documents into applications.
+
+- [Vaquill AI API](https://vaquill.ai) - Developer API providing programmatic access to 20M+ Indian Supreme Court, High Court, and Tribunal judgments with semantic search and citation verification. *(Sponsor)*
 
 ---
 
