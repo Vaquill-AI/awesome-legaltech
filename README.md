@@ -20,15 +20,13 @@ Legal technology (legaltech) is the use of technology and software to provide le
 ## Contents
 
 - [Open Source Tools & Platforms](#open-source-tools--platforms)
-- [Legal Data & Datasets](#legal-data--datasets)
+- [Machine Learning Datasets & Corpora](#machine-learning-datasets--corpora)
   - [Pretraining Corpora](#pretraining-corpora)
   - [Legal Judgment Prediction (LJP)](#legal-judgment-prediction-ljp)
   - [Legal Text Classification](#legal-text-classification)
   - [Legal Question Answering](#legal-question-answering)
   - [Legal Summarization](#legal-summarization)
   - [Contract Analysis](#contract-analysis)
-  - [Open Datasets by Jurisdiction](#open-datasets-by-jurisdiction)
-  - [Legal Data Portals by Jurisdiction](#legal-data-portals-by-jurisdiction)
 - [MCP Servers for Legal](#mcp-servers-for-legal)
 - [Legal AI Models & Embeddings](#legal-ai-models--embeddings)
   - [Large Language Models (LLMs)](#large-language-models-llms)
@@ -76,13 +74,13 @@ Open-source and self-hostable platforms for building, processing, and automating
 
 ---
 
-## Legal Data & Datasets
+## Machine Learning Datasets & Corpora
 
 Curated datasets of legal texts, case law, statutes, and contracts - organized by task. Most are openly available for research.
 
-### Pretraining Corpora
+### Pretraining Corpora & Bulk Data
 
-Large text corpora for pretraining or fine-tuning legal language models.
+Large text corpora and jurisdiction-wide raw data dumps for pretraining or fine-tuning legal language models.
 
 | Dataset | Lang | Size | Notes |
 |---|---|---|---|
@@ -91,6 +89,10 @@ Large text corpora for pretraining or fine-tuning legal language models.
 | [LeXFiles](https://huggingface.co/datasets/lexlms/lex_files) | 🌍 6 sys | 19B tokens | Massive English legal corpus (EU, CoE, Canada, US, UK, India) |
 | [Indian Kanoon Dataset](https://indiankanoon.org) | 🇮🇳 EN | Large | Indian court judgments and statutes; widely used for Indian legal NLP |
 | [EUR-Lex](https://eur-lex.europa.eu) | 🇪🇺 24 langs | Large | Official EU legislation and case law in all EU official languages |
+| [Open Australian Legal Corpus](https://huggingface.co/datasets/umarbutler/open-australian-legal-corpus) | 🇦🇺 EN | Large | Multijurisdictional corpus of Australian legislative and judicial documents |
+| [CourtListener Bulk Data](https://www.courtlistener.com/help/api/bulk-data/) | 🇺🇸 EN | 9M+ | US court opinions, judge data, and oral argument metadata dumps |
+| [RECAP Archive](https://free.law/recap/) | 🇺🇸 EN | Huge | Largest open collection of US federal PACER documents and dockets |
+| [Caselaw Access Project (CAP)](https://case.law) | 🇺🇸 EN | 6.9M | US court decisions from Harvard Law School, 1600s-2020 |
 
 ### Legal Judgment Prediction (LJP)
 
@@ -151,76 +153,7 @@ Datasets for predicting case outcomes, charges, or penalties from court document
 | [MAUD](https://github.com/TheAtticusProject/maud) | 🇺🇸 US | EN | M&A contract understanding; 39K questions on merger agreements |
 | [ContractNLI](https://stanfordnlp.github.io/contract-nli/) | 🌍 | EN | Natural language inference over non-disclosure agreements |
 
-### Open Datasets by Jurisdiction
 
-See also [Legal Data Portals by Jurisdiction](#legal-data-portals-by-jurisdiction) for country-specific portals.
-
-- [CourtListener Dataset](https://www.courtlistener.com/help/api/bulk-data/) - 🇺🇸 9M+ US court opinions, judge data, oral argument recordings. [See also: Legal Research Platforms]
-- [RECAP Archive](https://free.law/recap/) - 🇺🇸 Largest open collection of US federal PACER documents and dockets.
-- [Caselaw Access Project (CAP)](https://case.law) - 🇺🇸 6.9M US court decisions from Harvard Law School, 1600s-2020.
-- [OpenLegalData (Germany)](https://openlegaldata.io) - 🇩🇪 German court decisions, laws, and regulations.
-- [LegalBench](https://github.com/HazyResearch/legalbench) - 🇺🇸 162 tasks for benchmarking LLM legal reasoning. [See also: Benchmarks]
-- [LawBench](https://github.com/open-compass/LawBench) - 🇨🇳 20 tasks for benchmarking LLMs on Chinese legal reasoning. [See also: Benchmarks]
-
----
-
-### Legal Data Portals by Jurisdiction
-
-Country-specific legal databases, portals, and open data sources.
-
-### United States
-- [PACER](https://pacer.uscourts.gov) - Official US federal court docket and document system.
-- [CourtListener](https://www.courtlistener.com) - 9M+ opinions across 2,000+ US courts. Free API.
-- [Caselaw Access Project](https://case.law) - 6.9M US court decisions, 1600s-2020. Free bulk API.
-- [GovInfo](https://www.govinfo.gov) - US federal legislation, regulations, and congressional records. Free and open.
-- [OpenStates](https://openstates.org) - US state legislation tracked in real time.
-
-### United Kingdom
-- [BAILII](https://www.bailii.org) - Free access to British and Irish primary legal materials including case law and legislation.
-- [UK National Archives / Find Case Law](https://caselaw.nationalarchives.gov.uk) - Official UK court decisions from 2001. Open API available.
-- [legislation.gov.uk](https://www.legislation.gov.uk) - Full text of UK Acts of Parliament, statutory instruments. Open data with API.
-
-### European Union
-- [EUR-Lex](https://eur-lex.europa.eu) - Official EU law portal. All EU legislation, case law, and treaty texts in 24 languages.
-- [ECLI (European Case Law Identifier)](https://e-justice.europa.eu/316/EN/european_case_law_identifier__ecli) - Standardized identifier and search for courts across EU member states.
-
-### Germany
-- [OpenJur](https://openjur.de) - Open-source database of German court decisions. Community-maintained.
-- [OpenLegalData](https://openlegaldata.io) - German court decisions and legislation. REST API available.
-- [Gesetze im Internet](https://www.gesetze-im-internet.de) - Official German federal law portal (all statutes). Free.
-
-### France
-- [Legifrance](https://www.legifrance.gouv.fr) - Official French legal portal. All statutes, regulations, and major court decisions.
-- [Judilibre (Cour de Cassation)](https://www.courdecassation.fr/acces-rapide/judiciaire-judilibre) - Open API for French Supreme Court (Cour de Cassation) decisions. GDPR-anonymized.
-
-### Brazil
-- [LexML Brasil](https://www.lexml.gov.br) - Federated search over Brazilian legislation and legal documents. Open standards.
-- [STF Jurisprudencia](https://portal.stf.jus.br/jurisprudencia/) - Brazilian Supreme Court (STF) decisions portal.
-- [CNJ Dados Abertos](https://dadosabertos.cnj.jus.br) - National Council of Justice open judicial data and indicators.
-- [Jusbrasil](https://www.jusbrasil.com.br) - Legal search platform covering cases, legislation, and gazettes. Free + commercial tiers.
-
-### India
-- [Indian Kanoon](https://indiankanoon.org) - Free access to Indian court judgments, statutes, and legal documents.
-- [Supreme Court of India](https://sci.gov.in) - Official portal with judgments from the Supreme Court of India.
-- [eCourts Services](https://services.ecourts.gov.in) - Unified portal for Indian district and High Court case status and documents.
-
-### China
-- [China Judgments Online (Wenshu)](https://wenshu.court.gov.cn) - Official Chinese court judgment database. 140M+ decisions.
-- [PKU LawInfo (Peking University)](https://law.pku.edu.cn/lawen/) - Comprehensive Chinese laws and regulations database.
-
-### Japan
-- [Courts of Japan (Legal Database)](https://www.courts.go.jp/english/judgments/index.html) - Supreme Court and High Court decisions in English and Japanese.
-- [e-GOV Law Search](https://laws.e-gov.go.jp) - Official Japanese legislation portal. API available.
-
-### Australia & New Zealand
-- [AustLII](https://www.austlii.edu.au) - Free access to Australian and Pacific legal materials including case law, legislation, and treaties.
-- [Open Australian Legal Corpus](https://huggingface.co/datasets/umarbutler/open-australian-legal-corpus) - First open multijurisdictional corpus of Australian legislative and judicial documents.
-
-### South Korea
-- [Supreme Court of Korea - Legal Research](https://eng.scourt.go.kr) - Korean court decisions and statutes with English information for major cases.
-
-### Israel
-- [Nevo Legal Database](https://www.nevo.co.il) - Major Israeli legal database covering legislation, regulations, and court decisions. Commercial.
 
 ---
 
@@ -321,13 +254,54 @@ Software for generating, assembling, and reviewing legal documents.
 
 ## Legal Research Platforms
 
-### Open / Free Access
+Browser-based platforms and search engines for case law, statutes, and dockets.
+
+### Open / Free Access (By Jurisdiction)
+
+#### United States
 - [CourtListener](https://www.courtlistener.com) - Free open case law search with API access. 9M+ opinions.
-- [Juriscraper](https://github.com/freelawproject/juriscraper) - Open-source Python library for scraping American court websites.
 - [PACER](https://pacer.uscourts.gov) - Official US federal court docket and document system.
-- [Google Scholar Case Law](https://scholar.google.com) - Free US federal and state court opinions.
-- [AustLII](https://www.austlii.edu.au) / [CommonLII](https://www.commonlii.org) / [WorldLII](https://www.worldlii.org) - Free legal information networks.
+- [Caselaw Access Project](https://case.law) - 6.9M US court decisions, 1600s-2020. Free bulk API.
+- [GovInfo](https://www.govinfo.gov) - US federal legislation, regulations, and congressional records.
 - [OpenStates](https://openstates.org) - Open-source platform tracking US state legislation in real time.
+- [Google Scholar Case Law](https://scholar.google.com) - Free US federal and state court opinions.
+
+#### United Kingdom
+- [BAILII](https://www.bailii.org) - Free access to British and Irish primary legal materials.
+- [UK National Archives / Find Case Law](https://caselaw.nationalarchives.gov.uk) - Official UK court decisions from 2001.
+- [legislation.gov.uk](https://www.legislation.gov.uk) - Full text of UK Acts of Parliament, statutory instruments.
+
+#### European Union
+- [EUR-Lex](https://eur-lex.europa.eu) - Official EU law portal. All legislation, case law, and treaties (24 languages).
+- [ECLI Search](https://e-justice.europa.eu/316/EN/european_case_law_identifier__ecli) - Standardized search for courts across EU member states.
+
+#### Germany
+- [OpenJur](https://openjur.de) - Open-source database of German court decisions. Community-maintained.
+- [OpenLegalData](https://openlegaldata.io) - German court decisions and legislation. REST API available.
+- [Gesetze im Internet](https://www.gesetze-im-internet.de) - Official German federal law portal (all statutes). Free.
+
+#### France
+- [Legifrance](https://www.legifrance.gouv.fr) - Official French legal portal. All statutes, regulations, and major court decisions.
+- [Judilibre (Cour de Cassation)](https://www.courdecassation.fr/acces-rapide/judiciaire-judilibre) - Open API for French Supreme Court decisions. GDPR-anonymized.
+
+#### India
+- [Indian Kanoon](https://indiankanoon.org) - Free access to Indian court judgments, statutes, and legal documents.
+- [Supreme Court of India](https://sci.gov.in) - Official portal with judgments from the Supreme Court of India.
+- [eCourts Services](https://services.ecourts.gov.in) - Unified portal for Indian district and High Court case status.
+
+#### China
+- [China Judgments Online (Wenshu)](https://wenshu.court.gov.cn) - Official Chinese court judgment database. 140M+ decisions.
+- [PKU LawInfo (Peking University)](https://law.pku.edu.cn/lawen/) - Comprehensive Chinese laws and regulations database.
+
+#### Brazil
+- [LexML Brasil](https://www.lexml.gov.br) - Federated search over Brazilian legislation and legal documents.
+- [STF Jurisprudencia](https://portal.stf.jus.br/jurisprudencia/) - Brazilian Supreme Court (STF) decisions portal.
+- [CNJ Dados Abertos](https://dadosabertos.cnj.jus.br) - National Council of Justice open judicial data and indicators.
+
+#### Global / Multijurisdictional
+- [AustLII](https://www.austlii.edu.au) - Free Australasian legal information.
+- [CommonLII](https://www.commonlii.org) - Free access to common law jurisdictions worldwide.
+- [WorldLII](https://www.worldlii.org) - Global free legal information network.
 
 ### Commercial AI Research Platforms
 - [Vaquill AI](https://vaquill.ai) - **[AI-Native]** Indian legal research platform with agentic workflows, MCP server, and proprietary database of 20M+ judgments. *(Sponsor)*
