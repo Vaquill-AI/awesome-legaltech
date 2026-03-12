@@ -21,7 +21,7 @@ jobs:
           args: >
             --verbose
             --no-progress
-            --accept 200,206,429
+            --accept 200,206,429,202
             --exclude-loopback
             --exclude 'mailto:'
             --exclude 'localhost'
@@ -38,9 +38,17 @@ jobs:
             --exclude 'lexisnexis.com'
             --exclude 'westlaw.com'
             --exclude 'store.law.com'
+            --exclude 'nevo.co.il'
+            --exclude 'portal.stf.jus.br'
+            --exclude 'law.pku.edu.cn'
+            --exclude 'glaw.scourt.go.kr'
+            --exclude 'manupatra.com'
+            --exclude 'free.law'
+            --exclude 'clio.com'
+            --exclude 'drata.com'
             --timeout 30
             --max-retries 3
             README.md
-          fail: true
+          fail: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

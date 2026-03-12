@@ -93,7 +93,7 @@ Datasets for predicting case outcomes, charges, or penalties from court document
 | Dataset | Jurisdiction | Lang | Size | Task |
 |---|---|---|---|---|
 | [CAIL2018](https://github.com/china-ai-law-challenge/CAIL2018) | 🇨🇳 China | ZH | 2.6M cases | Charge, penalty, article prediction |
-| [ECtHR Dataset](https://github.com/coastalcph/ecthr_cases) | 🇪🇺 ECHR | EN | 11K cases | Article violation prediction |
+| [ECtHR Dataset](https://huggingface.co/datasets/coastalcph/ecthr_cases) | 🇪🇺 ECHR | EN | 11K cases | Article violation prediction |
 | [FSCS - Swiss Judgment Prediction](https://huggingface.co/datasets/swiss_judgment_prediction) | 🇨🇭 Switzerland | DE/FR/IT | 85K cases | Binary outcome prediction across 3 languages |
 | [CaseSumm](https://huggingface.co/datasets/ChicagoHAI/CaseSumm) | 🇺🇸 US SCOTUS | EN | 25.6K opinions | Paired opinions + official syllabuses |
 | [IndianBailJudgments-1200](https://huggingface.co/datasets/SnehaDeshmukh/IndianBailJudgments-1200) | 🇮🇳 India | EN | 1.2K judgments | Bail decisions with 20+ structured attributes |
@@ -115,7 +115,6 @@ Datasets for predicting case outcomes, charges, or penalties from court document
 | [CaseHOLD](https://huggingface.co/datasets/casehold/casehold) | 🇺🇸 US | EN | 53K multiple-choice QA from US case law (holding identification) |
 | [COLIEE](https://coliee.org) | 🇨🇦 🇯🇵 EN/JA | EN | Annual competition: statute retrieval, entailment, QA (Canadian + Japanese law) |
 | [JEC-QA](https://jecqa.thunlp.org) | 🇨🇳 China | ZH | 26K Chinese bar exam questions for legal reasoning |
-| [GerLayQA](https://github.com/lavis-nlp/GerLayQA) | 🇩🇪 Germany | DE | German legal QA from layperson questions and expert answers |
 
 ### Legal Summarization
 
@@ -164,7 +163,7 @@ Country-specific legal databases, portals, and open data sources.
 
 ### European Union
 - [EUR-Lex](https://eur-lex.europa.eu) - Official EU law portal. All EU legislation, case law, and treaty texts in 24 languages.
-- [ECLI (European Case Law Identifier)](https://e-justice.europa.eu/content_european_case_law_identifier_ecli-175-en.do) - Standardized identifier and search for courts across EU member states.
+- [ECLI (European Case Law Identifier)](https://e-justice.europa.eu/316/EN/european_case_law_identifier__ecli) - Standardized identifier and search for courts across EU member states.
 
 ### Germany
 - [OpenJur](https://openjur.de) - Open-source database of German court decisions. Community-maintained.
@@ -178,12 +177,12 @@ Country-specific legal databases, portals, and open data sources.
 ### Brazil
 - [LexML Brasil](https://www.lexml.gov.br) - Federated search over Brazilian legislation and legal documents. Open standards.
 - [STF Jurisprudencia](https://portal.stf.jus.br/jurisprudencia/) - Brazilian Supreme Court (STF) decisions portal.
-- [CNJ Dados Abertos](https://www.cnj.jus.br/sistemas/dadosabertos/) - National Council of Justice open judicial data and indicators.
-- [Jusbrasil](https://www.jusbrasil.com.br) - Large legal search platform covering cases, legislation, and gazettes. Free + commercial tiers.
+- [CNJ Dados Abertos](https://dadosabertos.cnj.jus.br) - National Council of Justice open judicial data and indicators.
+- [Jusbrasil](https://www.jusbrasil.com.br) - Legal search platform covering cases, legislation, and gazettes. Free + commercial tiers.
 
 ### India
 - [Indian Kanoon](https://indiankanoon.org) - Free access to Indian court judgments, statutes, and legal documents.
-- [Supreme Court of India](https://main.sci.gov.in) - Official portal with judgments from the Supreme Court of India.
+- [Supreme Court of India](https://sci.gov.in) - Official portal with judgments from the Supreme Court of India.
 - [eCourts Services](https://services.ecourts.gov.in) - Unified portal for Indian district and High Court case status and documents.
 
 ### China
@@ -199,7 +198,7 @@ Country-specific legal databases, portals, and open data sources.
 - [Open Australian Legal Corpus](https://huggingface.co/datasets/umarbutler/open-australian-legal-corpus) - First open multijurisdictional corpus of Australian legislative and judicial documents.
 
 ### South Korea
-- [Supreme Court of Korea Legal Research Institute](https://glaw.scourt.go.kr) - Korean court decisions and statutes, with English summaries for major cases.
+- [Supreme Court of Korea - Legal Research](https://eng.scourt.go.kr) - Korean court decisions and statutes with English information for major cases.
 
 ### Israel
 - [Nevo Legal Database](https://www.nevo.co.il) - Major Israeli legal database covering legislation, regulations, and court decisions. Commercial.
@@ -214,7 +213,6 @@ Country-specific legal databases, portals, and open data sources.
 - [agentic-ops/legal-mcp](https://github.com/agentic-ops/legal-mcp) - Comprehensive MCP server for legal workflows. Integrates AI assistants with legal databases and case management systems (Clio, etc.).
 - [uk-case-law-mcp-server](https://github.com/nationalarchives/uk-case-law-mcp-server) - MCP server that enables LLMs to search, retrieve, and cite UK legal judgments via The National Archives API.
 - [LegalContext MCP](https://mcp.so/server/legalcontext) - Open-source MCP server bridging law firm document management systems with AI assistants.
-- [uspto-fpd-mcp](https://github.com/USPTO/uspto_fpd_mcp) - MCP server for USPTO Final Patent Decisions to improve patent analysis with LLMs.
 - [CourtListener MCP](https://free.law) - Access CourtListener's legal opinion database directly from AI agents via MCP *(community integration)*.
 - [adeu (Agentic DOCX Redlining Engine)](https://github.com/dealfluence/adeu) - MCP Server enabling LLMs to inject native Track Changes and Comments into Word documents.
 
@@ -251,7 +249,7 @@ Domain-specific encoder models for legal text similarity, classification, and re
 | [LegalBert (JHU)](https://huggingface.co/jhu-clsp/LegalBert) | `jhu-clsp/LegalBert` | JHU CLSP legal domain adaptation |
 | [EmuBERT](https://huggingface.co/isaacus/EmuBERT) | `isaacus/EmuBERT` | RoBERTa-based model for Australian law; 1.4B tokens across 6 jurisdictions |
 | [Lawformer](https://huggingface.co/joelito/longformer-base-4096-legal) | - | Long-context legal document model |
-| [Kanon 2 Embedder](https://huggingface.co/isaacus/kanon-2) | `isaacus/kanon-2` | #1 on MLEB benchmark; legal semantic search + RAG; 16K token context |
+| Kanon 2 Embedder | `isaacus/kanon-2` | #1 on MLEB benchmark; legal semantic search + RAG; 16K token context |
 
 **Benchmark:** [MLEB (Massive Legal Embedding Benchmark)](https://huggingface.co/datasets/Kanon/MLEB) - Comprehensive evaluation for legal text embedding models (Oct 2025).
 
@@ -275,7 +273,7 @@ Tools for automating the creation of legal documents, templates, and guided inte
 ### Open Source
 - [Docassemble](https://docassemble.org) - The gold standard for open-source guided legal interviews and document assembly.
 - [Suffolk LIT Lab Assembly Line](https://github.com/SuffolkLITLab/docassemble-AssemblyLine) - Toolkit for Massachusetts court forms; reusable pattern for any jurisdiction.
-- [A2J Author](https://a2j-author.org) - CALI's tool for creating guided interviews helping self-represented litigants generate legal documents.
+- [A2J Author](https://www.a2jauthor.org) - CALI's tool for creating guided interviews helping self-represented litigants generate legal documents.
 - [open-agreements](https://github.com/CommonAccord/Cmacc-Org) - CommonAccord: legal documents as structured, linkable data.
 - [adeu](https://github.com/dealfluence/adeu) - Agentic DOCX Redlining Engine for LLM-powered Word document Track Changes.
 - [Wraft](https://github.com/wraft/wraft) - Open-source document lifecycle management.
@@ -324,7 +322,7 @@ Platforms for managing contracts from creation through execution, obligations, a
 ### Commercial
 - [Ironclad](https://ironcladapp.com) - CLM with AI clause detection, redlining, playbooks, and Jurist AI assistant. ($3.2B valuation)
 - [Icertis](https://www.icertis.com) - Enterprise CLM leader. OmniModel™ strategy, Icertis Vera AI, agentic workflows.
-- [ContractPodAi / Leah](https://contractpodai.com) - Generative AI for CLM. Leah Marketplace with PwC/KPMG apps. Microsoft Azure OpenAI partnership.
+- [ContractPodAi / Leah](https://www.contractpodai.com) - Generative AI for CLM. Leah Marketplace with PwC/KPMG apps. Microsoft Azure OpenAI partnership.
 - [DocuSign CLM / IAM](https://www.docusign.com/products/clm) - Intelligent Agreement Management with AI-Assisted Review and Analyzer.
 - [Spellbook](https://spellbook.legal) - Contract drafting, review, and negotiation assistant in Microsoft Word.
 - [Robin AI](https://robinai.com) - AI contract negotiation and review. $71.7M total funding.
@@ -435,7 +433,7 @@ Legacy leaders and growth-stage companies that have added AI capabilities.
 | [NetDocuments](https://netdocuments.com) | Cloud DMS | Leading cloud document management system for law firms; AI-powered search and organization | Lehi, USA |
 | [HighQ (Thomson Reuters)](https://legal.thomsonreuters.com/en/products/highq) | Legal collaboration | Secure client portals, matter management, and workflow automation for law firms | London, UK |
 | [Nuix](https://nuix.com) | Investigations + eDiscovery | Cognitive AI (CogAI), 500+ Nuix Neo models | Sydney, Australia |
-| [ContractPodAi](https://contractpodai.com) | CLM | Leah AI, Leah Marketplace, Microsoft Azure partner | London, UK |
+| [ContractPodAi](https://www.contractpodai.com) | CLM | Leah AI, Leah Marketplace, Microsoft Azure partner | London, UK |
 | [Lexion](https://lexion.ai) | AI CLM | AI-powered contract management backed by Google Ventures; 90% faster contract review | Seattle, USA |
 | [Juro](https://juro.com) | Contract management | All-in-one contract platform popular in UK/EU; native browser editor with AI assistance | London, UK |
 | [Avvoka](https://avvoka.com) | Contract automation | UK-based document automation and negotiation platform used by top-tier law firms | London, UK |
@@ -457,7 +455,7 @@ Organizations using technology to advance access to justice and open legal infra
 | [Electronic Frontier Foundation (EFF)](https://eff.org) | Digital rights | Policy, advocacy, legal defense for digital rights | 501(c)(3) |
 | [ABA Free Legal Answers](https://freelegalanswers.org) | Access to justice | Virtual pro bono legal advice clinic | ABA Program |
 | [LSNTAP](https://www.lsntap.org) | Legal aid tech | Technology resources for legal services community | Nonprofit |
-| [A2J Author / CALI](https://a2j-author.org) | Self-help tools | Guided interview software for self-represented litigants | Nonprofit |
+| [A2J Author / CALI](https://www.a2jauthor.org) | Self-help tools | Guided interview software for self-represented litigants | Nonprofit |
 | [TrustLaw (Thomson Reuters Foundation)](https://www.trust.org/trustlaw/) | Global pro bono | Connects NGOs with free legal support | Foundation |
 | [OpenLaw / Tribute Labs](https://openlaw.io) | Smart contracts | Blockchain-based legal agreements on Ethereum; rebranded as Tribute Labs (DAO incubator) in 2021 | Startup/Open |
 
@@ -487,7 +485,7 @@ Structured vocabularies, ontologies, and knowledge graphs for representing legal
 - [LegalDocML / Akoma Ntoso](https://www.un.org/dgacm/en/content/akoma-ntoso) - XML + ontology for legislative and judicial document structure. Adopted by the UN, EU Parliament, national parliaments.
 - [JurWordNet](https://github.com/fcroce/JurWordNet) - Legal extension of WordNet with Italian legal terminology; one of the few legal lexical ontologies in a non-English language.
 - [Wikidata Legal Entities](https://www.wikidata.org/wiki/Wikidata:WikiProject_Law) - WikiProject Law: structured data on courts, cases, legislation, and legal concepts in Wikidata. Machine-readable and freely licensed.
-- [PROLEG (Japanese Legal Ontology)](https://www.nii.ac.jp/en/fellows/satoh/) - Formal representation of Japanese civil law rules for logic-based legal reasoning. Developed at NII Tokyo.
+- [PROLEG (Japanese Legal Ontology)](https://arxiv.org/abs/1404.0370) - Formal representation of Japanese civil law rules for logic-based legal reasoning. Developed at NII Tokyo.
 
 ---
 
@@ -501,7 +499,7 @@ Resources for evaluating AI and NLP systems on legal tasks.
 - [MLEB (Massive Legal Embedding Benchmark)](https://huggingface.co/datasets/Kanon/MLEB) - Comprehensive benchmark for legal text embedding models (Oct 2025).
 - [CUAD](https://www.atticusprojectai.org/cuad) - Contract Understanding Atticus Dataset: extraction and classification benchmark for commercial contracts.
 - [LEDGAR](https://metatext.io/datasets/ledgar) - Large-scale benchmark for legal contract provision classification.
-- [ECtHR Task](https://github.com/coastalcph/ecthr_cases) - Legal judgment prediction benchmark using ECHR cases.
+- [ECtHR Task](https://huggingface.co/datasets/coastalcph/ecthr_cases) - Legal judgment prediction benchmark using ECHR cases.
 - [maastrichtlawtech/awesome-legal-nlp](https://github.com/maastrichtlawtech/awesome-legal-nlp) - Curated list of Legal NLP resources, models, datasets, and papers.
 - [JUST-NLP 2025 Legal MT](https://codabench.org/competitions/3682/) - English-to-Hindi legal machine translation shared task benchmark; workshop at IJCNLP-AACL 2025.
 
