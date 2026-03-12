@@ -21,6 +21,7 @@ Legal technology (legaltech) is the use of technology and software to provide le
 
 - [Open Source Legal Data Platforms](#open-source-legal-data-platforms)
 - [Open Legal Datasets](#open-legal-datasets)
+- [Legal Data by Jurisdiction](#legal-data-by-jurisdiction)
 - [MCP Servers for Legal](#mcp-servers-for-legal)
 - [Legal AI Models & Embeddings](#legal-ai-models--embeddings)
   - [Large Language Models (LLMs)](#large-language-models-llms)
@@ -36,6 +37,8 @@ Legal technology (legaltech) is the use of technology and software to provide le
   - [For-Profit - AI-First](#for-profit--ai-first)
   - [For-Profit - Established Legaltech](#for-profit--established-legaltech)
   - [Non-Profit & NGO](#non-profit--ngo)
+- [Foundational Research](#foundational-research)
+- [Legal Ontologies & Knowledge Graphs](#legal-ontologies--knowledge-graphs)
 - [Benchmarks & Evaluation](#benchmarks--evaluation)
 - [Standards & Protocols](#standards--protocols)
 - [Legaltech Directories & Product Listing Platforms](#legaltech-directories--product-listing-platforms)
@@ -59,6 +62,10 @@ Platforms and frameworks for building, hosting, or processing legal data - self-
 - [J-Lawyer](https://www.j-lawyer.org) - Open-source law practice management software (German-originated, usable in English). Active on GitHub.
 - [Dolibarr](https://www.dolibarr.org) - Modular open-source ERP/CRM with legal case management capabilities.
 - [open-agreements](https://github.com/CommonAccord/Cmacc-Org) - CommonAccord: open-source framework for creating and sharing legal documents as structured data.
+- [Blackstone](https://github.com/ICLRandD/Blackstone) - 🇬🇧 spaCy NLP pipeline and model for unstructured UK legal text. Covers named entity recognition, sentence segmentation, and citation detection.
+- [LegalCrawler](https://github.com/iliaschalkidis/LegalCrawler) - Scripts to crawl and build English legal corpora from public court and legislative websites.
+- [Juriscraper](https://github.com/freelawproject/juriscraper) - 🇺🇸 Python library for scraping US court websites. Covers 400+ courts for opinions, oral arguments, and PACER data.
+- [French Legal Case Anonymization](https://github.com/ELS-RD/anonymisation) - Open-source NER-based pseudo-anonymization of French court decisions (as required by French law).
 - [Eyecite](https://github.com/freelawproject/eyecite) - Open-source legal citation extraction and analysis tool by Free Law Project.
 - [RECAP](https://free.law/recap/) - Browser extension + archive making PACER federal court documents freely available. Open-source by Free Law Project.
 
@@ -66,23 +73,136 @@ Platforms and frameworks for building, hosting, or processing legal data - self-
 
 ## Open Legal Datasets
 
-Curated datasets of legal texts, case law, statutes, and contracts available for research and training.
+Curated datasets of legal texts, case law, statutes, and contracts - organized by task. Most are openly available for research.
 
-- [CourtListener Dataset](https://www.courtlistener.com/help/api/bulk-data/) - Bulk access to 9M+ US court opinions, judge data, and oral argument recordings. [See also: Legal Research Platforms]
-- [RECAP Archive](https://free.law/recap/) - Largest open collection of federal court PACER documents and dockets on the internet.
-- [Caselaw Access Project (CAP)](https://case.law) - 6.9M US court decisions from Harvard Law School, spanning 1600s-2020.
-- [The Supreme Court Database](http://scdb.wustl.edu) - Comprehensive dataset on all US Supreme Court cases since 1791.
-- [CUAD (Contract Understanding Atticus Dataset)](https://www.atticusprojectai.org/cuad) - 510 annotated commercial legal contracts with 13,000+ expert labels for 41 clause types.
-- [MultiLegalPile](https://huggingface.co/datasets/joelito/Multi_Legal_Pile) - Multilingual legal pretraining corpus spanning 24 languages and 17 jurisdictions.
-- [LEDGAR](https://metatext.io/datasets/ledgar) - Large-scale labeled dataset for legal contract provision classification.
-- [EUR-Lex](https://eur-lex.europa.eu) - Official EU law database with full text of EU legislation and case law in all EU languages.
-- [Indian Kanoon Dataset](https://indiankanoon.org) - Indian court judgments and legal documents; widely used for Indian legal NLP research.
-- [ECtHR Dataset](https://github.com/coastalcph/ecthr_cases) - European Court of Human Rights cases dataset for legal judgment prediction research.
-- [AustLII](https://www.austlii.edu.au) - Free access to Australian and Pacific legal materials including case law, legislation, and treaties. [See also: Legal Research Platforms]
-- [OpenLegalData (Germany)](https://openlegaldata.io) - Open German legal data including court decisions, laws, and regulations.
-- [Harvard Law School Caselaw Access Project API](https://api.case.law) - RESTful API for bulk and search access to the CAP dataset.
-- [LegalBench](https://github.com/HazyResearch/legalbench) - 162 tasks for benchmarking LLM legal reasoning. [See also: Benchmarks & Evaluation]
-- [LawBench](https://github.com/open-compass/LawBench) - 20 tasks for benchmarking LLMs on Chinese legal reasoning. [See also: Benchmarks & Evaluation]
+### Pretraining Corpora
+
+Large text corpora for pretraining or fine-tuning legal language models.
+
+| Dataset | Lang | Size | Notes |
+|---|---|---|---|
+| [Pile of Law](https://huggingface.co/datasets/pile-of-law/pile-of-law) | 🇺🇸 EN | ~256 GB | US legal and administrative text; used to train CaseLawBERT |
+| [MultiLegalPile](https://huggingface.co/datasets/joelito/Multi_Legal_Pile) | 🌍 24 langs | 689 GB | Multilingual legal pretraining corpus from 17 jurisdictions |
+| [Indian Kanoon Dataset](https://indiankanoon.org) | 🇮🇳 EN | Large | Indian court judgments and statutes; widely used for Indian legal NLP |
+| [EUR-Lex](https://eur-lex.europa.eu) | 🇪🇺 24 langs | Large | Official EU legislation and case law in all EU official languages |
+
+### Legal Judgment Prediction (LJP)
+
+Datasets for predicting case outcomes, charges, or penalties from court documents.
+
+| Dataset | Jurisdiction | Lang | Size | Task |
+|---|---|---|---|---|
+| [CAIL2018](https://github.com/china-ai-law-challenge/CAIL2018) | 🇨🇳 China | ZH | 2.6M cases | Charge, penalty, article prediction |
+| [ECtHR Dataset](https://github.com/coastalcph/ecthr_cases) | 🇪🇺 ECHR | EN | 11K cases | Article violation prediction |
+| [FSCS - Swiss Judgment Prediction](https://huggingface.co/datasets/swiss_judgment_prediction) | 🇨🇭 Switzerland | DE/FR/IT | 85K cases | Binary outcome prediction across 3 languages |
+| [CaseSumm](https://huggingface.co/datasets/ChicagoHAI/CaseSumm) | 🇺🇸 US SCOTUS | EN | 25.6K opinions | Paired opinions + official syllabuses |
+| [IndianBailJudgments-1200](https://huggingface.co/datasets/SnehaDeshmukh/IndianBailJudgments-1200) | 🇮🇳 India | EN | 1.2K judgments | Bail decisions with 20+ structured attributes |
+| [The Supreme Court Database](http://scdb.wustl.edu) | 🇺🇸 US | EN | All SCOTUS cases since 1791 | Votes, outcomes, justice ideology |
+
+### Legal Text Classification
+
+| Dataset | Jurisdiction | Lang | Notes |
+|---|---|---|---|
+| [LexGLUE](https://github.com/coastalcph/lex-glue) | 🌍 Multi | EN | 7-task benchmark: EURLEX, ECHR, LEDGAR, SCOTUS, ContractNLI, CaseHOLD, ECtHR |
+| [MultiEURLEX](https://huggingface.co/datasets/multi_eurlex) | 🇪🇺 EU | 23 langs | 65K EU laws with 4.5K labels; multilingual classification |
+| [LEDGAR](https://huggingface.co/datasets/coastalcph/ledgar) | 🇺🇸 US | EN | 60K+ contract provisions with 12.6K labels |
+| [CUAD](https://www.atticusprojectai.org/cuad) | 🇺🇸 US | EN | 510 annotated contracts, 41 clause types, 13K+ expert labels |
+
+### Legal Question Answering
+
+| Dataset | Jurisdiction | Lang | Notes |
+|---|---|---|---|
+| [CaseHOLD](https://huggingface.co/datasets/casehold/casehold) | 🇺🇸 US | EN | 53K multiple-choice QA from US case law (holding identification) |
+| [COLIEE](https://coliee.org) | 🇨🇦 🇯🇵 EN/JA | EN | Annual competition: statute retrieval, entailment, QA (Canadian + Japanese law) |
+| [JEC-QA](https://jecqa.thunlp.org) | 🇨🇳 China | ZH | 26K Chinese bar exam questions for legal reasoning |
+| [GerLayQA](https://github.com/lavis-nlp/GerLayQA) | 🇩🇪 Germany | DE | German legal QA from layperson questions and expert answers |
+
+### Legal Summarization
+
+| Dataset | Jurisdiction | Lang | Notes |
+|---|---|---|---|
+| [BillSum](https://github.com/FiscalNote/BillSum) | 🇺🇸 US | EN | 22K US Congressional and California bill summaries |
+| [EUR-Lex Sum](https://huggingface.co/datasets/dennlinger/eur-lex-sum) | 🇪🇺 EU | 24 langs | Abstractive summarization of EU legislation; 1.5K+ docs |
+| [Multi-LexSum](https://github.com/multilexsum/dataset) | 🇺🇸 US | EN | Multi-document summarization of US civil rights court cases |
+
+### Contract Analysis
+
+| Dataset | Jurisdiction | Lang | Notes |
+|---|---|---|---|
+| [CUAD](https://www.atticusprojectai.org/cuad) | 🇺🇸 US | EN | See Classification section. Gold standard for contract clause extraction. |
+| [MAUD](https://github.com/TheAtticusProject/maud) | 🇺🇸 US | EN | M&A contract understanding; 39K questions on merger agreements |
+| [ContractNLI](https://stanfordnlp.github.io/contract-nli/) | 🌍 | EN | Natural language inference over non-disclosure agreements |
+
+### Open Datasets by Jurisdiction
+
+See also [Legal Data by Jurisdiction](#legal-data-by-jurisdiction) for country-specific portals.
+
+- [CourtListener Dataset](https://www.courtlistener.com/help/api/bulk-data/) - 🇺🇸 9M+ US court opinions, judge data, oral argument recordings. [See also: Legal Research Platforms]
+- [RECAP Archive](https://free.law/recap/) - 🇺🇸 Largest open collection of US federal PACER documents and dockets.
+- [Caselaw Access Project (CAP)](https://case.law) - 🇺🇸 6.9M US court decisions from Harvard Law School, 1600s-2020.
+- [OpenLegalData (Germany)](https://openlegaldata.io) - 🇩🇪 German court decisions, laws, and regulations.
+- [LegalBench](https://github.com/HazyResearch/legalbench) - 🇺🇸 162 tasks for benchmarking LLM legal reasoning. [See also: Benchmarks]
+- [LawBench](https://github.com/open-compass/LawBench) - 🇨🇳 20 tasks for benchmarking LLMs on Chinese legal reasoning. [See also: Benchmarks]
+
+---
+
+## Legal Data by Jurisdiction
+
+Country-specific legal databases, portals, and open data sources.
+
+### United States
+- [PACER](https://pacer.uscourts.gov) - Official US federal court docket and document system.
+- [CourtListener](https://www.courtlistener.com) - 9M+ opinions across 2,000+ US courts. Free API.
+- [Caselaw Access Project](https://case.law) - 6.9M US court decisions, 1600s-2020. Free bulk API.
+- [GovInfo](https://www.govinfo.gov) - US federal legislation, regulations, and congressional records. Free and open.
+- [OpenStates](https://openstates.org) - US state legislation tracked in real time.
+
+### United Kingdom
+- [BAILII](https://www.bailii.org) - Free access to British and Irish primary legal materials including case law and legislation.
+- [UK National Archives / Find Case Law](https://caselaw.nationalarchives.gov.uk) - Official UK court decisions from 2001. Open API available.
+- [legislation.gov.uk](https://www.legislation.gov.uk) - Full text of UK Acts of Parliament, statutory instruments. Open data with API.
+
+### European Union
+- [EUR-Lex](https://eur-lex.europa.eu) - Official EU law portal. All EU legislation, case law, and treaty texts in 24 languages.
+- [ECLI (European Case Law Identifier)](https://e-justice.europa.eu/content_european_case_law_identifier_ecli-175-en.do) - Standardized identifier and search for courts across EU member states.
+
+### Germany
+- [OpenJur](https://openjur.de) - Open-source database of German court decisions. Community-maintained.
+- [OpenLegalData](https://openlegaldata.io) - German court decisions and legislation. REST API available.
+- [Gesetze im Internet](https://www.gesetze-im-internet.de) - Official German federal law portal (all statutes). Free.
+
+### France
+- [Legifrance](https://www.legifrance.gouv.fr) - Official French legal portal. All statutes, regulations, and major court decisions.
+- [Judilibre (Cour de Cassation)](https://www.courdecassation.fr/acces-rapide/judiciaire-judilibre) - Open API for French Supreme Court (Cour de Cassation) decisions. GDPR-anonymized.
+
+### Brazil
+- [LexML Brasil](https://www.lexml.gov.br) - Federated search over Brazilian legislation and legal documents. Open standards.
+- [STF Jurisprudencia](https://portal.stf.jus.br/jurisprudencia/) - Brazilian Supreme Court (STF) decisions portal.
+- [CNJ Dados Abertos](https://www.cnj.jus.br/sistemas/dadosabertos/) - National Council of Justice open judicial data and indicators.
+- [Jusbrasil](https://www.jusbrasil.com.br) - Large legal search platform covering cases, legislation, and gazettes. Free + commercial tiers.
+
+### India
+- [Indian Kanoon](https://indiankanoon.org) - Free access to Indian court judgments, statutes, and legal documents.
+- [Supreme Court of India](https://main.sci.gov.in) - Official portal with judgments from the Supreme Court of India.
+- [eCourts Services](https://services.ecourts.gov.in) - Unified portal for Indian district and High Court case status and documents.
+
+### China
+- [China Judgments Online (Wenshu)](https://wenshu.court.gov.cn) - Official Chinese court judgment database. 140M+ decisions.
+- [PKU LawInfo (Peking University)](https://law.pku.edu.cn/lawen/) - Comprehensive Chinese laws and regulations database.
+
+### Japan
+- [Courts of Japan (Legal Database)](https://www.courts.go.jp/english/judgments/index.html) - Supreme Court and High Court decisions in English and Japanese.
+- [e-GOV Law Search](https://laws.e-gov.go.jp) - Official Japanese legislation portal. API available.
+
+### Australia & New Zealand
+- [AustLII](https://www.austlii.edu.au) - Free access to Australian and Pacific legal materials including case law, legislation, and treaties.
+- [Open Australian Legal Corpus](https://huggingface.co/datasets/umarbutler/open-australian-legal-corpus) - First open multijurisdictional corpus of Australian legislative and judicial documents.
+
+### South Korea
+- [Supreme Court of Korea Legal Research Institute](https://glaw.scourt.go.kr) - Korean court decisions and statutes, with English summaries for major cases.
+
+### Israel
+- [Nevo Legal Database](https://www.nevo.co.il) - Major Israeli legal database covering legislation, regulations, and court decisions. Commercial.
 
 ---
 
@@ -341,9 +461,38 @@ Organizations using technology to advance access to justice and open legal infra
 | [TrustLaw (Thomson Reuters Foundation)](https://www.trust.org/trustlaw/) | Global pro bono | Connects NGOs with free legal support | Foundation |
 | [OpenLaw / Tribute Labs](https://openlaw.io) | Smart contracts | Blockchain-based legal agreements on Ethereum; rebranded as Tribute Labs (DAO incubator) in 2021 | Startup/Open |
 
+## Foundational Research
+
+Seminal papers that shaped the field of legal AI and NLP. Essential reading for anyone building in this space.
+
+| Paper | Year | What it introduced |
+|---|---|---|
+| [LEGAL-BERT: The Muppets straight out of Law School](https://arxiv.org/abs/2010.02559) | 2020 | First large-scale BERT models pretrained on EU/US legal text; established the domain-adaptation benchmark for legal NLP |
+| [LexGLUE: A Benchmark Dataset for Legal Language Understanding](https://arxiv.org/abs/2110.00976) | 2022 | 7-task legal NLP benchmark; the "GLUE for law"; drove standardized evaluation |
+| [LegalBench: A Collaboratively Built Benchmark for Legal Reasoning](https://arxiv.org/abs/2308.11462) | 2023 | 162-task benchmark built with practicing lawyers; most comprehensive LLM legal evaluation to date |
+| [GPT-4 Passes the Bar Exam](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4389233) | 2023 | Bommarito & Katz; showed LLMs can pass professional licensing exams; catalyzed investor and legal community attention |
+| [SaulLM-7B: A pioneering Large Language Model for Law](https://arxiv.org/abs/2403.03883) | 2024 | First open-weight LLM continually pretrained on 30B+ legal tokens with instruction tuning |
+| [MultiLegalPile: A 689GB Multilingual Legal Corpus](https://aclanthology.org/2024.acl-long.805/) | 2024 | Largest open multilingual legal pretraining dataset; 24 languages, 17 jurisdictions |
+| [Artificial Intelligence and Legal Analytics](https://www.cambridge.org/core/books/artificial-intelligence-and-legal-analytics/E7D705EEF392501A1DB180645917E7E0) | 2017 | Kevin Ashley; foundational textbook on AI and law; covers case-based reasoning, argument mining, and legal knowledge representation |
+
+---
+
+## Legal Ontologies & Knowledge Graphs
+
+Structured vocabularies, ontologies, and knowledge graphs for representing legal concepts, relationships, and document structure.
+
+- [EuroVoc](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc) - EU's multilingual thesaurus covering subjects of EU legislation. 7,000+ concepts in 24 languages. Used for tagging EUR-Lex documents.
+- [LKIF-Core](https://github.com/RinkeHoekstra/lkif-core) - Legal Knowledge Interchange Format; OWL ontology for basic legal concepts (norms, agents, documents, time). Foundation for many legal knowledge systems.
+- [SALI LMSS (Legal Matter Standard Specification)](https://www.sali.org) - Structured ontology for legal matter types, service types, and industry codes. Open standard for legal operations data.
+- [LegalDocML / Akoma Ntoso](https://www.un.org/dgacm/en/content/akoma-ntoso) - XML + ontology for legislative and judicial document structure. Adopted by the UN, EU Parliament, national parliaments.
+- [JurWordNet](https://github.com/fcroce/JurWordNet) - Legal extension of WordNet with Italian legal terminology; one of the few legal lexical ontologies in a non-English language.
+- [Wikidata Legal Entities](https://www.wikidata.org/wiki/Wikidata:WikiProject_Law) - WikiProject Law: structured data on courts, cases, legislation, and legal concepts in Wikidata. Machine-readable and freely licensed.
+- [PROLEG (Japanese Legal Ontology)](https://www.nii.ac.jp/en/fellows/satoh/) - Formal representation of Japanese civil law rules for logic-based legal reasoning. Developed at NII Tokyo.
+
 ---
 
 ## Benchmarks & Evaluation
+
 
 Resources for evaluating AI and NLP systems on legal tasks.
 
