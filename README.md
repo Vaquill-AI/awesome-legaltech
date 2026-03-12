@@ -295,13 +295,11 @@ Browser-based platforms and search engines for case law, statutes, and dockets.
 
 Software for generating, assembling, and reviewing legal documents.
 
-### Open Source
-- [Docassemble](https://docassemble.org) - The gold standard for open-source guided legal interviews and document assembly.
-- [Suffolk LIT Lab Assembly Line](https://github.com/SuffolkLITLab/docassemble-AssemblyLine) - Toolkit for Massachusetts court forms; reusable pattern for any jurisdiction.
-- [open-agreements](https://github.com/CommonAccord/Cmacc-Org) - CommonAccord: legal documents as structured, linkable data.
-- [adeu](https://github.com/dealfluence/adeu) - Agentic DOCX Redlining Engine for LLM-powered Word document Track Changes.
+- [Docassemble](https://docassemble.org) - **[Open Source]** The gold standard target for guided legal interviews and document assembly.
+- [Suffolk LIT Lab Assembly Line](https://github.com/SuffolkLITLab/docassemble-AssemblyLine) - **[Open Source]** Toolkit for Massachusetts court forms; reusable pattern for any jurisdiction.
+- [open-agreements](https://github.com/CommonAccord/Cmacc-Org) - **[Open Source]** CommonAccord: legal documents as structured, linkable data.
+- [adeu](https://github.com/dealfluence/adeu) - **[Open Source]** Agentic DOCX Redlining Engine for Word document Track Changes.
 
-### Commercial / SaaS
 - [Spellbook](https://spellbook.legal) - **[AI-Native]** AI contract drafting and review assistant operating natively in Microsoft Word.
 - [Clearbrief](https://clearbrief.com) - **[AI-Native]** AI-powered factual verification and drafting assistance in briefs.
 - [HotDocs](https://www.hotdocs.com) - **[Established]** Long-established document assembly software for law firms.
@@ -314,7 +312,6 @@ Software for generating, assembling, and reviewing legal documents.
 
 Platforms for managing contracts from creation through execution, obligations, and renewal.
 
-### Commercial
 - [Ironclad](https://ironcladapp.com) - **[Established]** CLM with AI clause detection, redlining, playbooks, and Jurist AI assistant.
 - [Icertis](https://www.icertis.com) - **[Established]** Enterprise CLM leader with Icertis Vera AI and agentic workflows.
 - [ContractPodAi / Leah](https://www.contractpodai.com) - **[Established]** Generative AI for CLM with native Microsoft Azure OpenAI integration.
@@ -328,8 +325,7 @@ Platforms for managing contracts from creation through execution, obligations, a
 - [Juro](https://juro.com) - **[Established]** All-in-one contract platform popular in UK/EU.
 - [Avvoka](https://avvoka.com) - **[Established]** UK document automation and negotiation platform.
 
-### Open Source / Self-Hosted
-- [Wraft](https://github.com/wraft/wraft) - Open-source document lifecycle management with version control.
+- [Wraft](https://github.com/wraft/wraft) - **[Open Source]** Document lifecycle management with version control.
 
 ---
 
@@ -353,7 +349,6 @@ Platforms for collecting, processing, reviewing, and producing electronically st
 
 Software for running a law practice and legal department operations - case management, billing, calendaring, and workflow automation.
 
-### Commercial
 - [Clio](https://www.clio.com) - **[Established]** Leading cloud-based practice management suite featuring Clio Duo AI.
 - [Litera](https://litera.com) - **[Established]** Document drafting, proofreading, and deal management suite.
 - [NetDocuments](https://netdocuments.com) - **[Established]** Leading cloud document management system (DMS) with AI-powered search.
@@ -365,11 +360,10 @@ Software for running a law practice and legal department operations - case manag
 - [Darrow](https://darrow.ai) - **[AI-Native]** Litigation intelligence identifying meritorious lawsuits from public data.
 - [Legalyze.ai](https://legalyze.ai) - **[AI-Native]** Litigation support specializing in AI extraction and chronology.
 
-### Open Source
-- [ClinicCases](https://github.com/judsonmitchell/ClinicCases) - Open-source management for law school clinics.
-- [ArkCase](https://www.arkcase.com) - Open-source adaptive case management for legal and government.
-- [J-Lawyer](https://www.j-lawyer.org) - German open-source law practice management.
-- [Elint AI / Justice Accelerator](https://elint.in) - Open/Blockchain case management infrastructure for courts and ADR (India/UAE).
+- [ClinicCases](https://github.com/judsonmitchell/ClinicCases) - **[Open Source]** Case management for law school clinics.
+- [ArkCase](https://www.arkcase.com) - **[Open Source]** Adaptive case management for legal and government.
+- [J-Lawyer](https://www.j-lawyer.org) - **[Open Source]** German law practice management.
+- [Elint AI / Justice Accelerator](https://elint.in) - **[Open Source]** Blockchain case management infrastructure for courts and ADR (India/UAE).
 
 ---
 
