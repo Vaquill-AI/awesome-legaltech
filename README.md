@@ -909,6 +909,7 @@ Platforms delivering direct-to-consumer automated legal services, documents, and
 - [Rocket Lawyer](https://www.rocketlawyer.com) - **[Established]** Online legal documents and on-demand legal advice.
 - [HelloPrenup](https://helloprenup.com) - **[Established]** Digital prenuptial agreement platform.
 - [DoNotPay](https://donotpay.com) - **[AI-Native]** Consumer advocacy platform marketing itself as the "world's first robot lawyer".
+- [Klaro Legal](https://klaro.legal) - **[AI-Native]** Translates contracts, official letters, and tax notices into plain language using AI. Supports 8 languages (DE, EN, ES, FR, IT, PT, TR).
 
 ---
 
