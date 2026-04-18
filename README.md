@@ -784,6 +784,7 @@ Browser-based platforms and search engines for case law, statutes, and dockets.
 - [Paxton AI](https://paxton.ai) - **[AI-Native]** Jurisdiction-aware AI legal answers.
 - [EvenUp](https://evenuplaw.com) - **[AI-Native]** Agentic demand letter generation and research for personal injury.
 - [Lexlegis.AI](https://lexlegis.ai) - **[AI-Native]** Indian legal research LLM trained on 10M+ documents.
+- [HAQQ Legal AI](https://haqq.ai) - **[AI-Native]** Bilingual Arabic/English legal research, contract review, and case law search for MENA jurisdictions (Lebanon, GCC, Egypt).
 - [Blue J](https://bluej.com) - **[AI-Native]** AI-powered answers to complex US/Canada/UK tax questions.
 - [Bloomberg Law](https://pro.bloomberglaw.com) - **[Established]** Major US legal research platform with AI brief analysis and real-time legislative monitoring.
 - [vLex / Vincent AI](https://vlex.com) - **[Established]** Global coverage (1B+ documents, 17 countries) with cross-jurisdictional AI comparison.
