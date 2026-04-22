@@ -204,6 +204,7 @@ Comprehensive platforms that handle multiple functions across the legal workflow
 - [Legora](https://legora.com) - **[AI-Native]** YC-backed collaborative AI workspace spanning research, drafting, and review.
 - [Eudia](https://eudia.com) - **[AI-Native]** AI agents specifically designed for Fortune 500 in-house corporate legal teams.
 - [DeepJudge](https://deepjudge.ai) - **[AI-Native]** Custom AI workflows applied directly to internal law firm knowledge bases.
+- [Prest0](https://prest0.ai) - **[AI-Native]** Enterprise bilingual (English/Spanish) legal AI platform that deploys a dedicated AI agent per law firm on an isolated VM with persistent memory, Twilio voice + SMS intake, deep research, and legal-grade document drafting — purpose-built for immigration, workers' compensation, and employment law.
 
 ---
 
