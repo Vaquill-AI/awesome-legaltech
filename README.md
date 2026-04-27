@@ -174,7 +174,9 @@ Domain-specific encoder models for legal text similarity, classification, and re
 ### Multilingual & Regional Legal Models
 
 - [OpenGPT-X / Teuken-7B](https://opengpt-x.de) - **[Europe]** - **[All 24 EU langs]** - German-funded initiative; produced Teuken-7B LLM covering all official EU languages
-- [LawBench Models](https://github.com/open-compass/LawBench) - **[China]** - **[ZH]** - Models evaluated on 20 Chinese legal tasks## MCP Servers for Legal
+- [LawBench Models](https://github.com/open-compass/LawBench) - **[China]** - **[ZH]** - Models evaluated on 20 Chinese legal tasks
+
+## MCP Servers for Legal
 
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers that connect AI assistants to legal data sources and workflows.
 
@@ -189,6 +191,7 @@ Domain-specific encoder models for legal text similarity, classification, and re
 - [agentic-ops/legal-mcp](https://github.com/agentic-ops/legal-mcp) - Comprehensive MCP server for legal workflows. Integrates AI assistants with legal databases and case management systems (Clio, etc.).
 - [LegalContext MCP](https://mcp.so/server/legalcontext) - Open-source MCP server bridging law firm document management systems with AI assistants.
 - [adeu (Agentic DOCX Redlining Engine)](https://github.com/dealfluence/adeu) - MCP Server enabling LLMs to inject native Track Changes and Comments into Word documents.
+- [Master Claude for Legal](https://github.com/sboghossian/master-claude-for-legal) - **[Open Source]** - **[MIT]** - Skill pack for legal teams using Claude with MCP connectors. 10 reference docs (privilege, verification, long documents, practice areas), 5 starter skills (NDA triage, version diff, meeting brief, citation verifier, status synthesis), 3 firm templates. Includes the source Anthropic legal-webinar transcript and 51-question dataset.
 
 > **Note:** MCP for legal is an emerging ecosystem. Many servers are early-stage community projects. Always verify data accuracy and jurisdiction coverage before use in legal practice.
 
