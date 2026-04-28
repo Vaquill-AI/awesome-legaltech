@@ -730,6 +730,7 @@ Browser-based platforms and search engines for case law, statutes, and dockets.
 - [GovInfo](https://www.govinfo.gov) - US federal legislation, regulations, and congressional records. Bulk data/API available.
 - [eCFR](https://www.ecfr.gov) - Up-to-date Code of Federal Regulations with a full bulk API.
 - [OpenStates](https://openstates.org) - Open-source platform tracking US state legislation in real time.
+- [AI Laws by State](https://www.ailawsbystate.com) - Free 50-state tracker for U.S. artificial intelligence legislation, sourced from primary state legislature feeds. Covers bill status, effective dates, penalty structures, and topic categorization (deepfakes, hiring, healthcare AI, disclosure, bias audits).
 - [Google Scholar Case Law](https://scholar.google.com) - Free US federal and state court opinions.
 
 #### United Kingdom
