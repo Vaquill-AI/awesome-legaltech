@@ -762,6 +762,9 @@ Browser-based platforms and search engines for case law, statutes, and dockets.
 - [eCourts Services](https://services.ecourts.gov.in) - Unified portal for Indian district and High Court case status.
 - [OpenNyAI Datasets](https://opennyai.org/datasets) - Indian legal NLP datasets for summarization, QA, and translation.
 
+#### Turkey
+- [Avukatistan](https://avukatistan.com) - Turkish legal research and lawyer discovery platform with case law, legislation, legal questions, and practitioner profiles.
+
 #### China
 - [China Judgments Online (Wenshu)](https://wenshu.court.gov.cn) - Official Chinese court judgment database. 140M+ decisions.
 - [National Laws & Regulations Database](https://flk.npc.gov.cn/) - Official centralized repository of PRC laws and regulations.
@@ -1078,4 +1081,3 @@ Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTIN
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work.
-
