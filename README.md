@@ -189,6 +189,7 @@ Domain-specific encoder models for legal text similarity, classification, and re
 - [agentic-ops/legal-mcp](https://github.com/agentic-ops/legal-mcp) - Comprehensive MCP server for legal workflows. Integrates AI assistants with legal databases and case management systems (Clio, etc.).
 - [LegalContext MCP](https://mcp.so/server/legalcontext) - Open-source MCP server bridging law firm document management systems with AI assistants.
 - [adeu (Agentic DOCX Redlining Engine)](https://github.com/dealfluence/adeu) - MCP Server enabling LLMs to inject native Track Changes and Comments into Word documents.
+- [Bidda Sovereign Intelligence](https://github.com/Bidda-Ai/bidda-mcp) - MCP server providing AI agents with access to 3,680 cryptographically-verified regulatory compliance nodes across 31 pillars — EU AI Act, GDPR, NIST AI 600-1, Basel III, HIPAA, DORA, FATF, SOC 2, ISO 27001, and 150+ others. Every node traces to primary legal instruments (avg 7 citations per node) with machine-executable deterministic workflow logic. Zero hallucination by design. Endpoint: `https://bidda.com/mcp`
 
 > **Note:** MCP for legal is an emerging ecosystem. Many servers are early-stage community projects. Always verify data accuracy and jurisdiction coverage before use in legal practice.
 
