@@ -1267,6 +1267,50 @@ Platforms that index, curate, review, or list legal technology products — usef
 - [Atticus Project](https://www.atticusprojectai.org/) - **[Nonprofit/Academic]** Nonprofit of practicing attorneys producing open-source benchmarks (CUAD, MAUD, ACORD) and AI education for legal practice.
 ---
 
+## Legaltech Ecosystem Infrastructure
+
+Funding, incubators, regulatory sandboxes, and court-modernization programs that shape where legaltech gets built and adopted.
+
+### Legaltech-Focused Funds
+
+- [The LegalTech Fund](https://www.legaltech.com/) - **[VC]** First VC dedicated exclusively to legal tech (Fort Lauderdale); closed $110M Fund II in Nov 2025; 80+ portfolio companies.
+- [NextLaw Ventures](https://www.nextlawventures.vc/) - **[VC]** Dentons-founded early-stage VC focused exclusively on legaltech (ROSS, Doxly, Apperio, Clause).
+- [Thomson Reuters Ventures](https://www.thomsonreuters.com/en/about-us/corporate-venture-capital.html) - **[Corporate VC]** Corporate arm investing across legal, tax, and risk; LP in The LegalTech Fund; direct investor in Spellbook, Supio, others.
+
+### Law Firm Innovation Labs
+
+Notable, multi-cohort innovation programs and tech subsidiaries inside major law firms.
+
+- [MDR Lab (Mishcon de Reya)](https://lab.mdr.london/) - 🇬🇧 UK's first dedicated legaltech incubator (since 2017); alumni (DraftWise, Thirdfort, ayora, Version Story) raised £100M+.
+- [A&O Shearman Fuse](https://www.aoshearman.com/en/expertise/fuse) - 🇬🇧 First permanent law-firm legaltech incubator (since 2017); 90+ alumni who raised $1.5B+.
+- [Slaughter and May Collaborate](https://www.slaughterandmay.com/news/slaughter-and-may-launches-legal-tech-programme/) - 🇬🇧 12-week legaltech programme (since 2019) with access to 70+ client organisations; optional investment via S+M Ventures.
+- [Reed Smith Gravity Stack](https://gravitystack.com/) - 🇺🇸 Reed Smith's wholly-owned tech subsidiary (since 2018), 500+ people, builds AI for litigation, eDiscovery, and M&A.
+- [DLA Piper Law&](https://www.dlapiper.com/en/insights/topics/law-and) - 🌍 Law& innovation arm with 100+ AI lawyers and tools like Aiscension, Prisca AI Compliance, Transfer.
+
+### Regulatory Sandboxes & Bar Innovation Programs
+
+Regulatory authorities and bar associations enabling new legal-services delivery models, including non-lawyer ownership and software-delivered legal services.
+
+- [Utah Office of Legal Services Innovation (Sandbox)](https://utahinnovationoffice.org/) - 🇺🇸 Utah Supreme Court regulatory sandbox (since 2020, extended through 2027) authorising non-lawyer ownership and software-delivered legal services.
+- [Arizona ABS Program](https://www.azcourts.gov/cld/Alternative-Business-Structures) - 🇺🇸 First US state to eliminate Rule 5.4 (2020); 136+ approved Alternative Business Structures.
+- [SRA Innovate](https://www.sra.org.uk/solicitors/resources/innovate/) - 🇬🇧 Solicitors Regulation Authority programme for lawtech trials, the Virtual Innovation Hub (with Swansea), and pre-application guidance for novel legal-services models.
+- [ABA Center for Innovation](https://www.americanbar.org/groups/centers_commissions/center-for-innovation/) - 🇺🇸 ABA's collaborative innovation hub; publishes the annual Innovation Trends Report.
+- [ABA Task Force on Law and AI](https://www.americanbar.org/groups/leadership/office_of_the_president/artificial-intelligence/) - 🇺🇸 ABA Year 2 (2025) report concluding AI has moved from experiment to infrastructure across courts, education, and access-to-justice.
+
+### Court Technology Modernization Programs
+
+Major government and judicial-branch programs digitising courts, e-filing, and case management.
+
+- [National Center for State Courts (NCSC)](https://www.ncsc.org/) - 🇺🇸 Independent nonprofit driving US state-court tech; publishes Trends in State Courts and runs the CTC conference.
+- [Joint Technology Committee (JTC)](https://www.ncsc.org/our-centers-projects/joint-technology-committee) - 🇺🇸 NCSC/COSCA/NACM committee publishing court-tech standards, AI for Courts bulletin, and Cybersecurity Basics for Courts.
+- [HMCTS Reform Programme](https://www.gov.uk/guidance/the-hmcts-reform-programme) - 🇬🇧 £1.3B portfolio of 44 court-modernization projects (2016–2025); delivered Common Platform and video tech in 70%+ courtrooms.
+- [e-CODEX (eu-LISA)](https://www.eulisa.europa.eu/topics/e-codex) - 🇪🇺 Decentralized EU interoperability layer for cross-border judicial data exchange; integrated into eu-LISA in 2024.
+- [European e-Justice Portal](https://e-justice.europa.eu/home_en) - 🇪🇺 EU's 23-language one-stop justice portal aligned with the e-Justice Strategy 2024-2028.
+- [India e-Courts Mission Mode Project Phase III](https://doj.gov.in/phase-iii/) - 🇮🇳 ₹7,210 crore (2023-27) programme digitising legacy records (637+ crore pages), virtual courts, and AI/ML for case scheduling.
+- [Estonia e-File](https://e-estonia.com/solutions/e-governance/justice-public-safety/) - 🇪🇪 Pan-Estonian central judicial information system underpinning e-Justice; AI speech-recognition assistant "Salme" deployed across courts.
+
+---
+
 ## Communities, Conferences & Media
 
 Stay current with the legaltech ecosystem.
