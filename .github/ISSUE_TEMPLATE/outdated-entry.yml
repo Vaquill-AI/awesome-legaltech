@@ -1,0 +1,27 @@
+name: Outdated entry
+description: Report an entry whose description, capabilities, or metadata is out of date.
+title: "[outdated] <entry name>"
+labels: ["outdated"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry name
+      placeholder: e.g. Harvey
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text in README.md
+      description: Paste the line as it currently reads.
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed correction
+      description: What should it say instead, and what evidence supports the change?
+    validations:
+      required: true

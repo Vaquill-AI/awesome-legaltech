@@ -1,0 +1,36 @@
+name: Deprecated entry
+description: Report an entry that should be moved to the Deprecated / Archived section.
+title: "[deprecated] <entry name>"
+labels: ["deprecated"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry name
+      placeholder: e.g. SomeTool
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason
+      options:
+        - GitHub repo archived by owner
+        - Company shut down / product discontinued
+        - No commits / activity for 2+ years
+        - Stated functionality no longer available (API/dataset removed)
+        - Other (describe below)
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link to the archived repo, shutdown notice, last commit date, or other source.
+    validations:
+      required: true
+  - type: input
+    id: successor
+    attributes:
+      label: Successor (optional)
+      description: If a different project has taken its place, link it here.

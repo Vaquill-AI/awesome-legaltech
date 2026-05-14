@@ -8,6 +8,11 @@ on:
   schedule:
     # Run every Monday at 09:00 UTC
     - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
 
 jobs:
   link-check:
@@ -15,12 +20,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
       - name: Check links
+        id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
           args: >
             --verbose
             --no-progress
+            --cache
+            --max-cache-age 1d
             --accept 200,206,429,202
             --exclude-loopback
             --exclude 'mailto:'
@@ -49,6 +64,17 @@ jobs:
             --timeout 30
             --max-retries 3
             README.md
-          fail: false
+          fail: ${{ github.event_name != 'schedule' }}
+          output: ./lychee-report.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create issue from scheduled run
+        if: github.event_name == 'schedule' && steps.lychee.outputs.exit_code != '0'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: 'Link Check Report - broken links found'
+          content-filepath: ./lychee-report.md
+          labels: |
+            broken link
+            maintenance

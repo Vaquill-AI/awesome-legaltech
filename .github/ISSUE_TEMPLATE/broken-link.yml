@@ -1,0 +1,38 @@
+name: Broken link
+description: Report a link in README.md that no longer resolves.
+title: "[broken link] <entry name>"
+labels: ["broken link"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry name
+      description: The name of the entry as it appears in README.md.
+      placeholder: e.g. CourtListener REST API
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Broken URL
+      placeholder: https://example.com/...
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Failure mode
+      options:
+        - 404 / Not Found
+        - DNS / domain expired
+        - SSL / certificate error
+        - 5xx server error
+        - Redirects to unrelated content
+        - Other (describe below)
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Any context, replacement URL, or whether the project still exists elsewhere.

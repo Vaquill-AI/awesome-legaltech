@@ -9,6 +9,12 @@ Thank you for your interest in contributing to **Awesome Legaltech**! This docum
 3. Ensure your PR has a **clear title** and **description** explaining what was added and why it belongs.
 4. Submit the pull request.
 
+### Review SLA
+
+Maintainers aim to triage every PR and issue within **7 days** - either with a merge, a request for changes, a deferral with reason, or a close. If your submission has been open longer than that without a response, feel free to leave a comment to bump it.
+
+The link-checker runs automatically on every PR and must pass before merge. If it fails on a target site that is only transiently down, a maintainer may add the host to the workflow's exclude list rather than block your contribution.
+
 ## What We Look For
 
 ### The core principle
@@ -72,11 +78,26 @@ If you believe a new top-level section is needed:
 - A section needs at least **5 distinct entries** to warrant its own heading.
 - The section must not overlap substantially with existing sections.
 
+## Deprecation Policy
+
+When an entry becomes unmaintained, we **move** it rather than delete it. This keeps the historical record honest and prevents the same dead project from being re-submitted later.
+
+An entry moves to the `## Deprecated / Archived` section in `README.md` when any of the following is true:
+
+- The upstream GitHub repo has been **archived** by its owner.
+- The company has **shut down**, been acquired and the product discontinued, or the product page returns a permanent error.
+- An open-source project has had **no meaningful commits for 2+ years** (the staleness-audit workflow flags candidates monthly).
+- The project's stated functionality is no longer available (API decommissioned, dataset taken down, etc.).
+
+When moving an entry, keep the original link and add a short note: what it was, what happened, and a pointer to a successor if one exists.
+
 ## Reporting Issues
 
 If you find:
-- A broken link → Open an issue with `[broken link]` in the title.
-- An outdated entry → Open an issue with `[outdated]` in the title.
+
+- A broken link → Use the **Broken link** issue template.
+- An outdated entry → Use the **Outdated entry** issue template.
+- A deprecated/archived project still listed in the main sections → Use the **Deprecated entry** issue template.
 - A duplicate entry → Open an issue with `[duplicate]` in the title.
 
 ## Code of Conduct

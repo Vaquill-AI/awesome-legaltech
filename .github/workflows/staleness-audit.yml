@@ -1,0 +1,38 @@
+name: Staleness Audit
+
+on:
+  schedule:
+    # First day of each month at 10:00 UTC
+    - cron: '0 10 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run staleness audit
+        id: audit
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STALE_MONTHS: '18'
+        run: python .github/scripts/staleness_audit.py README.md staleness-report.md
+
+      - name: Create or update issue
+        if: steps.audit.outputs.stale_count != '0'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: 'Staleness Audit - candidates for Deprecated / Archived'
+          content-filepath: ./staleness-report.md
+          labels: |
+            staleness audit
+            maintenance
