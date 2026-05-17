@@ -132,7 +132,7 @@ Datasets for predicting case outcomes, charges, or penalties from court document
 - [LexGLUE](https://github.com/coastalcph/lex-glue) - **[🌍 Multi]** - **[EN]** - 7-task benchmark: EURLEX, ECHR, LEDGAR, SCOTUS, ContractNLI, CaseHOLD, ECtHR
 - [LEDGAR](https://huggingface.co/datasets/coastalcph/ledgar) - **[🇺🇸 US]** - **[EN]** - 60K+ contract provisions with 12.6K labels
 - [CUAD](https://www.atticusprojectai.org/cuad) - **[🇺🇸 US]** - **[EN]** - 510 annotated contracts, 41 clause types, 13K+ expert labels
-- [AsyLex](https://huggingface.co/datasets/joelito/AsyLex) - **[🇨🇭 Swiss]** - **[FR/DE]** - 59K documents; 19K human-anotated entities for Refugee Law
+- [AsyLex](https://huggingface.co/datasets/joelito/AsyLex) - **[🇨🇭 Swiss]** - **[FR/DE]** - 59K documents; 19K human-annotated entities for Refugee Law
 ### Legal Question Answering
 
 - [CaseHOLD](https://huggingface.co/datasets/casehold/casehold) - **[🇺🇸 US]** - **[EN]** - 53K multiple-choice QA from US case law (holding identification)
