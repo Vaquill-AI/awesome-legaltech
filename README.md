@@ -260,6 +260,7 @@ Comprehensive platforms that handle multiple functions across the legal workflow
 - [Orbital](https://www.orbital.tech/) - **[AI-Native]** UK-origin AI for real estate due diligence and conveyancing used by Clifford Chance and Macfarlanes; powers 200,000+ transactions annually. $60M Series B led by Brighton Park Capital (Jan 2026).
 - [Stella](https://github.com/stella/stella) - **[Open Source]** Open-source legal workspace built in TypeScript.
 - [CourtListener (source)](https://github.com/freelawproject/courtlistener) - **[Open Source]** Django source for the largest open US court-data archive (RECAP, opinions, oral arguments, judges) maintained by Free Law Project.
+- [dd-agents](https://github.com/zoharbabin/due-diligence-agents) - **[Open Source]** M&A due diligence platform orchestrating 13 AI agents (Legal, Finance, Commercial, ProductTech, Cybersecurity, HR, Tax, Regulatory, ESG + Judge, Red Flag Scanner, Executive Synthesis, Acquirer Intelligence) across a 38-step pipeline. Interactive chat mode with 14 MCP tools for citation verification, cross-contract search, and document generation. Neurosymbolic cross-domain analysis routes findings between domains via deterministic rules. Apache 2.0, `pip install dd-agents`.
 
 ---
 
