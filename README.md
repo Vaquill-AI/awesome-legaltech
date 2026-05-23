@@ -1095,6 +1095,7 @@ Tools for regulatory compliance, policy management, financial crime detection, a
 - [ComplyAdvantage](https://complyadvantage.com) - **[AI-Native]** AI-driven AML and financial crime detection.
 - [Corlytics / Clausematch](https://www.corlytics.com) - **[Established]** RegTech for regulatory change management and compliance policy.
 - [Certa](https://www.getcerta.com) - **[Established]** Third-party risk management and vendor onboarding automation.
+- [Komos](https://www.komos.ai/solutions/background-screening) - **[AI-Native]** Regulated operations automation for CRAs, insurance, and finance teams handling browser-portal workflows, FCRA process queues, screenshots, logs, and human-review handoffs.
 - [OneTrust](https://www.onetrust.com) - **[Established]** Privacy, GRC, and ethics management platform with AI-powered workflows.
 - [NAVEX](https://www.navex.com) - **[Established]** Integrated risk and compliance management.
 - [Kira Systems](https://kirasystems.com) - **[Established]** ML-based contract analysis for due diligence and compliance.
