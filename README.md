@@ -1,4 +1,4 @@
-# Awesome Legaltech [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<img width="3119" height="1741" alt="image" src="https://github.com/user-attachments/assets/62f6bd6b-0090-4255-b838-727fa8d5c8d0" /># Awesome Legaltech [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <div align="center">
   <sup>Sponsored by</sup><br>
@@ -1352,6 +1352,36 @@ Stay current with the legaltech ecosystem.
 - [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - The original meta awesome list.
 - [openlegaldata/awesome-legal-data](https://github.com/openlegaldata/awesome-legal-data) - Curated collection of legal text-processing datasets and resources.
 - [Jeryi-Sun/LLM-and-Law](https://github.com/Jeryi-Sun/LLM-and-Law) - Continually-updated paper list on LLMs applied to law.
+
+## China — AI Compliance & Data Protection
+
+### Core Legislation & Official Regulatory Sources
+
+- [Personal Information Protection Law (PIPL)](http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313091.html) — China's primary personal information protection statute (2021); covers consent, data subject rights, cross-border transfers, and sensitive personal information
+- [Data Security Law (DSL)](http://www.npc.gov.cn/npc/c2/c30834/202106/t20210610_311888.html) — Governs data classification, national security review, and cross-border data flows (2021)
+- [Cybersecurity Law (CSL)](http://www.npc.gov.cn/npc/c2/c30834/201611/t20161107_404543.html) — Foundational statute for network security and critical information infrastructure protection (2017)
+- [Cyberspace Administration of China (CAC)](https://www.cac.gov.cn/) — Primary regulator for personal information protection and AI governance; publishes all subordinate regulations
+- [National Data Bureau (NDB)](https://www.nda.gov.cn/) — Established 2023; responsible for data resource development and cross-border data policy coordination
+
+### Key Subordinate Regulations (2022–2025)
+
+- [Measures for Security Assessment of Outbound Data Transfers (2022)](https://www.cac.gov.cn/2022-07/07/c_1658811536396503.htm) — Mandatory CAC security assessment for certain cross-border data transfers
+- [Measures for Standard Contract for Outbound Transfer of Personal Information (2023)](https://www.cac.gov.cn/2023-02/24/c_1679407116913819.htm) — Standard contractual clauses mechanism for cross-border personal information transfers
+- [Provisions on Facilitating and Regulating Cross-border Data Flows (2024)](https://www.cac.gov.cn/2024-03/22/c_1712776196503594.htm) — Streamlines cross-border transfer rules; introduces free trade zone exemptions
+- [Network Data Security Management Regulation (2025)](https://www.cac.gov.cn/2024-09/30/c_1728527415765602.htm) — Comprehensive regulation on network data processing obligations (effective Jan 1, 2025)
+- [Measures for Administration of Personal Information Protection Compliance Audits (2025)](https://www.cac.gov.cn/2025-02/26/c_1741000680823259.htm) — Mandatory and voluntary audit framework for personal information handlers (effective May 1, 2025)
+- [Interim Measures for the Management of Generative AI Services (2023)](https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm) — Regulates generative AI services offered to the public in China
+
+### AI Governance & Policy Institutions
+
+- [IAPP Global AI Law and Policy Tracker — China](https://iapp.org/resources/article/global-ai-legislation-tracker/) — Continuously updated overview of China's AI regulatory developments
+- [China Academy of Information and Communications Technology (CAICT)](http://www.caict.ac.cn/) — State-affiliated think tank; publishes AI governance white papers and compliance guidelines
+- [OpenPIIMap — China PIPL Data Mapping](https://github.com/intelation/openpiimap) — Open-source machine-readable mapping of PIPL personal information categories with legal citations (contributed 2026)
+
+### Legal Research Databases
+
+- [China Judgments Online (裁判文书网)](https://wenshu.court.gov.cn/) — Official Supreme People's Court platform for published court decisions; free public access
+- [Peking University Law Database (北大法宝)](https://www.pkulaw.com/) — Comprehensive Chinese legal database covering statutes, regulations, judicial interpretations, and cases
 
 ---
 
