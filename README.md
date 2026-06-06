@@ -1134,6 +1134,7 @@ Organizations and software actively using technology to advance access to justic
 - [Clear My Record (Code for America)](https://www.clearmyrecord.org/) - **[Nonprofit]** Code for America initiative powering automatic record-sealing/expungement; helped reduce or dismiss 144,000 California cannabis convictions.
 - [World Justice Project Rule of Law Index](https://worldjusticeproject.org/rule-of-law-index/) - **[Nonprofit]** Annual data series measuring rule of law across 143 jurisdictions (95% of world population).
 - [HiiL (Hague Institute for Innovation of Law)](https://www.hiil.org/) - **[Nonprofit]** Justice Accelerator (110+ startups funded since 2011), Justice Innovation Labs, and people-centred justice research.
+- [Clarvia](https://github.com/clarvia-org/clarvia-graph) - **[Open Source]** Free, open-source bereavement compliance checklist for European families. Source-backed legal deadlines, multilingual, structured as a knowledge graph.
 
 ## Foundational Research
 
