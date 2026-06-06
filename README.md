@@ -115,6 +115,7 @@ Large text corpora and jurisdiction-wide raw data dumps for pretraining or fine-
 - [HUPD (Harvard USPTO Patent Dataset)](https://huggingface.co/datasets/HUPD/hupd) - **[🇺🇸 EN]** - **[4.5M+]** - Inventor-submitted US utility patent applications 2004-2018 for patentability, classification, and summarization tasks (NeurIPS 2023).
 - [IL-TUR](https://huggingface.co/datasets/Exploration-Lab/IL-TUR) - **[🇮🇳 EN + 9 Indic]** - **[~176K]** - Indian legal text understanding & reasoning benchmark across 8 tasks (NER, rhetorical roles, judgment prediction, bail, statute ID, retrieval, summarization, MT); ACL 2024.
 - [gitlaw-jp](https://github.com/aluqas/gitlaw-jp) - **[🇯🇵 JA]** - **[Large]** - Complete Japanese legislation tracked as a Git repository, enabling diffs and historical analysis.
+- [MiniLex 7-domain Korean lawdata (wellsa-ai)](https://huggingface.co/wellsa-ai) - **[🇰🇷 KO]** - **[397K+]** - 7 sibling HF datasets covering Korean public legal corpora: statutes (5,589), administrative rules (10,765), court precedents (171,014), statutory interpretations (8,728), constitutional decisions (38,092), local ordinances (159,910), treaties (6,907). MIT, daily cron updates with Git history. Production demo at https://minilex.wellsa.ai (1.36M+ articles indexed, source-cited Q&A).
 - [open-source-legislation](https://github.com/spartypkp/open-source-legislation) - **[🌍 Multi]** - SQL knowledge-graph format for global legislation with Python/TypeScript SDKs for LLM training and RAG.
 ### Legal Judgment Prediction (LJP)
 
