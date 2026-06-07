@@ -1,5 +1,4 @@
-<img width="3119" height="1741" alt="image" src="https://github.com/user-attachments/assets/62f6bd6b-0090-4255-b838-727fa8d5c8d0" /># Awesome Legaltech [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
+# Awesome Legaltech [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 <div align="center">
   <sup>Sponsored by</sup><br>
   <a href="https://vaquill.ai"><strong>Vaquill AI</strong></a>
