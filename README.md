@@ -231,7 +231,7 @@ Domain-specific encoder models for legal text similarity, classification, and re
 - [SEC EDGAR MCP](https://github.com/stefanoamorelli/sec-edgar-mcp) - **[🇺🇸 US]** MCP for SEC EDGAR filings, financial statements, and insider-trading data — useful for securities and corporate-disclosure workflows.
 - [mcp-cerebra-legal-server](https://github.com/yoda-digital/mcp-cerebra-legal-server) - MCP providing structured legal-reasoning tools (`legal_think`, follow-up, completion) with domain templates for contract, consumer-protection, and French procurement analysis.
 
-- [TWZRD Agent Intel](https://intel.twzrd.xyz) — Trust scoring MCP for autonomous AI agents on Solana. Provides `score_agent(wallet)` and `preflight_check(wallet)` (free) to verify AI legal research and document analysis agent identity before data exchange, and `get_trust_receipt(wallet)` for signed audit trails via x402 micropayment. Relevant for legal ops teams deploying AI agents where agent identity verification and accountability are required. Config: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`.
+- [TWZRD Agent Intel](https://intel.twzrd.xyz/) - Trust scoring MCP server for AI agents on Solana — verify agent wallet identity before x402 micropayments. Useful for legal ops automations where autonomous agents call paid legal APIs. Free tools: `resolve_agent`, `score_agent`, `preflight_check`. MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 
 > **Note:** MCP for legal is an emerging ecosystem. Many servers are early-stage community projects. Always verify data accuracy and jurisdiction coverage before use in legal practice.
 
