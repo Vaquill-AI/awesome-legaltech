@@ -91,6 +91,7 @@ Libraries and scripts for scraping, parsing, and processing legal text to build 
 - [Opennyai](https://github.com/OpenNyAI/Opennyai) - **[Open Source]** End-to-end Python NLP pipeline for Indian legal documents (NER, rhetorical-role labeling, summarization).
 - [CiteURL](https://github.com/raindrum/citeurl) - **[Open Source]** Extensible Python citation parser that turns US/UK/EU legal citations into hyperlinks; complements Eyecite with broader jurisdictional templates.
 - [Open Australian Legal Corpus Creator](https://github.com/isaacus-dev/open-australian-legal-corpus-creator) - **[Open Source]** Scripts to build the open multijurisdictional corpus of Australian legislation and case law.
+- [AI Workdeck](https://github.com/zeweihan/aiworkdeck) - **[Open Source]** AI-native IDE workspace for legal and document-heavy workflows — "VS Code for lawyers." Self-hosted (Java/Spring Boot + Vue + Electron + Docker, AGPLv3). Features MCP agent orchestration, OCR, due-diligence risk flagging, evidence-chain management, WPS WebOffice integration, and smart clipboard. Supports air-gapped deployment with Ollama + local storage.
 
 ### Pretraining Corpora & Bulk Data
 
