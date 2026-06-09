@@ -866,6 +866,7 @@ Direct links to canonical government legal-data sources for jurisdictions where 
 - [eCFR](https://www.ecfr.gov) - Up-to-date Code of Federal Regulations with a full bulk API.
 - [OpenStates](https://openstates.org) - Open-source platform tracking US state legislation in real time.
 - [AI Laws by State](https://www.ailawsbystate.com) - Free 50-state tracker for U.S. artificial intelligence legislation, sourced from primary state legislature feeds. Covers bill status, effective dates, penalty structures, and topic categorization (deepfakes, hiring, healthcare AI, disclosure, bias audits).
+- [Lien Deadlines](https://ipythoning.github.io/lien-deadlines/) - Free statute-cited reference and calculator for US mechanics/construction lien deadlines (CA, TX, FL) by claimant role, with an open CC BY 4.0 dataset in JSON and CSV.
 - [Google Scholar Case Law](https://scholar.google.com) - Free US federal and state court opinions.
 
 #### United Kingdom
