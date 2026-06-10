@@ -231,6 +231,7 @@ Domain-specific encoder models for legal text similarity, classification, and re
 - [French Law MCP](https://github.com/Ansvar-Systems/French-law-mcp) - **[🇫🇷 France]** MCP exposing 3,958 French statutes (Code civil, Code pénal, Code du travail, Code de commerce, Loi I&L) verified against official sources.
 - [SEC EDGAR MCP](https://github.com/stefanoamorelli/sec-edgar-mcp) - **[🇺🇸 US]** MCP for SEC EDGAR filings, financial statements, and insider-trading data — useful for securities and corporate-disclosure workflows.
 - [mcp-cerebra-legal-server](https://github.com/yoda-digital/mcp-cerebra-legal-server) - MCP providing structured legal-reasoning tools (`legal_think`, follow-up, completion) with domain templates for contract, consumer-protection, and French procurement analysis.
+- [Sound Suite](https://github.com/alperu/soundsuite) - **[Self-Hosted]** Local-first legal document intelligence platform exposing 14 MCP tools (semantic and keyword/hybrid search, OCR, exhibit image retrieval, and case-knowledge queries); watches case-file directories and indexes PDFs into a local vector store, running entirely on-premises with no external API calls. Source-available under the Polyform Noncommercial license.
 
 > **Note:** MCP for legal is an emerging ecosystem. Many servers are early-stage community projects. Always verify data accuracy and jurisdiction coverage before use in legal practice.
 
