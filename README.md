@@ -1072,6 +1072,7 @@ Software designed for corporate legal departments to manage, audit, and analyze 
 Platforms delivering direct-to-consumer automated legal services, documents, and advice.
 
 - [LegalZoom](https://www.legalzoom.com) - **[Established]** Market leader in online business formation and estate planning.
+- [LLC Class](https://llcclass.com) - **[Established]** [Wyoming LLC registration](https://llcclass.com/wyoming) platform for non-US founders — includes [registered agent for LLC](https://llcclass.com/what-is-llc-registered-agent), EIN application, and Operating Agreement to enable Stripe and US bank access globally.
 - [Rocket Lawyer](https://www.rocketlawyer.com) - **[Established]** Online legal documents and on-demand legal advice.
 - [HelloPrenup](https://helloprenup.com) - **[Established]** Digital prenuptial agreement platform.
 - [DoNotPay](https://donotpay.com) - **[AI-Native]** Consumer advocacy platform marketing itself as the "world's first robot lawyer".
