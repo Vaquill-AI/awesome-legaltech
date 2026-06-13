@@ -858,7 +858,7 @@ Direct links to canonical government legal-data sources for jurisdictions where 
 - [GlobaLex (NYU)](https://www.nyulawglobal.org/globalex/) - Comprehensive research guides and database listings for international, comparative, and foreign law.
 
 #### United States
-- [Vaquill AI](https://vaquill.ai) - Free AI legal research across 8M+ US federal and state court opinions plus USC and CFR, with citation verification. *(Sponsor)*
+- [Vaquill AI](https://vaquill.ai) - Legal AI suite for US in-house counsel and GCs; research spans 8M+ federal and state court opinions plus USC and CFR with citation-verified answers, alongside contract review, drafting, and document comparison. *(Sponsor)*
 - [CourtListener](https://www.courtlistener.com) - Free open case law search with API access. 9M+ opinions.
 - [PACER](https://pacer.uscourts.gov) - Official US federal court docket and document system.
 - [Caselaw Access Project](https://case.law) - 6.9M US court decisions, 1600s-2020. Free bulk API.
@@ -924,7 +924,7 @@ Direct links to canonical government legal-data sources for jurisdictions where 
 - [legal-tech-chat](https://github.com/tomasonjo-labs/legal-tech-chat) - **[Open Source]** Reference pipeline: CUAD extraction → Neo4j knowledge graph → LangGraph agent.
 
 ### Commercial AI Research Platforms
-- [Vaquill AI](https://vaquill.ai) - **[AI-Native]** US legal research and drafting platform with agentic workflows and case-law research, an MCP server, and a self-serve statutes API (USC, CFR, 50-state codes) for developers. *(Sponsor)*
+- [Vaquill AI](https://vaquill.ai) - **[AI-Native]** Legal AI suite for US in-house counsel and GCs: contract review, compliance research, drafting, and document comparison, with agentic case-law and statute research, citation-verified answers, an MCP server, and a self-serve statutes API. *(Sponsor)*
 - [Leya](https://leya.law) - **[AI-Native]** Agentic research and legal memo generation.
 - [Paxton AI](https://paxton.ai) - **[AI-Native]** Jurisdiction-aware AI legal answers.
 - [EvenUp](https://evenuplaw.com) - **[AI-Native]** Agentic demand letter generation and research for personal injury.
