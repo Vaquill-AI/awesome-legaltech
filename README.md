@@ -263,6 +263,7 @@ Comprehensive platforms that handle multiple functions across the legal workflow
 - [Stella](https://github.com/stella/stella) - **[Open Source]** Open-source legal workspace built in TypeScript.
 - [CourtListener (source)](https://github.com/freelawproject/courtlistener) - **[Open Source]** Django source for the largest open US court-data archive (RECAP, opinions, oral arguments, judges) maintained by Free Law Project.
 - [dd-agents](https://github.com/zoharbabin/due-diligence-agents) - **[Open Source]** M&A due diligence platform orchestrating 13 AI agents (Legal, Finance, Commercial, ProductTech, Cybersecurity, HR, Tax, Regulatory, ESG + Judge, Red Flag Scanner, Executive Synthesis, Acquirer Intelligence) across a 38-step pipeline. Interactive chat mode with 14 MCP tools for citation verification, cross-contract search, and document generation. Neurosymbolic cross-domain analysis routes findings between domains via deterministic rules. Apache 2.0, `pip install dd-agents`.
+- [doc.haus](https://github.com/sure-scale/doc-haus) - **[Open Source]** Self-hostable legal AI agent built as a fork of [OpenCode](https://github.com/anomalyco/opencode); documents stay on the user's machine, with matter-scoped private workspaces, cited document Q&A, and tracked-change DOCX redlines that open in Word.
 
 ---
 
