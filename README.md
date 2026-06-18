@@ -215,6 +215,9 @@ Domain-specific encoder models for legal text similarity, classification, and re
 - [agentic-ops/legal-mcp](https://github.com/agentic-ops/legal-mcp) - Comprehensive MCP server for legal workflows. Integrates AI assistants with legal databases and case management systems (Clio, etc.).
 - [LegalContext MCP](https://mcp.so/server/legalcontext) - Open-source MCP server bridging law firm document management systems with AI assistants.
 - [adeu (Agentic DOCX Redlining Engine)](https://github.com/dealfluence/adeu) - MCP Server enabling LLMs to inject native Track Changes and Comments into Word documents.
+- [sign-cli](https://github.com/DrBaher/sign-cli) - **[Open Source]** Offline PAdES e-signature MCP server: agents can request, place, sign, and verify PDFs locally, with signing gated behind explicit consent tokens. Cryptographic verification + hash-chained audit.
+- [contract-ops-mcp](https://github.com/DrBaher/contract-ops-mcp) - **[Open Source]** One MCP server exposing nine local-first contract CLIs (extract, draft, lint, compare, NDA review, convert, the vaults, and human-gated signing) as agent tools.
+- [compare-cli-mcp](https://github.com/DrBaher/compare-cli) - **[Open Source]** Contract version diff / redline with a substantive-drift gate, exposed as an MCP server.
 - [Master Claude for Legal](https://github.com/sboghossian/master-claude-for-legal) - **[Open Source]** - **[MIT]** - Skill pack for legal teams using Claude with MCP connectors. 10 reference docs (privilege, verification, long documents, practice areas), 5 starter skills (NDA triage, version diff, meeting brief, citation verifier, status synthesis), 3 firm templates. Includes the source Anthropic legal-webinar transcript and 51-question dataset.
 - [Korean Law MCP](https://github.com/chrisryugj/korean-law-mcp) - **[🇰🇷 Korea]** 17 MCP tools wrapping 41 Korean government legal APIs; includes citation verification, impact graph, and time-travel diff.
 - [Yargı MCP](https://github.com/saidsurucu/yargi-mcp) - **[🇹🇷 Turkey]** MCP server for Turkish legal databases (Yargıtay, Danıştay, Anayasa Mahkemesi).
@@ -1008,6 +1011,7 @@ Platforms handling digital execution of documents and Remote Online Notarization
 - [DocuSign](https://www.docusign.com) - **[Established]** The global standard for e-signatures and agreement clouds.
 - [Proof (formerly Notarize)](https://www.proof.com) - **[Established]** Pioneer of Remote Online Notarization (RON).
 - [OpenSign](https://github.com/OpenSignLabs/OpenSign) - **[Open Source]** Free open-source DocuSign alternative (Parse Server + React); 6.3k+ stars.
+- [sign-cli](https://github.com/DrBaher/sign-cli) - **[Open Source]** Fully-offline PAdES e-signature CLI + MCP server with cryptographic verification and a hash-chained audit trail. A self-hosted, local-first DocuSign alternative for developers and agents.
 
 ---
 
