@@ -1,4 +1,10 @@
 # Awesome Legaltech [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
+  <sup>Sponsored by</sup><br>
+  <a href="https://vaquill.ai"><strong>Vaquill AI</strong></a>
+  <br>
+  <sub>Legal AI suite for US in-house counsel and GCs. Contract review, compliance research, drafting, document comparison, and citation-verified answers, privilege-architected for solo GCs and 2-10 person legal teams.</sub>
+</div>
 
 Sponsored by  
 [**Vaquill AI**](https://vaquill.ai)  
@@ -57,20 +63,20 @@ Legal technology (legaltech) is the use of technology and software to provide le
 
 Commercial and open APIs specifically designed for retrieving case law, statutes, and legal documents into applications.
 
-*   [Vaquill AI API](https://vaquill.ai/legal-api) - Developer API providing programmatic access to 8M+ US federal and state court opinions plus the complete US Code and CFR, with semantic search and citation verification. _(Sponsor)_
-*   [CourtListener REST API](https://www.courtlistener.com/help/api/) - **\[🇺🇸 US\]** Free Law Project API over 9M+ opinions, dockets, judges, and RECAP/PACER filings; free tier plus semantic search endpoint (Nov 2025).
-*   [LegiScan API](https://legiscan.com/legiscan) - **\[🇺🇸 US\]** Structured JSON for legislation in all 50 states + Congress; free tier (30K queries/month) with paid plans.
-*   [Open States API v3](https://docs.openstates.org/api-v3/) - **\[🇺🇸 US\]** Free REST API for US state legislators, bills, votes, and committees across 50 states + DC + territories.
-*   [USPTO Open Data Portal API](https://data.uspto.gov/) - **\[🇺🇸 US\]** Free patent file-wrapper, search, and PEDS endpoints; replaces the legacy beta ODP.
-*   [EPO Open Patent Services (OPS)](https://www.epo.org/searching-for-patents/data/web-services/ops.html) - **\[🇪🇺 EU\]** Free RESTful API for EPO/WIPO/national patent bibliographic data, family info, and legal status (registered-user quota).
-*   [The Lens Patent & Scholarly API](https://www.lens.org/lens/user/subscriptions) - **\[🌍 Global\]** 140M+ global patent records and scholarly citations; free tier for academic/non-commercial use.
-*   [EUR-Lex Webservice & CELLAR SPARQL](https://eur-lex.europa.eu/content/help/data-reuse/webservice.html) - **\[🇪🇺 EU\]** Free SOAP/SPARQL/REST endpoints for EU legislation, ECLI-indexed case law, and CDM-RDF metadata across 24 languages.
-*   [JudiLibre API (Cour de cassation)](https://api.gouv.fr/les-api/api-judilibre) - **\[🇫🇷 France\]** Official French Supreme Court open API for judicial case-law via PISTE; free with registration.
-*   [UK Parliament Open Data API](https://developer.parliament.uk/) - **\[🇬🇧 UK\]** REST APIs for Westminster procedural data plus the [Hansard API](https://hansard-api.parliament.uk/) for debates in JSON/XML under the Open Parliament Licence.
-*   [Bundestag Open Data](https://www.bundestag.de/services/opendata) - **\[🇩🇪 Germany\]** Plenary protocols and Drucksachen since 1949 as XML/JSON; legislative-process tracking via the DIP API.
-*   [Regulations.gov API](https://open.gsa.gov/api/regulationsgov/) / [Federal Register API](https://www.federalregister.gov/developers/documentation/api/v1) - **\[🇺🇸 US\]** GSA REST APIs for federal rules, dockets, and public comments; complementary daily Federal Register API.
+- [Vaquill AI API](https://vaquill.ai/legal-api) - Self-serve REST API over 1.35M+ US statute sections: the complete US Code, the CFR, all 50 state codes, the Federal Rules, and Executive Orders, with hybrid semantic search, AI-grounded answers, and citation verification. 500 free credits. *(Sponsor)*
+- [CourtListener REST API](https://www.courtlistener.com/help/api/) - **[🇺🇸 US]** Free Law Project API over 9M+ opinions, dockets, judges, and RECAP/PACER filings; free tier plus semantic search endpoint (Nov 2025).
+- [LegiScan API](https://legiscan.com/legiscan) - **[🇺🇸 US]** Structured JSON for legislation in all 50 states + Congress; free tier (30K queries/month) with paid plans.
+- [Open States API v3](https://docs.openstates.org/api-v3/) - **[🇺🇸 US]** Free REST API for US state legislators, bills, votes, and committees across 50 states + DC + territories.
+- [USPTO Open Data Portal API](https://data.uspto.gov/) - **[🇺🇸 US]** Free patent file-wrapper, search, and PEDS endpoints; replaces the legacy beta ODP.
+- [EPO Open Patent Services (OPS)](https://www.epo.org/searching-for-patents/data/web-services/ops.html) - **[🇪🇺 EU]** Free RESTful API for EPO/WIPO/national patent bibliographic data, family info, and legal status (registered-user quota).
+- [The Lens Patent & Scholarly API](https://www.lens.org/lens/user/subscriptions) - **[🌍 Global]** 140M+ global patent records and scholarly citations; free tier for academic/non-commercial use.
+- [EUR-Lex Webservice & CELLAR SPARQL](https://eur-lex.europa.eu/content/help/data-reuse/webservice.html) - **[🇪🇺 EU]** Free SOAP/SPARQL/REST endpoints for EU legislation, ECLI-indexed case law, and CDM-RDF metadata across 24 languages.
+- [JudiLibre API (Cour de cassation)](https://api.gouv.fr/les-api/api-judilibre) - **[🇫🇷 France]** Official French Supreme Court open API for judicial case-law via PISTE; free with registration.
+- [UK Parliament Open Data API](https://developer.parliament.uk/) - **[🇬🇧 UK]** REST APIs for Westminster procedural data plus the [Hansard API](https://hansard-api.parliament.uk/) for debates in JSON/XML under the Open Parliament Licence.
+- [Bundestag Open Data](https://www.bundestag.de/services/opendata) - **[🇩🇪 Germany]** Plenary protocols and Drucksachen since 1949 as XML/JSON; legislative-process tracking via the DIP API.
+- [Regulations.gov API](https://open.gsa.gov/api/regulationsgov/) / [Federal Register API](https://www.federalregister.gov/developers/documentation/api/v1) - **[🇺🇸 US]** GSA REST APIs for federal rules, dockets, and public comments; complementary daily Federal Register API.
 
-* * *
+---
 
 ## Machine Learning Datasets & Corpora
 
@@ -213,29 +219,34 @@ Domain-specific encoder models for legal text similarity, classification, and re
 
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers that connect AI assistants to legal data sources and workflows.
 
-*   [Vaquill AI MCP](https://github.com/vaquill-AI/vaquill-mcp) - MCP server that connects Claude / Cursor / Windsurf / VS Code to 8M+ US federal and state court opinions plus the US Code and CFR. _(Sponsor)_
-*   [CourtListener MCP (DefendTheDisabled)](https://github.com/DefendTheDisabled/courtlistener-mcp) - Connects AI agents to CourtListener with semantic search, hybrid search, and citation verification to mitigate hallucination.
-*   [CourtListener MCP (Travis-Prall)](https://github.com/Travis-Prall/court-listener-mcp) - MCP Server for accessing CourtListener case data, court opinions, and eCFR federal regulations.
-*   [CourtListener MCP (khizar-anjum)](https://github.com/khizar-anjum/courtlistener-mcp) - MCP server built for searching cases by natural language legal problems across 3,352 U.S. courts.
-*   [agentic-ops/legal-mcp](https://github.com/agentic-ops/legal-mcp) - Comprehensive MCP server for legal workflows. Integrates AI assistants with legal databases and case management systems (Clio, etc.).
-*   [LegalContext MCP](https://mcp.so/server/legalcontext) - Open-source MCP server bridging law firm document management systems with AI assistants.
-*   [adeu (Agentic DOCX Redlining Engine)](https://github.com/dealfluence/adeu) - MCP Server enabling LLMs to inject native Track Changes and Comments into Word documents.
-*   [Master Claude for Legal](https://github.com/sboghossian/master-claude-for-legal) - **\[Open Source\]** - **\[MIT\]** - Skill pack for legal teams using Claude with MCP connectors. 10 reference docs (privilege, verification, long documents, practice areas), 5 starter skills (NDA triage, version diff, meeting brief, citation verifier, status synthesis), 3 firm templates. Includes the source Anthropic legal-webinar transcript and 51-question dataset.
-*   [Korean Law MCP](https://github.com/chrisryugj/korean-law-mcp) - **\[🇰🇷 Korea\]** 17 MCP tools wrapping 41 Korean government legal APIs; includes citation verification, impact graph, and time-travel diff.
-*   [Yargı MCP](https://github.com/saidsurucu/yargi-mcp) - **\[🇹🇷 Turkey\]** MCP server for Turkish legal databases (Yargıtay, Danıştay, Anayasa Mahkemesi).
-*   [MCP Taiwan Legal DB](https://github.com/lawchat-oss/mcp-taiwan-legal-db) - **\[🇹🇼 Taiwan\]** Taiwan Judicial Yuan judgments + national statute database via MCP.
-*   [ayunis-legal-mcp](https://github.com/ayunis-core/ayunis-legal-mcp) - **\[🇩🇪 Germany\]** MCP server exposing German legal codes (Gesetze-im-Internet).
-*   [Pasal MCP](https://github.com/ilhamfp/pasal) - **\[🇮🇩 Indonesia\]** MCP + REST + web app giving AI grounded access to 40k+ Indonesian regulations.
-*   [auslaw-mcp](https://github.com/russellbrenner/auslaw-mcp) - **\[🇦🇺 🇳🇿 AU/NZ\]** MCP server searching AustLII case law and legislation with OCR for scanned PDFs.
-*   [law-scrapper-mcp](https://github.com/numikel/law-scrapper-mcp) - **\[🇵🇱 Poland\]** MCP server for Polish legal acts via the Sejm API.
-*   [Emilie](https://github.com/veronica-builds/emilie) - **\[🇨🇭 Switzerland\]** Swiss sovereign legal AI; Mike fork extended with MCP client and local Apertus model support.
-*   [Mahender22/legal-mcp](https://github.com/Mahender22/legal-mcp) - **\[🇺🇸 US\]** 18 MCP tools across CourtListener case law (4M+ opinions, 400+ US courts), PACER federal filings, and Clio practice-management.
-*   [EU Compliance MCP](https://github.com/Ansvar-Systems/EU_compliance_MCP) - **\[🇪🇺 EU\]** MCP exposing 61 EU regulations (GDPR, AI Act, DORA, NIS2, MiFID II, eIDAS 2.0, CRA) with 4,095 articles and cross-regulation comparison.
-*   [mcp-server-legifrance](https://github.com/pylegifrance/mcp-server-legifrance) - **\[🇫🇷 France\]** MCP that wraps the official Légifrance/PISTE API for searching French statutes, codes, and judicial jurisprudence.
-*   [droit-francais-mcp](https://github.com/jmtanguy/droit-francais-mcp) - **\[🇫🇷 France\]** Unified MCP over Légifrance (legislation/codes/decrees) plus JudiLibre (case law) with PISTE-auth.
-*   [French Law MCP](https://github.com/Ansvar-Systems/French-law-mcp) - **\[🇫🇷 France\]** MCP exposing 3,958 French statutes (Code civil, Code pénal, Code du travail, Code de commerce, Loi I&L) verified against official sources.
-*   [SEC EDGAR MCP](https://github.com/stefanoamorelli/sec-edgar-mcp) - **\[🇺🇸 US\]** MCP for SEC EDGAR filings, financial statements, and insider-trading data — useful for securities and corporate-disclosure workflows.
-*   [mcp-cerebra-legal-server](https://github.com/yoda-digital/mcp-cerebra-legal-server) - MCP providing structured legal-reasoning tools (`legal_think`, follow-up, completion) with domain templates for contract, consumer-protection, and French procurement analysis.
+- [Vaquill AI MCP](https://github.com/vaquill-AI/vaquill-mcp) - MCP server that connects Claude / Cursor / Windsurf / VS Code to 8M+ US federal and state court opinions plus the US Code and CFR. *(Sponsor)*
+- [CourtListener MCP (DefendTheDisabled)](https://github.com/DefendTheDisabled/courtlistener-mcp) - Connects AI agents to CourtListener with semantic search, hybrid search, and citation verification to mitigate hallucination.
+- [CourtListener MCP (Travis-Prall)](https://github.com/Travis-Prall/court-listener-mcp) - MCP Server for accessing CourtListener case data, court opinions, and eCFR federal regulations.
+- [CourtListener MCP (khizar-anjum)](https://github.com/khizar-anjum/courtlistener-mcp) - MCP server built for searching cases by natural language legal problems across 3,352 U.S. courts.
+- [agentic-ops/legal-mcp](https://github.com/agentic-ops/legal-mcp) - Comprehensive MCP server for legal workflows. Integrates AI assistants with legal databases and case management systems (Clio, etc.).
+- [LegalContext MCP](https://mcp.so/server/legalcontext) - Open-source MCP server bridging law firm document management systems with AI assistants.
+- [adeu (Agentic DOCX Redlining Engine)](https://github.com/dealfluence/adeu) - MCP Server enabling LLMs to inject native Track Changes and Comments into Word documents.
+- [sign-cli](https://github.com/DrBaher/sign-cli) - **[Open Source]** Offline PAdES e-signature MCP server: agents can request, place, sign, and verify PDFs locally, with signing gated behind explicit consent tokens. Cryptographic verification + hash-chained audit.
+- [contract-ops-mcp](https://github.com/DrBaher/contract-ops-mcp) - **[Open Source]** One MCP server exposing nine local-first contract CLIs (extract, draft, lint, compare, NDA review, convert, the vaults, and human-gated signing) as agent tools.
+- [compare-cli-mcp](https://github.com/DrBaher/compare-cli) - **[Open Source]** Contract version diff / redline with a substantive-drift gate, exposed as an MCP server.
+- [Master Claude for Legal](https://github.com/sboghossian/master-claude-for-legal) - **[Open Source]** - **[MIT]** - Skill pack for legal teams using Claude with MCP connectors. 10 reference docs (privilege, verification, long documents, practice areas), 5 starter skills (NDA triage, version diff, meeting brief, citation verifier, status synthesis), 3 firm templates. Includes the source Anthropic legal-webinar transcript and 51-question dataset.
+- [direito-familiar-imobiliario](https://github.com/maiconfuhr/direito-familiar-imobiliario) - **[🇧🇷 Brazil]** **[Claude Code Skill]** **[pt-BR]** Civil-law skill orienting laypeople through real estate regularization (usucapião, REURB, matrícula), divorce (5 marital regimes, partilha, meação), and inheritance (inventário, ITCMD). Legislation current to May 2026 — includes Resolução CNJ 571/2024, Provimento CNJ 149/2023, LC 227/2026 (progressive ITCMD), Lei 14.711/2023 (Marco Legal das Garantias). Glossary (150+ terms), document checklists, interactive cost calculator, 75+ targeted questions for the attorney. MIT.
+- [Korean Law MCP](https://github.com/chrisryugj/korean-law-mcp) - **[🇰🇷 Korea]** 17 MCP tools wrapping 41 Korean government legal APIs; includes citation verification, impact graph, and time-travel diff.
+- [Yargı MCP](https://github.com/saidsurucu/yargi-mcp) - **[🇹🇷 Turkey]** MCP server for Turkish legal databases (Yargıtay, Danıştay, Anayasa Mahkemesi).
+- [MCP Taiwan Legal DB](https://github.com/lawchat-oss/mcp-taiwan-legal-db) - **[🇹🇼 Taiwan]** Taiwan Judicial Yuan judgments + national statute database via MCP.
+- [ayunis-legal-mcp](https://github.com/ayunis-core/ayunis-legal-mcp) - **[🇩🇪 Germany]** MCP server exposing German legal codes (Gesetze-im-Internet).
+- [Pasal MCP](https://github.com/ilhamfp/pasal) - **[🇮🇩 Indonesia]** MCP + REST + web app giving AI grounded access to 40k+ Indonesian regulations.
+- [auslaw-mcp](https://github.com/russellbrenner/auslaw-mcp) - **[🇦🇺 🇳🇿 AU/NZ]** MCP server searching AustLII case law and legislation with OCR for scanned PDFs.
+- [law-scrapper-mcp](https://github.com/numikel/law-scrapper-mcp) - **[🇵🇱 Poland]** MCP server for Polish legal acts via the Sejm API.
+- [Emilie](https://github.com/veronica-builds/emilie) - **[🇨🇭 Switzerland]** Swiss sovereign legal AI; Mike fork extended with MCP client and local Apertus model support.
+- [Mahender22/legal-mcp](https://github.com/Mahender22/legal-mcp) - **[🇺🇸 US]** 18 MCP tools across CourtListener case law (4M+ opinions, 400+ US courts), PACER federal filings, and Clio practice-management.
+- [EU Compliance MCP](https://github.com/Ansvar-Systems/EU_compliance_MCP) - **[🇪🇺 EU]** MCP exposing 61 EU regulations (GDPR, AI Act, DORA, NIS2, MiFID II, eIDAS 2.0, CRA) with 4,095 articles and cross-regulation comparison.
+- [mcp-server-legifrance](https://github.com/pylegifrance/mcp-server-legifrance) - **[🇫🇷 France]** MCP that wraps the official Légifrance/PISTE API for searching French statutes, codes, and judicial jurisprudence.
+- [droit-francais-mcp](https://github.com/jmtanguy/droit-francais-mcp) - **[🇫🇷 France]** Unified MCP over Légifrance (legislation/codes/decrees) plus JudiLibre (case law) with PISTE-auth.
+- [French Law MCP](https://github.com/Ansvar-Systems/French-law-mcp) - **[🇫🇷 France]** MCP exposing 3,958 French statutes (Code civil, Code pénal, Code du travail, Code de commerce, Loi I&L) verified against official sources.
+- [SEC EDGAR MCP](https://github.com/stefanoamorelli/sec-edgar-mcp) - **[🇺🇸 US]** MCP for SEC EDGAR filings, financial statements, and insider-trading data — useful for securities and corporate-disclosure workflows.
+- [mcp-cerebra-legal-server](https://github.com/yoda-digital/mcp-cerebra-legal-server) - MCP providing structured legal-reasoning tools (`legal_think`, follow-up, completion) with domain templates for contract, consumer-protection, and French procurement analysis.
+- [Sound Suite](https://github.com/alperu/soundsuite) - **[Self-Hosted]** Local-first legal document intelligence platform exposing 14 MCP tools (semantic and keyword/hybrid search, OCR, exhibit image retrieval, and case-knowledge queries); watches case-file directories and indexes PDFs into a local vector store, running entirely on-premises with no external API calls. Source-available under the Polyform Noncommercial license.
 
 > **Note:** MCP for legal is an emerging ecosystem. Many servers are early-stage community projects. Always verify data accuracy and jurisdiction coverage before use in legal practice.
 
@@ -243,33 +254,34 @@ Domain-specific encoder models for legal text similarity, classification, and re
 
 ## Full-Stack Legal Platforms & Suites
 
-Comprehensive platforms that handle multiple functions across the legal workflow (research, drafting, review, and matter management).
+Comprehensive platforms that handle multiple functions across the legal workflow (research, drafting, review, and matter management). 
 
-*   [Harvey AI](https://harvey.ai) - **\[AI-Native\]** Full-stack legal AI with 30+ autonomous agentic workflows ($8B valuation).
-*   [Thomson Reuters](https://thomsonreuters.com) - **\[Established\]** Owner of CoCounsel, Westlaw, Practical Law, and HighQ.
-*   [LexisNexis](https://lexisnexis.com) - **\[Established\]** Owner of Lexis+ AI, Protégé, and Shepard's citations.
-*   [Legora](https://legora.com) - **\[AI-Native\]** YC-backed collaborative AI workspace spanning research, drafting, and review.
-*   [Eudia](https://eudia.com) - **\[AI-Native\]** AI agents specifically designed for Fortune 500 in-house corporate legal teams.
-*   [DeepJudge](https://deepjudge.ai) - **\[AI-Native\]** Custom AI workflows applied directly to internal law firm knowledge bases.
-*   [Prest0](https://prest0.ai) - **\[AI-Native\]** Enterprise bilingual (English/Spanish) legal AI platform that deploys a dedicated AI agent per law firm on an isolated VM with persistent memory, Twilio voice + SMS intake, deep research, and legal-grade document drafting — purpose-built for immigration, workers' compensation, and employment law.
-*   [HODOS + CASEFLOW](https://hodos-caseflow.vercel.app) - **\[AI-Native\]** Bilingual (EN/ES) legal AI platform with per-firm multi-tenant isolation enforced by RLS-in-CI. Practice areas: immigration, PI, workers' comp, family. North Carolina jurisdictional depth (NC scaffolds across 4 verticals with county variance). 14 AI agents with layered prompt-injection defense, LEDES bill drafting, 101 USCIS/court form scaffolds with daily edition-change watcher, Retell + LiveKit voice intake. Production scale: 27,513-matter Clio mirror in ~21 hours. Anchor: Vasquez Law Firm (NC, 30+ years).
-*   [Suzie Law](https://github.com/firelex/suzielaw) - **\[Open Source\]** Self-hostable Harvey alternative built on Team Suzie: chat assistant ("Counsel"), 12 practice-area personas, 160+ agentic workflows, document Q&A with citations, tracked-change redlines, DOCX drafting, and unified legal research across 19 jurisdictions (US, UK, EU, FR, DE, IN, AU, etc.).
-*   [Mike](https://github.com/willchen96/mike) - **\[Open Source\]** Legal document assistant (Next.js + Express + Supabase + S3/R2) that lets users chat with uploaded documents using Anthropic, Gemini, or OpenAI models; BYOK per user. Hosted at [mikeoss.com](https://mikeoss.com).
-*   [Crosby](https://crosby.ai/) - **\[AI-Native\]** Sequoia/Index/Bain-backed "AI law firm" that reviews NDAs, MSAs, and DPAs in under an hour for startups like Cursor and Stripe; raised $60M Series B at $400M valuation in 2026.
-*   [Manifest OS](https://manifestos.com/) - **\[AI-Native\]** AI-native law firm operating system (immigration first, tax next); $60M Series A at $750M valuation led by Menlo Ventures (April 2026) — largest Series A in legaltech history.
-*   [Enter](https://www.getenter.ai/en) - **\[AI-Native\]** Brazilian AI agents for mass consumer and labor litigation serving Nubank, iFood, and LATAM; LatAm's first legal-AI unicorn after a $100M round led by Founders Fund and Sequoia (May 2026).
-*   [Simpliciter.ai](https://simpliciter.ai) - **\[AI-Native\]** Italian vertical GenAI platform for legal research, drafting, document analysis, custom RAG creation, across EU jurisdictions (Spain, France, Italy, Portugal, Greece).
-*   [Lexroom.ai](https://lexroom.ai/) - **\[AI-Native\]** Italian vertical GenAI platform for legal research, drafting, and document analysis across EU jurisdictions; €16.2M Series A led by Base10 (Sept 2025).
-*   [Vesence](https://www.vesence.com/) - **\[AI-Native\]** Agentic AI for law firms embedded in Word, Outlook, Excel, and PowerPoint for drafting, formatting, and quality checks; $9M seed (Oct 2025).
-*   [Eve Legal](https://www.eve.legal/) - **\[AI-Native\]** End-to-end AI for plaintiff law firms (intake, medical chronologies, demand letters, discovery); $103M Series B at $1B+ valuation (Sept 2025) — plaintiff-AI unicorn alongside EvenUp.
-*   [Supio](https://www.supio.com/) - **\[AI-Native\]** Agentic AI for personal injury and mass tort firms covering intake, medical chronologies, and demand drafting; $60M Series B led by Sapphire Ventures (April 2025).
-*   [GC AI](https://gc.ai/) - **\[AI-Native\]** AI platform purpose-built for in-house legal teams (contracts, policies, compliance, employment) serving News Corp, Skims, Vercel, and Zscaler; $60M Series B at $555M valuation (Nov 2025).
-*   [Orbital](https://www.orbital.tech/) - **\[AI-Native\]** UK-origin AI for real estate due diligence and conveyancing used by Clifford Chance and Macfarlanes; powers 200,000+ transactions annually. $60M Series B led by Brighton Park Capital (Jan 2026).
-*   [Stella](https://github.com/stella/stella) - **\[Open Source\]** Open-source legal workspace built in TypeScript.
-*   [CourtListener (source)](https://github.com/freelawproject/courtlistener) - **\[Open Source\]** Django source for the largest open US court-data archive (RECAP, opinions, oral arguments, judges) maintained by Free Law Project.
-*   [dd-agents](https://github.com/zoharbabin/due-diligence-agents) - **\[Open Source\]** M&A due diligence platform orchestrating 13 AI agents (Legal, Finance, Commercial, ProductTech, Cybersecurity, HR, Tax, Regulatory, ESG + Judge, Red Flag Scanner, Executive Synthesis, Acquirer Intelligence) across a 38-step pipeline. Interactive chat mode with 14 MCP tools for citation verification, cross-contract search, and document generation. Neurosymbolic cross-domain analysis routes findings between domains via deterministic rules. Apache 2.0, `pip install dd-agents`.
+- [Harvey AI](https://harvey.ai) - **[AI-Native]** Full-stack legal AI with 30+ autonomous agentic workflows ($8B valuation).
+- [Thomson Reuters](https://thomsonreuters.com) - **[Established]** Owner of CoCounsel, Westlaw, Practical Law, and HighQ.
+- [LexisNexis](https://lexisnexis.com) - **[Established]** Owner of Lexis+ AI, Protégé, and Shepard's citations.
+- [Legora](https://legora.com) - **[AI-Native]** YC-backed collaborative AI workspace spanning research, drafting, and review.
+- [Eudia](https://eudia.com) - **[AI-Native]** AI agents specifically designed for Fortune 500 in-house corporate legal teams.
+- [DeepJudge](https://deepjudge.ai) - **[AI-Native]** Custom AI workflows applied directly to internal law firm knowledge bases.
+- [Prest0](https://prest0.ai) - **[AI-Native]** Enterprise bilingual (English/Spanish) legal AI platform that deploys a dedicated AI agent per law firm on an isolated VM with persistent memory, Twilio voice + SMS intake, deep research, and legal-grade document drafting — purpose-built for immigration, workers' compensation, and employment law.
+- [HODOS + CASEFLOW](https://hodos-caseflow.vercel.app) - **[AI-Native]** Bilingual (EN/ES) legal AI platform with per-firm multi-tenant isolation enforced by RLS-in-CI. Practice areas: immigration, PI, workers' comp, family. North Carolina jurisdictional depth (NC scaffolds across 4 verticals with county variance). 14 AI agents with layered prompt-injection defense, LEDES bill drafting, 101 USCIS/court form scaffolds with daily edition-change watcher, Retell + LiveKit voice intake. Production scale: 27,513-matter Clio mirror in ~21 hours. Anchor: Vasquez Law Firm (NC, 30+ years).
+- [Suzie Law](https://github.com/firelex/suzielaw) - **[Open Source]** Self-hostable Harvey alternative built on Team Suzie: chat assistant ("Counsel"), 12 practice-area personas, 160+ agentic workflows, document Q&A with citations, tracked-change redlines, DOCX drafting, and unified legal research across 19 jurisdictions (US, UK, EU, FR, DE, IN, AU, etc.).
+- [Mike](https://github.com/willchen96/mike) - **[Open Source]** Legal document assistant (Next.js + Express + Supabase + S3/R2) that lets users chat with uploaded documents using Anthropic, Gemini, or OpenAI models; BYOK per user. Hosted at [mikeoss.com](https://mikeoss.com).
+- [Crosby](https://crosby.ai/) - **[AI-Native]** Sequoia/Index/Bain-backed "AI law firm" that reviews NDAs, MSAs, and DPAs in under an hour for startups like Cursor and Stripe; raised $60M Series B at $400M valuation in 2026.
+- [Manifest OS](https://manifestos.com/) - **[AI-Native]** AI-native law firm operating system (immigration first, tax next); $60M Series A at $750M valuation led by Menlo Ventures (April 2026) — largest Series A in legaltech history.
+- [Enter](https://www.getenter.ai/en) - **[AI-Native]** Brazilian AI agents for mass consumer and labor litigation serving Nubank, iFood, and LATAM; LatAm's first legal-AI unicorn after a $100M round led by Founders Fund and Sequoia (May 2026).
+- [Simpliciter.ai](https://simpliciter.ai) - **[AI-Native]** Italian vertical GenAI platform for legal research, drafting, document analysis, custom RAG creation, across EU jurisdictions (Spain, France, Italy, Portugal, Greece).
+- [Lexroom.ai](https://lexroom.ai/) - **[AI-Native]** Italian vertical GenAI platform for legal research, drafting, and document analysis across EU jurisdictions; €16.2M Series A led by Base10 (Sept 2025).
+- [Vesence](https://www.vesence.com/) - **[AI-Native]** Agentic AI for law firms embedded in Word, Outlook, Excel, and PowerPoint for drafting, formatting, and quality checks; $9M seed (Oct 2025).
+- [Eve Legal](https://www.eve.legal/) - **[AI-Native]** End-to-end AI for plaintiff law firms (intake, medical chronologies, demand letters, discovery); $103M Series B at $1B+ valuation (Sept 2025) — plaintiff-AI unicorn alongside EvenUp.
+- [Supio](https://www.supio.com/) - **[AI-Native]** Agentic AI for personal injury and mass tort firms covering intake, medical chronologies, and demand drafting; $60M Series B led by Sapphire Ventures (April 2025).
+- [GC AI](https://gc.ai/) - **[AI-Native]** AI platform purpose-built for in-house legal teams (contracts, policies, compliance, employment) serving News Corp, Skims, Vercel, and Zscaler; $60M Series B at $555M valuation (Nov 2025).
+- [Orbital](https://www.orbital.tech/) - **[AI-Native]** UK-origin AI for real estate due diligence and conveyancing used by Clifford Chance and Macfarlanes; powers 200,000+ transactions annually. $60M Series B led by Brighton Park Capital (Jan 2026).
+- [Stella](https://github.com/stella/stella) - **[Open Source]** Open-source legal workspace built in TypeScript.
+- [CourtListener (source)](https://github.com/freelawproject/courtlistener) - **[Open Source]** Django source for the largest open US court-data archive (RECAP, opinions, oral arguments, judges) maintained by Free Law Project.
+- [dd-agents](https://github.com/zoharbabin/due-diligence-agents) - **[Open Source]** M&A due diligence platform orchestrating 13 AI agents (Legal, Finance, Commercial, ProductTech, Cybersecurity, HR, Tax, Regulatory, ESG + Judge, Red Flag Scanner, Executive Synthesis, Acquirer Intelligence) across a 38-step pipeline. Interactive chat mode with 14 MCP tools for citation verification, cross-contract search, and document generation. Neurosymbolic cross-domain analysis routes findings between domains via deterministic rules. Apache 2.0, `pip install dd-agents`.
+- [doc.haus](https://github.com/sure-scale/doc-haus) - **[Open Source]** Self-hostable legal AI agent built as a fork of [OpenCode](https://github.com/anomalyco/opencode); documents stay on the user's machine, with matter-scoped private workspaces, cited document Q&A, and tracked-change DOCX redlines that open in Word.
 
-* * *
+---
 
 ## Legal Research Platforms
 
@@ -944,16 +956,15 @@ Direct links to canonical government legal-data sources for jurisdictions where 
 *   [GlobaLex (NYU)](https://www.nyulawglobal.org/globalex/) - Comprehensive research guides and database listings for international, comparative, and foreign law.
 
 #### United States
-
-*   [Vaquill AI](https://vaquill.ai) - Free AI legal research across 8M+ US federal and state court opinions plus USC and CFR, with citation verification. _(Sponsor)_
-*   [CourtListener](https://www.courtlistener.com) - Free open case law search with API access. 9M+ opinions.
-*   [PACER](https://pacer.uscourts.gov) - Official US federal court docket and document system.
-*   [Caselaw Access Project](https://case.law) - 6.9M US court decisions, 1600s-2020. Free bulk API.
-*   [GovInfo](https://www.govinfo.gov) - US federal legislation, regulations, and congressional records. Bulk data/API available.
-*   [eCFR](https://www.ecfr.gov) - Up-to-date Code of Federal Regulations with a full bulk API.
-*   [OpenStates](https://openstates.org) - Open-source platform tracking US state legislation in real time.
-*   [AI Laws by State](https://www.ailawsbystate.com) - Free 50-state tracker for U.S. artificial intelligence legislation, sourced from primary state legislature feeds. Covers bill status, effective dates, penalty structures, and topic categorization (deepfakes, hiring, healthcare AI, disclosure, bias audits).
-*   [Google Scholar Case Law](https://scholar.google.com) - Free US federal and state court opinions.
+- [Vaquill AI](https://vaquill.ai) - Legal AI suite for US in-house counsel and GCs; research spans 8M+ federal and state court opinions plus USC and CFR with citation-verified answers, alongside contract review, drafting, and document comparison. *(Sponsor)*
+- [CourtListener](https://www.courtlistener.com) - Free open case law search with API access. 9M+ opinions.
+- [PACER](https://pacer.uscourts.gov) - Official US federal court docket and document system.
+- [Caselaw Access Project](https://case.law) - 6.9M US court decisions, 1600s-2020. Free bulk API.
+- [GovInfo](https://www.govinfo.gov) - US federal legislation, regulations, and congressional records. Bulk data/API available.
+- [eCFR](https://www.ecfr.gov) - Up-to-date Code of Federal Regulations with a full bulk API.
+- [OpenStates](https://openstates.org) - Open-source platform tracking US state legislation in real time.
+- [AI Laws by State](https://www.ailawsbystate.com) - Free 50-state tracker for U.S. artificial intelligence legislation, sourced from primary state legislature feeds. Covers bill status, effective dates, penalty structures, and topic categorization (deepfakes, hiring, healthcare AI, disclosure, bias audits).
+- [Google Scholar Case Law](https://scholar.google.com) - Free US federal and state court opinions.
 
 #### United Kingdom
 
@@ -1020,22 +1031,21 @@ Direct links to canonical government legal-data sources for jurisdictions where 
 *   [legal-tech-chat](https://github.com/tomasonjo-labs/legal-tech-chat) - **\[Open Source\]** Reference pipeline: CUAD extraction → Neo4j knowledge graph → LangGraph agent.
 
 ### Commercial AI Research Platforms
+- [Vaquill AI](https://vaquill.ai) - **[AI-Native]** Legal AI suite for US in-house counsel and GCs: contract review, compliance research, drafting, and document comparison, with agentic case-law and statute research, citation-verified answers, an MCP server, and a self-serve statutes API. *(Sponsor)*
+- [Leya](https://leya.law) - **[AI-Native]** Agentic research and legal memo generation.
+- [Paxton AI](https://paxton.ai) - **[AI-Native]** Jurisdiction-aware AI legal answers.
+- [EvenUp](https://evenuplaw.com) - **[AI-Native]** Agentic demand letter generation and research for personal injury.
+- [Lexlegis.AI](https://lexlegis.ai) - **[AI-Native]** Indian legal research LLM trained on 10M+ documents.
+- [HAQQ Legal AI](https://haqq.ai) - **[AI-Native]** Bilingual Arabic/English legal research, contract review, and case law search for MENA jurisdictions (Lebanon, GCC, Egypt).
+- [Blue J](https://bluej.com) - **[AI-Native]** AI-powered answers to complex US/Canada/UK tax questions.
+- [Bloomberg Law](https://pro.bloomberglaw.com) - **[Established]** Major US legal research platform with AI brief analysis and real-time legislative monitoring.
+- [vLex / Vincent AI](https://vlex.com) - **[Established]** Global coverage (1B+ documents, 17 countries) with cross-jurisdictional AI comparison.
+- [Casetext / CoCounsel Core](https://casetext.com) - **[Established]** GPT-4 powered research memo generation and CARA AI brief analysis.
+- [Lex Machina](https://lexmachina.com) - **[Established]** Litigation analytics predicting outcomes and benchmarking opposing counsel.
+- [Docket Alarm](https://www.docketalarm.com) - **[Established]** Federal and state docket monitoring with real-time alerts.
+- [Manupatra](https://www.manupatra.com) - **[Established]** Proprietary Indian legal database covering SC, HCs, and Tribunals.
 
-*   [Vaquill AI](https://vaquill.ai) - **\[AI-Native\]** US legal research platform with agentic workflows, MCP server, and an API for developers building on top of US case law and statutes. _(Sponsor)_
-*   [Leya](https://leya.law) - **\[AI-Native\]** Agentic research and legal memo generation.
-*   [Paxton AI](https://paxton.ai) - **\[AI-Native\]** Jurisdiction-aware AI legal answers.
-*   [EvenUp](https://evenuplaw.com) - **\[AI-Native\]** Agentic demand letter generation and research for personal injury.
-*   [Lexlegis.AI](https://lexlegis.ai) - **\[AI-Native\]** Indian legal research LLM trained on 10M+ documents.
-*   [HAQQ Legal AI](https://haqq.ai) - **\[AI-Native\]** Bilingual Arabic/English legal research, contract review, and case law search for MENA jurisdictions (Lebanon, GCC, Egypt).
-*   [Blue J](https://bluej.com) - **\[AI-Native\]** AI-powered answers to complex US/Canada/UK tax questions.
-*   [Bloomberg Law](https://pro.bloomberglaw.com) - **\[Established\]** Major US legal research platform with AI brief analysis and real-time legislative monitoring.
-*   [vLex / Vincent AI](https://vlex.com) - **\[Established\]** Global coverage (1B+ documents, 17 countries) with cross-jurisdictional AI comparison.
-*   [Casetext / CoCounsel Core](https://casetext.com) - **\[Established\]** GPT-4 powered research memo generation and CARA AI brief analysis.
-*   [Lex Machina](https://lexmachina.com) - **\[Established\]** Litigation analytics predicting outcomes and benchmarking opposing counsel.
-*   [Docket Alarm](https://www.docketalarm.com) - **\[Established\]** Federal and state docket monitoring with real-time alerts.
-*   [Manupatra](https://www.manupatra.com) - **\[Established\]** Proprietary Indian legal database covering SC, HCs, and Tribunals.
-
-* * *
+---
 
 ## Document Automation & Drafting
 
@@ -1126,9 +1136,10 @@ Platforms for managing contracts from creation through execution, obligations, a
 
 Platforms handling digital execution of documents and Remote Online Notarization (RON).
 
-*   [DocuSign](https://www.docusign.com) - **\[Established\]** The global standard for e-signatures and agreement clouds.
-*   [Proof (formerly Notarize)](https://www.proof.com) - **\[Established\]** Pioneer of Remote Online Notarization (RON).
-*   [OpenSign](https://github.com/OpenSignLabs/OpenSign) - **\[Open Source\]** Free open-source DocuSign alternative (Parse Server + React); 6.3k+ stars.
+- [DocuSign](https://www.docusign.com) - **[Established]** The global standard for e-signatures and agreement clouds.
+- [Proof (formerly Notarize)](https://www.proof.com) - **[Established]** Pioneer of Remote Online Notarization (RON).
+- [OpenSign](https://github.com/OpenSignLabs/OpenSign) - **[Open Source]** Free open-source DocuSign alternative (Parse Server + React); 6.3k+ stars.
+- [sign-cli](https://github.com/DrBaher/sign-cli) - **[Open Source]** Fully-offline PAdES e-signature CLI + MCP server with cryptographic verification and a hash-chained audit trail. A self-hosted, local-first DocuSign alternative for developers and agents.
 
 * * *
 
@@ -1239,17 +1250,18 @@ Platforms delivering direct-to-consumer automated legal services, documents, and
 
 Tools for regulatory compliance, policy management, financial crime detection, and AI governance.
 
-*   [Drata](https://drata.com) - **\[AI-Native\]** GRC automation with continuous monitoring for SOC 2, ISO 27001, HIPAA, GDPR, EU AI Act.
-*   [Vanta](https://vanta.com) - **\[Established\]** Compliance automation with 375+ integrations and AI vendor risk assessment.
-*   [ComplyAdvantage](https://complyadvantage.com) - **\[AI-Native\]** AI-driven AML and financial crime detection.
-*   [Corlytics / Clausematch](https://www.corlytics.com) - **\[Established\]** RegTech for regulatory change management and compliance policy.
-*   [Certa](https://www.getcerta.com) - **\[Established\]** Third-party risk management and vendor onboarding automation.
-*   [OneTrust](https://www.onetrust.com) - **\[Established\]** Privacy, GRC, and ethics management platform with AI-powered workflows.
-*   [NAVEX](https://www.navex.com) - **\[Established\]** Integrated risk and compliance management.
-*   [Kira Systems](https://kirasystems.com) - **\[Established\]** ML-based contract analysis for due diligence and compliance.
-*   [Sphere](https://www.getsphere.com/) - **\[AI-Native\]** AI-native cross-border indirect tax (sales tax, VAT, GST) compliance engine serving Deel, Replit, and Lovable; $21M Series A led by a16z (Nov 2025).
-*   [Climate Case Chart](https://www.climatecasechart.com/) - **\[Open / Academic\]** Sabin Center + Arnold & Porter database of 2,600+ US and global climate-change cases across 54 jurisdictions, updated monthly.
-*   [Persefoni](https://www.persefoni.com/) - **\[AI-Native\]** "ERP of carbon" climate-accounting platform supporting CSRD, SEC climate rule, TCFD, and CDP disclosures for enterprises and financial institutions.
+- [Drata](https://drata.com) - **[AI-Native]** GRC automation with continuous monitoring for SOC 2, ISO 27001, HIPAA, GDPR, EU AI Act.
+- [Vanta](https://vanta.com) - **[Established]** Compliance automation with 375+ integrations and AI vendor risk assessment.
+- [ComplyAdvantage](https://complyadvantage.com) - **[AI-Native]** AI-driven AML and financial crime detection.
+- [Corlytics / Clausematch](https://www.corlytics.com) - **[Established]** RegTech for regulatory change management and compliance policy.
+- [Certa](https://www.getcerta.com) - **[Established]** Third-party risk management and vendor onboarding automation.
+- [OneTrust](https://www.onetrust.com) - **[Established]** Privacy, GRC, and ethics management platform with AI-powered workflows.
+- [NAVEX](https://www.navex.com) - **[Established]** Integrated risk and compliance management.
+- [Kira Systems](https://kirasystems.com) - **[Established]** ML-based contract analysis for due diligence and compliance.
+- [Sphere](https://www.getsphere.com/) - **[AI-Native]** AI-native cross-border indirect tax (sales tax, VAT, GST) compliance engine serving Deel, Replit, and Lovable; $21M Series A led by a16z (Nov 2025).
+- [Climate Case Chart](https://www.climatecasechart.com/) - **[Open / Academic]** Sabin Center + Arnold & Porter database of 2,600+ US and global climate-change cases across 54 jurisdictions, updated monthly.
+- [Persefoni](https://www.persefoni.com/) - **[AI-Native]** "ERP of carbon" climate-accounting platform supporting CSRD, SEC climate rule, TCFD, and CDP disclosures for enterprises and financial institutions.
+- [TrustYourWebsite](https://trustyourwebsite.com) - **[🇪🇺 EU]** Automated website-level compliance scanner (GDPR, cookie consent, accessibility, legal pages) for EU and UK small businesses; free scan returns a risk score and issue counts.
 
 * * *
 
