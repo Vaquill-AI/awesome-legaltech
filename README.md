@@ -63,6 +63,7 @@ Commercial and open APIs specifically designed for retrieving case law, statutes
 - [CourtListener REST API](https://www.courtlistener.com/help/api/) - **[🇺🇸 US]** Free Law Project API over 9M+ opinions, dockets, judges, and RECAP/PACER filings; free tier plus semantic search endpoint (Nov 2025).
 - [LegiScan API](https://legiscan.com/legiscan) - **[🇺🇸 US]** Structured JSON for legislation in all 50 states + Congress; free tier (30K queries/month) with paid plans.
 - [Open States API v3](https://docs.openstates.org/api-v3/) - **[🇺🇸 US]** Free REST API for US state legislators, bills, votes, and committees across 50 states + DC + territories.
+- [SettleSignal Settlements Data](https://settlesignal.com/data/settlements.json) - **[🇺🇸 US]** Free JSON feed of verified US class-action & refund settlements with claim deadlines, proof rules, status, applicable states, and official claim links; public fields free with attribution, growing daily.
 - [USPTO Open Data Portal API](https://data.uspto.gov/) - **[🇺🇸 US]** Free patent file-wrapper, search, and PEDS endpoints; replaces the legacy beta ODP.
 - [EPO Open Patent Services (OPS)](https://www.epo.org/searching-for-patents/data/web-services/ops.html) - **[🇪🇺 EU]** Free RESTful API for EPO/WIPO/national patent bibliographic data, family info, and legal status (registered-user quota).
 - [The Lens Patent & Scholarly API](https://www.lens.org/lens/user/subscriptions) - **[🌍 Global]** 140M+ global patent records and scholarly citations; free tier for academic/non-commercial use.
