@@ -955,6 +955,7 @@ Software for generating, assembling, and reviewing legal documents.
 - [Suffolk LIT Lab Assembly Line](https://github.com/SuffolkLITLab/docassemble-AssemblyLine) - **[Open Source]** Toolkit for Massachusetts court forms; reusable pattern for any jurisdiction.
 - [open-agreements](https://github.com/CommonAccord/Cmacc-Org) - **[Open Source]** CommonAccord: legal documents as structured, linkable data.
 - [adeu](https://github.com/dealfluence/adeu) - **[Open Source]** Agentic DOCX Redlining Engine for Word document Track Changes.
+- [deslop](https://github.com/fayerman-source/deslop) - **[Open Source]** Portable AI agent skill that rewrites legalese into plain English while preserving binding terms of art.
 
 - [Spellbook](https://spellbook.legal) - **[AI-Native]** AI contract drafting and review assistant operating natively in Microsoft Word.
 - [Clearbrief](https://clearbrief.com) - **[AI-Native]** AI-powered factual verification and drafting assistance in briefs.
