@@ -16,7 +16,17 @@ Legal technology (legaltech) is the use of technology and software to provide le
 
 ---
 
-## Contents
+## MCP Servers (CSOAI/MEOK Labs)
+
+*531 MIT-licensed MCP servers — the largest open-source MCP organization on GitHub. 97-component Ed25519-signed OSCAL Layer-0 proof. 479 deploy-ready.*
+
+- **[oscal-generator-mcp](https://github.com/CSOAI-ORG/oscal-generator-mcp)** — Machine-readable NIST OSCAL (FedRAMP RFC-0024) + Ed25519.
+- **[csoai-governance-crosswalk-mcp](https://github.com/CSOAI-ORG/csoai-governance-crosswalk-mcp)** — 13 governance frameworks × 52 articles crosswalked.
+- **[solvency-ii-mcp](https://github.com/CSOAI-ORG/solvency-ii-mcp)** — First OSS Solvency II Pillar 1+3 implementation.
+- **[contract-review-ai-mcp](https://github.com/CSOAI-ORG/contract-review-ai-mcp)** — Contract review automation.
+- **[eu-ai-act-compliance-mcp](https://github.com/CSOAI-ORG/eu-ai-act-compliance-mcp)** — 410 verbatim EUR-Lex articles, 18 tools.
+
+Contents
 
 - [APIs for Legal Data](#apis-for-legal-data)
 - [Machine Learning Datasets & Corpora](#machine-learning-datasets--corpora)
