@@ -1048,6 +1048,7 @@ Software for running a law practice and legal department operations - case manag
 - [CosmoLex](https://www.cosmolex.com) - **[Established]** Cloud-based legal accounting and practice management.
 - [Darrow](https://darrow.ai) - **[AI-Native]** Litigation intelligence identifying meritorious lawsuits from public data.
 - [Legalyze.ai](https://legalyze.ai) - **[AI-Native]** Litigation support specializing in AI extraction and chronology.
+- [FamilyCase.AI](https://familycase.ai) - **[AI-Native]** Family-law-specific practice management with AI agents for custody schedules, support calculations, financial disclosures, and source-linked evidence timelines.
 
 - [ClinicCases](https://github.com/judsonmitchell/ClinicCases) - **[Open Source]** Case management for law school clinics.
 - [ArkCase](https://www.arkcase.com) - **[Open Source]** Adaptive case management for legal and government.
