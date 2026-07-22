@@ -98,6 +98,7 @@ Libraries and scripts for scraping, parsing, and processing legal text to build 
 Large text corpora and jurisdiction-wide raw data dumps for pretraining or fine-tuning legal language models.
 
 - [Pile of Law](https://huggingface.co/datasets/pile-of-law/pile-of-law) - **[🇺🇸 EN]** - **[~256 GB]** - US legal and administrative text; used to train CaseLawBERT
+- [Open US Law](https://github.com/Vaquill-AI/open-us-law) - **[🇺🇸 EN]** - **[2M+]** - 50-state statutory codes, the US Code, the CFR, and 52 constitutions normalized to one schema, plus the open scrapers that build it. On Hugging Face, CC BY 4.0 data / Apache-2.0 scrapers, quarterly snapshots. *(Sponsor)*
 - [MultiLegalPile](https://huggingface.co/datasets/joelito/Multi_Legal_Pile) - **[🌍 24 langs]** - **[689 GB]** - Multilingual legal pretraining corpus from 17 jurisdictions
 - [LeXFiles](https://huggingface.co/datasets/lexlms/lex_files) - **[🌍 6 sys]** - **[19B tokens]** - Massive English legal corpus (EU, CoE, Canada, US, UK, India)
 - [Indian Kanoon Dataset](https://indiankanoon.org) - **[🇮🇳 EN]** - **[Large]** - Indian court judgments and statutes; widely used for Indian legal NLP
@@ -956,6 +957,8 @@ Software for generating, assembling, and reviewing legal documents.
 - [open-agreements](https://github.com/CommonAccord/Cmacc-Org) - **[Open Source]** CommonAccord: legal documents as structured, linkable data.
 - [adeu](https://github.com/dealfluence/adeu) - **[Open Source]** Agentic DOCX Redlining Engine for Word document Track Changes.
 - [deslop](https://github.com/fayerman-source/deslop) - **[Open Source]** Portable AI agent skill that rewrites legalese into plain English while preserving binding terms of art.
+- [Vaquill AI for Word](https://github.com/Vaquill-AI/vaquill-word-addin) - **[Open Source]** Microsoft Word task-pane add-in for contract review, grounded redlining as native tracked changes, drafting, and US legal research. A community build runs standalone on your own OpenAI or Anthropic key. Apache-2.0. *(Sponsor)*
+- [Vaquill for Google Docs](https://github.com/Vaquill-AI/vaquill-google-docs-addon) - **[Open Source]** Google Docs sidebar add-on (Svelte 5 + Apps Script) for contract review, clause drafting and rewrite, and grounded chat, with native tracked-change redlines. Apache-2.0. *(Sponsor)*
 
 - [Spellbook](https://spellbook.legal) - **[AI-Native]** AI contract drafting and review assistant operating natively in Microsoft Word.
 - [Clearbrief](https://clearbrief.com) - **[AI-Native]** AI-powered factual verification and drafting assistance in briefs.
@@ -1206,6 +1209,7 @@ Resources for evaluating AI and NLP systems on legal tasks.
 - [LRAGE](https://github.com/hoorangyee/LRAGE) - Framework for evaluating RAG pipelines specifically adapted for the legal domain.
 - [MLEB (source)](https://github.com/isaacus-dev/mleb) - Evaluation code for the multidomain MLEB leaderboard across 6 jurisdictions.
 - [prinzbench](https://github.com/prinz-ai/prinzbench) - Benchmark ranking LLMs on legal research and obscure-information retrieval.
+- [Open Legal-Answer Benchmark](https://github.com/Vaquill-AI/open-legal-answer-benchmark) - **[🇺🇸 US]** Reproducible benchmark of US legal-answer quality: a committed question set, a standard-library scorer, and deterministic metrics (must-include accuracy, citation-support rate) anyone can rerun. Data CC BY 4.0, code MIT. *(Sponsor)*
 
 ---
 
