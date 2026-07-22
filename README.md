@@ -67,13 +67,11 @@ Legal technology (legaltech) is the use of technology and software to provide le
 **Benchmarks**
 
 - [Open Legal-Answer Benchmark](https://github.com/Vaquill-AI/open-legal-answer-benchmark) - Reproducible benchmark of US legal-answer quality: a committed question set, a standard-library scorer, and deterministic metrics (must-include accuracy, citation-support rate) anyone can rerun. CC BY 4.0 / MIT.
-- [Legal MT Benchmark](https://github.com/Vaquill-AI/legal-mt-benchmark) - Reproducible English-to-Hindi legal machine-translation benchmark on the WMT25 Legal Domain Test Suite (IIT Patna), 7 metrics, all model outputs published.
 
 **Add-ins & apps**
 
 - [Vaquill AI for Word](https://github.com/Vaquill-AI/vaquill-word-addin) - Microsoft Word task-pane add-in for contract review, grounded redlining as native tracked changes, drafting, and US legal research. A community build runs standalone on your own OpenAI or Anthropic key. Apache-2.0.
 - [Vaquill for Google Docs](https://github.com/Vaquill-AI/vaquill-google-docs-addon) - Google Docs sidebar add-on (Svelte 5 + Apps Script) for contract review, clause drafting and rewrite, and grounded chat, with native tracked-change redlines. Apache-2.0.
-- [Contract Debugger](https://github.com/Vaquill-AI/contract-debugger) - Local-first Next.js app that flags risky clauses and rewrites them in plain English; documents stay in your browser. MIT.
 
 **MCP servers & integrations**
 
