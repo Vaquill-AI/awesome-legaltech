@@ -1175,6 +1175,7 @@ Organizations and software actively using technology to advance access to justic
 - [World Justice Project Rule of Law Index](https://worldjusticeproject.org/rule-of-law-index/) - **[Nonprofit]** Annual data series measuring rule of law across 143 jurisdictions (95% of world population).
 - [HiiL (Hague Institute for Innovation of Law)](https://www.hiil.org/) - **[Nonprofit]** Justice Accelerator (110+ startups funded since 2011), Justice Innovation Labs, and people-centred justice research.
 - [Clarvia](https://github.com/clarvia-org/clarvia-graph) - **[Open Source]** Free, open-source bereavement compliance checklist for European families. Source-backed legal deadlines, multilingual, structured as a knowledge graph.
+- [ca-child-support-guideline](https://github.com/hayleyhenning90/ca-child-support-guideline) - **[Open Source]** **[🇺🇸 US, California]** Zero-dependency TypeScript library implementing California's statewide child support guideline formula (Family Code 4055), with unit tests covering each statutory income band. Used in production by the free Virdix California Child Support Calculator.
 
 ## Foundational Research
 
