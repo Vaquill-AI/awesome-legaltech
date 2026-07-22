@@ -3,7 +3,7 @@
   <sup>Sponsored by</sup><br>
   <a href="https://vaquill.ai"><strong>Vaquill AI</strong></a>
   <br>
-  <sub>Legal AI suite for US in-house counsel and GCs. Contract review, compliance research, drafting, document comparison, and citation-verified answers, privilege-architected for solo GCs and 2-10 person legal teams.</sub>
+  <sub>Legal AI for lawyers.</sub>
 </div>
 
 ---
@@ -18,6 +18,7 @@ Legal technology (legaltech) is the use of technology and software to provide le
 
 ## Contents
 
+- [Open Source by Vaquill](#open-source-by-vaquill)
 - [APIs for Legal Data](#apis-for-legal-data)
 - [Machine Learning Datasets & Corpora](#machine-learning-datasets--corpora)
   - [Pretraining Corpora & Bulk Data](#pretraining-corpora--bulk-data)
@@ -52,6 +53,34 @@ Legal technology (legaltech) is the use of technology and software to provide le
 - [Communities, Conferences & Media](#communities-conferences--media)
 - [Related Awesome Lists](#related-awesome-lists)
 - [Deprecated / Archived](#deprecated--archived)
+
+---
+
+## Open Source by Vaquill
+
+[Vaquill AI](https://www.vaquill.ai) sponsors and maintains this list. These are our own open-source contributions to the legal commons - open data, open benchmarks, and open tooling, all free to use and self-host. Each is also filed under its category below.
+
+**Data & corpora**
+
+- [Open US Law](https://github.com/Vaquill-AI/open-us-law) - 2M+ sections of US primary law (50-state statutory codes, the US Code, the CFR, and 52 constitutions) normalized to one schema, plus the scrapers that build it. On Hugging Face; CC BY 4.0 data / Apache-2.0 code; quarterly snapshots.
+
+**Benchmarks**
+
+- [Open Legal-Answer Benchmark](https://github.com/Vaquill-AI/open-legal-answer-benchmark) - Reproducible benchmark of US legal-answer quality: a committed question set, a standard-library scorer, and deterministic metrics (must-include accuracy, citation-support rate) anyone can rerun. CC BY 4.0 / MIT.
+- [Legal MT Benchmark](https://github.com/Vaquill-AI/legal-mt-benchmark) - Reproducible English-to-Hindi legal machine-translation benchmark on the WMT25 Legal Domain Test Suite (IIT Patna), 7 metrics, all model outputs published.
+
+**Add-ins & apps**
+
+- [Vaquill AI for Word](https://github.com/Vaquill-AI/vaquill-word-addin) - Microsoft Word task-pane add-in for contract review, grounded redlining as native tracked changes, drafting, and US legal research. A community build runs standalone on your own OpenAI or Anthropic key. Apache-2.0.
+- [Vaquill for Google Docs](https://github.com/Vaquill-AI/vaquill-google-docs-addon) - Google Docs sidebar add-on (Svelte 5 + Apps Script) for contract review, clause drafting and rewrite, and grounded chat, with native tracked-change redlines. Apache-2.0.
+- [Contract Debugger](https://github.com/Vaquill-AI/contract-debugger) - Local-first Next.js app that flags risky clauses and rewrites them in plain English; documents stay in your browser. MIT.
+
+**MCP servers & integrations**
+
+- [Vaquill MCP](https://github.com/Vaquill-AI/vaquill-mcp) - MCP server over US federal and 50-state law (USC, CFR, state legislation, CourtListener case law).
+- [CourtListener MCP](https://github.com/Vaquill-AI/courtlistener-mcp) - MCP server for the CourtListener database (US federal/state courts, PACER, eCFR) with bring-your-own-key auth.
+- [CanLII MCP](https://github.com/Vaquill-AI/canlii-mcp) - MCP server for the CanLII Canadian legal database with bring-your-own-key auth.
+- [Vaquill Integrations](https://github.com/Vaquill-AI/integrations) - Chatbots (WhatsApp, Slack, Discord, Telegram, Teams), embeddable web widgets, a Chrome extension, and n8n workflows on the Vaquill API. MIT.
 
 ---
 
