@@ -994,6 +994,7 @@ Software for generating, assembling, and reviewing legal documents.
 - [HotDocs](https://www.hotdocs.com) - **[Established]** Long-established document assembly software for law firms.
 - [ContractExpress](https://www.thomsonreuters.com) - **[Established]** Thomson Reuters' document automation platform.
 - [Litera](https://litera.com) - **[Established]** Document drafting, proofreading, and deal management suite.
+- [Recensa](https://recensa.ai) - **[AI-Native]** Reviews finished Word and PDF documents for internal contradictions, defined-term drift, broken cross-references, and numeric errors, then issues a tamper-evident verification seal — separating document integrity (the seal) from correctness (human accept/reject), unlike the drafting and proofreading tools in this category.
 - [Accord Project Template Archive](https://github.com/accordproject/template-archive) - **[Open Source]** Smart legal contracts and templating system (Cicero / Concerto).
 - [Gavel (formerly Documate)](https://www.gavel.io/) - **[Established]** No-code document automation + online legal product builder used to ship apps in estate planning, family law, real estate, probate, and immigration.
 
