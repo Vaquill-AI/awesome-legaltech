@@ -272,6 +272,13 @@ Domain-specific encoder models for legal text similarity, classification, and re
 > **Note:** MCP for legal is an emerging ecosystem. Many servers are early-stage community projects. Always verify data accuracy and jurisdiction coverage before use in legal practice.
 
 ---
+## Agent Skills
+
+[Agent skills](https://www.anthropic.com/news/skills) — portable instruction sets that load into AI coding agents (Claude Code, Cursor, Codex, and other agentic IDEs) to give them domain expertise for legal work.
+
+- [commercial-legal-pl](https://github.com/apiotrowski-afk/commercial-legal-pl) - **[🇵🇱 Poland]** Skill for drafting and reviewing Polish-law B2B, IP, and IT contracts; ships a clause library and doctrinal knowledge base, with consistency checks for § / ust. / pkt cross-references. Works with Claude Code, Cursor, Codex, and other agent IDEs. Apache 2.0.
+
+---
 
 ## Full-Stack Legal Platforms & Suites
 
@@ -999,6 +1006,7 @@ Software for generating, assembling, and reviewing legal documents.
 - [Recensa](https://recensa.ai) - **[AI-Native]** Reviews finished Word and PDF documents for internal contradictions, defined-term drift, broken cross-references, and numeric errors, then issues a tamper-evident verification seal — separating document integrity (the seal) from correctness (human accept/reject), unlike the drafting and proofreading tools in this category.
 - [Accord Project Template Archive](https://github.com/accordproject/template-archive) - **[Open Source]** Smart legal contracts and templating system (Cicero / Concerto).
 - [Gavel (formerly Documate)](https://www.gavel.io/) - **[Established]** No-code document automation + online legal product builder used to ship apps in estate planning, family law, real estate, probate, and immigration.
+
 
 ---
 
