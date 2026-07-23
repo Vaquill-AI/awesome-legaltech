@@ -71,7 +71,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create issue from scheduled run
-        if: github.event_name == 'schedule' && steps.lychee.outputs.exit_code != '0'
+        if: >-
+          github.event_name == 'schedule' &&
+          github.event.repository.has_issues &&
+          steps.lychee.outputs.exit_code != '0'
         uses: peter-evans/create-issue-from-file@v5
         with:
           title: 'Link Check Report - broken links found'
