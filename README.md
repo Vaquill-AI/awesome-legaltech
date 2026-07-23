@@ -1142,6 +1142,7 @@ Tools for regulatory compliance, policy management, financial crime detection, a
 - [Climate Case Chart](https://www.climatecasechart.com/) - **[Open / Academic]** Sabin Center + Arnold & Porter database of 2,600+ US and global climate-change cases across 54 jurisdictions, updated monthly.
 - [Persefoni](https://www.persefoni.com/) - **[AI-Native]** "ERP of carbon" climate-accounting platform supporting CSRD, SEC climate rule, TCFD, and CDP disclosures for enterprises and financial institutions.
 - [TrustYourWebsite](https://trustyourwebsite.com) - **[🇪🇺 EU]** Automated website-level compliance scanner (GDPR, cookie consent, accessibility, legal pages) for EU and UK small businesses; free scan returns a risk score and issue counts.
+- [EU AI Act Check](https://i6eal.de/eu-ai-act-check/) - **[🇩🇪 DE]** Free, German-language in-browser self-check that classifies an AI system into the EU AI Act risk classes (prohibited, high-risk, limited, minimal) and lists the resulting obligations; no signup, not legal advice.
 
 ---
 
