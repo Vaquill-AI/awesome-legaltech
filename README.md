@@ -99,6 +99,7 @@ Commercial and open APIs specifically designed for retrieving case law, statutes
 - [UK Parliament Open Data API](https://developer.parliament.uk/) - **[🇬🇧 UK]** REST APIs for Westminster procedural data plus the [Hansard API](https://hansard-api.parliament.uk/) for debates in JSON/XML under the Open Parliament Licence.
 - [Bundestag Open Data](https://www.bundestag.de/services/opendata) - **[🇩🇪 Germany]** Plenary protocols and Drucksachen since 1949 as XML/JSON; legislative-process tracking via the DIP API.
 - [Regulations.gov API](https://open.gsa.gov/api/regulationsgov/) / [Federal Register API](https://www.federalregister.gov/developers/documentation/api/v1) - **[🇺🇸 US]** GSA REST APIs for federal rules, dockets, and public comments; complementary daily Federal Register API.
+- [OpenCaseLaw API](https://opencaselaw.ch) - **[🇨🇭 Switzerland]** REST API (no account or API key) covering ~991K Swiss court decisions since 1875 and 21K+ federal and cantonal laws, with a resolved citation graph and bulk download; decision data is CC0.
 
 ---
 
@@ -145,6 +146,7 @@ Large text corpora and jurisdiction-wide raw data dumps for pretraining or fine-
 - [IL-TUR](https://huggingface.co/datasets/Exploration-Lab/IL-TUR) - **[🇮🇳 EN + 9 Indic]** - **[~176K]** - Indian legal text understanding & reasoning benchmark across 8 tasks (NER, rhetorical roles, judgment prediction, bail, statute ID, retrieval, summarization, MT); ACL 2024.
 - [gitlaw-jp](https://github.com/aluqas/gitlaw-jp) - **[🇯🇵 JA]** - **[Large]** - Complete Japanese legislation tracked as a Git repository, enabling diffs and historical analysis.
 - [open-source-legislation](https://github.com/spartypkp/open-source-legislation) - **[🌍 Multi]** - SQL knowledge-graph format for global legislation with Python/TypeScript SDKs for LLM training and RAG.
+- [OpenCaseLaw](https://opencaselaw.ch) - **[🇨🇭 DE/FR/IT]** - **[~991K]** - Swiss court decisions since 1875 from all federal courts, all 26 cantons, and regulators, plus 21K+ federal and cantonal laws and an ~8.9M-edge citation graph; data CC0, stack MIT, rebuilt nightly.
 ### Legal Judgment Prediction (LJP)
 
 Datasets for predicting case outcomes, charges, or penalties from court documents.
@@ -259,6 +261,7 @@ Domain-specific encoder models for legal text similarity, classification, and re
 - [auslaw-mcp](https://github.com/russellbrenner/auslaw-mcp) - **[🇦🇺 🇳🇿 AU/NZ]** MCP server searching AustLII case law and legislation with OCR for scanned PDFs.
 - [law-scrapper-mcp](https://github.com/numikel/law-scrapper-mcp) - **[🇵🇱 Poland]** MCP server for Polish legal acts via the Sejm API.
 - [Emilie](https://github.com/veronica-builds/emilie) - **[🇨🇭 Switzerland]** Swiss sovereign legal AI; Mike fork extended with MCP client and local Apertus model support.
+- [OpenCaseLaw](https://opencaselaw.ch) - **[🇨🇭 Switzerland]** MCP endpoint (mcp.opencaselaw.ch, no account or API key) for ~991K published Swiss court decisions and 21K+ federal and cantonal laws in German, French, and Italian; decision data is CC0.
 - [Mahender22/legal-mcp](https://github.com/Mahender22/legal-mcp) - **[🇺🇸 US]** 18 MCP tools across CourtListener case law (4M+ opinions, 400+ US courts), PACER federal filings, and Clio practice-management.
 - [EU Compliance MCP](https://github.com/Ansvar-Systems/EU_compliance_MCP) - **[🇪🇺 EU]** MCP exposing 61 EU regulations (GDPR, AI Act, DORA, NIS2, MiFID II, eIDAS 2.0, CRA) with 4,095 articles and cross-regulation comparison.
 - [CSOAI Legacy Bridges](https://github.com/CSOAI-ORG/cobol-bridge-mcp) - **[🇪🇺 EU]** **[Open Source]** Governed-MCP bridges that parse legacy-system payloads (COBOL, ISO-20022, HL7, SAP, SCADA) and check each action against EU AI Act, DORA, NIS2 and HIPAA, emitting an Ed25519-signed, offline-verifiable NIST OSCAL audit package (Article-12 evidence). 22 bridges plus a signed Layer-0 package validated under compliance-trestle.
