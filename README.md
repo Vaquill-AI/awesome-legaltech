@@ -1023,6 +1023,7 @@ Platforms for patent searching, analytics, and intellectual property portfolio m
 - [DeepIP](https://deepip.ai/) - **[AI-Native]** French-American AI platform spanning the full patent lifecycle (drafting, drawings, FTO, landscaping); $25M Series B led by Korelya Capital and Serena.
 - [Ankar](https://ankar.ai/) - **[AI-Native]** Palantir-alumni-built AI patent OS for idea generation, drafting, prosecution, and infringement detection; €17M Series A led by Atomico (Dec 2025).
 - [Patlytics](https://patlytics.ai/) - **[AI-Native]** AI patent intelligence engine for drafting, infringement detection, and invalidity analysis serving AmLaw 100 and Fortune 500; $14M Series A (Feb 2025).
+- [LexCivis](https://lexcivis.gracestack.se) - **[AI-Native]** Swedish AI platform for patent and IP law — semantic search across 57,000+ Swedish and European patent documents, case law, and legislation. Subscription-gated Starter/Pro/Enterprise tiers, Swedish-language legal embeddings, and integrated EPO/EUR-Lex/PRV data pipelines.
 
 ---
 
