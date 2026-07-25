@@ -1253,6 +1253,7 @@ Resources for evaluating AI and NLP systems on legal tasks.
 - [MLEB (source)](https://github.com/isaacus-dev/mleb) - Evaluation code for the multidomain MLEB leaderboard across 6 jurisdictions.
 - [prinzbench](https://github.com/prinz-ai/prinzbench) - Benchmark ranking LLMs on legal research and obscure-information retrieval.
 - [Open Legal-Answer Benchmark](https://github.com/Vaquill-AI/open-legal-answer-benchmark) - **[🇺🇸 US]** Reproducible benchmark of US legal-answer quality: a committed question set, a standard-library scorer, and deterministic metrics (must-include accuracy, citation-support rate) anyone can rerun. Data CC BY 4.0, code MIT. *(Sponsor)*
+- [California Civil Litigation Legal-AI Corrections](https://github.com/myfilms79/california-civil-litigation-legal-ai-corrections) - Correction-pattern evaluation dataset from documented US state-court litigation: 767 practitioner-reviewed correction cards, 291 correction events, and an 8-dimension graduated scoring rubric; free gated 25-record sample on Hugging Face.
 
 ---
 
