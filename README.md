@@ -1023,6 +1023,7 @@ Platforms for patent searching, analytics, and intellectual property portfolio m
 - [DeepIP](https://deepip.ai/) - **[AI-Native]** French-American AI platform spanning the full patent lifecycle (drafting, drawings, FTO, landscaping); $25M Series B led by Korelya Capital and Serena.
 - [Ankar](https://ankar.ai/) - **[AI-Native]** Palantir-alumni-built AI patent OS for idea generation, drafting, prosecution, and infringement detection; €17M Series A led by Atomico (Dec 2025).
 - [Patlytics](https://patlytics.ai/) - **[AI-Native]** AI patent intelligence engine for drafting, infringement detection, and invalidity analysis serving AmLaw 100 and Fortune 500; $14M Series A (Feb 2025).
+- [LexCivis](https://lexcivis.gracestack.se) - **[AI-Native]** Swedish AI platform for patent and IP law — semantic search across 57,000+ Swedish and European patent documents, case law, and legislation. Subscription-gated Starter/Pro/Enterprise tiers, Swedish-language legal embeddings, and integrated EPO/EUR-Lex/PRV data pipelines.
 
 ---
 
@@ -1465,3 +1466,8 @@ Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTIN
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work.
+
+
+## Compliance & Regulation
+
+- [AI-Policy för svenska bolag](https://tools.gracestack.se/ai-policy.html) — AI Act-kompatibel policymall för svenska företag (499 kr, Swish/Klarna). Inkluderar checklista, riskklassificering, GDPR-referenser. Klar på 20 minuter. Av Gracestack AB (org.nr 559480-0000).
