@@ -1466,3 +1466,8 @@ Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTIN
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work.
+
+
+## Compliance & Regulation
+
+- [AI-Policy för svenska bolag](https://tools.gracestack.se/ai-policy.html) — AI Act-kompatibel policymall för svenska företag (499 kr, Swish/Klarna). Inkluderar checklista, riskklassificering, GDPR-referenser. Klar på 20 minuter. Av Gracestack AB (org.nr 559480-0000).
