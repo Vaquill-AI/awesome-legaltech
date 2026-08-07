@@ -1081,6 +1081,7 @@ Platforms for collecting, processing, reviewing, and producing electronically st
 - [IPRO](https://ipro.com) - **[Established]** E-discovery software for large-scale review and production.
 - [FreeEed](https://freeeed.org) - **[Open Source]** AI-enabled e-discovery with OCR and metadata extraction.
 - [FreeEed](https://freeeed.org) - **[Open Source]** AI-enabled cross-platform e-discovery platform with text extraction, metadata processing, and OCR.
+- [ShareSentry](https://github.com/nap6281-hub/sharesentry) - **[Open Source]** Local document inspector that reports hidden metadata and review artifacts in PDF, DOCX, XLSX, PPTX, and image files without uploading source documents.
 
 ---
 
