@@ -1197,6 +1197,7 @@ Organizations and software actively using technology to advance access to justic
 - [World Justice Project Rule of Law Index](https://worldjusticeproject.org/rule-of-law-index/) - **[Nonprofit]** Annual data series measuring rule of law across 143 jurisdictions (95% of world population).
 - [HiiL (Hague Institute for Innovation of Law)](https://www.hiil.org/) - **[Nonprofit]** Justice Accelerator (110+ startups funded since 2011), Justice Innovation Labs, and people-centred justice research.
 - [Clarvia](https://github.com/clarvia-org/clarvia-graph) - **[Open Source]** Free, open-source bereavement compliance checklist for European families. Source-backed legal deadlines, multilingual, structured as a knowledge graph.
+- [Elder Fraud Toolkit](https://github.com/stepuplaw/elder-fraud-toolkit) - **[Open Source]** MIT credit-freeze letter generator covering all three US bureaus, including the power-of-attorney and guardianship route. Runs entirely in-browser with zero network calls.
 
 ## Foundational Research
 
