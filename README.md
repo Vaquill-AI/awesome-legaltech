@@ -1144,6 +1144,7 @@ Platforms delivering direct-to-consumer automated legal services, documents, and
 - [Wealth.com](https://www.wealth.com/) - **[AI-Native]** Estate-planning platform for RIAs/wirehouses with "Ester" AI doc extraction; underpins wealth managers running >$15T AUM.
 - [SoloSuit](https://www.solosuit.com/) - **[AI-Native]** "TurboTax for debt-collection lawsuits" — auto-drafts answers and runs SoloSettle negotiations; has helped 350,000+ Americans protect $2.5B+ in debt.
 - [Aricase](https://aricase.ai) - **[AI-Native]** 🇬🇧 Employment-tribunal case-builder (England & Wales): guidance, document drafting and next steps, with a human quality check.
+- [CaseValue.law](https://casevalue.law) - **[AI-Native]** Free settlement-value estimator for 16 injury and employment claim types across all 50 states; its Lowball Detector reads an insurance settlement offer letter and compares the offer to the estimate.
 
 ---
 
