@@ -1168,6 +1168,7 @@ Tools for regulatory compliance, policy management, financial crime detection, a
 - [Persefoni](https://www.persefoni.com/) - **[AI-Native]** "ERP of carbon" climate-accounting platform supporting CSRD, SEC climate rule, TCFD, and CDP disclosures for enterprises and financial institutions.
 - [TrustYourWebsite](https://trustyourwebsite.com) - **[🇪🇺 EU]** Automated website-level compliance scanner (GDPR, cookie consent, accessibility, legal pages) for EU and UK small businesses; free scan returns a risk score and issue counts.
 - [EU AI Act Check](https://i6eal.de/eu-ai-act-check/) - **[🇩🇪 DE]** Free, German-language in-browser self-check that classifies an AI system into the EU AI Act risk classes (prohibited, high-risk, limited, minimal) and lists the resulting obligations; no signup, not legal advice.
+- [EU AI Regulation Decoded](https://euaird.vercel.app/) - **[Open / Academic]** Free practitioner reference mapping EU AI Act obligations to the specific evidence an auditor expects — by role, risk tier, and deadline — with a browser-based audit-readiness checklist and a CC BY 4.0 machine-readable [obligation-to-evidence dataset](https://github.com/Kroniquedubaboo/eu-ai-act-obligation-evidence-dataset); not legal advice.
 
 ---
 
