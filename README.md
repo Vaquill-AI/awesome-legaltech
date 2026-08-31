@@ -1019,7 +1019,7 @@ Software for generating, assembling, and reviewing legal documents.
 - [Accord Project Template Archive](https://github.com/accordproject/template-archive) - **[Open Source]** Smart legal contracts and templating system (Cicero / Concerto).
 - [Gavel (formerly Documate)](https://www.gavel.io/) - **[Established]** No-code document automation + online legal product builder used to ship apps in estate planning, family law, real estate, probate, and immigration.
 - [Renamer.ai](https://renamer.ai) - **[AI-Native]** OCR-based file renaming for legal, contract, and HR documents - reads each file's contents and writes a descriptive, content-aware filename in place of scans and generic names.
-
+- [SquarePact](https://squarepact.com) - **[AI-Native]** Agentic AI drafting and review add-in for Microsoft Word focused on mechanical errors in AI-edited documents — formatting drift, scrivener's errors, mismatched defined terms — with a bring-your-own-agent option that runs on the user's own local agent or API keys.
 
 ---
 
