@@ -1288,6 +1288,7 @@ Open standards and specifications relevant to legal technology and AI integratio
 - [LEDES (Legal Electronic Data Exchange Standard)](https://ledes.org) - Standard formats for legal billing (e-billing).
 - [EU AI Act](https://artificialintelligenceact.eu) - World's first comprehensive AI regulation law. In force Aug 2024; full applicability Aug 2026. Directly impacts legal AI tools.
 - [LegalXML / OASIS LegalDocML](https://docs.oasis-open.org/legaldocml/) - XML schema standard for legal documents (bills, statutes, regulations). Used by parliaments globally.
+- [OKF-Legal](https://github.com/apiotrowski-afk/okf-legal) - **[🇵🇱 Poland]** Legal-domain profile over Google's Open Knowledge Format: markdown+YAML sub-document units ("directed reasons") for case-law holdings, carrying a verbatim quote, direction, ratio/obiter status, and source court instance, plus typed relations and anti-hallucination consumption rules. Distilled from a ~1,100-judgment Polish case-law corpus. Apache 2.0.
 - [EDRM (Electronic Discovery Reference Model)](https://edrm.net) - Industry standard framework for e-discovery workflows, data models, and specifications.
 
 ---
