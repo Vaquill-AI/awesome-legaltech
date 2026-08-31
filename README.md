@@ -1143,6 +1143,7 @@ Platforms delivering direct-to-consumer automated legal services, documents, and
 - [Visalaw.ai](https://www.visalaw.ai/) - **[AI-Native]** SOC 2 Type II-certified immigration research/drafting platform co-developed with AILA on top of GPT-4 and AILA's Cookbook.
 - [Docketwise](https://www.docketwise.com/) - **[Established]** Immigration-specific case management with dynamic form completion, billing, and CRM.
 - [Hello Divorce](https://hellodivorce.com/) - **[Established]** Venture-backed "TurboTax for divorce" with document automation + on-demand lawyers, mediators, and divorce coaches in all 50 states.
+- [SupportDecode](https://supportdecode.com) - Free child support, custody schedule, and alimony calculators covering all 50 US states and DC; every rate and table cites its official statute or guideline with effective dates, and a public verification page documents test scenarios reproduced against official state calculators.
 - [Trust & Will](https://trustandwill.com/) - **[Established]** Largest US consumer estate-planning platform with attorney-network and AI features; raised $25M+ Series C (March 2025).
 - [Wealth.com](https://www.wealth.com/) - **[AI-Native]** Estate-planning platform for RIAs/wirehouses with "Ester" AI doc extraction; underpins wealth managers running >$15T AUM.
 - [SoloSuit](https://www.solosuit.com/) - **[AI-Native]** "TurboTax for debt-collection lawsuits" — auto-drafts answers and runs SoloSettle negotiations; has helped 350,000+ Americans protect $2.5B+ in debt.
