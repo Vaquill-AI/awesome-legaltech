@@ -203,7 +203,6 @@ Fine-tuned or domain-pretrained LLMs specifically for legal tasks.
 - [Lawma-70B](https://huggingface.co/ricdomolm/lawma-70b) - **[Llama 3]** - **[EN]** - Larger legal classification model
 - [InLegalBERT](https://huggingface.co/law-ai/InLegalBERT) - **[BERT]** - **[EN (Indian)]** - Trained on 5.4M Indian legal documents
 - [Pasal.id](https://github.com/ilhamfp/pasal) - **[Claude + RAG]** - **[ID]** - **[Open]** - RAG-powered access to 40,000+ Indonesian regulations via Claude AI
-- [NyayaSahayak](https://github.com/SoulNoob/Nyaysahayak) - **[EN/HI]** - **[Open]** - AI legal assistant covering Indian Constitution, BNS 2023, IT Act
 - [ChatLaw](https://github.com/PKU-YuanGroup/ChatLaw) - **[LLaMA/Ziya]** - **[ZH]** - **[CC BY-NC]** - Chinese legal LLM from Peking University; trained on 30K+ Chinese legal datasets
 - [DISC-LawLLM](https://github.com/FudanDISC/DISC-LawLLM) - **[Baichuan 13B]** - **[ZH]** - **[Apache 2.0]** - Chinese legal assistant from Fudan; legal retrieval + reasoning
 - [AdaptLLM/law-LLM](https://huggingface.co/AdaptLLM/law-LLM) - **[LLaMA-1 7B]** - **[EN]** - Domain-adapted LLM trained via reading-comprehension on a large English legal corpus.
@@ -244,7 +243,7 @@ Domain-specific encoder models for legal text similarity, classification, and re
 - [CourtListener MCP (Travis-Prall)](https://github.com/Travis-Prall/court-listener-mcp) - MCP Server for accessing CourtListener case data, court opinions, and eCFR federal regulations.
 - [CourtListener MCP (khizar-anjum)](https://github.com/khizar-anjum/courtlistener-mcp) - MCP server built for searching cases by natural language legal problems across 3,352 U.S. courts.
 - [agentic-ops/legal-mcp](https://github.com/agentic-ops/legal-mcp) - Comprehensive MCP server for legal workflows. Integrates AI assistants with legal databases and case management systems (Clio, etc.).
-- [LegalContext MCP](https://mcp.so/server/legalcontext) - Open-source MCP server bridging law firm document management systems with AI assistants.
+- [LegalContext MCP](https://github.com/protomated/legal-context-ce) - Open-source MCP server bridging law firm document management systems with AI assistants.
 - [adeu (Agentic DOCX Redlining Engine)](https://github.com/dealfluence/adeu) - MCP Server enabling LLMs to inject native Track Changes and Comments into Word documents.
 - [sign-cli](https://github.com/DrBaher/sign-cli) - **[Open Source]** Offline PAdES e-signature MCP server: agents can request, place, sign, and verify PDFs locally, with signing gated behind explicit consent tokens. Cryptographic verification + hash-chained audit.
 - [contract-ops-mcp](https://github.com/DrBaher/contract-ops-mcp) - **[Open Source]** One MCP server exposing nine local-first contract CLIs (extract, draft, lint, compare, NDA review, convert, the vaults, and human-gated signing) as agent tools.
@@ -339,7 +338,7 @@ Browser-based platforms and search engines for case law, statutes, and dockets.
 - [High Court of Botswana](http://www.saflii.org/bw/cases/BWHC/)
 
 **Burkina Faso**
-- [Conseil Constitutionnel](http://www.juriburkina.org/doc/html/bf/jug/cc/fr/)
+- [Conseil Constitutionnel](https://www.conseil-constitutionnel.gov.bf/)
 
 **Cape Verde**
 - [Global Legal Information Network (Cape Verde)](http://www.worldlii.org/int/other/GLIN/cv/)
@@ -1434,10 +1433,10 @@ Stay current with the legaltech ecosystem.
 ### Key Subordinate Regulations (2022–2025)
 
 - [Measures for Security Assessment of Outbound Data Transfers (2022)](https://www.cac.gov.cn/2022-07/07/c_1658811536396503.htm) — Mandatory CAC security assessment for certain cross-border data transfers
-- [Measures for Standard Contract for Outbound Transfer of Personal Information (2023)](https://www.cac.gov.cn/2023-02/24/c_1679407116913819.htm) — Standard contractual clauses mechanism for cross-border personal information transfers
-- [Provisions on Facilitating and Regulating Cross-border Data Flows (2024)](https://www.cac.gov.cn/2024-03/22/c_1712776196503594.htm) — Streamlines cross-border transfer rules; introduces free trade zone exemptions
-- [Network Data Security Management Regulation (2025)](https://www.cac.gov.cn/2024-09/30/c_1728527415765602.htm) — Comprehensive regulation on network data processing obligations (effective Jan 1, 2025)
-- [Measures for Administration of Personal Information Protection Compliance Audits (2025)](https://www.cac.gov.cn/2025-02/26/c_1741000680823259.htm) — Mandatory and voluntary audit framework for personal information handlers (effective May 1, 2025)
+- [Measures for Standard Contract for Outbound Transfer of Personal Information (2023)](https://www.cac.gov.cn/2023-02/24/c_1678884830036813.htm) — Standard contractual clauses mechanism for cross-border personal information transfers
+- [Provisions on Facilitating and Regulating Cross-border Data Flows (2024)](https://www.cac.gov.cn/2024-03/22/c_1712776611775634.htm) — Streamlines cross-border transfer rules; introduces free trade zone exemptions
+- [Network Data Security Management Regulation (2025)](https://www.cac.gov.cn/2024-09/30/c_1729384452307680.htm) — Comprehensive regulation on network data processing obligations (effective Jan 1, 2025)
+- [Measures for Administration of Personal Information Protection Compliance Audits (2025)](https://www.cac.gov.cn/2025-02/14/c_1741233507681519.htm) — Mandatory and voluntary audit framework for personal information handlers (effective May 1, 2025)
 - [Interim Measures for the Management of Generative AI Services (2023)](https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm) — Regulates generative AI services offered to the public in China
 
 ### AI Governance & Policy Institutions
