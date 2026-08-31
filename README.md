@@ -1052,6 +1052,7 @@ Platforms for managing contracts from creation through execution, obligations, a
 - [Avvoka](https://avvoka.com) - **[Established]** UK document automation and negotiation platform.
 
 - [Wraft](https://github.com/wraft/wraft) - **[Open Source]** Document lifecycle management with version control.
+- [Aakd](https://github.com/aaked-app/aakd) - **[Open Source]** Self-hostable contract operations workspace for reviewing source-linked obligations, owners, deadlines, approvals, and completion evidence.
 - [Ivo](https://ivo.ai/) - **[AI-Native]** Enterprise contract review AI used by Uber, Shopify, IBM, Reddit, and Canva; $55M Series B at ~$355M valuation led by Blackbird (2025-2026).
 - [SpotDraft](https://www.spotdraft.com/) - **[AI-Native]** India-headquartered CLM with on-device VerifAI for clause extraction and risk scoring; $54M Series B (Feb 2025) + $8M extension.
 - [contract-review-agent](https://github.com/kipeum86/contract-review-agent) - **[Open Source]** Local-first AI agent that turns contracts into clause-level analysis with tracked-change DOCX redlines.
