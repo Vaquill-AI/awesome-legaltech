@@ -27,10 +27,31 @@ jobs:
           STALE_MONTHS: '18'
         run: python .github/scripts/staleness_audit.py README.md staleness-report.md
 
+      - name: Find existing audit issue
+        id: find
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          number=$(gh issue list \
+            --repo "$GITHUB_REPOSITORY" \
+            --state open \
+            --label 'staleness audit' \
+            --search 'in:title "Staleness Audit"' \
+            --limit 1 \
+            --json number \
+            --jq '.[0].number // ""')
+          echo "issue_number=$number" >> "$GITHUB_OUTPUT"
+          if [ -n "$number" ]; then
+            echo "Will update existing issue #$number"
+          else
+            echo "No open audit issue; a new one will be created"
+          fi
+
       - name: Create or update issue
         if: steps.audit.outputs.stale_count != '0'
         uses: peter-evans/create-issue-from-file@v5
         with:
+          issue-number: ${{ steps.find.outputs.issue_number }}
           title: 'Staleness Audit - candidates for Deprecated / Archived'
           content-filepath: ./staleness-report.md
           labels: |

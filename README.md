@@ -992,7 +992,7 @@ Direct links to canonical government legal-data sources for jurisdictions where 
 - [Bloomberg Law](https://pro.bloomberglaw.com) - **[Established]** Major US legal research platform with AI brief analysis and real-time legislative monitoring.
 - [vLex / Vincent AI](https://vlex.com) - **[Established]** Global coverage (1B+ documents, 17 countries) with cross-jurisdictional AI comparison.
 - [Casetext / CoCounsel Core](https://casetext.com) - **[Established]** GPT-4 powered research memo generation and CARA AI brief analysis.
-- [Lex Machina](https://lexmachina.com) - **[Established]** Litigation analytics predicting outcomes and benchmarking opposing counsel.
+- [Lex Machina](https://www.lexisnexis.com/en-us/products/lex-machina.page) - **[Established]** Litigation analytics predicting outcomes and benchmarking opposing counsel.
 - [Docket Alarm](https://www.docketalarm.com) - **[Established]** Federal and state docket monitoring with real-time alerts.
 - [Manupatra](https://www.manupatra.com) - **[Established]** Proprietary Indian legal database covering SC, HCs, and Tribunals.
 
@@ -1051,7 +1051,6 @@ Platforms for managing contracts from creation through execution, obligations, a
 - [LexCheck](https://www.lexcheck.com) - **[AI-Native]** AI for contract redlining and playbook enforcement.
 - [Lexion](https://lexion.ai) - **[AI-Native]** AI-powered contract management backed by Google Ventures.
 - [Legartis](https://legartis.ai) - **[AI-Native]** AI contract review and risk analysis (German/European market focus).
-- [LawGeex](https://www.lawgeex.com) - **[Established]** AI contract review platform pre-screening against company policies.
 - [Juro](https://juro.com) - **[Established]** All-in-one contract platform popular in UK/EU.
 - [Avvoka](https://avvoka.com) - **[Established]** UK document automation and negotiation platform.
 
@@ -1129,7 +1128,7 @@ Software designed for corporate legal departments to manage, audit, and analyze 
 
 - [Brightflag](https://brightflag.com) - **[AI-Native]** AI-powered invoice review and legal spend management.
 - [SimpleLegal](https://www.simplelegal.com) - **[Established]** Modern corporate legal operations software.
-- [CounselLink](https://counsellink.com) - **[Established]** LexisNexis enterprise legal spend and matter management.
+- [CounselLink](https://www.lexisnexis.com/en-us/products/counsellink/default.page) - **[Established]** LexisNexis enterprise legal spend and matter management.
 
 ---
 
@@ -1357,7 +1356,7 @@ Regulatory authorities and bar associations enabling new legal-services delivery
 
 - [Utah Office of Legal Services Innovation (Sandbox)](https://utahinnovationoffice.org/) - 🇺🇸 Utah Supreme Court regulatory sandbox (since 2020, extended through 2027) authorising non-lawyer ownership and software-delivered legal services.
 - [Arizona ABS Program](https://www.azcourts.gov/cld/Alternative-Business-Structures) - 🇺🇸 First US state to eliminate Rule 5.4 (2020); 136+ approved Alternative Business Structures.
-- [SRA Innovate](https://www.sra.org.uk/solicitors/resources/innovate/) - 🇬🇧 Solicitors Regulation Authority programme for lawtech trials, the Virtual Innovation Hub (with Swansea), and pre-application guidance for novel legal-services models.
+- [SRA Innovate](https://www.sra.org.uk/solicitors/resources/topic/innovate) - 🇬🇧 Solicitors Regulation Authority programme for lawtech trials, the Virtual Innovation Hub (with Swansea), and pre-application guidance for novel legal-services models.
 - [ABA Center for Innovation](https://www.americanbar.org/groups/centers_commissions/center-for-innovation/) - 🇺🇸 ABA's collaborative innovation hub; publishes the annual Innovation Trends Report.
 - [ABA Task Force on Law and AI](https://www.americanbar.org/groups/leadership/office_of_the_president/artificial-intelligence/) - 🇺🇸 ABA Year 2 (2025) report concluding AI has moved from experiment to infrastructure across courts, education, and access-to-justice.
 
@@ -1403,7 +1402,6 @@ Stay current with the legaltech ecosystem.
 - [NLLP Workshop](https://nllpw.org/workshop/) - Premier Natural Legal Language Processing workshop co-located with EMNLP since 2021.
 - [COLIEE](https://coliee.org/) - Annual Competition on Legal Information Extraction/Entailment on Japanese and Canadian case- and statute-law.
 - [CodeX FutureLaw](https://conferences.law.stanford.edu/futurelaw/) - Stanford CodeX's flagship annual gathering for legal informatics; 2025 marked the 20th anniversary.
-- [Global Legal Hackathon](https://globallegalhackathon.com/) - World's largest legal hackathon; runs in 75+ countries with a London-based international final.
 
 ### Newsletters & Media
 - [Artificial Lawyer](https://www.artificiallawyer.com) - Deep-coverage publication on AI and legal tech. Free daily news.
@@ -1467,10 +1465,11 @@ Stay current with the legaltech ecosystem.
 Entries that were previously listed but have since been archived, sunset, acquired-and-shut-down, or otherwise stopped being maintained. Kept visible so readers don't rediscover dead links and so the history of the space is preserved. An entry moves here (rather than getting deleted) when the upstream repo is GitHub-archived, the company shuts down or the product is discontinued, or there has been no meaningful activity for 2+ years. Include a short note on what happened and, where useful, a pointer to a successor.
 
 <!-- Format:
-- [Name](https://url) - **[Archived YYYY-MM]** - What it was, what happened, and (optionally) what replaced it.
+- [Name](https://example.com) - **[Archived YYYY-MM]** - What it was, what happened, and (optionally) what replaced it.
 -->
 
-*No entries yet.*
+- [LawGeex](https://www.lawgeex.com) - **[Archived 2026-08]** - AI contract review that pre-screened agreements against company policy. Sold its enterprise contract assets to Robin AI in February 2023; LegalSifter took on the remaining enterprise clients later that year, and the founders moved to Superlegal. The site no longer completes a TLS handshake.
+- [Global Legal Hackathon](https://globallegalhackathon.com/) - **[Archived 2026-08]** - Ran a legal hackathon across 75+ countries with an international final. The site no longer completes a TLS handshake and no recent edition is documented; unrelated national events such as the Wolters Kluwer Legal Hackathon in Poland continue separately.
 
 ---
 
