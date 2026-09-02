@@ -1207,6 +1207,7 @@ Organizations and software actively using technology to advance access to justic
 - [HiiL (Hague Institute for Innovation of Law)](https://www.hiil.org/) - **[Nonprofit]** Justice Accelerator (110+ startups funded since 2011), Justice Innovation Labs, and people-centred justice research.
 - [Clarvia](https://github.com/clarvia-org/clarvia-graph) - **[Open Source]** Free, open-source bereavement compliance checklist for European families. Source-backed legal deadlines, multilingual, structured as a knowledge graph.
 - [Elder Fraud Toolkit](https://github.com/stepuplaw/elder-fraud-toolkit) - **[Open Source]** MIT credit-freeze letter generator covering all three US bureaus, including the power-of-attorney and guardianship route. Runs entirely in-browser with zero network calls.
+- [CairnVault Research - Digital Legacy Teardown](https://research.cairnvault.app/digital-legacy-teardown/) - **[Open Source]** Sourced comparison of what every major password manager, platform legacy-contact feature and digital-legacy service actually does when a user dies, with each claim cited to the vendor's own documentation. Includes a 46-question answer library covering RUFADAA and platform policy, a CC BY 4.0 dataset ([DOI 10.5281/zenodo.21894423](https://doi.org/10.5281/zenodo.21894423)), and a dated public correction log.
 
 ## Foundational Research
 
