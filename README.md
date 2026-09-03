@@ -321,6 +321,7 @@ Comprehensive platforms that handle multiple functions across the legal workflow
 - [Legal Document Chat](https://github.com/janderswag/legal-document-chat) - **[Open Source]** Self-hosted document chat for attorneys that parses legal PDFs and answers questions using local open-source LLMs (Ollama), with page- and span-level citations mechanically verified against the source; runs fully offline (loopback-only, no cloud calls) on FastAPI + LanceDB (MIT).
 - [Patron](https://github.com/matematicsolutions/patron) - **[🇵🇱 Poland]** **[Open Source]** Self-hosted AI agent for law firms; hard fork of Mike extended with a hash-chained audit trail (EU AI Act art. 12 record-keeping), bring-your-own-model, 9 language editions, and MCP connectors for Polish and EU primary law. AGPL-3.0.
 - [Ezel](https://ezel.ai) - **[AI-Native]** US platform combining matter workspaces with cited answers, document drafting, case law research, court forms, and PDF redaction.
+- [AI WorkDeck](https://github.com/zeweihan/aiworkdeck) - **[Open Source]** Desktop workbench built by a practicing lawyer in China (Chinese and English UI): matters, files, agents, evidence pane and version history in one window, with a LibreOffice-in-WebAssembly editor where AI edits are applied as character-level tracked changes for accept/reject; Office/WPS add-ins and a plugin marketplace. AGPL-3.0.
 
 ---
 
