@@ -1173,6 +1173,7 @@ Tools for regulatory compliance, policy management, financial crime detection, a
 - [MiCAR Whitepaper Linter](https://github.com/sebastianfoerste/micar-whitepaper-linter) - **[🇪🇺 EU]** Deterministic linter for crypto-asset white papers under MiCAR (EU) 2023/1114: 35 rules mapped to Annex I-III with pinpoint citations, a CI action, and a browser playground.
 - [EU AI Act Check](https://i6eal.de/eu-ai-act-check/) - **[🇩🇪 DE]** Free, German-language in-browser self-check that classifies an AI system into the EU AI Act risk classes (prohibited, high-risk, limited, minimal) and lists the resulting obligations; no signup, not legal advice.
 - [EU AI Regulation Decoded](https://euaird.vercel.app/) - **[Open / Academic]** Free practitioner reference mapping EU AI Act obligations to the specific evidence an auditor expects — by role, risk tier, and deadline — with a browser-based audit-readiness checklist and a CC BY 4.0 machine-readable [obligation-to-evidence dataset](https://github.com/Kroniquedubaboo/eu-ai-act-obligation-evidence-dataset); not legal advice.
+- [EU AI Act Classifier](https://github.com/sebastianfoerste/eu-ai-act-classifier) - **[🇪🇺 EU]** Deterministic first-pass classifier for EU AI Act risk tiers: cited obligations, binding timelines, prohibited-practice gates, and an explicit human-review step; CLI plus MCP-style tools over synthetic examples.
 
 ---
 
@@ -1258,6 +1259,7 @@ Resources for evaluating AI and NLP systems on legal tasks.
 - [LegalBench-RAG](https://github.com/zeroentropy-ai/legalbenchrag) - First retrieval benchmark for legal RAG: 6,858 expert-annotated query/span pairs over 79M characters of NDAs, M&A agreements, commercial contracts, and privacy policies (arXiv:2408.10343).
 - [LegalAgentBench](https://github.com/CSHaitao/LegalAgentBench) - LLM-agent benchmark in the Chinese legal domain: 17 real-world corpora, 37 tools, 300 annotated multi-hop reasoning + writing tasks (2024).
 - [LEXam](https://github.com/LEXam-Benchmark/LEXam) - **[ICLR 2026]** Bilingual EN/DE law-school exam benchmark: 7,537 questions from 340 exams across 116 courses, mixing IRAC reasoning and MCQs.
+- [Contract Review Eval Harness](https://github.com/sebastianfoerste/contract-review-eval-harness) - Evaluation harness for AI contract review: clause precision/recall, risk-flag accuracy, citation grounding, and hallucinated-citation counts scored against a gold answer set.
 - [LexEval](https://github.com/CSHaitao/LexEval) - **[🇨🇳 ZH]** Comprehensive Chinese legal LLM benchmark: 14,150 questions across 23 tasks covering memorization, understanding, application, and ethics.
 - [ArabLegalEval](https://arxiv.org/abs/2408.07983) - **[🇸🇦 AR]** Multitask Arabic legal-knowledge benchmark over Saudi regulations, MMLU/LegalBench-style (Aug 2024).
 - [ALARB](https://arxiv.org/abs/2510.00694) - **[🇸🇦 AR]** Arabic Legal Argument Reasoning Benchmark: 13K Saudi commercial-court cases with facts, court reasoning, verdicts, and cited regulations (2025).
