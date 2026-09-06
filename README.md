@@ -925,6 +925,7 @@ Direct links to canonical government legal-data sources for jurisdictions where 
 - [OpenStates](https://openstates.org) - Open-source platform tracking US state legislation in real time.
 - [AI Laws by State](https://www.ailawsbystate.com) - Free 50-state tracker for U.S. artificial intelligence legislation, sourced from primary state legislature feeds. Covers bill status, effective dates, penalty structures, and topic categorization (deepfakes, hiring, healthcare AI, disclosure, bias audits).
 - [Google Scholar Case Law](https://scholar.google.com) - Free US federal and state court opinions.
+- [S&P 500 Earnings Announcement Times](https://github.com/quant500trading/sp500-earnings-announcement-times) - Free CC0 dataset of 63,969 earnings announcements timed from SEC 8-K item 2.02 filings, 2003-2026, with each row linked to its filing on sec.gov.
 
 #### United Kingdom
 - [BAILII](https://www.bailii.org) - Free access to British and Irish primary legal materials.
