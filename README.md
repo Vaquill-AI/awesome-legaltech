@@ -69,6 +69,7 @@ Legal technology (legaltech) is the use of technology and software to provide le
 **Benchmarks**
 
 - [Open Legal-Answer Benchmark](https://github.com/Vaquill-AI/open-legal-answer-benchmark) - Reproducible benchmark of US legal-answer quality: a committed question set, a standard-library scorer, and deterministic metrics (must-include accuracy, citation-support rate) anyone can rerun. CC BY 4.0 / MIT.
+- [LexNG-Bench](https://github.com/Femziy/lexng-bench) - **[🇳🇬 Nigeria]** Task format, validation rules and deterministic scorer for Nigerian legal question answering (MIT); the question set is held privately by design so submissions can be re-scored without the questions becoming training data.
 
 **Add-ins & apps**
 
@@ -290,6 +291,7 @@ Domain-specific encoder models for legal text similarity, classification, and re
 
 - [commercial-legal-pl](https://github.com/apiotrowski-afk/commercial-legal-pl) - **[🇵🇱 Poland]** Skill for drafting and reviewing Polish-law B2B, IP, and IT contracts; ships a clause library and doctrinal knowledge base, with consistency checks for § / ust. / pkt cross-references. Works with Claude Code, Cursor, Codex, and other agent IDEs. Apache 2.0.
 - [awesome-matematic-skills-pl](https://github.com/matematicsolutions/awesome-matematic-skills-pl) - **[🇵🇱 Poland]** 41 legal-AI skills in 8 Claude Code / Cowork bundles: LLM-output verification (citation grounding against SAOS/EUR-Lex sources), Polish and EU case-law research, DOCX redlining, and an AI Act audit bundle. MIT.
+- [lexcore-ng-skills](https://github.com/Femziy/lexcore-ng-skills) - **[🇳🇬 Nigeria]** **[Open Source]** Six SKILL.md bundles for Nigerian law (CAMA 2020 corporate, NDPA 2023 data protection, contract risk, clause comparison, precedent research, redlining) exported from LexCore; each opens with a draft-for-lawyer-review guardrail and states what verification is not running outside the platform.
 
 ---
 
