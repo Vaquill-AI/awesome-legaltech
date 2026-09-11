@@ -1009,6 +1009,7 @@ Software for generating, assembling, and reviewing legal documents.
 - [Docassemble](https://docassemble.org) - **[Open Source]** The gold standard target for guided legal interviews and document assembly.
 - [Suffolk LIT Lab Assembly Line](https://github.com/SuffolkLITLab/docassemble-AssemblyLine) - **[Open Source]** Toolkit for Massachusetts court forms; reusable pattern for any jurisdiction.
 - [open-agreements](https://github.com/CommonAccord/Cmacc-Org) - **[Open Source]** CommonAccord: legal documents as structured, linkable data.
+- [OpenAgreements](https://github.com/open-agreements/open-agreements) - **[Open Source]** Standard agreement templates, primary-source-backed U.S. legal guides, surveys, and review checklists, with CLI and MCP tools for producing reviewable Word documents.
 - [adeu](https://github.com/dealfluence/adeu) - **[Open Source]** Agentic DOCX Redlining Engine for Word document Track Changes.
 - [deslop](https://github.com/fayerman-source/deslop) - **[Open Source]** Portable AI agent skill that rewrites legalese into plain English while preserving binding terms of art.
 - [Vaquill AI for Word](https://github.com/Vaquill-AI/vaquill-word-addin) - **[Open Source]** Microsoft Word task-pane add-in for contract review, grounded redlining as native tracked changes, drafting, and US legal research. A community build runs standalone on your own OpenAI or Anthropic key. Apache-2.0. *(Sponsor)*
