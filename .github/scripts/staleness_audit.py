@@ -19,6 +19,15 @@ GITHUB_REPO_RE = re.compile(
 )
 
 
+# Top-level github.com paths that are not user or organisation names. They sit
+# in the owner position of a URL (github.com/topics/awesome-compliance), so an
+# owner in this set means the link is not a repository.
+RESERVED_OWNERS = {
+    "topics", "search", "marketplace", "settings", "sponsors", "orgs",
+    "collections", "features", "about", "trending", "explore", "apps", "login",
+}
+
+
 def normalize_repo(owner: str, name: str) -> tuple[str, str]:
     name = re.sub(r"\.git$", "", name)
     return owner, name
@@ -29,7 +38,7 @@ def extract_repos(readme_text: str) -> list[tuple[str, str]]:
     repos: list[tuple[str, str]] = []
     for match in GITHUB_REPO_RE.finditer(readme_text):
         owner, name = normalize_repo(match.group(1), match.group(2))
-        if name.lower() in {"topics", "search", "marketplace", "settings", "sponsors", "orgs"}:
+        if owner.lower() in RESERVED_OWNERS:
             continue
         key = (owner.lower(), name.lower())
         if key in seen:
