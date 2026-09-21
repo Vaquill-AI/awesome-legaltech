@@ -238,6 +238,7 @@ Domain-specific encoder models for legal text similarity, classification, and re
 
 ## MCP Servers for Legal
 
+- **[Statsnet](https://github.com/usenetstate/statsnet-mcp)** — Background check any company in the world: registration, executives, courts and finances. Endpoint: `https://statsnet.co/mcp` · Registry: `io.github.usenetstate/statsnet`
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers that connect AI assistants to legal data sources and workflows.
 
 - [Vaquill AI MCP](https://github.com/vaquill-AI/vaquill-mcp) - MCP server that connects Claude / Cursor / Windsurf / VS Code to 8M+ US federal and state court opinions plus the US Code and CFR. *(Sponsor)*
