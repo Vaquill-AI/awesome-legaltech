@@ -1162,6 +1162,7 @@ Platforms delivering direct-to-consumer automated legal services, documents, and
 
 Tools for regulatory compliance, policy management, financial crime detection, and AI governance.
 
+- [Allowly Hiring Evidence](https://allowly.ai/docs/solutions/hiring/) - Deterministic policy runner for structured employment screening that evaluates selected fields under an approved policy, records linked reviews and corrections, and exports portable Hiring Decision Packs with signed records.
 - [Drata](https://drata.com) - **[AI-Native]** GRC automation with continuous monitoring for SOC 2, ISO 27001, HIPAA, GDPR, EU AI Act.
 - [Vanta](https://vanta.com) - **[Established]** Compliance automation with 375+ integrations and AI vendor risk assessment.
 - [ComplyAdvantage](https://complyadvantage.com) - **[AI-Native]** AI-driven AML and financial crime detection.
