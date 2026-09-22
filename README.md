@@ -1177,6 +1177,7 @@ Tools for regulatory compliance, policy management, financial crime detection, a
 - [MiCAR Whitepaper Linter](https://github.com/sebastianfoerste/micar-whitepaper-linter) - **[🇪🇺 EU]** Deterministic linter for crypto-asset white papers under MiCAR (EU) 2023/1114: 35 rules mapped to Annex I-III with pinpoint citations, a CI action, and a browser playground.
 - [EU AI Act Check](https://i6eal.de/eu-ai-act-check/) - **[🇩🇪 DE]** Free, German-language in-browser self-check that classifies an AI system into the EU AI Act risk classes (prohibited, high-risk, limited, minimal) and lists the resulting obligations; no signup, not legal advice.
 - [EU AI Regulation Decoded](https://euaird.vercel.app/) - **[Open / Academic]** Free practitioner reference mapping EU AI Act obligations to the specific evidence an auditor expects — by role, risk tier, and deadline — with a browser-based audit-readiness checklist and a CC BY 4.0 machine-readable [obligation-to-evidence dataset](https://github.com/Kroniquedubaboo/eu-ai-act-obligation-evidence-dataset); not legal advice.
+- [fmc-541-check](https://github.com/maximusrufus/fmc-541-check) - **[Open Source]** 🇺🇸 Screens US ocean detention and demurrage invoices against 46 CFR part 541 (the 20 required invoice elements, the 30-day issuance clock, NVOCC re-billing) using verbatim eCFR rule text with retrieval dates; drafts 46 CFR 541.8 mitigation requests; includes a browser version that keeps invoices client-side and optional local OCR; not legal advice.
 
 ---
 
