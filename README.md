@@ -1155,6 +1155,7 @@ Platforms delivering direct-to-consumer automated legal services, documents, and
 - [SoloSuit](https://www.solosuit.com/) - **[AI-Native]** "TurboTax for debt-collection lawsuits" — auto-drafts answers and runs SoloSettle negotiations; has helped 350,000+ Americans protect $2.5B+ in debt.
 - [Aricase](https://aricase.ai) - **[AI-Native]** 🇬🇧 Employment-tribunal case-builder (England & Wales): guidance, document drafting and next steps, with a human quality check.
 - [CaseValue.law](https://casevalue.law) - **[AI-Native]** Free settlement-value estimator for 16 injury and employment claim types across all 50 states; its Lowball Detector reads an insurance settlement offer letter and compares the offer to the estimate.
+- [UseCOS Legal](https://usecos.app/legal) - **[Free / Open Source]** 🇨🇦 Client-side, privacy-preserving statutory calculators and procedural decision tools for Canadian law with open-source reference implementations, including the [BC Court Order Interest Engine](https://github.com/rivlosys/bc-court-order-interest-engine) (RSBC 1996 c. 79) and [Ontario Eviction Notice Calculator](https://github.com/rivlosys/ontario-eviction-notice-calculator) (LTB Forms N4 & N12 deemed service and statutory deadlines).
 
 ---
 
