@@ -929,6 +929,7 @@ Direct links to canonical government legal-data sources for jurisdictions where 
 - [OpenStates](https://openstates.org) - Open-source platform tracking US state legislation in real time.
 - [AI Laws by State](https://www.ailawsbystate.com) - Free 50-state tracker for U.S. artificial intelligence legislation, sourced from primary state legislature feeds. Covers bill status, effective dates, penalty structures, and topic categorization (deepfakes, hiring, healthcare AI, disclosure, bias audits).
 - [Google Scholar Case Law](https://scholar.google.com) - Free US federal and state court opinions.
+- [US Traffic Ticket Courts & Payment Portals](https://github.com/odebo/us-traffic-ticket-data) - Open CC0 dataset for what happens after a US traffic ticket: 54 cities across 21 states, naming the court or agency that owns the citation and its official payment/contest page, plus the fine note, points consequence and traffic-school rules. Human-readable version at [ticketsimplified.com](https://ticketsimplified.com/open-data/).
 
 #### United Kingdom
 - [BAILII](https://www.bailii.org) - Free access to British and Irish primary legal materials.
