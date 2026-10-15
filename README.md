@@ -290,6 +290,7 @@ Domain-specific encoder models for legal text similarity, classification, and re
 
 - [commercial-legal-pl](https://github.com/apiotrowski-afk/commercial-legal-pl) - **[🇵🇱 Poland]** Skill for drafting and reviewing Polish-law B2B, IP, and IT contracts; ships a clause library and doctrinal knowledge base, with consistency checks for § / ust. / pkt cross-references. Works with Claude Code, Cursor, Codex, and other agent IDEs. Apache 2.0.
 - [awesome-matematic-skills-pl](https://github.com/matematicsolutions/awesome-matematic-skills-pl) - **[🇵🇱 Poland]** 41 legal-AI skills in 8 Claude Code / Cowork bundles: LLM-output verification (citation grounding against SAOS/EUR-Lex sources), Polish and EU case-law research, DOCX redlining, and an AI Act audit bundle. MIT.
+- [gutachten-cn](https://github.com/liujunchao-nju/gutachten-cn) - **[🇨🇳 China]** Python package and agent skill that encodes Gutachten-style case-analysis methodology as loadable YAML examination schemas for Chinese law (criminal tier systems, per-offense procedures, civil claim-basis procedures, administrative legality review), with checkable outline rendering in Markdown or self-contained HTML and a report checker for missing required steps. MIT.
 
 ---
 
