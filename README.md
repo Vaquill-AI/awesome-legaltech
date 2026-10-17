@@ -1155,6 +1155,7 @@ Platforms delivering direct-to-consumer automated legal services, documents, and
 - [SoloSuit](https://www.solosuit.com/) - **[AI-Native]** "TurboTax for debt-collection lawsuits" — auto-drafts answers and runs SoloSettle negotiations; has helped 350,000+ Americans protect $2.5B+ in debt.
 - [Aricase](https://aricase.ai) - **[AI-Native]** 🇬🇧 Employment-tribunal case-builder (England & Wales): guidance, document drafting and next steps, with a human quality check.
 - [CaseValue.law](https://casevalue.law) - **[AI-Native]** Free settlement-value estimator for 16 injury and employment claim types across all 50 states; its Lowball Detector reads an insurance settlement offer letter and compares the offer to the estimate.
+- [CheckLoyer](https://checkloyer.fr) - **[🇫🇷 France]** Free automated check of a French residential rent against the statutory cap (loi ELAN, art. 140) for the six conurbations where it computes the cap, returning "undetermined" where reference data is missing; the result is labelled as automated and not yet reviewed by a lawyer, and acting on it through the operating law firm is a separate paid service.
 
 ---
 
