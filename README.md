@@ -240,7 +240,6 @@ Domain-specific encoder models for legal text similarity, classification, and re
 
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers that connect AI assistants to legal data sources and workflows.
 
-- [Vespper](https://www.vespper.com/) - Hosted MCP server that exposes .docx files to agents as HTML and writes their edits back as native Word tracked changes, for redlining workflows. API-key auth; endpoint `https://mcp.vespper.com/mcp`. Open-source TypeScript and Python SDKs at [vespperhq/sdks](https://github.com/vespperhq/sdks).
 - [Vaquill AI MCP](https://github.com/vaquill-AI/vaquill-mcp) - MCP server that connects Claude / Cursor / Windsurf / VS Code to 8M+ US federal and state court opinions plus the US Code and CFR. *(Sponsor)*
 - [AI Law Radar MCP](https://ailawradar.com/api) - MCP server that lets AI assistants (Claude, Cursor) query a live, primary-sourced register of AI-regulation obligations and deadlines across 13 jurisdictions; returns facts + official source URLs. Free; also a REST API + open data (CC BY 4.0).
 - [Ansvar Gateway](https://ansvar.eu) - **[🇪🇺 Europe]** Hosted MCP gateway (OAuth 2.1) connecting AI assistants (Claude, Copilot, ChatGPT) to European and US laws, regulations, and standards — 46 live jurisdictions with paragraph-level citations to the official publisher; returns an explicit error rather than an uncited answer when a source is unavailable. Includes compliance workflows (DPIA, NIS2/DORA/CRA gap analysis). Free tier.
@@ -249,6 +248,7 @@ Domain-specific encoder models for legal text similarity, classification, and re
 - [CourtListener MCP (khizar-anjum)](https://github.com/khizar-anjum/courtlistener-mcp) - MCP server built for searching cases by natural language legal problems across 3,352 U.S. courts.
 - [agentic-ops/legal-mcp](https://github.com/agentic-ops/legal-mcp) - Comprehensive MCP server for legal workflows. Integrates AI assistants with legal databases and case management systems (Clio, etc.).
 - [LegalContext MCP](https://github.com/protomated/legal-context-ce) - Open-source MCP server bridging law firm document management systems with AI assistants.
+- [Vespper](https://www.vespper.com/) - Hosted MCP server that exposes .docx files to agents as HTML and writes their edits back as native Word tracked changes, for redlining workflows. API-key auth; endpoint `https://mcp.vespper.com/mcp`. Open-source TypeScript and Python SDKs at [vespperhq/sdks](https://github.com/vespperhq/sdks).
 - [adeu (Agentic DOCX Redlining Engine)](https://github.com/dealfluence/adeu) - MCP Server enabling LLMs to inject native Track Changes and Comments into Word documents.
 - [sign-cli](https://github.com/DrBaher/sign-cli) - **[Open Source]** Offline PAdES e-signature MCP server: agents can request, place, sign, and verify PDFs locally, with signing gated behind explicit consent tokens. Cryptographic verification + hash-chained audit.
 - [contract-ops-mcp](https://github.com/DrBaher/contract-ops-mcp) - **[Open Source]** One MCP server exposing nine local-first contract CLIs (extract, draft, lint, compare, NDA review, convert, the vaults, and human-gated signing) as agent tools.
