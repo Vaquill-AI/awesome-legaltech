@@ -248,6 +248,7 @@ Domain-specific encoder models for legal text similarity, classification, and re
 - [CourtListener MCP (khizar-anjum)](https://github.com/khizar-anjum/courtlistener-mcp) - MCP server built for searching cases by natural language legal problems across 3,352 U.S. courts.
 - [agentic-ops/legal-mcp](https://github.com/agentic-ops/legal-mcp) - Comprehensive MCP server for legal workflows. Integrates AI assistants with legal databases and case management systems (Clio, etc.).
 - [LegalContext MCP](https://github.com/protomated/legal-context-ce) - Open-source MCP server bridging law firm document management systems with AI assistants.
+- [Vespper](https://www.vespper.com/) - Hosted MCP server that exposes .docx files to agents as HTML and writes their edits back as native Word tracked changes, for redlining workflows. OAuth; endpoint `https://mcp.vespper.com/mcp`.
 - [adeu (Agentic DOCX Redlining Engine)](https://github.com/dealfluence/adeu) - MCP Server enabling LLMs to inject native Track Changes and Comments into Word documents.
 - [sign-cli](https://github.com/DrBaher/sign-cli) - **[Open Source]** Offline PAdES e-signature MCP server: agents can request, place, sign, and verify PDFs locally, with signing gated behind explicit consent tokens. Cryptographic verification + hash-chained audit.
 - [contract-ops-mcp](https://github.com/DrBaher/contract-ops-mcp) - **[Open Source]** One MCP server exposing nine local-first contract CLIs (extract, draft, lint, compare, NDA review, convert, the vaults, and human-gated signing) as agent tools.
