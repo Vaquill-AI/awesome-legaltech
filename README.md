@@ -1075,6 +1075,7 @@ Platforms handling digital execution of documents and Remote Online Notarization
 - [Proof (formerly Notarize)](https://www.proof.com) - **[Established]** Pioneer of Remote Online Notarization (RON).
 - [OpenSign](https://github.com/OpenSignLabs/OpenSign) - **[Open Source]** Free open-source DocuSign alternative (Parse Server + React); 6.3k+ stars.
 - [sign-cli](https://github.com/DrBaher/sign-cli) - **[Open Source]** Fully-offline PAdES e-signature CLI + MCP server with cryptographic verification and a hash-chained audit trail. A self-hosted, local-first DocuSign alternative for developers and agents.
+- [APISign](https://apisign.io) - **[AI-Native]** E-signature API and hosted MCP server for software and AI agents. Contracts are written in Markdown with `{{variable}}` placeholders or imported from .docx, emailed to signers who need no account, and returned as PDFs with a SHA-256 completion seal, public verification page and audit trail.
 
 ---
 
