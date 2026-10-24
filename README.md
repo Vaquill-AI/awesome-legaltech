@@ -260,6 +260,7 @@ Domain-specific encoder models for legal text similarity, classification, and re
 - [jftc-actions](https://github.com/eoylab/jftc-actions) - **[🇯🇵 Japan]** MCP server over Japan Fair Trade Commission cease-and-desist orders (Antimonopoly Act) and Subcontract Act (取適法, formerly 下請法) recommendations, with a source URL per action. Personal names of sole proprietors are removed from the structured fields; unparsed announcements are kept in a separate file rather than filled in by guesswork. Data under the Public Data License 1.0, code MIT.
 - [Yargı MCP](https://github.com/saidsurucu/yargi-mcp) - **[🇹🇷 Turkey]** MCP server for Turkish legal databases (Yargıtay, Danıştay, Anayasa Mahkemesi).
 - [MCP Taiwan Legal DB](https://github.com/lawchat-oss/mcp-taiwan-legal-db) - **[🇹🇼 Taiwan]** Taiwan Judicial Yuan judgments + national statute database via MCP.
+- [eCourtsIndia MCP](https://ecourtsindia.com/api/mcp) - **[🇮🇳 India]** Hosted MCP server (`mcp.ecourtsindia.com`, API key) for Indian court cases, orders, cause lists and statutes from the Supreme Court, High Courts, district courts and tribunals.
 - [ayunis-legal-mcp](https://github.com/ayunis-core/ayunis-legal-mcp) - **[🇩🇪 Germany]** MCP server exposing German legal codes (Gesetze-im-Internet).
 - [kvasir](https://github.com/kvasir-legal/kvasir-mcp) - **[🇩🇪 🇦🇹 🇨🇭 🇪🇺 DACH/EU]** Hosted MCP server over German federal and state law (Bavaria, NRW, Saxony, Brandenburg, Bremen), Austrian, Swiss and EU law — case law and citation edges, checked daily.
 - [Pasal MCP](https://github.com/ilhamfp/pasal) - **[🇮🇩 Indonesia]** MCP + REST + web app giving AI grounded access to 40k+ Indonesian regulations.
@@ -1320,6 +1321,7 @@ Platforms that index, curate, review, or list legal technology products — usef
 - [Software Advice - Legal](https://www.softwareadvice.com/legal/) - **[Global]** - Platform helping law firms choose software through comparisons and analyst recommendations.
 - [ISAIL (Indian Society of AI and Law)](https://isail.in) - **[Policy + Standards]** - Indian not-for-profit focused on AI policy, standards, and governance. Administers the AiStandard.io Alliance.
 - [Bar and Bench](https://www.barandbench.com) - **[Media]** - Indian legal news publication with coverage of court tech, legaltech, and legal AI developments.
+- [JurisGrid](https://jurisgrid.com) - **[🇮🇳 India]** - Single-page index of Indian legal technology companies across 12 sectors (court data, legal AI, CLM, litigation management, ODR, compliance and more), each with a one-line description and outbound link.
 - [LawTech UK](https://lawtech.uk) - **[Directory + Community]** - UK government-backed initiative with an ecosystem map and resources for the UK lawtech sector.
 - [LegalGeek](https://www.legalgeek.co) - **[Community + Events]** - UK legaltech conference and community with vendor showcases and market coverage.
 - [Stanford CodeX](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/) - **[Academic]** - Stanford Center for Legal Informatics. Hosts the FutureLaw conference and computational law research.
