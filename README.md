@@ -1177,6 +1177,7 @@ Tools for regulatory compliance, policy management, financial crime detection, a
 - [MiCAR Whitepaper Linter](https://github.com/sebastianfoerste/micar-whitepaper-linter) - **[🇪🇺 EU]** Deterministic linter for crypto-asset white papers under MiCAR (EU) 2023/1114: 35 rules mapped to Annex I-III with pinpoint citations, a CI action, and a browser playground.
 - [EU AI Act Check](https://i6eal.de/eu-ai-act-check/) - **[🇩🇪 DE]** Free, German-language in-browser self-check that classifies an AI system into the EU AI Act risk classes (prohibited, high-risk, limited, minimal) and lists the resulting obligations; no signup, not legal advice.
 - [EU AI Regulation Decoded](https://euaird.vercel.app/) - **[Open / Academic]** Free practitioner reference mapping EU AI Act obligations to the specific evidence an auditor expects — by role, risk tier, and deadline — with a browser-based audit-readiness checklist and a CC BY 4.0 machine-readable [obligation-to-evidence dataset](https://github.com/Kroniquedubaboo/eu-ai-act-obligation-evidence-dataset); not legal advice.
+- [demarchage-consent](https://github.com/kanibal-studio/demarchage-consent) - **[🇫🇷 FR]** **[Open Source]** Dependency-free Python function checking whether a French telemarketing consent is still valid under decree 2026-662 (one-year maximum, revocation, dated proof); on PyPI.
 
 ---
 
