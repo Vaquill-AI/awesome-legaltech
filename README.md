@@ -102,6 +102,7 @@ Commercial and open APIs specifically designed for retrieving case law, statutes
 - [Bundestag Open Data](https://www.bundestag.de/services/opendata) - **[🇩🇪 Germany]** Plenary protocols and Drucksachen since 1949 as XML/JSON; legislative-process tracking via the DIP API.
 - [Regulations.gov API](https://open.gsa.gov/api/regulationsgov/) / [Federal Register API](https://www.federalregister.gov/developers/documentation/api/v1) - **[🇺🇸 US]** GSA REST APIs for federal rules, dockets, and public comments; complementary daily Federal Register API.
 - [OpenCaseLaw API](https://opencaselaw.ch) - **[🇨🇭 Switzerland]** REST API (no account or API key) covering ~991K Swiss court decisions since 1875 and 21K+ federal and cantonal laws, with a resolved citation graph and bulk download; decision data is CC0.
+- [Mode VC Radar MCP](https://modevc.com/api/mcp) - Read-only venture capital & AI market research MCP server (39 empirical AI charts, 3,650 VC firms, SEC Form D filings, and 18 founder financial calculators; free Streamable HTTP at https://modevc.com/api/mcp).
 
 ---
 
