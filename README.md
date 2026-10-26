@@ -285,6 +285,7 @@ Domain-specific encoder models for legal text similarity, classification, and re
 - [mcp-cerebra-legal-server](https://github.com/yoda-digital/mcp-cerebra-legal-server) - MCP providing structured legal-reasoning tools (`legal_think`, follow-up, completion) with domain templates for contract, consumer-protection, and French procurement analysis.
 - [Sound Suite](https://github.com/alperu/soundsuite) - **[Self-Hosted]** Local-first legal document intelligence platform exposing 14 MCP tools (semantic and keyword/hybrid search, OCR, exhibit image retrieval, and case-knowledge queries); watches case-file directories and indexes PDFs into a local vector store, running entirely on-premises with no external API calls. Source-available under the Polyform Noncommercial license.
 - [Lebanese Legislation MCP](https://lebaneselegislation.com/ai/) - **[🇱🇧 Lebanon]** Free remote MCP server (no key) for Lebanese laws, articles, court rulings and Official Gazette issues, verbatim in Arabic and French, with amendment links; texts from the Lebanese University's legal informatics centre. Also a [dataset](https://huggingface.co/datasets/taktekhq/lebanese-legislation).
+- [Dike](https://dike.it.com) - **[🇸🇦 🇦🇪 🇪🇬 MENA]** MCP server for Saudi, UAE and Egyptian primary law with hybrid search, statutory reasoning, and citation resolution across 1.4M+ documents; requires a free API key.
 
 > **Note:** MCP for legal is an emerging ecosystem. Many servers are early-stage community projects. Always verify data accuracy and jurisdiction coverage before use in legal practice.
 
