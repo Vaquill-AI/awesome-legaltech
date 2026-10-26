@@ -262,6 +262,7 @@ Domain-specific encoder models for legal text similarity, classification, and re
 - [MCP Taiwan Legal DB](https://github.com/lawchat-oss/mcp-taiwan-legal-db) - **[🇹🇼 Taiwan]** Taiwan Judicial Yuan judgments + national statute database via MCP.
 - [ayunis-legal-mcp](https://github.com/ayunis-core/ayunis-legal-mcp) - **[🇩🇪 Germany]** MCP server exposing German legal codes (Gesetze-im-Internet).
 - [kvasir](https://github.com/kvasir-legal/kvasir-mcp) - **[🇩🇪 🇦🇹 🇨🇭 🇪🇺 DACH/EU]** Hosted MCP server over German federal and state law (Bavaria, NRW, Saxony, Brandenburg, Bremen), Austrian, Swiss and EU law — case law and citation edges, checked daily.
+- [Lintelly HR Deutschland](https://github.com/NicksAdvisory/lintelly-hr-deutschland) - **[🇩🇪 Germany]** **[Open Source]** MCP server with 38 read-only tools for German employment law (notice periods, employer costs, sick pay, maternity protection, contract clauses); each answer includes the calculation and the official statutory source. Remote endpoint without account, also on npm. MIT.
 - [Pasal MCP](https://github.com/ilhamfp/pasal) - **[🇮🇩 Indonesia]** MCP + REST + web app giving AI grounded access to 40k+ Indonesian regulations.
 - [auslaw-mcp](https://github.com/russellbrenner/auslaw-mcp) - **[🇦🇺 🇳🇿 AU/NZ]** MCP server searching AustLII case law and legislation with OCR for scanned PDFs.
 - [law-scrapper-mcp](https://github.com/numikel/law-scrapper-mcp) - **[🇵🇱 Poland]** MCP server for Polish legal acts via the Sejm API.
