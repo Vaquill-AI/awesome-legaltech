@@ -19,6 +19,28 @@ GITHUB_REPO_RE = re.compile(
 )
 
 
+DEPRECATED_SECTION_RE = re.compile(r"^## Deprecated / Archived\n.*?(?=^## )", re.MULTILINE | re.DOTALL)
+
+# Top-level github.com paths that are not accounts, so `github.com/<x>/<y>` is not a repo.
+RESERVED_OWNERS = frozenset(
+    {
+        "topics",
+        "search",
+        "marketplace",
+        "settings",
+        "sponsors",
+        "orgs",
+        "collections",
+        "features",
+        "about",
+        "trending",
+        "explore",
+        "apps",
+        "login",
+    }
+)
+
+
 def normalize_repo(owner: str, name: str) -> tuple[str, str]:
     name = re.sub(r"\.git$", "", name)
     return owner, name
@@ -27,9 +49,11 @@ def normalize_repo(owner: str, name: str) -> tuple[str, str]:
 def extract_repos(readme_text: str) -> list[tuple[str, str]]:
     seen: set[tuple[str, str]] = set()
     repos: list[tuple[str, str]] = []
+    # Entries already moved to "Deprecated / Archived" must not be reported again every month.
+    readme_text = DEPRECATED_SECTION_RE.sub("", readme_text)
     for match in GITHUB_REPO_RE.finditer(readme_text):
         owner, name = normalize_repo(match.group(1), match.group(2))
-        if name.lower() in {"topics", "search", "marketplace", "settings", "sponsors", "orgs"}:
+        if owner.lower() in RESERVED_OWNERS:
             continue
         key = (owner.lower(), name.lower())
         if key in seen:
