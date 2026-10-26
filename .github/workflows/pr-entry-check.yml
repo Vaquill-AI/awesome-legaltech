@@ -1,0 +1,78 @@
+name: PR entry check
+
+on:
+  pull_request:
+    paths:
+      - README.md
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  entry-quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check added GitHub links and line changes
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          MIN_STARS: "5"
+          MAX_STALE_DAYS: "548"
+        run: |
+          set -u
+          fail=0
+          diff=$(git diff --unified=0 "$BASE_SHA" "$HEAD_SHA" -- README.md)
+          added=$(printf '%s\n' "$diff" | grep -E '^\+[^+]' || true)
+          removed=$(printf '%s\n' "$diff" | grep -E '^-[^-]' || true)
+          added_n=$(printf '%s' "$added" | grep -c . || true)
+          removed_n=$(printf '%s' "$removed" | grep -c . || true)
+
+          echo "Added lines: $added_n, removed lines: $removed_n"
+          if [ "$added_n" -gt 6 ]; then
+            echo "::warning::This PR adds $added_n lines. Please keep to one entry per PR."
+          fi
+          if [ "$removed_n" -gt 0 ]; then
+            echo "::warning::This PR removes or rewrites $removed_n existing lines. Contributors should only add new lines."
+          fi
+
+          if printf '%s' "$added" | grep -Eqi 'utm_[a-z]+=|[?&]ref=|[?&]referrer='; then
+            echo "::error::Added links contain UTM or referral parameters. Please strip them."
+            fail=1
+          fi
+
+          repos=$(printf '%s' "$added" \
+            | grep -Eo 'https://github\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+' \
+            | sed -E 's#\.git$##' | sort -u || true)
+
+          for url in $repos; do
+            slug=${url#https://github.com/}
+            if ! info=$(gh api "repos/$slug" 2>/dev/null); then
+              echo "::notice::Could not read $slug (organisation page, private or missing). Review manually."
+              continue
+            fi
+            stars=$(printf '%s' "$info" | jq -r '.stargazers_count')
+            archived=$(printf '%s' "$info" | jq -r '.archived')
+            pushed=$(printf '%s' "$info" | jq -r '.pushed_at')
+            age_days=$(( ( $(date +%s) - $(date -d "$pushed" +%s) ) / 86400 ))
+            echo "$slug: stars=$stars archived=$archived last_push=${age_days}d ago"
+            if [ "$stars" -lt "$MIN_STARS" ]; then
+              echo "::error::$slug has $stars stars. Open-source entries need at least $MIN_STARS."
+              fail=1
+            fi
+            if [ "$archived" = "true" ]; then
+              echo "::error::$slug is archived."
+              fail=1
+            fi
+            if [ "$age_days" -gt "$MAX_STALE_DAYS" ]; then
+              echo "::error::$slug has had no push for $age_days days (limit $MAX_STALE_DAYS)."
+              fail=1
+            fi
+          done
+
+          exit $fail
