@@ -1095,6 +1095,7 @@ Platforms for collecting, processing, reviewing, and producing electronically st
 - [FreeEed](https://freeeed.org) - **[Open Source]** AI-enabled e-discovery with OCR and metadata extraction.
 - [FreeEed](https://freeeed.org) - **[Open Source]** AI-enabled cross-platform e-discovery platform with text extraction, metadata processing, and OCR.
 - [ProofSnap](https://getproofsnap.com) - Browser extension for capturing web pages, chats, and screen recordings as signed evidence packages with per-file SHA-256 hashes, OpenTimestamps anchoring, and EU qualified timestamps; packages can be verified offline without the vendor.
+- [KeptPDF](https://keptpdf.com) - PDF redaction and Bates numbering that run in the browser, so files are not uploaded; detected text is removed from the file, each redaction exports a SHA-256 certificate, and a licensed command-line version handles batch production.
 
 ---
 
