@@ -329,6 +329,7 @@ Comprehensive platforms that handle multiple functions across the legal workflow
 - [Ezel](https://ezel.ai) - **[AI-Native]** US platform combining matter workspaces with cited answers, document drafting, case law research, court forms, and PDF redaction.
 
 ---
+- [AILegal](https://ailegal.legal) - **[AI-Native]** Verified-norm legal assistant for Russia, India, the US, the UK, Canada and Hong Kong: each cited provision is read in the official source, absent provisions return "no data" instead of an invented article, and routine documents (demand letter, complaint, court claim) are generated from templates; 20 India situation pages in Hindi.
 
 ## Legal Research Platforms
 
