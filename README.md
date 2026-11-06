@@ -958,6 +958,7 @@ Direct links to canonical government legal-data sources for jurisdictions where 
 - [India Code](https://www.indiacode.nic.in/) - Central repository of all Central and State Acts and subordinate legislation.
 - [Supreme Court of India](https://sci.gov.in) - Official portal with judgments from the Supreme Court of India.
 - [eCourts Services](https://services.ecourts.gov.in) - Unified portal for Indian district and High Court case status.
+- [Courts & Cases](https://courtsandcases.com) - Free search and full text of Supreme Court and High Court judgments by citation, party, judge and statute section, with an IPC-BNS, CrPC-BNSS and Evidence Act-BSA section crosswalk.
 
 #### Turkey
 - [Avukatistan](https://avukatistan.com) - Turkish legal research and lawyer discovery platform with case law, legislation, legal questions, and practitioner profiles.
