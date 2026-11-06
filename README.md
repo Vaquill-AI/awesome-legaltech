@@ -138,6 +138,7 @@ Large text corpora and jurisdiction-wide raw data dumps for pretraining or fine-
 - [Open Australian Legal Corpus](https://huggingface.co/datasets/umarbutler/open-australian-legal-corpus) - **[🇦🇺 EN]** - **[Large]** - Multijurisdictional corpus of Australian legislative and judicial documents
 - [S2ORC (Legal Subset)](https://github.com/allenai/s2orc) - **[🌍 EN]** - **[136M+]** - AllenAI's massive academic paper corpus containing deep legal reasoning/law review articles
 - [CourtListener Bulk Data](https://www.courtlistener.com/help/api/bulk-data/) - **[🇺🇸 EN]** - **[9M+]** - US court opinions, judge data, and oral argument metadata dumps
+- [Romania Law](https://github.com/lexifina/romania-law) - **[🇷🇴 RO]** - **[245k acts]** - Romanian legislation, secondary legislation, local council decisions and EU law in Romanian as one git history: every version a commit dated on the day it took effect, one Markdown file per article, with 25.8k court decisions linked to the articles. Official texts; arrangement and tools CC0
 - [RECAP Archive](https://free.law/recap/) - **[🇺🇸 EN]** - **[Huge]** - Largest open collection of US federal PACER documents and dockets
 - [Caselaw Access Project (CAP)](https://case.law) - **[🇺🇸 EN]** - **[6.9M]** - US court decisions from Harvard Law School, 1600s-2020
 - [Oyez Project Audio](https://www.oyez.org/) - **[🇺🇸 EN]** - **[Large]** - Premier archive of US Supreme Court multimodal audio and aligned text transcripts
