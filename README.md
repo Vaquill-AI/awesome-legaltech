@@ -1095,6 +1095,7 @@ Platforms for collecting, processing, reviewing, and producing electronically st
 - [FreeEed](https://freeeed.org) - **[Open Source]** AI-enabled e-discovery with OCR and metadata extraction.
 - [FreeEed](https://freeeed.org) - **[Open Source]** AI-enabled cross-platform e-discovery platform with text extraction, metadata processing, and OCR.
 - [ProofSnap](https://getproofsnap.com) - Browser extension for capturing web pages, chats, and screen recordings as signed evidence packages with per-file SHA-256 hashes, OpenTimestamps anchoring, and EU qualified timestamps; packages can be verified offline without the vendor.
+- [PageWitness](https://sentinelforensic.app) - Israeli service that captures public web pages and social media posts in an isolated browser as evidence packs (WARC, screenshot, PDF and media with SHA-256 hashes, an Ed25519 signature and two RFC 3161 timestamps) that can be verified offline with an open-source verifier; reports in Hebrew and English.
 
 ---
 
