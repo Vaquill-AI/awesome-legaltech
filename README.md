@@ -1041,6 +1041,7 @@ Platforms for patent searching, analytics, and intellectual property portfolio m
 - [DeepIP](https://deepip.ai/) - **[AI-Native]** French-American AI platform spanning the full patent lifecycle (drafting, drawings, FTO, landscaping); $25M Series B led by Korelya Capital and Serena.
 - [Ankar](https://ankar.ai/) - **[AI-Native]** Palantir-alumni-built AI patent OS for idea generation, drafting, prosecution, and infringement detection; €17M Series A led by Atomico (Dec 2025).
 - [Patlytics](https://patlytics.ai/) - **[AI-Native]** AI patent intelligence engine for drafting, infringement detection, and invalidity analysis serving AmLaw 100 and Fortune 500; $14M Series A (Feb 2025).
+- [Brandmity](https://www.brandmity.com) - **[AI-Native]** - **[🇺🇸 US]** Trademark clearance that searches live USPTO records, lists conflicting marks with a plain-English risk read, and offers paid monitoring for new filings; search is free.
 
 ---
 
