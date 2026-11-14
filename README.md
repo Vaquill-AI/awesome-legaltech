@@ -1026,6 +1026,7 @@ Software for generating, assembling, and reviewing legal documents.
 - [Gavel (formerly Documate)](https://www.gavel.io/) - **[Established]** No-code document automation + online legal product builder used to ship apps in estate planning, family law, real estate, probate, and immigration.
 - [Renamer.ai](https://renamer.ai) - **[AI-Native]** OCR-based file renaming for legal, contract, and HR documents - reads each file's contents and writes a descriptive, content-aware filename in place of scans and generic names.
 - [SquarePact](https://squarepact.com) - **[AI-Native]** Microsoft Word add-in for contract drafting and review in public procurement that detects and fixes formatting drift, broken cross-references and inconsistent defined terms; can run on the user's own agent or API keys.
+- [ExhibitPrep](https://www.exhibitprep.app) - **[🇺🇸 US]** Browser tool that puts exhibit labels on PDF and image files for US court filings, numbers the set in order, and can merge it into one PDF with a table of contents, Bates numbers and an exhibit list. Files are processed in the browser instead of being uploaded.
 
 ---
 
