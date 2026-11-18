@@ -1017,6 +1017,7 @@ Software for generating, assembling, and reviewing legal documents.
 - [Vaquill for Google Docs](https://github.com/Vaquill-AI/vaquill-google-docs-addon) - **[Open Source]** Google Docs sidebar add-on (Svelte 5 + Apps Script) for contract review, clause drafting and rewrite, and grounded chat, with native tracked-change redlines. Apache-2.0. *(Sponsor)*
 
 - [Spellbook](https://spellbook.legal) - **[AI-Native]** AI contract drafting and review assistant operating natively in Microsoft Word.
+- [Gavel Exec](https://www.gavel.io/exec) - **[AI-Native]** AI contract review and drafting add-in for Microsoft Word that redlines agreements as tracked changes against a team's playbooks and precedent.
 - [Clearbrief](https://clearbrief.com) - **[AI-Native]** AI-powered factual verification and drafting assistance in briefs.
 - [HotDocs](https://www.hotdocs.com) - **[Established]** Long-established document assembly software for law firms.
 - [ContractExpress](https://www.thomsonreuters.com) - **[Established]** Thomson Reuters' document automation platform.
