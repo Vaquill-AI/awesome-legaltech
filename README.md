@@ -1116,6 +1116,7 @@ Software for running a law practice and legal department operations - case manag
 
 - [ArkCase](https://www.arkcase.com) - **[Open Source]** Adaptive case management for legal and government.
 - [J-Lawyer](https://www.j-lawyer.org) - **[Open Source]** German law practice management.
+- [Clio Export](https://github.com/oktopeak/clio-export) - **[Open Source]** Read-only command that copies a whole Clio Manage account to local disk: matters, contacts, notes, tasks, calendar, time entries, expenses and bills as JSON and CSV, plus every document in a folder per matter. MIT.
 - [Elint AI / Justice Accelerator](https://elint.in) - **[Open Source]** Blockchain case management infrastructure for courts and ADR (India/UAE).
 - [Theo AI](https://theoai.ai/) - **[AI-Native]** Predictive AI for litigation defense and settlement outcome forecasting for enterprise legal departments.
 - [Briefpoint](https://briefpoint.ai/) - **[AI-Native]** Patented AI for drafting discovery requests/responses with "Bridge" client-response automation; used by 1,500+ firms.
