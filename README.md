@@ -269,6 +269,7 @@ Domain-specific encoder models for legal text similarity, classification, and re
 - [Emilie](https://github.com/veronica-builds/emilie) - **[🇨🇭 Switzerland]** Swiss sovereign legal AI; Mike fork extended with MCP client and local Apertus model support.
 - [OpenCaseLaw](https://opencaselaw.ch) - **[🇨🇭 Switzerland]** MCP endpoint (mcp.opencaselaw.ch, no account or API key) for ~991K published Swiss court decisions and 21K+ federal and cantonal laws in German, French, and Italian; decision data is CC0.
 - [Mahender22/legal-mcp](https://github.com/Mahender22/legal-mcp) - **[🇺🇸 US]** 18 MCP tools across CourtListener case law (4M+ opinions, 400+ US courts), PACER federal filings, and Clio practice-management.
+- [clio-mcp](https://github.com/oktopeak/clio-mcp) - **[🇺🇸 US]** **[Open Source]** MCP server for Clio Manage (37 tools: matters, contacts, documents, tasks, calendar, time entries, billing) with an audit log, plus a read-only command that exports a whole Clio account to local disk (records as JSON and CSV, documents in a folder per matter, resumable).
 - [Moonlit Legal Research MCP](https://www.moonlit.ai/docs/mcp/connect) - **[🇪🇺 EU]** Remote MCP server over European legislation, case law and regulatory material from official sources, with article-level reference search and the source URL on every result; OAuth sign-in, free tier of 100 calls per month.
 - [EUR-Lex SPARQL MCP](https://github.com/matematicsolutions/mcp-eu-sparql) - **[🇪🇺 EU]** MCP server querying the EU Publications Office SPARQL endpoint (EUR-Lex / Cellar) live: EU legislation plus 57k+ CJEU rulings, with CELEX and ECLI identifiers on every citation. MIT.
 - [EU Compliance MCP (offline)](https://github.com/matematicsolutions/mcp-eu-compliance) - **[🇪🇺 EU]** Offline MCP corpus of EU law (GDPR, AI Act, DORA, NIS2, eIDAS 2.0, CRA): full text in a local SQLite FTS5 index, verbatim retrieval, no LLM in the loop; runs air-gapped. MIT.
@@ -1115,6 +1116,7 @@ Software for running a law practice and legal department operations - case manag
 
 - [ArkCase](https://www.arkcase.com) - **[Open Source]** Adaptive case management for legal and government.
 - [J-Lawyer](https://www.j-lawyer.org) - **[Open Source]** German law practice management.
+- [Clio Export](https://github.com/oktopeak/clio-export) - **[Open Source]** Read-only command that copies a whole Clio Manage account to local disk: matters, contacts, notes, tasks, calendar, time entries, expenses and bills as JSON and CSV, plus every document in a folder per matter. MIT.
 - [Elint AI / Justice Accelerator](https://elint.in) - **[Open Source]** Blockchain case management infrastructure for courts and ADR (India/UAE).
 - [Theo AI](https://theoai.ai/) - **[AI-Native]** Predictive AI for litigation defense and settlement outcome forecasting for enterprise legal departments.
 - [Briefpoint](https://briefpoint.ai/) - **[AI-Native]** Patented AI for drafting discovery requests/responses with "Bridge" client-response automation; used by 1,500+ firms.
